@@ -46,7 +46,7 @@
         <span class="kit-price">19 <small>USDT</small></span>
         <a href="#buy" class="btn">Buy now</a>
         <a href="index.html" class="btn btn--ghost">Live demo</a>
-        <a href="#inside" class="btn btn--ghost">See what's inside</a>
+        <a href="#install" class="btn btn--ghost">How to install</a>
       </div>
     </div>
   </section>
@@ -71,8 +71,39 @@
     </div>
   </section>
 
+  <!-- ===== THE LOOK ===== -->
+  <section class="section section--tint" id="look">
+    <div class="container split">
+      <div class="split__text reveal">
+        <span class="eyebrow">The look</span>
+        <h2>Calm, white and quietly expensive</h2>
+        <p>
+          No harsh black-and-white, no neon buttons. Warm paper-white backgrounds, a soft clay
+          accent and deep ink text — so the clothes, not the interface, do the talking.
+        </p>
+        <div class="swatches">
+          <span class="sw sw--1"><b></b>#fdfcfa</span>
+          <span class="sw sw--2"><b></b>#f5f2ed</span>
+          <span class="sw sw--3"><b></b>#16151a</span>
+          <span class="sw sw--4"><b></b>#c0714f</span>
+        </div>
+        <ul class="kit-list">
+          <li><b>Fraunces</b> display serif against <b>Inter</b> — editorial, not corporate</li>
+          <li>Product cards lift on hover and reveal <b>Add to bag</b></li>
+          <li>Sections fade in gently on scroll, with a 9-second safety net if JS fails</li>
+          <li>Hairline rules, rounded frames, one dark newsletter block for contrast</li>
+          <li>Re-skin the whole store with <b>six CSS variables</b></li>
+        </ul>
+        <a href="#buy" class="btn">Get the kit — 19 USDT</a>
+      </div>
+      <div class="split__media reveal">
+        <img src="editorial.jpg" alt="Editorial street-style look in the VERA Atelier palette" />
+      </div>
+    </div>
+  </section>
+
   <!-- ===== INSIDE ===== -->
-  <section class="section section--tint" id="inside">
+  <section class="section" id="inside">
     <div class="container split">
       <div class="split__text reveal">
         <span class="eyebrow">What's inside</span>
@@ -94,7 +125,7 @@
   </section>
 
   <!-- ===== FEATURES ===== -->
-  <section class="section">
+  <section class="section section--tint">
     <div class="container">
       <div class="section__head section__head--center reveal">
         <div>
@@ -112,7 +143,7 @@
   </section>
 
   <!-- ===== HOW IT WORKS ===== -->
-  <section class="section section--tint">
+  <section class="section">
     <div class="container">
       <div class="section__head reveal">
         <div>
@@ -130,7 +161,7 @@
   </section>
 
   <!-- ===== BUY ===== -->
-  <section class="section" id="buy">
+  <section class="section section--tint" id="buy">
     <div class="container buy-grid">
       <div class="buy-box reveal">
         <span class="eyebrow">Pay with USDT</span>
@@ -167,6 +198,63 @@
     </div>
   </section>
 
+  <!-- ===== INSTALL ===== -->
+  <section class="section" id="install">
+    <div class="container">
+      <div class="section__head reveal">
+        <div>
+          <span class="eyebrow">After purchase</span>
+          <h2>Connect it in four steps</h2>
+          <p>Everything ships in one zip. No plugins, no licence keys, no build tools —
+             if you can paste text, you can install it.</p>
+        </div>
+      </div>
+
+      <div class="steps steps--2">
+        <div class="step reveal">
+          <span class="num">01</span>
+          <h3>Unzip the package</h3>
+          <p>You get <code>vera-kit.css</code>, <code>vera-kit.js</code>, <code>/images</code>
+             (20 photos), <code>/widgets</code> (16 HTML snippets), a 4-page working demo,
+             <code>README.md</code> and <code>INSTALL.md</code>.</p>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">02</span>
+          <h3>Upload the two files + photos</h3>
+          <p>Put <code>vera-kit.css</code>, <code>vera-kit.js</code> and the photos into
+             <code>/wp-content/uploads/vera-kit/</code> — with the Media Library, or FTP if
+             WordPress blocks those extensions.</p>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">03</span>
+          <h3>Paste the loader once</h3>
+          <p>In Elementor, add an <b>HTML</b> widget at the top of the page and paste these two
+             lines (edit the URL to match where you uploaded):</p>
+          <div class="codewrap"><code>&lt;link rel="stylesheet" href="https://YOUR-SITE.com/wp-content/uploads/vera-kit/vera-kit.css" /&gt;
+&lt;script src="https://YOUR-SITE.com/wp-content/uploads/vera-kit/vera-kit.js" defer&gt;&lt;/script&gt;</code></div>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">04</span>
+          <h3>Paste the section widgets</h3>
+          <p>One HTML widget per section — header, hero, marquee, categories, products, footer,
+             bag. Set the page to <b>Elementor Full Width</b> and leave the containers with no
+             padding: the kit controls its own spacing.</p>
+        </div>
+      </div>
+
+      <p class="install-note reveal">
+        <b>Elementor Pro?</b> Add the same two lines once under <b>Elementor → Custom Code</b>
+        (head + body end, whole site) and you can skip the loader widget on every page.
+        The full guide — 3 installation methods, how to swap the photos for your own, how to
+        change the price and email, plus a troubleshooting table — is in <code>INSTALL.md</code>
+        inside the zip. <b>Typical time: under 5 minutes.</b>
+      </p>
+    </div>
+  </section>
+
   <!-- ===== FAQ ===== -->
   <section class="section section--tint">
     <div class="container">
@@ -174,7 +262,8 @@
         <div><span class="eyebrow">FAQ</span><h2>Before you buy</h2></div>
       </div>
       <div class="faq">
-        <details class="reveal" open><summary>Do I need WooCommerce or paid add-ons?</summary><p>No. The kit ships with a lightweight vanilla-JS cart that stores the basket in the browser and opens the visitor's email app on checkout. You can point it at any form endpoint instead.</p></details>
+        <details class="reveal" open><summary>Do I need to know how to code?</summary><p>No. You copy and paste: one loader widget, then one HTML widget per section. The full guide with the exact snippets is in <code>INSTALL.md</code>, and the typical setup takes under five minutes.</p></details>
+        <details class="reveal"><summary>Do I need WooCommerce or paid add-ons?</summary><p>No. The kit ships with a lightweight vanilla-JS cart that stores the basket in the browser and opens the visitor's email app on checkout. You can point it at any form endpoint instead.</p></details>
         <details class="reveal"><summary>Does it work with Elementor Free?</summary><p>Yes. The HTML-widget method needs nothing but Elementor Free. Pro is only useful if you want to add the CSS and JS once for the whole site via Custom Code.</p></details>
         <details class="reveal"><summary>Can I use it on client projects?</summary><p>Yes. The code is MIT licensed and the 20 photographs are CC0 — commercial use, no attribution, resell it inside your own builds.</p></details>
         <details class="reveal"><summary>How fast is delivery?</summary><p>Payments are verified on-chain manually, so the link is normally sent within a few hours. Every order is checked before the file goes out.</p></details>

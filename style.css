@@ -424,6 +424,43 @@ p { color: var(--ink-2); }
 .faq details[open] summary::after { content: "–"; }
 .faq p { margin-top: 12px; font-size: 0.92rem; color: var(--muted); }
 .faq code, .contact-form code { font-family: ui-monospace, Menlo, monospace; font-size: 0.86em; }
+
+/* ---------- the look (design showcase) ---------- */
+.swatches { display: flex; flex-wrap: wrap; gap: 14px; margin: 6px 0 24px; }
+.sw {
+  display: flex; flex-direction: column; align-items: center; gap: 7px;
+  font-family: ui-monospace, Menlo, monospace; font-size: 0.66rem; color: var(--muted);
+}
+.sw b {
+  width: 54px; height: 54px; border-radius: 50%;
+  border: 1px solid var(--line); box-shadow: var(--shadow);
+}
+.sw--1 b { background: #fdfcfa; }
+.sw--2 b { background: #f5f2ed; }
+.sw--3 b { background: #16151a; }
+.sw--4 b { background: #c0714f; }
+
+/* ---------- installation guide ---------- */
+.steps--2 { grid-template-columns: repeat(2, 1fr); }
+.step h3 { font-size: 1.02rem; }
+.step .num {
+  display: inline-block; font-family: var(--serif); font-size: 1.5rem; color: var(--clay);
+  margin-bottom: 10px;
+}
+.codewrap {
+  margin-top: 12px; background: #16151a; border-radius: 14px; padding: 14px 16px;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.codewrap code {
+  display: block; color: #e7e3de; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.74rem; line-height: 1.75; white-space: pre-wrap; word-break: break-all;
+}
+.codewrap .cmt { color: #8e8898; }
+.install-note {
+  margin-top: 18px; font-size: 0.86rem; color: var(--muted);
+  background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px;
+}
+.install-note b { color: var(--ink); }
 .quote {
   background: #fff;
   border: 1px solid var(--line);
@@ -675,6 +712,7 @@ p { color: var(--ink-2); }
   .cats { grid-template-columns: repeat(2, 1fr); }
   .shop .split__media img { height: clamp(240px, 46vw, 360px); }
   .steps { grid-template-columns: 1fr; gap: 14px; }
+  .steps--2 { grid-template-columns: repeat(2, 1fr); }
   .step { padding: 22px 20px; }
 }
 @media (max-width: 760px) {
@@ -757,6 +795,7 @@ p { color: var(--ink-2); }
   .footer { margin-top: clamp(34px, 8vw, 56px); }
 
   /* kit (sales) page on phones */
+  .steps--2 { grid-template-columns: 1fr; }
   .shots { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .shots a:nth-child(n) { grid-column: span 1; }
   .shots img { height: 148px; }
