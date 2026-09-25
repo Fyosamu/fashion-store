@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Categories — VERA Atelier</title>
-  <meta name="description" content="Browse all categories at VERA Atelier: women, men, shoes, accessories, kids and new arrivals." />
+  <meta name="description" content="Browse categories at VERA Atelier: women, men, shoes, accessories, kids and new arrivals." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="shop">
 
   <div class="topbar">Complimentary shipping over $120 &nbsp;·&nbsp; <span>30-day easy returns</span></div>
 
@@ -22,6 +22,7 @@
         <a href="categories.html" class="is-active">Categories</a>
         <a href="about.html">About us</a>
         <a href="contact.html">Contact</a>
+        <a href="kit.html">Kit</a>
       </nav>
       <div class="nav__tools">
         <button class="bag-btn" id="bagBtn">Bag <span class="bag-count" id="bagCount">0</span></button>
@@ -30,81 +31,95 @@
     </div>
   </header>
 
-  <section class="page-head">
+  <!-- ===== dynamic page head ===== -->
+  <section class="page-head" id="catHead">
     <div class="container">
-      <div class="crumbs reveal"><a href="index.html">Home</a> / Categories</div>
-      <span class="eyebrow reveal">The full wardrobe</span>
-      <h1 class="reveal">Shop by category</h1>
-      <p class="lead reveal">Six collections, one palette — everything is designed to work together, season after season.</p>
+      <div class="crumbs reveal"><a href="index.html">Home</a> / <span id="catCrumb">Categories</span></div>
+      <span class="eyebrow reveal\">The full wardrobe · <span id="catCount">19 pieces</span></span>
+      <h1 class="reveal" id="catTitle">Shop by category</h1>
+      <p class="lead reveal" id="catDesc">Six collections, one palette — everything is designed to work together, season after season.</p>
     </div>
   </section>
 
+  <!-- ===== category chips ===== -->
+  <div class="container">
+    <div class="chips reveal" id="chipRow">
+      <button class="chip" data-chip="all" type="button">All <span>19</span></button>
+      <button class="chip" data-chip="women" type="button">Women <span>4</span></button>
+      <button class="chip" data-chip="men" type="button">Men <span>6</span></button>
+      <button class="chip" data-chip="shoes" type="button">Shoes <span>4</span></button>
+      <button class="chip" data-chip="accessories" type="button">Accessories <span>3</span></button>
+      <button class="chip" data-chip="kids" type="button">Kids <span>2</span></button>
+      <button class="chip" data-chip="new" type="button">New in <span>6</span></button>
+    </div>
+  </div>
+
   <!-- ===== WOMEN ===== -->
-  <section class="section" id="women" style="padding-top: 20px;">
+  <section class="section" id="women" data-block="women" style="padding-top: 20px;">
     <div class="container split">
       <div class="split__media reveal">
-        <img src="women.jpg" alt="Women's collection — silk column dress" />
+        <img src="women.jpg" alt="Women's collection" />
       </div>
       <div class="split__text reveal">
         <span class="eyebrow">01 — Women</span>
         <h2>Women</h2>
         <p>Fluid dresses, sharp tailoring and knitwear cut for movement. Natural fibres only — silk, linen, organic cotton and traceable wool.</p>
-        <p><strong>Highlights:</strong> Silk Column Dress · Wool Overcoat · Linen Summer Set · Wide-Leg Trousers</p>
-        <a href="#all" class="btn btn--sm">See 48 pieces</a>
+        <p><strong>Highlights:</strong> Terracotta Sundress · Noir Slip Dress · Linen Dune Set · Belted Trench Coat</p>
+        <a href="categories.html?cat=women" class="btn btn--sm">See the 4 women's pieces</a>
       </div>
     </div>
   </section>
 
   <!-- ===== MEN ===== -->
-  <section class="section section--tint" id="men">
+  <section class="section section--tint" id="men" data-block="men">
     <div class="container split split--reverse">
       <div class="split__text reveal">
         <span class="eyebrow">02 — Men</span>
         <h2>Men</h2>
-        <p>Workwear-inspired jackets, oxford shirts and trousers with a proper drape. Built to be worn hard and washed often.</p>
-        <p><strong>Highlights:</strong> Denim Jacket · Heavy Oxford Shirt · Field Overshirt · Tapered Chinos</p>
-        <a href="#all" class="btn btn--sm">See 36 pieces</a>
+        <p>Workwear-inspired jackets, oxford shirts and ties with a proper drape. Built to be worn hard and washed often.</p>
+        <p><strong>Highlights:</strong> Denim Jacket · Striped Silk Tie · Merino Crew Sweater · Selvedge Jeans</p>
+        <a href="categories.html?cat=men" class="btn btn--sm">See the 6 men's pieces</a>
       </div>
       <div class="split__media reveal">
-        <img src="men.jpg" alt="Men's collection — denim jacket" />
+        <img src="men.jpg" alt="Men's collection" />
       </div>
     </div>
   </section>
 
   <!-- ===== SHOES ===== -->
-  <section class="section" id="shoes">
+  <section class="section" id="shoes" data-block="shoes">
     <div class="container split">
       <div class="split__media reveal">
-        <img src="shoes.jpg" alt="Shoes collection — leather mules" />
+        <img src="shoes.jpg" alt="Shoes collection" />
       </div>
       <div class="split__text reveal">
         <span class="eyebrow">03 — Shoes</span>
         <h2>Shoes</h2>
-        <p>Leather mules, canvas high-tops and ankle boots on comfort lasts. Resoleable soles, vegetable-tanned leather, no logos shouting at you.</p>
-        <p><strong>Highlights:</strong> Leather Mules · Canvas High-Tops · Ankle Boot · Everyday Loafer</p>
-        <a href="#all" class="btn btn--sm">See 22 pieces</a>
+        <p>Leather mules and canvas high-tops on comfort lasts. Resoleable soles, vegetable-tanned leather, no logos shouting at you.</p>
+        <p><strong>Highlights:</strong> Leather Ankle Boots · Leather Derby Shoes · Leather Mules · Canvas High-Tops</p>
+        <a href="categories.html?cat=shoes" class="btn btn--sm">See the 4 pairs</a>
       </div>
     </div>
   </section>
 
   <!-- ===== ACCESSORIES ===== -->
-  <section class="section section--tint" id="accessories">
+  <section class="section section--tint" id="accessories" data-block="accessories">
     <div class="container split split--reverse">
       <div class="split__text reveal">
         <span class="eyebrow">04 — Accessories</span>
         <h2>Accessories</h2>
-        <p>The finishing layer — full-grain leather bags, sunglasses, scarves and belts made by small European workshops.</p>
-        <p><strong>Highlights:</strong> Leather Weekender · Amber Sunglasses · Woven Belt · Silk Scarf</p>
-        <a href="#all" class="btn btn--sm">See 31 pieces</a>
+        <p>The finishing layer — full-grain leather bags, sunglasses and straw hats made by small European workshops.</p>
+        <p><strong>Highlights:</strong> Leather Weekender · Amber Sunglasses · Wide-Brim Straw Hat</p>
+        <a href="categories.html?cat=accessories" class="btn btn--sm">See the accessories</a>
       </div>
       <div class="split__media reveal">
-        <img src="accessories.jpg" alt="Accessories collection — leather weekender bag" />
+        <img src="accessories.jpg" alt="Accessories collection" />
       </div>
     </div>
   </section>
 
   <!-- ===== KIDS ===== -->
-  <section class="section" id="kids">
+  <section class="section" id="kids" data-block="kids">
     <div class="container split">
       <div class="split__media reveal">
         <img src="kids.webp" alt="Kids collection" />
@@ -113,21 +128,21 @@
         <span class="eyebrow">05 — Kids</span>
         <h2>Kids</h2>
         <p>Soft, washable and built for playgrounds. Same fabrics as our adult lines, with reinforced knees and tag-free collars.</p>
-        <p><strong>Highlights:</strong> Tulle Party Dress · Cotton Play Set · Mini Denim Jacket</p>
-        <a href="#all" class="btn btn--sm">See 18 pieces</a>
+        <p><strong>Highlights:</strong> Tulle Party Dress · Ribbon Play Set</p>
+        <a href="categories.html?cat=kids" class="btn btn--sm">See the kids' pieces</a>
       </div>
     </div>
   </section>
 
   <!-- ===== NEW IN ===== -->
-  <section class="section section--tint" id="new">
+  <section class="section section--tint" id="new" data-block="new">
     <div class="container split split--reverse">
       <div class="split__text reveal">
         <span class="eyebrow">06 — New in</span>
         <h2>Fresh off the cutting table</h2>
         <p>We drop new pieces every second Thursday, in runs of 80. Subscribers get the link a day early — when it's gone, it's gone.</p>
-        <p><strong>This week:</strong> Brushed Wool Coat · Recycled Cashmere Scarf · Structured Tote</p>
-        <a href="#all" class="btn btn--sm">Shop new arrivals</a>
+        <p><strong>This week:</strong> Terracotta Sundress · Linen Dune Set · Merino Crew Sweater · Amber Sunglasses</p>
+        <a href="categories.html?cat=new" class="btn btn--sm">Shop new arrivals</a>
       </div>
       <div class="split__media reveal">
         <img src="new.jpg" alt="New arrivals on the rack" />
@@ -135,41 +150,64 @@
     </div>
   </section>
 
-  <!-- ===== ALL PRODUCTS ===== -->
+  <!-- ===== PRODUCTS ===== -->
   <section class="section" id="all">
     <div class="container">
       <div class="section__head section__head--center reveal">
         <div>
-          <span class="eyebrow">All pieces</span>
+          <span class="eyebrow">The selection</span>
           <h2>The current selection</h2>
           <p>Prices in USD · Free shipping over $120 · 30-day returns</p>
         </div>
       </div>
 
-      <div class="products">
-        <article class="product reveal" data-id="p1" data-name="Silk Column Dress" data-price="128" data-img="women.jpg">
+      <div class="products" id="productGrid">
+
+        <!-- WOMEN -->
+        <article class="product reveal" data-cat="women" data-new="1" data-id="p-w1" data-name="Terracotta Sundress" data-price="128" data-img="women.jpg">
           <div class="product__media">
-            <img src="women.jpg" alt="Silk column dress" />
+            <img src="women.jpg" alt="Terracotta sundress" />
             <span class="product__badge">New</span>
             <button class="product__add">Add to bag</button>
           </div>
           <span class="product__cat">Women</span>
-          <h3 class="product__name">Silk Column Dress</h3>
+          <h3 class="product__name">Terracotta Sundress</h3>
           <span class="product__price">$128</span>
         </article>
 
-        <article class="product reveal" data-id="p2" data-name="Belted Trench Coat" data-price="214" data-img="editorial.jpg">
+        <article class="product reveal" data-cat="women" data-id="p-w2" data-name="Noir Slip Dress" data-price="164" data-img="hero.jpg">
+          <div class="product__media">
+            <img src="hero.jpg" alt="Noir slip dress" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Women</span>
+          <h3 class="product__name">Noir Slip Dress</h3>
+          <span class="product__price">$164</span>
+        </article>
+
+        <article class="product reveal" data-cat="women" data-new="1" data-id="p-w3" data-name="Linen Dune Set" data-price="142" data-img="lookbook.jpg">
+          <div class="product__media">
+            <img src="lookbook.jpg" alt="Linen dune set" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Women</span>
+          <h3 class="product__name">Linen Dune Set</h3>
+          <span class="product__price">$142</span>
+        </article>
+
+        <article class="product reveal" data-cat="women" data-id="p-w4" data-name="Belted Trench Coat" data-price="214" data-img="editorial.jpg">
           <div class="product__media">
             <img src="editorial.jpg" alt="Belted trench coat" />
             <span class="product__badge sale">-20%</span>
             <button class="product__add">Add to bag</button>
           </div>
           <span class="product__cat">Women</span>
-          <h3 class="product__name">Wool Overcoat</h3>
+          <h3 class="product__name">Belted Trench Coat</h3>
           <span class="product__price">$214 <s>$268</s></span>
         </article>
 
-        <article class="product reveal" data-id="p3" data-name="Denim Jacket" data-price="110" data-img="men.jpg">
+        <!-- MEN -->
+        <article class="product reveal" data-cat="men" data-id="p-m1" data-name="Denim Jacket" data-price="110" data-img="men.jpg">
           <div class="product__media">
             <img src="men.jpg" alt="Denim jacket" />
             <button class="product__add">Add to bag</button>
@@ -179,7 +217,102 @@
           <span class="product__price">$110</span>
         </article>
 
-        <article class="product reveal" data-id="p4" data-name="Leather Weekender" data-price="145" data-img="accessories.jpg">
+        <article class="product reveal" data-cat="men" data-id="p-m2" data-name="Striped Silk Tie" data-price="48" data-img="men-formal.jpg">
+          <div class="product__media">
+            <img src="men-formal.jpg" alt="Striped silk tie" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Striped Silk Tie</h3>
+          <span class="product__price">$48</span>
+        </article>
+
+        <article class="product reveal" data-cat="men" data-id="p-m3" data-name="Wool Overshirt" data-price="124" data-img="texture.jpg">
+          <div class="product__media">
+            <img src="texture.jpg" alt="Wool overshirt fabric" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Wool Overshirt</h3>
+          <span class="product__price">$124</span>
+        </article>
+
+        <article class="product reveal" data-cat="men" data-new="1" data-id="p-m4" data-name="Garment-Dyed Tee" data-price="48" data-img="new.jpg">
+          <div class="product__media">
+            <img src="new.jpg" alt="Heavy oxford shirt" />
+            <span class="product__badge">New</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Garment-Dyed Tee</h3>
+          <span class="product__price">$48</span>
+        </article>
+
+        <article class="product reveal" data-cat="men" data-new="1" data-id="p-m5" data-name="Merino Crew Sweater" data-price="96" data-img="men-knit.jpg">
+          <div class="product__media">
+            <img src="men-knit.jpg" alt="Merino crew sweater" />
+            <span class="product__badge">New</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Merino Crew Sweater</h3>
+          <span class="product__price">$96</span>
+        </article>
+
+        <article class="product reveal" data-cat="men" data-id="p-m6" data-name="Selvedge Jeans" data-price="98" data-img="men-jeans.jpg">
+          <div class="product__media">
+            <img src="men-jeans.jpg" alt="Selvedge jeans" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Selvedge Jeans</h3>
+          <span class="product__price">$98</span>
+        </article>
+
+        <!-- SHOES -->
+        <article class="product reveal" data-cat="shoes" data-id="p-s1" data-name="Leather Mules" data-price="88" data-img="shoes.jpg">
+          <div class="product__media">
+            <img src="shoes.jpg" alt="Leather mules" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Leather Mules</h3>
+          <span class="product__price">$88</span>
+        </article>
+
+        <article class="product reveal" data-cat="shoes" data-new="1" data-id="p-s2" data-name="Canvas High-Tops" data-price="64" data-img="sneakers.jpg">
+          <div class="product__media">
+            <img src="sneakers.jpg" alt="Canvas high-top sneakers" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Canvas High-Tops</h3>
+          <span class="product__price">$64</span>
+        </article>
+
+        <article class="product reveal" data-cat="shoes" data-id="p-s3" data-name="Leather Derby Shoes" data-price="138" data-img="shoes-derby.jpg">
+          <div class="product__media">
+            <img src="shoes-derby.jpg" alt="Leather derby shoes" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Leather Derby Shoes</h3>
+          <span class="product__price">$138</span>
+        </article>
+
+        <article class="product reveal" data-cat="shoes" data-id="p-s4" data-name="Leather Ankle Boots" data-price="156" data-img="shoes-boots.jpg">
+          <div class="product__media">
+            <img src="shoes-boots.jpg" alt="Leather ankle boots" />
+            <span class="product__badge">Bestseller</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Leather Ankle Boots</h3>
+          <span class="product__price">$156</span>
+        </article>
+
+        <!-- ACCESSORIES -->
+        <article class="product reveal" data-cat="accessories" data-id="p-a1" data-name="Leather Weekender" data-price="145" data-img="accessories.jpg">
           <div class="product__media">
             <img src="accessories.jpg" alt="Leather weekender bag" />
             <span class="product__badge">Bestseller</span>
@@ -190,37 +323,7 @@
           <span class="product__price">$145</span>
         </article>
 
-        <article class="product reveal" data-id="p5" data-name="Leather Mules" data-price="88" data-img="shoes.jpg">
-          <div class="product__media">
-            <img src="shoes.jpg" alt="Leather mules" />
-            <button class="product__add">Add to bag</button>
-          </div>
-          <span class="product__cat">Shoes</span>
-          <h3 class="product__name">Leather Mules</h3>
-          <span class="product__price">$88</span>
-        </article>
-
-        <article class="product reveal" data-id="p6" data-name="Canvas High-Tops" data-price="64" data-img="sneakers.jpg">
-          <div class="product__media">
-            <img src="sneakers.jpg" alt="Canvas high-top sneakers" />
-            <button class="product__add">Add to bag</button>
-          </div>
-          <span class="product__cat">Shoes</span>
-          <h3 class="product__name">Canvas High-Tops</h3>
-          <span class="product__price">$64</span>
-        </article>
-
-        <article class="product reveal" data-id="p7" data-name="Tulle Party Dress" data-price="54" data-img="kids.webp">
-          <div class="product__media">
-            <img src="kids.webp" alt="Kids tulle party dress" />
-            <button class="product__add">Add to bag</button>
-          </div>
-          <span class="product__cat">Kids</span>
-          <h3 class="product__name">Tulle Party Dress</h3>
-          <span class="product__price">$54</span>
-        </article>
-
-        <article class="product reveal" data-id="p8" data-name="Amber Sunglasses" data-price="72" data-img="sunglasses.jpg">
+        <article class="product reveal" data-cat="accessories" data-new="1" data-id="p-a2" data-name="Amber Sunglasses" data-price="72" data-img="sunglasses.jpg">
           <div class="product__media">
             <img src="sunglasses.jpg" alt="Amber sunglasses" />
             <span class="product__badge">New</span>
@@ -230,7 +333,41 @@
           <h3 class="product__name">Amber Sunglasses</h3>
           <span class="product__price">$72</span>
         </article>
+
+        <article class="product reveal" data-cat="accessories" data-id="p-a3" data-name="Wide-Brim Straw Hat" data-price="66" data-img="boutique.jpg">
+          <div class="product__media">
+            <img src="boutique.jpg" alt="Wide-brim straw hat" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Accessories</span>
+          <h3 class="product__name">Wide-Brim Straw Hat</h3>
+          <span class="product__price">$66</span>
+        </article>
+
+        <!-- KIDS -->
+        <article class="product reveal" data-cat="kids" data-id="p-k1" data-name="Tulle Party Dress" data-price="54" data-img="kids.webp">
+          <div class="product__media">
+            <img src="kids.webp" alt="Kids tulle party dress" style="object-position: 68% center;" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Kids</span>
+          <h3 class="product__name">Tulle Party Dress</h3>
+          <span class="product__price">$54</span>
+        </article>
+
+        <article class="product reveal" data-cat="kids" data-id="p-k2" data-name="Ribbon Play Set" data-price="46" data-img="kids.webp">
+          <div class="product__media">
+            <img src="kids.webp" alt="Kids ribbon play set" style="object-position: 22% center;" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Kids</span>
+          <h3 class="product__name">Ribbon Play Set</h3>
+          <span class="product__price">$46</span>
+        </article>
+
       </div>
+
+      <p class="cat-empty" id="catEmpty" hidden>No pieces in this category yet — check back on Thursday.</p>
     </div>
   </section>
 
@@ -259,10 +396,10 @@
         <div>
           <h4>Shop</h4>
           <ul>
-            <li><a href="#women">Women</a></li>
-            <li><a href="#men">Men</a></li>
-            <li><a href="#shoes">Shoes</a></li>
-            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="categories.html?cat=women">Women</a></li>
+            <li><a href="categories.html?cat=men">Men</a></li>
+            <li><a href="categories.html?cat=shoes">Shoes</a></li>
+            <li><a href="categories.html?cat=accessories">Accessories</a></li>
           </ul>
         </div>
         <div>
@@ -270,8 +407,9 @@
           <ul>
             <li><a href="about.html">About us</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="#kids">Kids</a></li>
-            <li><a href="#new">New arrivals</a></li>
+            <li><a href="kit.html">Elementor Kit</a></li>
+            <li><a href="categories.html?cat=kids">Kids</a></li>
+            <li><a href="categories.html?cat=new">New arrivals</a></li>
           </ul>
         </div>
         <div>
@@ -279,7 +417,7 @@
           <ul>
             <li><a href="contact.html">Shipping &amp; returns</a></li>
             <li><a href="contact.html">Size guide</a></li>
-            <li><a href="contact.html">support@vera-atelier.com</a></li>
+            <li><a href="contact.html">hkay7645@gmail.com</a></li>
             <li><a href="about.html">Our fabrics</a></li>
           </ul>
         </div>
@@ -290,6 +428,13 @@
       </div>
     </div>
   </footer>
+
+  <nav class="tabbar" aria-label="Mobile navigation">
+    <a href="index.html"><i>&#8962;</i>Home</a>
+    <a href="categories.html" class="is-active"><i>&#9638;</i>Shop</a>
+    <a href="about.html"><i>&#9673;</i>About</a>
+    <a href="contact.html"><i>&#9993;</i>Contact</a>
+  </nav>
 
   <div class="drawer" id="drawer">
     <div class="drawer__bg" data-close></div>

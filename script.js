@@ -112,7 +112,7 @@ if (drawer && bagBtn) {
 
 /* ---------- checkout → order email ---------- */
 const CONFIG = {
-  supportEmail: "support@vera-atelier.com",
+  supportEmail: "hkay7645@gmail.com",
   wallet: "0xE1E3e1c2978c74f43Bb095023135C3278303aF34",
 };
 
@@ -188,6 +188,109 @@ if (contactForm) {
 
   // absolute safety net — never leave content hidden
   setTimeout(() => els.forEach((el) => el.classList.add("is-in")), 9000);
+})();
+
+/* ---------- category filtering (categories.html) ----------
+   Clicking a category opens categories.html?cat=xxx and shows ONLY the
+   products of that category — never a generic list. */
+(function categoryFilter() {
+  const grid = document.getElementById("productGrid");
+  if (!grid) return;
+
+  const valid = ["women", "men", "shoes", "accessories", "kids", "new", "all"];
+  const meta = {
+    all: {
+      title: "Shop by category",
+      crumb: "Categories",
+      desc: "Six collections, one palette — everything is designed to work together, season after season.",
+    },
+    women: {
+      title: "Women",
+      crumb: "Women",
+      desc: "Fluid dresses, sharp tailoring and knitwear cut for movement — silk, linen, organic cotton and traceable wool.",
+    },
+    men: {
+      title: "Men",
+      crumb: "Men",
+      desc: "Workwear-inspired jackets, oxford shirts and ties with a proper drape — built to be worn hard and washed often.",
+    },
+    shoes: {
+      title: "Shoes",
+      crumb: "Shoes",
+      desc: "Leather mules and canvas high-tops on comfort lasts — resoleable soles and vegetable-tanned leather.",
+    },
+    accessories: {
+      title: "Accessories",
+      crumb: "Accessories",
+      desc: "Full-grain leather bags, sunglasses and straw hats, made in small European workshops.",
+    },
+    kids: {
+      title: "Kids",
+      crumb: "Kids",
+      desc: "Soft, washable and built for playgrounds — the same natural fabrics as our adult lines.",
+    },
+    new: {
+      title: "New in",
+      crumb: "New in",
+      desc: "Fresh off the cutting table — new pieces land every second Thursday, in runs of 80.",
+    },
+  };
+
+  function apply(next, push) {
+    if (!valid.includes(next)) next = "all";
+
+    if (push) {
+      const url = next === "all" ? location.pathname : location.pathname + "?cat=" + next;
+      try { history.pushState({ cat: next }, "", url); } catch (e) {}
+    }
+
+    const m = meta[next];
+    const title = document.getElementById("catTitle");
+    if (title) title.textContent = m.title;
+    const desc = document.getElementById("catDesc");
+    if (desc) desc.textContent = m.desc;
+    const crumb = document.getElementById("catCrumb");
+    if (crumb) crumb.textContent = m.crumb;
+    document.title = m.title + " — VERA Atelier";
+
+    $$("[data-chip]").forEach((ch) => ch.classList.toggle("is-active", ch.dataset.chip === next));
+
+    let shown = 0;
+    $$(".product", grid).forEach((p) => {
+      const match =
+        next === "all" ||
+        p.dataset.cat === next ||
+        (next === "new" && p.dataset.new === "1");
+      p.hidden = !match;
+      if (match) { p.classList.add("is-in"); shown++; }
+    });
+
+    $$("[data-block]").forEach((b) => {
+      b.hidden = !(next === "all" || b.dataset.block === next);
+    });
+
+    const cnt = document.getElementById("catCount");
+    if (cnt) cnt.textContent = shown + (shown === 1 ? " piece" : " pieces");
+
+    const empty = document.getElementById("catEmpty");
+    if (empty) empty.hidden = shown !== 0;
+  }
+
+  const start = new URLSearchParams(location.search).get("cat");
+  apply(start || "all", false);
+
+  $$("[data-chip]").forEach((ch) =>
+    ch.addEventListener("click", (e) => {
+      e.preventDefault();
+      apply(ch.dataset.chip, true);
+      const head = document.getElementById("catHead");
+      if (head) head.scrollIntoView({ behavior: "smooth", block: "start" });
+    })
+  );
+
+  window.addEventListener("popstate", () => {
+    apply(new URLSearchParams(location.search).get("cat") || "all", false);
+  });
 })();
 
 renderBag();
