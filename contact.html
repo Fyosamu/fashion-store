@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact us — VERA Atelier</title>
+  <meta name="description" content="Get in touch with VERA Atelier — orders, sizing, returns and wholesale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar">Complimentary shipping over $120 &nbsp;·&nbsp; <span>30-day easy returns</span></div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand"><b>VERA</b><small>Atelier</small></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+      <div class="nav__tools">
+        <button class="bag-btn" id="bagBtn">Bag <span class="bag-count" id="bagCount">0</span></button>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <div class="crumbs reveal"><a href="index.html">Home</a> / Contact</div>
+      <span class="eyebrow reveal">We reply within one working day</span>
+      <h1 class="reveal">Contact us</h1>
+      <p class="lead reveal">Questions about sizing, an order, returns or wholesale? Send a note — a real person answers.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 10px;">
+    <div class="container contact-grid">
+
+      <!-- form -->
+      <form class="contact-form reveal" id="contactForm">
+        <div class="section__head" style="margin-bottom: 26px;">
+          <div>
+            <h2 style="font-size: 1.7rem;">Send a message</h2>
+            <p style="margin-top: 8px;">Fill in the form and your email app will open with everything ready to send.</p>
+          </div>
+        </div>
+
+        <label class="field">
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Jane Doe" required />
+        </label>
+        <label class="field">
+          <span>Email address</span>
+          <input type="email" name="email" placeholder="you@email.com" required />
+        </label>
+        <label class="field">
+          <span>Topic</span>
+          <select name="topic">
+            <option>Order status</option>
+            <option>Sizing &amp; fit</option>
+            <option>Shipping &amp; returns</option>
+            <option>Payment (card / USDT)</option>
+            <option>Wholesale</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" placeholder="How can we help?" required></textarea>
+        </label>
+        <button class="btn btn--block" type="submit">Send message</button>
+      </form>
+
+      <!-- info -->
+      <div class="contact-info reveal">
+        <div class="contact-card">
+          <i>✉️</i>
+          <div>
+            <b>Email</b>
+            <p>support@vera-atelier.com<br />Wholesale: trade@vera-atelier.com</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>🕘</i>
+          <div>
+            <b>Support hours</b>
+            <p>Monday – Saturday · 9:00 – 18:00 (CET)<br />Replies within one working day.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>📍</i>
+          <div>
+            <b>Studio &amp; boutique</b>
+            <p>14 Rue des Ateliers<br />Open by appointment on Fridays.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>💳</i>
+          <div>
+            <b>Payments</b>
+            <p>Card at checkout, or USDT (ERC-20) for orders over $200. Wallet address is shown on request.</p>
+          </div>
+        </div>
+
+        <figure class="contact-photo">
+          <img src="assets/boutique.jpg" alt="Inside the VERA boutique" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">Before you write</span>
+          <h2>Quick answers</h2>
+        </div>
+      </div>
+
+      <div class="values" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="value reveal">
+          <i>📦</i><h3>How long is delivery?</h3>
+          <p>Europe 2–4 days, rest of the world 5–9 days. Every order is tracked and free over $120.</p>
+        </div>
+        <div class="value reveal">
+          <i>↩️</i><h3>How do returns work?</h3>
+          <p>30 days from delivery, unworn with tags. We send a prepaid label and refund within 3 days of arrival.</p>
+        </div>
+        <div class="value reveal">
+          <i>📏</i><h3>Which size should I pick?</h3>
+          <p>Our cuts run true to size. Send us your height, weight and usual size — we'll confirm the fit.</p>
+        </div>
+        <div class="value reveal">
+          <i>🪙</i><h3>Can I pay in crypto?</h3>
+          <p>Yes — USDT on Ethereum (ERC-20) for orders over $200. Contact us first and we'll lock the rate for 15 minutes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="brand"><b>VERA</b><small>Atelier</small></a>
+          <p>Considered clothing in natural fabrics, made in small batches and shipped worldwide.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="categories.html#women">Women</a></li>
+            <li><a href="categories.html#men">Men</a></li>
+            <li><a href="categories.html#shoes">Shoes</a></li>
+            <li><a href="categories.html#accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="categories.html#kids">Kids</a></li>
+            <li><a href="index.html#featured">New arrivals</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="contact.html">Shipping &amp; returns</a></li>
+            <li><a href="contact.html">Size guide</a></li>
+            <li><a href="contact.html">support@vera-atelier.com</a></li>
+            <li><a href="about.html">Our fabrics</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> VERA Atelier. All rights reserved.</span>
+        <span>Natural fabrics · Small batches · Worldwide shipping</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="drawer" id="drawer">
+    <div class="drawer__bg" data-close></div>
+    <aside class="drawer__panel">
+      <div class="drawer__head">
+        <b>Your bag</b>
+        <button class="drawer__close" data-close aria-label="Close">×</button>
+      </div>
+      <div class="drawer__items" id="drawerItems"></div>
+      <div class="drawer__foot">
+        <div class="drawer__total"><span>Subtotal</span><span id="bagTotal">$0</span></div>
+        <button class="btn btn--block" id="checkoutBtn">Checkout</button>
+        <p class="drawer__note">Shipping calculated at checkout · Free over $120</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>

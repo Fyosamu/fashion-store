@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VERA Atelier — Considered clothing for everyday life</title>
+  <meta name="description" content="VERA Atelier — a calm, modern clothing store. Women, men, shoes, accessories and kids made from natural fabrics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar">Complimentary shipping over $120 &nbsp;·&nbsp; <span>30-day easy returns</span></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand">
+        <b>VERA</b>
+        <small>Atelier</small>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav__tools">
+        <button class="bag-btn" id="bagBtn">Bag <span class="bag-count" id="bagCount">0</span></button>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text reveal">
+        <span class="eyebrow">Autumn / Winter collection</span>
+        <h1>Considered clothing for <em>everyday life</em></h1>
+        <p class="lead">
+          Natural fabrics, quiet colours and cuts that last more than one season.
+          Made in small batches, shipped worldwide.
+        </p>
+        <div class="hero__cta">
+          <a href="categories.html" class="btn">Shop the collection</a>
+          <a href="#featured" class="btn btn--ghost">New arrivals</a>
+        </div>
+        <ul class="hero__stats">
+          <li><b>120+</b><span>Pieces</span></li>
+          <li><b>14</b><span>Countries</span></li>
+          <li><b>4.9</b><span>Avg. rating</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__art reveal">
+        <figure>
+          <img src="assets/hero.jpg" alt="Model wearing a black dress in a bright architectural setting" />
+        </figure>
+        <div class="hero__chip">
+          <small>Featured</small>
+          <b>Silk Column Dress</b>
+          <span>$128 · black / clay / ivory</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Natural fabrics</span><span>Small batch production</span><span>Free returns</span><span>Worldwide shipping</span><span>Timeless cuts</span>
+      <span>Natural fabrics</span><span>Small batch production</span><span>Free returns</span><span>Worldwide shipping</span><span>Timeless cuts</span>
+    </div>
+  </div>
+
+  <!-- ================= CATEGORIES ================= -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section__head reveal">
+        <div>
+          <span class="eyebrow">Shop by category</span>
+          <h2>Find your wardrobe</h2>
+          <p>Six considered collections — from tailored staples to weekend ease.</p>
+        </div>
+        <a href="categories.html" class="link-arrow">All categories →</a>
+      </div>
+
+      <div class="cats">
+        <a href="categories.html#women" class="cat reveal">
+          <img src="assets/women.jpg" alt="Women's collection" />
+          <span class="cat__label"><span><b>Women</b><br /><span>48 pieces</span></span><i>→</i></span>
+        </a>
+        <a href="categories.html#men" class="cat reveal">
+          <img src="assets/men.jpg" alt="Men's collection" />
+          <span class="cat__label"><span><b>Men</b><br /><span>36 pieces</span></span><i>→</i></span>
+        </a>
+        <a href="categories.html#shoes" class="cat reveal">
+          <img src="assets/shoes.jpg" alt="Shoes collection" />
+          <span class="cat__label"><span><b>Shoes</b><br /><span>22 pieces</span></span><i>→</i></span>
+        </a>
+        <a href="categories.html#accessories" class="cat reveal">
+          <img src="assets/accessories.jpg" alt="Accessories collection" />
+          <span class="cat__label"><span><b>Accessories</b><br /><span>31 pieces</span></span><i>→</i></span>
+        </a>
+        <a href="categories.html#kids" class="cat reveal">
+          <img src="assets/kids.webp" alt="Kids collection" />
+          <span class="cat__label"><span><b>Kids</b><br /><span>18 pieces</span></span><i>→</i></span>
+        </a>
+        <a href="categories.html#new" class="cat reveal">
+          <img src="assets/new.jpg" alt="New arrivals" />
+          <span class="cat__label"><span><b>New in</b><br /><span>This week</span></span><i>→</i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED ================= -->
+  <section class="section section--tint" id="featured">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">New arrivals</span>
+          <h2>Just landed</h2>
+          <p>Small runs — when a piece sells out, it rarely comes back the same.</p>
+        </div>
+      </div>
+
+      <div class="products">
+        <article class="product reveal" data-id="p1" data-name="Silk Column Dress" data-price="128" data-img="assets/women.jpg">
+          <div class="product__media">
+            <img src="assets/women.jpg" alt="Silk column dress" />
+            <span class="product__badge">New</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Women</span>
+          <h3 class="product__name">Silk Column Dress</h3>
+          <span class="product__price">$128</span>
+        </article>
+
+        <article class="product reveal" data-id="p2" data-name="Belted Trench Coat" data-price="214" data-img="assets/editorial.jpg">
+          <div class="product__media">
+            <img src="assets/editorial.jpg" alt="Belted trench coat" />
+            <span class="product__badge sale">-20%</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Women</span>
+          <h3 class="product__name">Wool Overcoat</h3>
+          <span class="product__price">$214 <s>$268</s></span>
+        </article>
+
+        <article class="product reveal" data-id="p3" data-name="Denim Jacket" data-price="110" data-img="assets/men.jpg">
+          <div class="product__media">
+            <img src="assets/men.jpg" alt="Denim jacket" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Men</span>
+          <h3 class="product__name">Denim Jacket</h3>
+          <span class="product__price">$110</span>
+        </article>
+
+        <article class="product reveal" data-id="p4" data-name="Leather Weekender" data-price="145" data-img="assets/accessories.jpg">
+          <div class="product__media">
+            <img src="assets/accessories.jpg" alt="Leather weekender bag" />
+            <span class="product__badge">Bestseller</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Accessories</span>
+          <h3 class="product__name">Leather Weekender</h3>
+          <span class="product__price">$145</span>
+        </article>
+
+        <article class="product reveal" data-id="p5" data-name="Leather Mules" data-price="88" data-img="assets/shoes.jpg">
+          <div class="product__media">
+            <img src="assets/shoes.jpg" alt="Leather mules" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Leather Mules</h3>
+          <span class="product__price">$88</span>
+        </article>
+
+        <article class="product reveal" data-id="p6" data-name="Canvas High-Tops" data-price="64" data-img="assets/sneakers.jpg">
+          <div class="product__media">
+            <img src="assets/sneakers.jpg" alt="Canvas high-top sneakers" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Shoes</span>
+          <h3 class="product__name">Canvas High-Tops</h3>
+          <span class="product__price">$64</span>
+        </article>
+
+        <article class="product reveal" data-id="p7" data-name="Tulle Party Dress" data-price="54" data-img="assets/kids.webp">
+          <div class="product__media">
+            <img src="assets/kids.webp" alt="Kids tulle party dress" />
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Kids</span>
+          <h3 class="product__name">Tulle Party Dress</h3>
+          <span class="product__price">$54</span>
+        </article>
+
+        <article class="product reveal" data-id="p8" data-name="Amber Sunglasses" data-price="72" data-img="assets/sunglasses.jpg">
+          <div class="product__media">
+            <img src="assets/sunglasses.jpg" alt="Amber sunglasses" />
+            <span class="product__badge">New</span>
+            <button class="product__add">Add to bag</button>
+          </div>
+          <span class="product__cat">Accessories</span>
+          <h3 class="product__name">Amber Sunglasses</h3>
+          <span class="product__price">$72</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EDITORIAL ================= -->
+  <section class="section">
+    <div class="container split">
+      <div class="split__media reveal">
+        <img src="assets/editorial.jpg" alt="Street style look from the autumn edit" />
+      </div>
+      <div class="split__text reveal">
+        <span class="eyebrow">The edit</span>
+        <h2>A quieter kind of statement</h2>
+        <p>
+          This season we worked with heavy cottons, brushed wool and recycled cashmere —
+          pieces that look better after a hundred wears than on the first day.
+        </p>
+        <p>
+          Every garment is cut in limited runs of 80, so the people who make them aren't
+          rushed, and you won't meet yourself on every street corner.
+        </p>
+        <a href="categories.html" class="btn">Explore the edit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VALUES ================= -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">Why VERA</span>
+          <h2>Shopping without the noise</h2>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value reveal"><i>🌿</i><h3>Natural fabrics</h3><p>Linen, organic cotton and wool — chosen for how they age, not how cheap they are.</p></div>
+        <div class="value reveal"><i>📦</i><h3>Free shipping</h3><p>Complimentary delivery on orders over $120, tracked to your door in 14 countries.</p></div>
+        <div class="value reveal"><i>↩️</i><h3>30-day returns</h3><p>Changed your mind? Send it back within 30 days — no questions, no restocking fee.</p></div>
+        <div class="value reveal"><i>🔒</i><h3>Secure checkout</h3><p>Pay by card or USDT. Your details stay yours; we never store payment data.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= QUOTES ================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">Kind words</span>
+          <h2>Worn and loved</h2>
+        </div>
+      </div>
+      <div class="quotes">
+        <div class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <p>“The linen set survived two summers of daily wear and still looks new. Fit chart was spot on.”</p>
+          <footer>Amira · Berlin</footer>
+        </div>
+        <div class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <p>“Ordered on Monday, wearing it Thursday. The coat is heavier and better than the photos.”</p>
+          <footer>Tom · Manchester</footer>
+        </div>
+        <div class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <p>“Finally a shop that doesn't shout. Everything mixes with everything else in my wardrobe.”</p>
+          <footer>Sara · Toronto</footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWSLETTER ================= -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="news reveal">
+        <div>
+          <span class="eyebrow" style="color:#d9b8a8;">Newsletter</span>
+          <h2>First look, small runs</h2>
+          <p>Drops sell out fast — subscribers get the link 24 hours early plus 10% off the first order.</p>
+        </div>
+        <div>
+          <form class="news__form" id="newsForm">
+            <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+            <button class="btn btn--sm" type="submit">Join</button>
+          </form>
+          <small>No spam. Unsubscribe any time.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="brand"><b>VERA</b><small>Atelier</small></a>
+          <p>Considered clothing in natural fabrics, made in small batches and shipped worldwide.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="categories.html#women">Women</a></li>
+            <li><a href="categories.html#men">Men</a></li>
+            <li><a href="categories.html#shoes">Shoes</a></li>
+            <li><a href="categories.html#accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="categories.html#kids">Kids</a></li>
+            <li><a href="index.html#featured">New arrivals</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="contact.html">Shipping &amp; returns</a></li>
+            <li><a href="contact.html">Size guide</a></li>
+            <li><a href="contact.html">support@vera-atelier.com</a></li>
+            <li><a href="about.html">Our fabrics</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> VERA Atelier. All rights reserved.</span>
+        <span>Natural fabrics · Small batches · Worldwide shipping</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= BAG DRAWER ================= -->
+  <div class="drawer" id="drawer">
+    <div class="drawer__bg" data-close></div>
+    <aside class="drawer__panel">
+      <div class="drawer__head">
+        <b>Your bag</b>
+        <button class="drawer__close" data-close aria-label="Close">×</button>
+      </div>
+      <div class="drawer__items" id="drawerItems"></div>
+      <div class="drawer__foot">
+        <div class="drawer__total"><span>Subtotal</span><span id="bagTotal">$0</span></div>
+        <button class="btn btn--block" id="checkoutBtn">Checkout</button>
+        <p class="drawer__note">Shipping calculated at checkout · Free over $120</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
