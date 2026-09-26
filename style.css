@@ -1053,6 +1053,28 @@ body[data-arch="organic"] .hero__chip { position: static; background: #fff; bord
 body[data-arch="organic"] .cat, body[data-arch="organic"] .product__media { border-radius: 22px; }
 body[data-arch="organic"] .value { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding-bottom: 10px; }
 
+/* ---- 11. lookbook (fashion: image-left hero, dark fabric rail, bordered frames) ---- */
+@media (min-width: 901px) { body[data-arch="lookbook"] .hero__art { order: -1; } }
+body[data-arch="lookbook"] .hero__art img { height: clamp(380px, 52vw, 610px); border-radius: 3px; object-position: center 30%; }
+body[data-arch="lookbook"] .hero__chip { position: static; margin-top: 16px; max-width: none; background: var(--ink); color: #fff; border: 0; border-radius: 3px; box-shadow: none; }
+body[data-arch="lookbook"] .hero__chip small { color: rgba(255, 255, 255, 0.55); }
+body[data-arch="lookbook"] .hero__chip span { color: rgba(255, 255, 255, 0.7); }
+body[data-arch="lookbook"] .hero h1 { letter-spacing: -0.035em; }
+body[data-arch="lookbook"] .eyebrow { letter-spacing: 0.3em; }
+body[data-arch="lookbook"] .marquee { background: var(--ink); border-color: var(--ink); }
+body[data-arch="lookbook"] .marquee__track { color: rgba(255, 255, 255, 0.84); }
+body[data-arch="lookbook"] .marquee__track span::before { color: rgba(255, 255, 255, 0.45); }
+body[data-arch="lookbook"] .cat { background: #fff; border: 1px solid var(--line); }
+body[data-arch="lookbook"] .cat__label { inset: auto 0 0; border-radius: 0; background: rgba(255, 255, 255, 0.96); border-top: 1px solid var(--line); }
+body[data-arch="lookbook"] .cat__label i { background: var(--ink); border-radius: 2px; }
+body[data-arch="lookbook"] .product { background: #fff; border: 1px solid var(--line); border-radius: 3px; padding: 12px 12px 16px; }
+body[data-arch="lookbook"] .product__media { border-radius: 2px; margin-bottom: 12px; }
+body[data-arch="lookbook"] .product__name { font-family: var(--font); font-size: 0.98rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 8px; }
+body[data-arch="lookbook"] .product__cat { font-size: 0.64rem; letter-spacing: 0.2em; }
+body[data-arch="lookbook"] .value { border-radius: 4px; }
+body[data-arch="lookbook"] .value i { background: var(--paper-3); border-radius: 3px; }
+body[data-arch="lookbook"] .quote { border-radius: 4px; }
+body[data-arch="lookbook"] .btn { border-radius: 3px; }
 /* ---- keep every archetype sane on small screens ---- */
 @media (max-width: 1024px) {
   body[data-arch] .products { grid-template-columns: repeat(2, 1fr); }
@@ -1087,3 +1109,8 @@ body[data-arch="organic"] .value { background: #fff; border: 1px solid var(--lin
   text-transform: uppercase; background: var(--clay); color: #fff;
   padding: 5px 9px; border-radius: 999px; white-space: nowrap;
 }
+
+/* ---- never let a long word (email, wallet, URL) stretch the footer ---- */
+.footer__grid > * { min-width: 0; }
+.footer li, .footer a { overflow-wrap: anywhere; }
+@media (max-width: 340px) { .footer__grid { grid-template-columns: 1fr; } }

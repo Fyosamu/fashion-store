@@ -12,7 +12,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 | file | what it is |
 |---|---|
 | `index.html` | the demo home page: hero, shop, about, contact, products |
-| `style.css` | the whole design system - commented, token-based, 48 KB |
+| `style.css` | the whole design system - commented, token-based, 50 KB |
 | `script.js` | bag, slide-in drawer, mobile nav, forms and scroll reveals - vanilla JS, 297 lines, no libraries |
 | `img/` | 6 photographs (0.59 MB) - CC0, already compressed for the web |
 | `buy.html` | the product page used by the live demo (price, payment form). Delete it, or point its `buy.html` links at your own shop, before you publish |
@@ -32,7 +32,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
    ```js
    const CONFIG = {
      supportEmail: "orders@yourdomain.com",   // where order and contact emails land
-     wallet: "0xâ€¦",                            // shown on the checkout panel
+     wallet: "0x…",                            // shown on the checkout panel
    };
    ```
 
@@ -45,10 +45,10 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 ## Rebrand in minutes
 
 - **Palette** - one `:root` block at the top of `style.css`: 10 colour tokens
-  (`--paper`, `--ink`, `--clay`, â€¦) plus radius, shadow and fonts. Change the values, the whole
+  (`--paper`, `--ink`, `--clay`, …) plus radius, shadow and fonts. Change the values, the whole
   site repaints; nothing else to touch.
 - **Logo** - the brand is plain text in the header of every page.
-- **Photographs** - drop your own into `img/` and keep the filenames (`p1.jpg` â€¦ `p6.jpg`),
+- **Photographs** - drop your own into `img/` and keep the filenames (`p1.jpg` … `p6.jpg`),
   so no code changes are needed. Keep them at 1600 px wide or less for a fast page.
 - **Bag storage** - the cart key is `terra-ceramics\_bag` in localStorage, so two stores on the same domain
   never mix their bags.

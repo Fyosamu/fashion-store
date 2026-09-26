@@ -1,17 +1,17 @@
 /* ==========================================================
-   Bloom & Stem — store template (light & calm)
+   Indigo & Rivet — store template (light & calm)
    ========================================================== */
 :root {
-  --paper: #fcfdfa;
-  --paper-2: #f3f6f0;
-  --paper-3: #e9efe5;
-  --ink: #161a15;
-  --ink-2: #3b443a;
-  --muted: #737d70;
-  --line: #e2e9de;
-  --clay: #6f8f6a;
-  --clay-dark: #5a7856;
-  --sage: #6f8f6a;
+  --paper: #fbfcfd;
+  --paper-2: #f2f4f8;
+  --paper-3: #e7eaf1;
+  --ink: #141924;
+  --ink-2: #3a4252;
+  --muted: #737c8e;
+  --line: #e2e6ee;
+  --clay: #3d5a8a;
+  --clay-dark: #30486f;
+  --sage: #3d5a8a;
   --radius: 18px;
   --shadow: 0 24px 60px rgba(30, 24, 18, 0.1);
   --font: "Inter", system-ui, sans-serif;
