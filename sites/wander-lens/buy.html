@@ -57,7 +57,7 @@
         <h2>One folder, no build tools</h2>
         <ul class="kit-list">
           <li><code>index.html</code> — the full demo page you are looking at</li>
-          <li><code>style.css</code> — commented design system, six colour variables</li>
+          <li><code>style.css</code> - commented design system, palette in one <code>:root</code> block</li>
           <li><code>script.js</code> — bag, drawer, forms, scroll reveals (vanilla JS)</li>
           <li><code>/img</code> — six CC0 photographs, optimised for the web</li>
           <li><code>README.md</code> + <code>INSTALL.md</code> — setup guide and troubleshooting</li>
@@ -81,7 +81,7 @@
       <div class="steps steps--2">
         <div class="step reveal"><span class="num">01</span><h3>Responsive to 320 px</h3><p>Verified at 360 / 390 / 768 / 1024 / 1440 px with zero horizontal overflow. Two-column grid and an app-style tab bar on phones.</p></div>
         <div class="step reveal"><span class="num">02</span><h3>Working bag</h3><p>Add, remove, quantity and total — stored in the browser, slide-in drawer, checkout that opens a ready-filled order email.</p></div>
-        <div class="step reveal"><span class="num">03</span><h3>Gentle on the eyes</h3><p>Warm off-white paper, one accent colour, Fraunces + Inter — and the whole palette re-skins from six CSS variables.</p></div>
+        <div class="step reveal"><span class="num">03</span><h3>Gentle on the eyes</h3><p>Warm off-white paper, one accent colour, Fraunces + Inter — and the whole palette re-skins from one :root block.</p></div>
         <div class="step reveal"><span class="num">04</span><h3>Safe without JavaScript</h3><p>Content is only hidden once JS is confirmed active, so a script error can never leave a blank page.</p></div>
       </div>
     </div>
@@ -109,7 +109,7 @@
       </div>
       <p class="install-note reveal"><b>Using Elementor?</b> Paste the HTML into HTML widgets and load
         <code>style.css</code> + <code>script.js</code> once from <b>Elementor → Custom Code</b>.
-        <b>Colour?</b> edit the six variables at the top of <code>style.css</code>.</p>
+        <b>Colour?</b> edit the <code>:root</code> block at the top of <code>style.css</code>.</p>
     </div>
   </section>
 
@@ -158,7 +158,7 @@
           <li><b>Open the delivery page</b> and paste your transaction hash.</li>
           <li><b>The page reads the Ethereum network itself</b>, confirms the amount and starts your download instantly.</li>
         </ol>
-        <a class="btn btn--block" href="get.html?sku=wander-lens">Get my file now →</a>
+        <a class="btn btn--block" href="https://fyosamu.github.io/fashion-store/get.html?sku=wander-lens">Get my file now →</a>
         <p class="form-note">Runs 24/7 — pay at 3:00, download at 3:01. No account, no email required.</p>
         <ul class="buy-warn">
           <li><b>Chain check broken?</b> The delivery page has a one-click email fallback with your hash pre-filled.</li>
@@ -176,7 +176,7 @@
       </div>
       <div class="faq">
         <details class="reveal" open><summary>Do I need WordPress or Elementor?</summary><p>No. It is plain HTML, CSS and JavaScript — it runs on any host, including GitHub Pages. You can also lift the markup into Elementor HTML widgets.</p></details>
-        <details class="reveal"><summary>Can I change the brand and colours?</summary><p>Yes. The brand name is in the HTML, the palette is six variables at the top of <code>style.css</code>. Change them and the whole site re-skins.</p></details>
+        <details class="reveal"><summary>Can I change the brand and colours?</summary><p>Yes. The brand name is in the HTML, the palette sits in one <code>:root</code> block at the top of <code>style.css</code>. Change them and the whole site re-skins.</p></details>
         <details class="reveal"><summary>Can I use it for client work?</summary><p>Yes — MIT licence on the code and CC0 on the photographs. Resell it inside your own builds.</p></details>
         <details class="reveal"><summary>How fast is delivery?</summary><p>Seconds. The delivery page verifies your transaction on the Ethereum network in your own browser and starts the download the moment it confirms — no human sends you a link.</p></details>
         <details class="reveal"><summary>Is the discount limited in time?</summary><p>No timer, no “offer ends tonight”. <s>$49</s> → 19 USDT is simply the standing price, so you never have to rush a decision.</p></details>

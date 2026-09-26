@@ -84,16 +84,16 @@
         </p>
         <div class="swatches">
           <span class="sw sw--1"><b></b>#fdfcfa</span>
-          <span class="sw sw--2"><b></b>#f5f2ed</span>
+          <span class="sw sw--2"><b></b>#f6f3ee</span>
           <span class="sw sw--3"><b></b>#16151a</span>
-          <span class="sw sw--4"><b></b>#c0714f</span>
+          <span class="sw sw--4"><b></b>#b4674d</span>
         </div>
         <ul class="kit-list">
           <li><b>Fraunces</b> display serif against <b>Inter</b> — editorial, not corporate</li>
           <li>Product cards lift on hover and reveal <b>Add to bag</b></li>
           <li>Sections fade in gently on scroll, with a 9-second safety net if JS fails</li>
           <li>Hairline rules, rounded frames, one dark newsletter block for contrast</li>
-          <li>Re-skin the whole store with <b>six CSS variables</b></li>
+          <li>Re-skin the whole store with <b>one <code>:root</code> block</b></li>
         </ul>
         <a href="#buy" class="btn">Get the kit — 19 USDT</a>
       </div>
@@ -155,8 +155,8 @@
       </div>
       <div class="steps">
         <div class="step reveal"><span>01</span><h3>Pay 19 USDT</h3><p>Send exactly 19 USDT to the address below. Ethereum (ERC-20) network.</p></div>
-        <div class="step reveal"><span>02</span><h3>Send the transaction hash</h3><p>Copy the hash from your Trust Wallet and paste it into the order form.</p></div>
-        <div class="step reveal"><span>03</span><h3>Receive the download link</h3><p>The payment is verified on-chain and the link is sent to your email — usually within a few hours.</p></div>
+        <div class="step reveal"><span>02</span><h3>Paste the transaction hash</h3><p>Copy the hash from your Trust Wallet and paste it on the delivery page - no account, no email.</p></div>
+        <div class="step reveal"><span>03</span><h3>The file unlocks itself</h3><p>The page verifies the payment on the Ethereum network in your own browser and starts the download the moment it confirms.</p></div>
       </div>
     </div>
   </section>
@@ -184,17 +184,17 @@
         </ul>
       </div>
 
-      <div class="buy-box buy-box--form reveal">
+            <div class="buy-box buy-box--form reveal">
         <span class="eyebrow">Step 2</span>
-        <h2>Send your transaction</h2>
-        <form class="contact-form" id="orderForm" novalidate>
-          <label>Your name<input type="text" name="name" placeholder="Jane Doe" required /></label>
-          <label>Your email<input type="email" name="email" placeholder="you@example.com" required /></label>
-          <label>Transaction hash<input type="text" name="tx" placeholder="0x…" required /></label>
-          <label>Anything to add <span>(optional)</span><textarea name="note" rows="3" placeholder="Country, preferred date, questions…"></textarea></label>
-          <button class="btn btn--block" type="submit">Send &amp; get the download link</button>
-          <p class="form-note">Opens your email app with the details filled in. Your email is only used to send the file.</p>
-        </form>
+        <h2>The file unlocks itself</h2>
+        <p class="buy-note">Open the delivery page and paste your transaction hash. The page reads the Ethereum network in your own browser, confirms the amount and starts your download instantly.</p>
+        <ul class="buy-warn">
+          <li>Runs 24/7 - pay at 3:00, download at 3:01. No account, no email required.</li>
+          <li>Your hash re-opens the download any time, months later.</li>
+          <li>Chain check broken? The delivery page has a one-click email fallback.</li>
+        </ul>
+        <a class="btn btn--block" href="get.html?sku=vera-kit">Get my file now</a>
+        <p class="form-note">Nothing is stored on this site: your wallet, your hash, your file.</p>
       </div>
     </div>
   </section>
@@ -267,8 +267,8 @@
         <details class="reveal"><summary>Do I need WooCommerce or paid add-ons?</summary><p>No. The kit ships with a lightweight vanilla-JS cart that stores the basket in the browser and opens the visitor's email app on checkout. You can point it at any form endpoint instead.</p></details>
         <details class="reveal"><summary>Does it work with Elementor Free?</summary><p>Yes. The HTML-widget method needs nothing but Elementor Free. Pro is only useful if you want to add the CSS and JS once for the whole site via Custom Code.</p></details>
         <details class="reveal"><summary>Can I use it on client projects?</summary><p>Yes. The code is MIT licensed and the 20 photographs are CC0 — commercial use, no attribution, resell it inside your own builds.</p></details>
-        <details class="reveal"><summary>How fast is delivery?</summary><p>Payments are verified on-chain manually, so the link is normally sent within a few hours. Every order is checked before the file goes out.</p></details>
-        <details class="reveal"><summary>What if I pay but receive nothing?</summary><p>Send the transaction hash again from the contact page — the hash is your proof and the file can always be re-sent.</p></details>
+        <details class="reveal"><summary>How fast is delivery?</summary><p>Seconds. The delivery page verifies your transaction on the Ethereum network in your own browser and starts the download the moment it confirms - no human sends you a link, and it runs 24/7.</p></details>
+        <details class="reveal"><summary>What if I pay but receive nothing?</summary><p>Your hash is the proof. Paste it again on the delivery page, or use its one-click email fallback - the file can always be re-sent, and your browser keeps the unlock.</p></details>
       </div>
     </div>
   </section>

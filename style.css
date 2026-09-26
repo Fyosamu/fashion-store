@@ -437,10 +437,10 @@ p { color: var(--ink-2); }
   width: 54px; height: 54px; border-radius: 50%;
   border: 1px solid var(--line); box-shadow: var(--shadow);
 }
-.sw--1 b { background: #fdfcfa; }
-.sw--2 b { background: #f5f2ed; }
-.sw--3 b { background: #16151a; }
-.sw--4 b { background: #c0714f; }
+.sw--1 b { background: var(--paper); }
+.sw--2 b { background: var(--paper-2); }
+.sw--3 b { background: var(--ink); }
+.sw--4 b { background: var(--clay); }
 
 /* ---------- installation guide ---------- */
 .steps--2 { grid-template-columns: repeat(2, 1fr); }
