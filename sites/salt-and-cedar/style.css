@@ -1,17 +1,17 @@
 /* ==========================================================
-   Ink & Quill — store template (light & calm)
+   Salt & Cedar — store template (light & calm)
    ========================================================== */
 :root {
-  --paper: #fcfcfb;
-  --paper-2: #f4f4f2;
-  --paper-3: #ececeb;
-  --ink: #15161b;
-  --ink-2: #3b3d47;
-  --muted: #73757f;
-  --line: #e4e4e6;
-  --clay: #4a4f6b;
-  --clay-dark: #3b4058;
-  --sage: #4a4f6b;
+  --paper: #f8f8f5;
+  --paper-2: #f1f2ec;
+  --paper-3: #e7e9e0;
+  --ink: #171b18;
+  --ink-2: #3b423c;
+  --muted: #797f78;
+  --line: #e3e5dc;
+  --clay: #2f4f43;
+  --clay-dark: #25403a;
+  --sage: #2f4f43;
   --radius: 18px;
   --shadow: 0 24px 60px rgba(30, 24, 18, 0.1);
   --font: "Inter", system-ui, sans-serif;

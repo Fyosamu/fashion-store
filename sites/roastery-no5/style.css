@@ -808,8 +808,10 @@ p { color: var(--ink-2); }
     overflow-x: auto;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
-    margin-inline: -5%;
-    padding-inline: 5%;
+    /* -5% overshot: percentage margins resolve against the 92% container,
+       so the row stuck out 1.9px on each side. 4/92 = 4.3478% lands exactly on the screen edge. */
+    margin-inline: -4.3478%;
+    padding-inline: 4.3478%;
     padding-bottom: 8px;
   }
   .chips::-webkit-scrollbar { display: none; }
@@ -1075,6 +1077,81 @@ body[data-arch="lookbook"] .value { border-radius: 4px; }
 body[data-arch="lookbook"] .value i { background: var(--paper-3); border-radius: 3px; }
 body[data-arch="lookbook"] .quote { border-radius: 4px; }
 body[data-arch="lookbook"] .btn { border-radius: 3px; }
+
+/* ---- 12. rail (fixed side navigation, numbered index, counter-style cards) ---- */
+@media (min-width: 1025px) {
+  body[data-arch="rail"] { padding-left: 246px; }
+  body[data-arch="rail"] .nav {
+    position: fixed; top: 0; left: 0; bottom: 0; width: 246px; z-index: 65;
+    background: #fff; border-bottom: 0; border-right: 1px solid var(--line);
+    -webkit-backdrop-filter: none; backdrop-filter: none;
+  }
+  body[data-arch="rail"] .nav__inner {
+    flex-direction: column; align-items: stretch; height: 100%;
+    gap: 0; padding: 34px 26px 30px;
+  }
+  body[data-arch="rail"] .brand { border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+  body[data-arch="rail"] .brand b { font-size: 1.72rem; }
+  body[data-arch="rail"] .nav__links {
+    counter-reset: railitem;
+    flex-direction: column; align-items: stretch; gap: 2px;
+    margin: 26px 0 0; padding-top: 22px; border-top: 1px solid var(--line);
+  }
+  body[data-arch="rail"] .nav__links a {
+    counter-increment: railitem;
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    border-bottom: 0; padding: 9px 0; font-size: 0.82rem; letter-spacing: 0.14em;
+  }
+  body[data-arch="rail"] .nav__links a::after {
+    content: counter(railitem, decimal-leading-zero);
+    font-family: var(--sans); font-size: 0.6rem; font-weight: 600;
+    letter-spacing: 0.1em; color: var(--muted);
+  }
+  body[data-arch="rail"] .nav__links a:hover, body[data-arch="rail"] .nav__links a.is-active {
+    color: var(--clay); border-color: transparent;
+  }
+  body[data-arch="rail"] .nav__links a:hover::after,
+  body[data-arch="rail"] .nav__links a.is-active::after { color: var(--clay); }
+  body[data-arch="rail"] .nav__tools { margin-top: auto; flex-direction: column; align-items: stretch; }
+  body[data-arch="rail"] .bag-btn { width: 100%; padding: 13px 16px; }
+}
+/* the rail layout is desktop only; these carry the identity at every width */
+body[data-arch="rail"] .eyebrow { letter-spacing: 0.26em; }
+body[data-arch="rail"] .eyebrow::before {
+  content: ""; display: inline-block; width: 26px; height: 1px;
+  background: currentColor; vertical-align: middle; margin: 0 10px 3px 0;
+}
+body[data-arch="rail"] .btn, body[data-arch="rail"] .bag-btn { border-radius: 5px; }
+body[data-arch="rail"] .hero h1 { letter-spacing: -0.03em; }
+body[data-arch="rail"] .hero__art figure { border-radius: 6px; }
+body[data-arch="rail"] .hero__art img { height: clamp(400px, 54vw, 640px); object-position: center 42%; }
+body[data-arch="rail"] .hero__chip {
+  background: var(--clay-dark); border-color: var(--clay-dark); border-radius: 6px; color: #fff;
+  box-shadow: 0 18px 44px rgba(23, 27, 24, 0.22);
+}
+body[data-arch="rail"] .hero__chip small { color: rgba(255, 255, 255, 0.62); }
+body[data-arch="rail"] .hero__chip span { color: rgba(255, 255, 255, 0.75); }
+body[data-arch="rail"] .marquee { background: var(--paper-3); }
+body[data-arch="rail"] .section__head:not(.section__head--center) { border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+body[data-arch="rail"] .section__head--center h2::after {
+  content: ""; display: block; width: 54px; height: 2px; background: var(--clay); margin: 16px auto 0;
+}
+body[data-arch="rail"] .cat {
+  background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--clay); border-radius: 6px;
+}
+body[data-arch="rail"] .cat__label { border-radius: 0 0 5px 5px; background: rgba(255, 255, 255, 0.97); }
+body[data-arch="rail"] .cat__label i { background: var(--clay); border-radius: 4px; }
+body[data-arch="rail"] .product {
+  background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 10px 10px 16px;
+}
+body[data-arch="rail"] .product__media { border-radius: 4px; margin-bottom: 14px; }
+body[data-arch="rail"] .product__add { border-radius: 4px; }
+body[data-arch="rail"] .split__media { border-radius: 6px; }
+body[data-arch="rail"] .value { border-radius: 6px; }
+body[data-arch="rail"] .value i { background: var(--paper-3); border-radius: 4px; }
+body[data-arch="rail"] .quote { border: 1px solid var(--line); border-top: 3px solid var(--clay); border-radius: 6px; }
+body[data-arch="rail"] .contact-photo, body[data-arch="rail"] .news { border-radius: 8px; }
+body[data-arch="rail"] .field input, body[data-arch="rail"] .field textarea, body[data-arch="rail"] .field select { border-radius: 5px; }
 /* ---- keep every archetype sane on small screens ---- */
 @media (max-width: 1024px) {
   body[data-arch] .products { grid-template-columns: repeat(2, 1fr); }

@@ -12,7 +12,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 | file | what it is |
 |---|---|
 | `index.html` | the demo home page: hero, shop, about, contact, products |
-| `style.css` | the whole design system - commented, token-based, 50 KB |
+| `style.css` | the whole design system - commented, token-based, 54 KB |
 | `script.js` | bag, slide-in drawer, mobile nav, forms and scroll reveals - vanilla JS, 297 lines, no libraries |
 | `img/` | 6 photographs (0.46 MB) - CC0, already compressed for the web |
 | `buy.html` | the product page used by the live demo (price, payment form). Delete it, or point its `buy.html` links at your own shop, before you publish |

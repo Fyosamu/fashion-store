@@ -1,8 +1,8 @@
-# Forge Athletic - Training apparel store template
+# Salt & Cedar - Fragrance & home store template
 
-Activewear store: fabric claims, testing story, 60-day returns.
+Fragrance shop with a fixed side-rail layout: maceration story, refill program, discovery sets.
 
-The complete Forge Athletic store: one HTML page, one stylesheet, one script and 6 photographs.
+The complete Salt & Cedar store: one HTML page, one stylesheet, one script and 6 photographs.
 No build tools, no framework, no dependencies - open it, change it, ship it.
 
 ---
@@ -14,7 +14,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 | `index.html` | the demo home page: hero, shop, about, contact, products |
 | `style.css` | the whole design system - commented, token-based, 54 KB |
 | `script.js` | bag, slide-in drawer, mobile nav, forms and scroll reveals - vanilla JS, 297 lines, no libraries |
-| `img/` | 6 photographs (0.65 MB) - CC0, already compressed for the web |
+| `img/` | 6 photographs (0.42 MB) - CC0, already compressed for the web |
 | `buy.html` | the product page used by the live demo (price, payment form). Delete it, or point its `buy.html` links at your own shop, before you publish |
 | `README.md` / `INSTALL.md` | these files |
 
@@ -50,7 +50,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 - **Logo** - the brand is plain text in the header of every page.
 - **Photographs** - drop your own into `img/` and keep the filenames (`p1.jpg` … `p6.jpg`),
   so no code changes are needed. Keep them at 1600 px wide or less for a fast page.
-- **Bag storage** - the cart key is `forge-athletic\_bag` in localStorage, so two stores on the same domain
+- **Bag storage** - the cart key is `salt-and-cedar\_bag` in localStorage, so two stores on the same domain
   never mix their bags.
 
 ## What is already verified
