@@ -37,10 +37,16 @@
       <p class="lead reveal">The complete Glow Ritual store — one HTML file, one stylesheet, one script and six photographs. Runs on any host, rebrands in minutes, MIT licensed.</p>
       <div class="reveal kit-cta">
         <span class="kit-price">19 <small>USDT</small></span>
+        <span class="kit-price--old">$49</span>
+        <span class="deal-badge">61% off — always on, no timer</span>
         <a href="#buy" class="btn">Buy now</a>
         <a href="index.html" class="btn btn--ghost">Live demo</a>
         <a href="#install" class="btn btn--ghost">How to install</a>
       </div>
+      <p class="reveal" style="margin-top:18px;color:var(--muted);font-size:.92rem;">
+        <b style="color:var(--ink);">Instant automated delivery:</b> pay, paste the transaction hash, the file unlocks in your browser —
+        no account, no waiting, no email ping-pong. The offer never expires: the same price is always the price.
+      </p>
     </div>
   </section>
 
@@ -107,12 +113,30 @@
     </div>
   </section>
 
-  <section class="section section--tint" id="buy">
+  <section class="section section--tint" id="why">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">Why buyers pick this</span>
+          <h2>A working store, not a PSD mockup</h2>
+          <p>You are not buying a design file — you are buying hours of layout, copy and testing that already passed.</p>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value reveal"><i>⚡</i><h3>Live this afternoon</h3><p>Unzip, change two lines, upload. No build tools, no framework, no licence key, no subscription.</p></div>
+        <div class="value reveal"><i>🏷️</i><h3>Price of a lunch</h3><p><s>$49</s> → <b>19 USDT</b>, permanently. No countdown, no fake scarcity — the discount simply is the price.</p></div>
+        <div class="value reveal"><i>🔓</i><h3>No lock-in</h3><p>MIT-licensed code and CC0 photographs. Use it on client projects, rebrand it, resell what you build on top.</p></div>
+        <div class="value reveal"><i>📦</i><h3>Delivered automatically</h3><p>On-chain payment check in your own browser, then the zip downloads. 24/7, no human in the loop.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="buy" style="padding-top:0;">
     <div class="container buy-grid">
       <div class="buy-box reveal">
-        <span class="eyebrow">Pay with USDT</span>
-        <h2>19 USDT</h2>
-        <p class="buy-note">Network: <b>Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b>19</b></p>
+        <span class="eyebrow">Step 1 — pay once</span>
+        <h2><span class="price-old">$49</span> <span class="price-now price-now--deal">19 USDT</span></h2>
+        <p class="buy-note">Network: <b>Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b>19</b> · <b>61% off, always on</b></p>
         <div class="qr-wrap"><div id="qr"></div></div>
         <label class="buy-label" for="wallet">Wallet address</label>
         <div class="copy-row">
@@ -121,22 +145,26 @@
         </div>
         <ul class="buy-warn">
           <li>Send <b>only USDT on Ethereum</b> — other tokens or networks are lost forever.</li>
-          <li>Keep the transaction hash: it is your proof of payment.</li>
+          <li>Keep the transaction hash: it unlocks your file and re-opens it any time.</li>
           <li>Network fees are paid by the sender.</li>
         </ul>
       </div>
 
       <div class="buy-box buy-box--form reveal">
-        <span class="eyebrow">Step 2</span>
-        <h2>Send your transaction</h2>
-        <form class="contact-form" id="orderForm" novalidate>
-          <label>Your name<input type="text" name="name" placeholder="Jane Doe" required /></label>
-          <label>Your email<input type="email" name="email" placeholder="you@example.com" required /></label>
-          <label>Transaction hash<input type="text" name="tx" placeholder="0x…" required /></label>
-          <label>Anything to add <span>(optional)</span><textarea name="note" rows="3" placeholder="Questions, preferred date…"></textarea></label>
-          <button class="btn btn--block" type="submit">Send &amp; get the download link</button>
-          <p class="form-note">Opens your email app with the details filled in. Your address is only used to send the file.</p>
-        </form>
+        <span class="eyebrow">Step 2 — fully automatic</span>
+        <h2>The file unlocks itself</h2>
+        <ol class="dl-steps">
+          <li><b>Pay 19 USDT</b> to the address on the left — usually confirmed in under a minute.</li>
+          <li><b>Open the delivery page</b> and paste your transaction hash.</li>
+          <li><b>The page reads the Ethereum network itself</b>, confirms the amount and starts your download instantly.</li>
+        </ol>
+        <a class="btn btn--block" href="get.html?sku=glow-ritual">Get my file now →</a>
+        <p class="form-note">Runs 24/7 — pay at 3:00, download at 3:01. No account, no email required.</p>
+        <ul class="buy-warn">
+          <li><b>Chain check broken?</b> The delivery page has a one-click email fallback with your hash pre-filled.</li>
+          <li>Your hash always re-opens the download, even months later.</li>
+          <li>Questions first? <a href="index.html#contact" style="text-decoration:underline;">Ask before you buy</a>.</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -150,8 +178,9 @@
         <details class="reveal" open><summary>Do I need WordPress or Elementor?</summary><p>No. It is plain HTML, CSS and JavaScript — it runs on any host, including GitHub Pages. You can also lift the markup into Elementor HTML widgets.</p></details>
         <details class="reveal"><summary>Can I change the brand and colours?</summary><p>Yes. The brand name is in the HTML, the palette is six variables at the top of <code>style.css</code>. Change them and the whole site re-skins.</p></details>
         <details class="reveal"><summary>Can I use it for client work?</summary><p>Yes — MIT licence on the code and CC0 on the photographs. Resell it inside your own builds.</p></details>
-        <details class="reveal"><summary>How fast is delivery?</summary><p>Payments are verified on-chain, so the link is normally sent within a few hours.</p></details>
-        <details class="reveal"><summary>What if I pay but get nothing?</summary><p>Send the transaction hash again from the contact page — the hash is your proof and the file can always be re-sent.</p></details>
+        <details class="reveal"><summary>How fast is delivery?</summary><p>Seconds. The delivery page verifies your transaction on the Ethereum network in your own browser and starts the download the moment it confirms — no human sends you a link.</p></details>
+        <details class="reveal"><summary>Is the discount limited in time?</summary><p>No timer, no “offer ends tonight”. <s>$49</s> → 19 USDT is simply the standing price, so you never have to rush a decision.</p></details>
+        <details class="reveal"><summary>What if I pay but get nothing?</summary><p>Your hash is the proof. Paste it again on the delivery page, or use its email fallback — the file can always be re-sent, and your browser keeps the unlock.</p></details>
       </div>
     </div>
   </section>
@@ -226,26 +255,6 @@
         document.body.appendChild(ta); ta.select();
         try { document.execCommand("copy"); done(); } catch (e) {}
         document.body.removeChild(ta);
-      }
-
-      var form = document.getElementById("orderForm");
-      if (form) {
-        form.addEventListener("submit", function (e) {
-          e.preventDefault();
-          var d = new FormData(form);
-          var name = (d.get("name") || "").trim(), email = (d.get("email") || "").trim(),
-              tx = (d.get("tx") || "").trim(), note = (d.get("note") || "").trim();
-          if (!name || !email || !tx) { alert("Please fill in your name, email and the transaction hash."); return; }
-          var body =
-            "Template order — Glow Ritual (19 USDT)%0D%0A%0D%0A" +
-            "Name: " + encodeURIComponent(name) + "%0D%0A" +
-            "Email: " + encodeURIComponent(email) + "%0D%0A" +
-            "Tx hash: " + encodeURIComponent(tx) + "%0D%0A" +
-            "Amount: 19 USDT (ERC-20) to " + WALLET + "%0D%0A%0D%0A" +
-            "Note: " + encodeURIComponent(note || "—");
-          window.location.href = "mailto:" + ORDER_EMAIL + "?subject=" +
-            encodeURIComponent("Template order — Glow Ritual — tx " + tx.slice(0, 10) + "…") + "&body=" + body;
-        });
       }
     })();
   </script>

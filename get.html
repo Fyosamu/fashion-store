@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get your file — instant delivery · VERA Templates</title>
+  <meta name="description" content="Verify your USDT payment on-chain and download your template instantly. No account, no waiting." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar">Instant, automated delivery &nbsp;·&nbsp; <span>pay → paste the hash → download</span></div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand"><b>VERA</b><small>Templates</small></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="templates.html">All templates</a>
+        <a href="kit.html">Elementor Kit</a>
+        <a href="index.html">Clothing store</a>
+      </nav>
+      <div class="nav__tools">
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <div class="crumbs reveal"><a href="templates.html">Templates</a> / <span>Download</span></div>
+      <span class="eyebrow reveal">Automated delivery</span>
+      <h1 class="reveal" id="pTitle">Your file</h1>
+      <p class="lead reveal" id="pLead">Paste the transaction hash of your payment and the file unlocks automatically.</p>
+      <div class="reveal kit-cta">
+        <span class="kit-price" id="pPrice">19 <small>USDT</small></span>
+        <span class="kit-price kit-price--old" id="pOld">$49</span>
+        <span class="deal-badge">60% off — always on, no timer</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="container buy-grid">
+
+      <!-- ============ PAY ============ -->
+      <div class="buy-box reveal">
+        <span class="eyebrow">Step 1 — pay</span>
+        <h2 id="pPayTitle">Send 19 USDT</h2>
+        <p class="buy-note">Network: <b>Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b id="pAmount">19</b></p>
+        <div class="qr-wrap"><div id="qr"></div></div>
+        <label class="buy-label" for="wallet">Wallet address</label>
+        <div class="copy-row">
+          <code class="code" id="wallet">0xE1E3e1c2978c74f43Bb095023135C3278303aF34</code>
+          <button class="btn btn--sm" id="copyBtn" type="button">Copy</button>
+        </div>
+        <ul class="buy-warn">
+          <li>Send <b>only USDT on Ethereum</b> — other networks are lost forever.</li>
+          <li>Copy the <b>transaction hash</b> from Trust Wallet afterwards — it unlocks the file.</li>
+          <li>Usually confirmed in under a minute.</li>
+        </ul>
+      </div>
+
+      <!-- ============ GET ============ -->
+      <div class="buy-box buy-box--form reveal">
+        <span class="eyebrow">Step 2 — get the file</span>
+        <h2>Enter your transaction</h2>
+
+        <form class="contact-form" id="txForm" novalidate>
+          <label>Your transaction hash <span>(from Trust Wallet)</span>
+            <input type="text" id="txInput" name="tx" placeholder="0x…" autocomplete="off" spellcheck="false" required />
+          </label>
+          <label>Your email <span>(optional — for a backup copy)</span>
+            <input type="email" id="emailInput" name="email" placeholder="you@example.com" autocomplete="email" />
+          </label>
+          <button class="btn btn--block" id="goBtn" type="submit">Verify payment &amp; download</button>
+        </form>
+
+        <div class="dl-status" id="status" role="status" aria-live="polite">
+          <p class="dl-status__idle">Nothing pending — enter your hash and press the button.</p>
+        </div>
+
+        <div class="dl-done" id="doneBox" hidden>
+          <h3>✓ File unlocked</h3>
+          <p>Your download should have started. If it did not, <a href="#" id="againLink">press here to download again</a>.</p>
+          <ol class="dl-next">
+            <li>Unzip the file (right-click → Extract).</li>
+            <li>Open <code>index.html</code> — it works offline, no install.</li>
+            <li>Edit the brand, colours and copy — <code>INSTALL.md</code> shows where.</li>
+          </ol>
+        </div>
+
+        <div class="dl-fallback" id="fallbackBox">
+          <p><b>Chain check not working?</b> No problem — the hash is your proof.</p>
+          <button class="btn btn--ghost btn--block" id="mailBtn" type="button">Send my hash by email instead</button>
+          <p class="form-note">Replies normally land within a few hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="inside">
+    <div class="container">
+      <div class="section__head reveal">
+        <div>
+          <span class="eyebrow">What you get</span>
+          <h2 id="pInside">The complete folder</h2>
+        </div>
+        <a class="link-arrow" id="pDemoLink" href="templates.html">Open the live demo →</a>
+      </div>
+      <div class="steps steps--2">
+        <div class="step reveal"><span class="num">01</span><h3>Full source</h3><p>HTML, a commented CSS design system and vanilla JavaScript — no framework, no build step, no licence key.</p></div>
+        <div class="step reveal"><span class="num">02</span><h3>Re-skin in minutes</h3><p>Six colour variables at the top of the stylesheet repaint the entire site. Brand name and copy are plain text.</p></div>
+        <div class="step reveal"><span class="num">03</span><h3>Works out of the box</h3><p>Drag the folder onto any host — GitHub Pages, Netlify drop, shared hosting, or a local file. It just opens.</p></div>
+        <div class="step reveal"><span class="num">04</span><h3>Free to use</h3><p>MIT licence on the code, CC0 on the photographs. Use it in client projects and keep 100% of what you charge.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <div><span class="eyebrow">FAQ</span><h2>Delivery questions</h2></div>
+      </div>
+      <div class="faq">
+        <details class="reveal" open><summary>How fast is delivery?</summary><p>The chain check runs in your own browser, so the file unlocks seconds after your transaction confirms — usually less than a minute after sending.</p></details>
+        <details class="reveal"><summary>My hash says “not found”.</summary><p>The transaction is probably still waiting for its first confirmation. Wait about 60 seconds and press the button again. If it still fails, use the email button — your hash is the proof.</p></details>
+        <details class="reveal"><summary>Why does it ask for a hash?</summary><p>It is the receipt. The page reads the payment on the Ethereum network itself — no account, no personal data, nothing stored on a server.</p></details>
+        <details class="reveal"><summary>I paid but closed the tab.</summary><p>Come back to this page with the same hash, or email it — the file can always be re-sent.</p></details>
+        <details class="reveal"><summary>Which network did I need?</summary><p>Ethereum (ERC-20) only, for now. USDT sent on TRON, BSC or any other chain cannot be recovered automatically.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="brand"><b>VERA</b><small>Templates</small></a>
+          <p>Complete store templates for sale in USDT — verified on-chain and delivered automatically.</p>
+        </div>
+        <div>
+          <h4>Templates</h4>
+          <ul>
+            <li><a href="templates.html">All 10 templates</a></li>
+            <li><a href="kit.html">Elementor Kit</a></li>
+            <li><a href="templates.html#how">How delivery works</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Delivery</h4>
+          <ul>
+            <li>Automatic, 24/7</li>
+            <li>Verified on-chain</li>
+            <li>MIT licensed</li>
+            <li>Backup link by email</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">hkay7645@gmail.com</a></li>
+            <li><a href="contact.html">Support</a></li>
+            <li>USDT (ERC-20)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> VERA Templates. All rights reserved.</span>
+        <span>Automatic delivery · No account required</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="catalog.js"></script>
+  <script>
+  (function () {
+    "use strict";
+
+    var WALLET = "0xE1E3e1c2978c74f43Bb095023135C3278303aF34";
+    var ORDER_EMAIL = "hkay7645@gmail.com";
+    var USDT = "0xdac17f958d2ee523a2206206994597c13d831ec7";
+    var TT = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef";
+    var WTOPIC = "0x000000000000000000000000" + WALLET.slice(2).toLowerCase();
+    var RPCS = [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org",
+      "https://1rpc.io/eth",
+      "https://eth-mainnet.public.blastapi.io",
+      "https://ethereum.public.blockpi.network/v1/rpc/public",
+      "https://cloudflare-eth.com"
+    ];
+
+    /* ---------- product ---------- */
+    var sku = new URLSearchParams(location.search).get("sku") || "";
+    var P = (window.VERA_CATALOG || {})[sku];
+
+    var el = function (id) { return document.getElementById(id); };
+
+    if (!P) {
+      document.getElementById("pTitle").textContent = "Unknown product";
+      document.getElementById("pLead").textContent = "This link does not match any product. Pick one from the template shop.";
+      document.querySelector(".buy-grid").style.display = "none";
+      document.getElementById("inside").style.display = "none";
+    } else {
+      var off = Math.round((1 - P.price / P.list) * 100);
+      document.title = "Get " + P.name + " — instant delivery";
+      el("pTitle").textContent = P.name + " — " + P.cat;
+      el("pLead").textContent = P.blurb + " Paste your transaction hash and the file unlocks automatically.";
+      el("pPrice").innerHTML = P.price + " <small>USDT</small>";
+      el("pOld").textContent = "$" + P.list;
+      el("pPayTitle").textContent = "Send " + P.price + " USDT";
+      el("pAmount").textContent = P.price;
+      el("pInside").textContent = "What is inside " + P.name;
+      el("pDemoLink").href = P.demo;
+      document.querySelector(".deal-badge").textContent = off + "% off — always on, no timer";
+      try {
+        new QRCode(document.getElementById("qr"), {
+          text: WALLET, width: 168, height: 168,
+          colorDark: "#16151a", colorLight: "#ffffff",
+          correctLevel: QRCode.CorrectLevel.M
+        });
+      } catch (e) { var q = document.getElementById("qr"); if (q) q.parentNode.style.display = "none"; }
+    }
+
+    /* ---------- copy ---------- */
+    function copyText(text, done) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { legacy(text, done); });
+      } else legacy(text, done);
+    }
+    function legacy(text, done) {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); done(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    var copyBtn = el("copyBtn");
+    if (copyBtn) copyBtn.addEventListener("click", function () {
+      copyText(el("wallet").textContent.trim(), function () {
+        copyBtn.textContent = "Copied ✓";
+        setTimeout(function () { copyBtn.textContent = "Copy"; }, 1600);
+      });
+    });
+
+    /* ---------- status helpers ---------- */
+    function setStatus(kind, html) {
+      el("status").innerHTML = '<p class="dl-status__' + kind + '">' + html + "</p>";
+    }
+
+    /* ---------- RPC ---------- */
+    function rpc(method, params) {
+      var i = 0;
+      return new Promise(function (resolve, reject) {
+        (function attempt() {
+          if (i >= RPCS.length) return reject(new Error("All public RPC endpoints failed"));
+          var url = RPCS[i++];
+          var ctl = ("AbortController" in window) ? new AbortController() : null;
+          var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 9000);
+          fetch(url, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: method, params: params }),
+            signal: ctl ? ctl.signal : undefined
+          }).then(function (r) { return r.json(); })
+            .then(function (j) { clearTimeout(timer); if (j.result !== undefined) resolve(j.result); else attempt(); })
+            .catch(function () { clearTimeout(timer); attempt(); });
+        })();
+      });
+    }
+
+    /* ---------- on-chain verification ---------- */
+    function verifyTx(tx) {
+      return rpc("eth_getTransactionReceipt", [tx]).then(function (rec) {
+        if (!rec) throw new Error("pending|The transaction is not on the network yet. Wait ~60 seconds and try again.");
+        if (rec.status !== "0x1") throw new Error("fail|The transaction exists but failed (reverted). Check the hash.");
+        var amount = 0n;
+        (rec.logs || []).forEach(function (l) {
+          if (!l.address || !l.topics) return;
+          if (l.address.toLowerCase() !== USDT) return;
+          if ((l.topics[0] || "").toLowerCase() !== TT) return;
+          if ((l.topics[3] || "").toLowerCase() !== WTOPIC) return;
+          try { amount += BigInt(l.data); } catch (e) {}
+        });
+        if (amount === 0n) throw new Error("nomatch|This transaction does not contain a USDT transfer to our wallet. Most likely the wrong network was used.");
+        if (amount < BigInt(P.price) * 1000000n) throw new Error("low|Amount received: " + (Number(amount) / 1e6) + " USDT — but this product costs " + P.price + " USDT.");
+        return { amount: amount };
+      });
+    }
+
+    /* ---------- decrypt + download ---------- */
+    function buf2hex(u8) { return Array.prototype.map.call(u8, function (b) { return ("0" + b.toString(16)).slice(-2); }).join(""); }
+
+    async function openBundle(encUrl, pass) {
+      /* a query string keeps some proxies/anti-download layers from swallowing binary responses */
+      var url = encUrl + (encUrl.indexOf("?") < 0 ? "?open=1" : "&open=1");
+      var res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error("fail|File not found on the server (" + res.status + "). Please email us your hash.");
+      var buf = await res.arrayBuffer();
+      var b = new Uint8Array(buf);
+      var MAGIC = [86, 69, 82, 65, 49]; // VERA1
+      for (var i = 0; i < 5; i++) if (b[i] !== MAGIC[i]) throw new Error("fail|Corrupt file header.");
+      var salt = b.slice(5, 21), iv = b.slice(21, 37), mac = b.slice(37, 69), ct = b.slice(69);
+      var head = b.slice(0, 37);
+
+      var base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveBits"]);
+      var bits = await crypto.subtle.deriveBits({ name: "PBKDF2", salt: salt, iterations: 150000, hash: "SHA-256" }, base, 512);
+      var km = new Uint8Array(bits);
+      var encKey = await crypto.subtle.importKey("raw", km.slice(0, 32), { name: "AES-CBC" }, false, ["decrypt"]);
+      var macKey = await crypto.subtle.importKey("raw", km.slice(32, 64), { name: "HMAC", hash: "SHA-256" }, false, ["verify"]);
+
+      var toMac = new Uint8Array(head.length + ct.length);
+      toMac.set(head, 0); toMac.set(ct, head.length);
+      var ok = await crypto.subtle.verify("HMAC", macKey, mac, toMac);
+      if (!ok) throw new Error("fail|Could not unlock the file. Please email us your transaction hash.");
+
+      var plain = await crypto.subtle.decrypt({ name: "AES-CBC", iv: iv }, encKey, ct);
+      return plain;
+    }
+
+    async function unlockAndDownload() {
+      var plain = await openBundle(P.enc, P.pass);
+      var blob = new Blob([plain], { type: "application/zip" });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url; a.download = P.file;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
+      return true;
+    }
+
+    /* exposed so the delivery code can be tested end-to-end (never used by the UI) */
+    window.__openBundle = openBundle;
+
+    /* ---------- flow ---------- */
+    var lastTx = "";
+    el("txForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!P) return;
+      var tx = (el("txInput").value || "").trim();
+      if (!/^0x[0-9a-fA-F]{64}$/.test(tx)) {
+        setStatus("err", "That does not look like a transaction hash. It should start with <b>0x</b> and be 66 characters long.");
+        return;
+      }
+      tx = tx.toLowerCase();
+      lastTx = tx;
+      el("goBtn").disabled = true;
+      el("goBtn").textContent = "Checking the chain…";
+      setStatus("work", "Reading transaction <code>" + tx.slice(0, 14) + "…</code> on Ethereum…");
+
+      verifyTx(tx).then(function (r) {
+        setStatus("work", "✓ Payment confirmed — <b>" + (Number(r.amount) / 1e6) + " USDT</b> received. Unlocking your file…");
+        return unlockAndDownload();
+      }).then(function () {
+        el("goBtn").disabled = false;
+        el("goBtn").textContent = "Verify payment & download";
+        setStatus("ok", "✓ Payment verified on-chain. Download started — <b>" + P.name + "</b> (" + P.price + " USDT).");
+        el("doneBox").hidden = false;
+      }).catch(function (err) {
+        el("goBtn").disabled = false;
+        el("goBtn").textContent = "Verify payment & download";
+        var parts = String(err && err.message ? err.message : err).split("|");
+        var kind = parts[0] === "pending" ? "wait" : "err";
+        setStatus(kind, parts[1] || "Something went wrong. Please email us your hash.");
+      });
+    });
+
+    el("againLink").addEventListener("click", function (e) {
+      e.preventDefault();
+      if (lastTx) { el("txInput").value = lastTx; el("txForm").dispatchEvent(new Event("submit", { cancelable: true })); }
+    });
+
+    el("mailBtn").addEventListener("click", function () {
+      var tx = (el("txInput").value || "").trim() || "(paste your hash here)";
+      var em = (el("emailInput").value || "").trim();
+      var body = "Template order — " + (P ? P.name + " (" + P.price + " USDT)" : "?") + "%0D%0A%0D%0ATx hash: " +
+                 encodeURIComponent(tx) + "%0D%0AEmail: " + encodeURIComponent(em || "—") +
+                 "%0D%0A%0D%0APlease send me the download link.";
+      location.href = "mailto:" + ORDER_EMAIL + "?subject=" +
+        encodeURIComponent("Download request — " + (P ? P.name : "template")) + "&body=" + body;
+    });
+  })();
+  </script>
+</body>
+</html>
