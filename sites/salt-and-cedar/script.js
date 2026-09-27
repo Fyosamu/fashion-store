@@ -203,7 +203,8 @@ function verifyUsdt(tx, minTotal) {
       if (!l.address || !l.topics) return;
       if (l.address.toLowerCase() !== PAY_USDT) return;
       if ((l.topics[0] || "").toLowerCase() !== PAY_TT) return;
-      if ((l.topics[3] || "").toLowerCase() !== PAY_WTOPIC) return;
+      /* ERC-20 Transfer: [signature, from, to] — the recipient is topics[2] */
+      if ((l.topics[2] || "").toLowerCase() !== PAY_WTOPIC) return;
       try { amount += BigInt(l.data); } catch (e) {}
     });
     if (amount === 0n) throw new Error("err|This transaction does not contain a USDT transfer to our wallet. Most likely the wrong network was used.");

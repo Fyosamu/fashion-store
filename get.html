@@ -277,23 +277,33 @@
     }
 
     /* ---------- on-chain verification ---------- */
+    /* Sum USDT transfers to one recipient inside a receipt.
+       An ERC-20 Transfer event carries exactly 3 topics: [signature, from, to]
+       — so the recipient lives in topics[2] (topics[3] never exists). */
+    function receiptAmount(rec, wtopic) {
+      var amount = 0n;
+      (rec.logs || []).forEach(function (l) {
+        if (!l.address || !l.topics) return;
+        if (l.address.toLowerCase() !== USDT) return;
+        if ((l.topics[0] || "").toLowerCase() !== TT) return;
+        if ((l.topics[2] || "").toLowerCase() !== wtopic) return;
+        try { amount += BigInt(l.data); } catch (e) {}
+      });
+      return amount;
+    }
+
     function verifyTx(tx) {
       return rpc("eth_getTransactionReceipt", [tx]).then(function (rec) {
         if (!rec) throw new Error("pending|The transaction is not on the network yet. Wait ~60 seconds and try again.");
         if (rec.status !== "0x1") throw new Error("fail|The transaction exists but failed (reverted). Check the hash.");
-        var amount = 0n;
-        (rec.logs || []).forEach(function (l) {
-          if (!l.address || !l.topics) return;
-          if (l.address.toLowerCase() !== USDT) return;
-          if ((l.topics[0] || "").toLowerCase() !== TT) return;
-          if ((l.topics[3] || "").toLowerCase() !== WTOPIC) return;
-          try { amount += BigInt(l.data); } catch (e) {}
-        });
+        var amount = receiptAmount(rec, WTOPIC);
         if (amount === 0n) throw new Error("nomatch|This transaction does not contain a USDT transfer to our wallet. Most likely the wrong network was used.");
         if (amount < BigInt(P.price) * 1000000n) throw new Error("low|Amount received: " + (Number(amount) / 1e6) + " USDT — but this product costs " + P.price + " USDT.");
         return { amount: amount };
       });
     }
+    /* QA hook: lets the test harness prove this parser against a live transfer. */
+    window.__UD = { rpc: rpc, receiptAmount: receiptAmount, verifyTx: verifyTx, USDT: USDT, TT: TT };
 
     /* ---------- decrypt + download ---------- */
     function buf2hex(u8) { return Array.prototype.map.call(u8, function (b) { return ("0" + b.toString(16)).slice(-2); }).join(""); }
