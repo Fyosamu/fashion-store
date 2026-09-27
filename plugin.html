@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USDT Deliver for WordPress — VERA Atelier</title>
+  <meta name="description" content="USDT Deliver: a WordPress plugin that verifies USDT payments on-chain and unlocks the download automatically. No API keys, no accounts, no WooCommerce. 19 USDT." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="wp-plugin/usdt-deliver/assets/usdt-deliver.css" />
+</head>
+<body>
+
+  <div class="topbar">Instant download after payment &nbsp;·&nbsp; <span>19 USDT · one-time</span></div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand"><b>VERA</b><small>Atelier</small></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="kit.html">Elementor Kit</a>
+        <a href="plugin.html" class="is-active">WP Plugin</a>
+        <a href="templates.html">Templates</a>
+      </nav>
+      <div class="nav__tools">
+        <button class="bag-btn" id="bagBtn">Bag <span class="bag-count" id="bagCount">0</span></button>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="page-head">
+    <div class="container">
+      <div class="crumbs reveal"><a href="index.html">Home</a> / <span>WordPress plugin</span></div>
+      <span class="eyebrow reveal">Digital product · Instant delivery</span>
+      <h1 class="reveal">USDT Deliver — a USDT checkout for WordPress</h1>
+      <p class="lead reveal">
+        One shortcode turns any page into a crypto checkout: the buyer pays from their wallet,
+        pastes the transaction hash, and your site verifies it against the Ethereum network and
+        unlocks the file. No API keys, no accounts, no cron jobs, no WooCommerce.
+      </p>
+      <div class="reveal kit-cta">
+        <span class="kit-price">19 <small>USDT</small></span>
+        <a href="#buy" class="btn">Buy now</a>
+        <a href="#preview" class="btn btn--ghost">See it work</a>
+        <a href="#install" class="btn btn--ghost">How to install</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PREVIEW (desktop shot) ===== -->
+  <section class="section" id="preview">
+    <div class="container split">
+      <div class="split__text reveal">
+        <span class="eyebrow">What your customers see</span>
+        <h2>One box, and the file unlocks itself</h2>
+        <p>
+          The shortcode renders a calm, white payment box: the price in USDT, your wallet with a
+          Copy button, and a hash field. The buyer never registers, never leaves an email, never
+          waits for a human.
+        </p>
+        <ul class="kit-list">
+          <li>The receipt is read <b>from Ethereum itself</b> — payment confirmed before the file moves</li>
+          <li>Clear message for every miss: pending, reverted, wrong network, underpayment</li>
+          <li>Replay guard: one transaction pays for <b>one product</b>, re-downloads stay free</li>
+          <li>Price and file are signed with your WordPress salts — DevTools edits change nothing</li>
+        </ul>
+        <a href="#buy" class="btn">Get the plugin — 19 USDT</a>
+      </div>
+      <div class="split__media reveal">
+        <img src="plugin-01.jpg" alt="The USDT Deliver checkout box inside the WordPress editor" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE SHORTCODE ===== -->
+  <section class="section section--tint" id="code">
+    <div class="container split">
+      <div class="split__text reveal">
+        <span class="eyebrow">The integration</span>
+        <h2>A shortcode is the whole setup</h2>
+        <p>
+          No SDK, no webhook, no developer. Drop this line into any page or post — the plugin
+          signs the price server-side and renders the box you see on the right.
+        </p>
+        <div class="codewrap"><code>[<span class="cmt">usdt_deliver</span> price="19" product="My Digital File" file="123"]</code></div>
+        <ul class="kit-list">
+          <li><code>price</code> — the amount the buyer must send, in USDT</li>
+          <li><code>product</code> — the item name, also used for the download file name</li>
+          <li><code>file</code> — a Media Library attachment ID, or a path inside <code>wp-content/uploads</code></li>
+        </ul>
+        <a href="#buy" class="btn">Get the plugin — 19 USDT</a>
+      </div>
+      <div class="split__media reveal" style="padding: clamp(16px, 3vw, 34px);">
+        <div class="usdt-deliver" data-demo="1">
+          <div class="usdt-deliver__head"><b>Pay with USDT</b><span>$19 = 19 USDT</span></div>
+          <div class="usdt-deliver__addr">
+            <code id="demoWallet">0xE1E3e1c2978c74f43Bb095023135C3278303aF34</code>
+            <button type="button" class="usdt-deliver__copy">Copy</button>
+          </div>
+          <p class="usdt-deliver__hint">Ethereum network (ERC-20) &middot; send from Trust Wallet or any wallet &mdash; one payment unlocks this file.</p>
+          <form class="usdt-deliver__form" novalidate>
+            <input type="text" class="usdt-deliver__tx" placeholder="Transaction hash 0x&hellip;" autocomplete="off" spellcheck="false" />
+            <button type="submit" class="usdt-deliver__go">Verify on-chain &amp; unlock</button>
+          </form>
+          <div class="usdt-deliver__status" aria-live="polite"></div>
+        </div>
+        <p class="form-note" style="margin: 14px 0 0;">Live preview — copy works; verification runs on your WordPress site.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <div>
+          <span class="eyebrow">Why it's worth it</span>
+          <h2>Selling crypto, without the crypto work</h2>
+        </div>
+      </div>
+      <div class="values">
+        <div class="value reveal"><span class="value__i">◍</span><h3>Verified on-chain</h3><p>The receipt is read from Ethereum; every USDT transfer to your wallet is summed until the price is covered.</p></div>
+        <div class="value reveal"><span class="value__i">▤</span><h3>Replay protection</h3><p>One hash unlocks exactly its own product. A second item refuses it; the same buyer re-downloads forever.</p></div>
+        <div class="value reveal"><span class="value__i">▣</span><h3>Tamper-proof price</h3><p>Price, product and file are HMAC-signed with your WordPress salts and re-checked on every request.</p></div>
+        <div class="value reveal"><span class="value__i">✦</span><h3>No API keys, ever</h3><p>Six public endpoints ship as defaults — no explorer accounts, no cron jobs, no service that can expire.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHONE ===== -->
+  <section class="section section--tint">
+    <div class="container split">
+      <div class="split__text reveal">
+        <span class="eyebrow">Every screen</span>
+        <h2>Buyers pay from their phone</h2>
+        <p>
+          Most crypto payments start in a wallet app, so the box is built thumb-first: one field,
+          one button, a Copy that falls back gracefully, and room for long hashes to breathe.
+        </p>
+        <ul class="kit-list">
+          <li>Tested from 320 to 1440 px — no horizontal overflow anywhere</li>
+          <li>Clipboard API with an <code>execCommand</code> fallback for older browsers</li>
+          <li>Status messages announce themselves to screen readers (<code>aria-live</code>)</li>
+          <li>Styling lives in one commented CSS file — re-skin it to match your theme</li>
+        </ul>
+        <a href="#buy" class="btn">Get the plugin — 19 USDT</a>
+      </div>
+      <div class="split__media reveal">
+        <img src="plugin-02.jpg" style="object-fit: contain; background: var(--paper-2);" alt="The checkout box on a 390 pixel wide phone screen" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <div>
+          <span class="eyebrow">Delivery</span>
+          <h2>Three steps, no account needed</h2>
+          <p>The buyer pays in crypto, they get the file. Nobody watches a wallet.</p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span>01</span><h3>Pay 19 USDT</h3><p>The buyer sends the price to your wallet from Trust Wallet or any other — Ethereum, ERC-20.</p></div>
+        <div class="step reveal"><span>02</span><h3>Paste the transaction hash</h3><p>The hash is the receipt: pasted into the box on your page, no account and no email required.</p></div>
+        <div class="step reveal"><span>03</span><h3>The file unlocks itself</h3><p>Your site reads the receipt from the network, confirms the amount and serves a signed download link — day or night.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUY ===== -->
+  <section class="section section--tint" id="buy">
+    <div class="container buy-grid">
+      <div class="buy-box reveal">
+        <span class="eyebrow">Pay with USDT</span>
+        <h2>19 USDT</h2>
+        <p class="buy-note">Network: <b>Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b>19</b></p>
+
+        <div class="qr-wrap"><div id="qr"></div></div>
+
+        <label class="buy-label" for="wallet">Wallet address</label>
+        <div class="copy-row">
+          <code class="code" id="wallet">0xE1E3e1c2978c74f43Bb095023135C3278303aF34</code>
+          <button class="btn btn--sm" id="copyBtn" type="button">Copy</button>
+        </div>
+
+        <ul class="buy-warn">
+          <li>Send <b>only USDT on Ethereum</b> — other tokens or networks are lost forever.</li>
+          <li>Take a screenshot of the transaction, you will need its hash.</li>
+          <li>Network fees are paid by the sender.</li>
+        </ul>
+      </div>
+
+      <div class="buy-box buy-box--form reveal">
+        <span class="eyebrow">Step 2</span>
+        <h2>The file unlocks itself</h2>
+        <p class="buy-note">Open the delivery page and paste your transaction hash. It reads the Ethereum network, confirms the amount and starts your download instantly.</p>
+        <ul class="buy-warn">
+          <li>Runs 24/7 — pay at 3:00, download at 3:01. No account, no email required.</li>
+          <li>Your hash re-opens the download any time, months later.</li>
+          <li>Chain check broken? The delivery page has a one-click email fallback.</li>
+        </ul>
+        <a class="btn btn--block" href="get.html?sku=usdt-deliver">Get my file now</a>
+        <p class="form-note">Nothing is stored on this site: your wallet, your hash, your file.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSTALL ===== -->
+  <section class="section" id="install">
+    <div class="container">
+      <div class="section__head reveal">
+        <div>
+          <span class="eyebrow">After purchase</span>
+          <h2>Four steps to your first sale</h2>
+          <p>Everything ships in one zip. If you can paste a shortcode, you can install it —
+             typical time is under five minutes.</p>
+        </div>
+      </div>
+
+      <div class="steps steps--2">
+        <div class="step reveal">
+          <span class="num">01</span>
+          <h3>Upload the plugin</h3>
+          <p><strong>Plugins → Add New → Upload</strong> → choose the zip → <b>Activate</b>. Or copy
+             the <code>usdt-deliver</code> folder into <code>wp-content/plugins/</code>.</p>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">02</span>
+          <h3>Set your wallet</h3>
+          <p><strong>Settings → USDT Deliver</strong> → paste the USDT address payments should land
+             on. The contract and the six public RPC endpoints already have sensible defaults.</p>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">03</span>
+          <h3>Upload your file</h3>
+          <p>Drop the product into the <b>Media Library</b> and note its ID from the URL
+             (<code>post=123</code> → <code>123</code>). Paths inside
+             <code>wp-content/uploads</code> work too.</p>
+        </div>
+
+        <div class="step reveal">
+          <span class="num">04</span>
+          <h3>Paste the shortcode</h3>
+          <p>Anywhere in WordPress — page, post, landing page:</p>
+          <div class="codewrap"><code>[usdt_deliver price="19" product="My Digital File" file="123"]</code></div>
+        </div>
+      </div>
+
+      <p class="install-note reveal">
+        <b>Test it honestly first:</b> send 1 USDT from your own wallet to your own address — you
+        only pay the gas — paste that hash, and watch the file unlock. The plugin ships with its
+        own test suite (<code>php tests/run-tests.php</code>, <b>21 checks including a live
+        on-chain proof</b>), and the full message-by-message troubleshooting table lives in
+        <code>INSTALL.md</code> inside the zip.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section__head reveal">
+        <div><span class="eyebrow">FAQ</span><h2>Before you buy</h2></div>
+      </div>
+      <div class="faq">
+        <details class="reveal" open><summary>Which network does it verify?</summary><p>Ethereum mainnet, USDT as an ERC-20 token. Say it once on your sales page — the box already shows it — and payments on Tron, BNB Chain, Base or Solana will be refused with a clear “wrong network” message instead of silently succeeding.</p></details>
+        <details class="reveal"><summary>Do I need API keys or an account anywhere?</summary><p>No. The plugin reads public JSON-RPC endpoints directly — six ship as defaults, and you can add your own. There is no explorer account, no API key, no usage bill and no service that can shut down.</p></details>
+        <details class="reveal"><summary>Can the buyer fake the price or the file?</summary><p>No. Price, product and file are signed server-side with your WordPress salts; the verification endpoint re-checks the signature before it ever touches the network. Editing the form changes nothing.</p></details>
+        <details class="reveal"><summary>Can one payment unlock two products?</summary><p>No. A hash is recorded against the product it paid for, and reusing it elsewhere is refused. The same buyer can re-download their own purchase as often as they like.</p></details>
+        <details class="reveal"><summary>Do I need WooCommerce or a page builder?</summary><p>No. Any theme, any page: one shortcode per product. WooCommerce can keep handling your physical goods while this takes the digital ones.</p></details>
+        <details class="reveal"><summary>How do I test it without losing money?</summary><p>Send a small amount from your own wallet to your own address — a self-transfer costs only network gas and proves the whole loop: box, hash, verification, signed download.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="brand"><b>VERA</b><small>Atelier</small></a>
+          <p>Considered clothing in natural fabrics, made in small batches and shipped worldwide.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="categories.html?cat=women">Women</a></li>
+            <li><a href="categories.html?cat=men">Men</a></li>
+            <li><a href="categories.html?cat=shoes">Shoes</a></li>
+            <li><a href="categories.html?cat=accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="kit.html">Elementor Kit</a></li>
+            <li><a href="plugin.html">USDT Deliver plugin</a></li>
+            <li><a href="templates.html">All templates</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="contact.html">Shipping &amp; returns</a></li>
+            <li><a href="contact.html">Size guide</a></li>
+            <li><a href="contact.html">hkay7645@gmail.com</a></li>
+            <li><a href="plugin.html#buy">Buy the plugin</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> VERA Atelier. All rights reserved.</span>
+        <span>Natural fabrics · Small batches · Worldwide shipping</span>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="Mobile navigation">
+    <a href="index.html"><i>&#8962;</i>Home</a>
+    <a href="categories.html"><i>&#9638;</i>Shop</a>
+    <a href="about.html"><i>&#9673;</i>About</a>
+    <a href="contact.html"><i>&#9993;</i>Contact</a>
+  </nav>
+
+  <div class="drawer" id="drawer">
+    <div class="drawer__bg" data-close></div>
+    <aside class="drawer__panel">
+      <div class="drawer__head">
+        <b>Your bag</b>
+        <button class="drawer__close" data-close aria-label="Close">×</button>
+      </div>
+      <div class="drawer__items" id="drawerItems"></div>
+      <div class="drawer__foot">
+        <div class="drawer__total"><span>Subtotal</span><span id="bagTotal">$0</span></div>
+        <button class="btn btn--block" id="checkoutBtn">Checkout</button>
+        <p class="drawer__note">Shipping calculated at checkout · Free over $120</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    (function () {
+      var WALLET = "0xE1E3e1c2978c74f43Bb095023135C3278303aF34";
+
+      /* ---- QR ---- */
+      var qrBox = document.getElementById("qr");
+      if (qrBox && window.QRCode) {
+        new QRCode(qrBox, { text: WALLET, width: 168, height: 168, colorDark: "#16151a", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+      } else if (qrBox) {
+        qrBox.parentNode.style.display = "none";
+      }
+
+      /* ---- copy helpers ---- */
+      function fallback(text, done) {
+        var ta = document.createElement("textarea");
+        ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand("copy"); done(); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+      function copyText(text, done) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+        } else { fallback(text, done); }
+      }
+
+      var copyBtn = document.getElementById("copyBtn");
+      if (copyBtn) {
+        copyBtn.addEventListener("click", function () {
+          var text = document.getElementById("wallet").textContent.trim();
+          copyText(text, function () {
+            copyBtn.textContent = "Copied ✓";
+            setTimeout(function () { copyBtn.textContent = "Copy"; }, 1800);
+          });
+        });
+      }
+
+      /* ---- live preview box ---- */
+      var box = document.querySelector(".usdt-deliver");
+      if (box) {
+        var pCopy = box.querySelector(".usdt-deliver__copy");
+        var pCode = box.querySelector(".usdt-deliver__addr code");
+        var pForm = box.querySelector(".usdt-deliver__form");
+        var pTx = box.querySelector(".usdt-deliver__tx");
+        var pStatus = box.querySelector(".usdt-deliver__status");
+
+        if (pCopy && pCode) {
+          pCopy.addEventListener("click", function () {
+            copyText(pCode.textContent.trim(), function () {
+              pCopy.textContent = "Copied ✓";
+              setTimeout(function () { pCopy.textContent = "Copy"; }, 1600);
+            });
+          });
+        }
+        if (pForm) {
+          pForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var v = (pTx.value || "").trim();
+            if (!/^0x[0-9a-fA-F]{64}$/.test(v)) {
+              pStatus.innerHTML = '<p class="s-err">That does not look like a transaction hash. It should start with <b>0x</b> and be 66 characters long.</p>';
+              return;
+            }
+            pStatus.innerHTML = '<p class="s-work">Preview only — on your WordPress site this box reads the Ethereum network and unlocks the file the moment the payment confirms.</p>';
+          });
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
