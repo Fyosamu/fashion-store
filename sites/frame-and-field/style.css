@@ -1,17 +1,17 @@
 /* ==========================================================
-   Terra Ceramics — store template (light & calm)
+   Frame & Field — store template (light & calm)
    ========================================================== */
 :root {
-  --paper: #fdfbf9;
-  --paper-2: #f7f2ee;
-  --paper-3: #f1e8e2;
-  --ink: #1b1512;
-  --ink-2: #43392f;
-  --muted: #7b7166;
-  --line: #ece3db;
-  --clay: #b06a45;
-  --clay-dark: #94542f;
-  --sage: #b06a45;
+  --paper: #f7f8f8;
+  --paper-2: #eef0f1;
+  --paper-3: #e3e7e9;
+  --ink: #101517;
+  --ink-2: #333c40;
+  --muted: #767e82;
+  --line: #dee3e5;
+  --clay: #12666d;
+  --clay-dark: #0e5157;
+  --sage: #12666d;
   --radius: 18px;
   --shadow: 0 24px 60px rgba(30, 24, 18, 0.1);
   --font: "Inter", system-ui, sans-serif;

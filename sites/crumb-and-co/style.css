@@ -1152,6 +1152,61 @@ body[data-arch="rail"] .value i { background: var(--paper-3); border-radius: 4px
 body[data-arch="rail"] .quote { border: 1px solid var(--line); border-top: 3px solid var(--clay); border-radius: 6px; }
 body[data-arch="rail"] .contact-photo, body[data-arch="rail"] .news { border-radius: 8px; }
 body[data-arch="rail"] .field input, body[data-arch="rail"] .field textarea, body[data-arch="rail"] .field select { border-radius: 5px; }
+
+/* ---- 13. lens (two lens shapes side by side, pill controls, cool optician palette) ---- */
+body[data-arch="lens"] .hero__grid { grid-template-columns: 1.04fr 0.96fr; gap: clamp(26px, 4vw, 56px); }
+body[data-arch="lens"] .hero__art {
+  display: grid; grid-template-columns: 1.12fr 0.88fr;
+  gap: clamp(12px, 1.6vw, 22px); align-items: start;
+}
+body[data-arch="lens"] .hero__art figure {
+  margin: 0; border-radius: 50%; background: #fff;
+  border: 1px solid var(--line); padding: 8px;
+}
+body[data-arch="lens"] .hero__art figure:nth-of-type(2) { margin-top: clamp(34px, 5vw, 74px); }
+body[data-arch="lens"] .hero__art img {
+  height: clamp(230px, 30vw, 400px); border-radius: 50%;
+  object-fit: cover; object-position: center 34%;
+}
+body[data-arch="lens"] .hero__chip {
+  position: static; grid-column: 1 / -1; justify-self: center; text-align: center;
+  margin-top: 18px; padding: 13px 34px; max-width: none;
+  background: var(--ink); border: 0; border-radius: 999px; color: #fff; box-shadow: none;
+}
+body[data-arch="lens"] .hero__chip small { color: rgba(255, 255, 255, 0.55); }
+body[data-arch="lens"] .hero__chip span { color: rgba(255, 255, 255, 0.72); }
+body[data-arch="lens"] .hero h1 { letter-spacing: -0.028em; }
+body[data-arch="lens"] .eyebrow { letter-spacing: 0.26em; }
+body[data-arch="lens"] .eyebrow::after {
+  content: ""; display: inline-block; width: 7px; height: 7px;
+  border: 1.5px solid currentColor; border-radius: 50%; margin-left: 9px; vertical-align: 2px;
+}
+body[data-arch="lens"] .btn, body[data-arch="lens"] .bag-btn,
+body[data-arch="lens"] .field input, body[data-arch="lens"] .field textarea,
+body[data-arch="lens"] .field select { border-radius: 999px; }
+body[data-arch="lens"] .field textarea { border-radius: 28px; }
+body[data-arch="lens"] .marquee { background: var(--clay); border-color: var(--clay); }
+body[data-arch="lens"] .marquee__track { color: rgba(255, 255, 255, 0.92); }
+body[data-arch="lens"] .marquee__track span::before { color: rgba(255, 255, 255, 0.5); }
+body[data-arch="lens"] .section__head:not(.section__head--center) { border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+body[data-arch="lens"] .section__head--center h2::after {
+  content: ""; display: block; width: 56px; height: 3px; border-radius: 999px;
+  background: var(--clay); margin: 16px auto 0;
+}
+body[data-arch="lens"] .cat { background: #fff; border: 1px solid var(--line); border-radius: 20px; }
+body[data-arch="lens"] .cat__label { background: rgba(255, 255, 255, 0.96); border-radius: 14px; }
+body[data-arch="lens"] .cat__label i { background: var(--clay); border-radius: 999px; }
+body[data-arch="lens"] .cat:hover .cat__label i { background: var(--ink); transform: translateX(3px); }
+body[data-arch="lens"] .product { background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: 10px 10px 18px; }
+body[data-arch="lens"] .product__media { border-radius: 14px; }
+body[data-arch="lens"] .product__add { border-radius: 999px; }
+body[data-arch="lens"] .split__media { border-radius: 50%; background: #fff; border: 1px solid var(--line); padding: 8px; }
+body[data-arch="lens"] .split__media img { border-radius: 50%; }
+body[data-arch="lens"] .value { border-radius: 20px; }
+body[data-arch="lens"] .value i { background: var(--paper-3); border-radius: 50%; }
+body[data-arch="lens"] .quote { border: 1px solid var(--line); border-radius: 22px; }
+body[data-arch="lens"] .contact-photo { border-radius: 50%; }
+body[data-arch="lens"] .btn--ghost { border-radius: 999px; }
 /* ---- keep every archetype sane on small screens ---- */
 @media (max-width: 1024px) {
   body[data-arch] .products { grid-template-columns: repeat(2, 1fr); }
