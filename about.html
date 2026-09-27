@@ -215,11 +215,26 @@
         <div class="drawer__total"><span>Subtotal</span><span id="bagTotal">$0</span></div>
         <button class="btn btn--block" id="checkoutBtn">Checkout</button>
         <p class="drawer__note">Shipping calculated at checkout · Free over $120</p>
+        <div class="pay" id="payPanel" hidden>
+          <div class="pay__head"><b>Pay with USDT</b><span id="payAmt">$0 = 0 USDT</span></div>
+          <div class="pay__addr">
+            <code id="payWallet"></code>
+            <button class="pay__copy" id="payCopy" type="button">Copy</button>
+          </div>
+          <div class="pay__qr" id="payQr"></div>
+          <p class="pay__hint">Ethereum network (ERC-20) &middot; send from Trust Wallet &mdash; one payment covers the whole bag.</p>
+          <form class="pay__form" id="payForm" novalidate>
+            <input id="payTx" type="text" placeholder="Transaction hash 0x&hellip;" autocomplete="off" spellcheck="false" />
+            <button class="btn btn--block" id="payGo" type="submit">Verify on-chain &amp; place order</button>
+          </form>
+          <div class="pay__status" id="payStatus" aria-live="polite"></div>
+        </div>
       </div>
     </aside>
   </div>
 
   <div class="toast" id="toast"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

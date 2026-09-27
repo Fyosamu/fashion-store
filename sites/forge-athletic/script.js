@@ -47,6 +47,8 @@ function renderBag() {
   const totalEl = $("#bagTotal");
   if (totalEl) totalEl.textContent = "$" + total;
 
+  updatePayAmt(); // keep the USDT box in step with the bag
+
   const box = $("#drawerItems");
   if (!box) return;
 
@@ -110,11 +112,26 @@ if (drawer && bagBtn) {
   });
 }
 
-/* ---------- checkout → order email ---------- */
+/* ---------- checkout → USDT payment box → order email ---------- */
 const CONFIG = {
   supportEmail: "hkay7645@gmail.com",
   wallet: "0xE1E3e1c2978c74f43Bb095023135C3278303aF34",
 };
+
+function bagTotal() {
+  return bag.reduce((n, i) => n + i.qty * i.price, 0);
+}
+
+/* the order email — with the on-chain receipt attached once payment verified */
+function orderEmail(paidTx, received) {
+  const total = bagTotal();
+  const lines = bag.map((i) => `- ${i.name} × ${i.qty} — $${i.qty * i.price}`).join("%0D%0A");
+  let body =
+    `Hello Forge Athletic,%0D%0A%0D%0AI would like to order:%0D%0A${lines}%0D%0A%0D%0ASubtotal: $${total}`;
+  if (paidTx) body += `%0D%0A%0D%0APaid in USDT: ${received} USDT%0D%0ATx: ${paidTx}`;
+  body += `%0D%0A%0D%0AName:%0D%0AAddress:%0D%0ACountry:%0D%0APhone:%0D%0A%0D%0AThank you!`;
+  window.location.href = `mailto:${CONFIG.supportEmail}?subject=${encodeURIComponent("Order — Forge Athletic")}&body=${body}`;
+}
 
 const checkoutBtn = $("#checkoutBtn");
 if (checkoutBtn) {
@@ -123,14 +140,180 @@ if (checkoutBtn) {
       toast("Your bag is empty");
       return;
     }
-    const total = bag.reduce((n, i) => n + i.qty * i.price, 0);
-    const lines = bag.map((i) => `- ${i.name} × ${i.qty} — $${i.qty * i.price}`).join("%0D%0A");
-    const body =
-      `Hello Forge Athletic,%0D%0A%0D%0AI would like to order:%0D%0A${lines}%0D%0A%0D%0ASubtotal: $${total}` +
-      `%0D%0A%0D%0AName:%0D%0AAddress:%0D%0ACountry:%0D%0APhone:%0D%0A%0D%0AThank you!`;
-    window.location.href = `mailto:${CONFIG.supportEmail}?subject=${encodeURIComponent("Order — Forge Athletic")}&body=${body}`;
+    const panel = $("#payPanel");
+    /* drawers without the payment box keep the plain order email */
+    if (!panel) {
+      orderEmail("", "");
+      return;
+    }
+    panel.hidden = false;
+    updatePayAmt();
+    drawPayQr();
+    const tx = $("#payTx");
+    if (tx) {
+      tx.focus({ preventScroll: true });
+      try { tx.scrollIntoView({ block: "nearest" }); } catch (e) {}
+    }
   });
 }
+
+/* ---------- USDT on-chain check (same keyless flow as get.html) ---------- */
+const PAY_USDT = "0xdac17f958d2ee523a2206206994597c13d831ec7";
+const PAY_TT = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef";
+const PAY_WTOPIC = "0x000000000000000000000000" + CONFIG.wallet.slice(2).toLowerCase();
+const PAY_RPCS = [
+  "https://ethereum-rpc.publicnode.com",
+  "https://eth.drpc.org",
+  "https://1rpc.io/eth",
+  "https://eth-mainnet.public.blastapi.io",
+  "https://ethereum.public.blockpi.network/v1/rpc/public",
+  "https://cloudflare-eth.com",
+];
+
+function payRpc(method, params) {
+  let i = 0;
+  return new Promise((resolve, reject) => {
+    (function attempt() {
+      if (i >= PAY_RPCS.length) {
+        reject(new Error("err|Could not reach the Ethereum network. Please try again in a moment."));
+        return;
+      }
+      const url = PAY_RPCS[i++];
+      const ctl = "AbortController" in window ? new AbortController() : null;
+      const timer = setTimeout(() => { if (ctl) ctl.abort(); }, 9000);
+      fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: method, params: params }),
+        signal: ctl ? ctl.signal : undefined,
+      })
+        .then((r) => r.json())
+        .then((j) => { clearTimeout(timer); if (j.result !== undefined) resolve(j.result); else attempt(); })
+        .catch(() => { clearTimeout(timer); attempt(); });
+    })();
+  });
+}
+
+function verifyUsdt(tx, minTotal) {
+  return payRpc("eth_getTransactionReceipt", [tx]).then((rec) => {
+    if (!rec) throw new Error("wait|The transaction is not on the network yet. Wait ~60 seconds and try again.");
+    if (rec.status !== "0x1") throw new Error("err|The transaction exists but failed (reverted). Check the hash.");
+    let amount = 0n;
+    (rec.logs || []).forEach((l) => {
+      if (!l.address || !l.topics) return;
+      if (l.address.toLowerCase() !== PAY_USDT) return;
+      if ((l.topics[0] || "").toLowerCase() !== PAY_TT) return;
+      if ((l.topics[3] || "").toLowerCase() !== PAY_WTOPIC) return;
+      try { amount += BigInt(l.data); } catch (e) {}
+    });
+    if (amount === 0n) throw new Error("err|This transaction does not contain a USDT transfer to our wallet. Most likely the wrong network was used.");
+    if (amount < BigInt(minTotal) * 1000000n) {
+      throw new Error("err|Amount received: " + Number(amount) / 1e6 + " USDT — but your bag costs " + minTotal + " USDT.");
+    }
+    return { amount: amount };
+  });
+}
+
+/* ---------- payment box wiring ---------- */
+function updatePayAmt() {
+  const a = $("#payAmt");
+  if (a) { const t = bagTotal(); a.textContent = "$" + t + " = " + t + " USDT"; }
+}
+
+function setPayStatus(kind, html) {
+  const s = $("#payStatus");
+  if (s) s.innerHTML = '<p class="s-' + kind + '">' + html + "</p>";
+}
+
+function legacyCopy(text, done) {
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand("copy"); done(); } catch (e) {}
+  document.body.removeChild(ta);
+}
+
+function drawPayQr() {
+  const qr = $("#payQr");
+  if (!qr || qr.dataset.done || !window.QRCode) return;
+  try {
+    new QRCode(qr, {
+      text: CONFIG.wallet,
+      width: 132,
+      height: 132,
+      colorDark: "#16151a",
+      colorLight: "#ffffff",
+      correctLevel: QRCode.CorrectLevel.M,
+    });
+    qr.dataset.done = "1";
+  } catch (e) {}
+}
+
+const payWallet = $("#payWallet");
+if (payWallet) payWallet.textContent = CONFIG.wallet;
+
+const payCopy = $("#payCopy");
+if (payCopy) {
+  payCopy.addEventListener("click", () => {
+    const done = () => {
+      payCopy.textContent = "Copied ✓";
+      setTimeout(() => (payCopy.textContent = "Copy"), 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(CONFIG.wallet).then(done, () => legacyCopy(CONFIG.wallet, done));
+    } else legacyCopy(CONFIG.wallet, done);
+  });
+}
+
+const payForm = $("#payForm");
+if (payForm) {
+  payForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = $("#payTx");
+    const btn = $("#payGo");
+    if (!bag.length) {
+      setPayStatus("wait", "Your bag is empty.");
+      return;
+    }
+    let tx = (input.value || "").trim();
+    if (!/^0x[0-9a-fA-F]{64}$/.test(tx)) {
+      setPayStatus("err", "That does not look like a transaction hash. It should start with <b>0x</b> and be 66 characters long.");
+      return;
+    }
+    tx = tx.toLowerCase();
+    const min = bagTotal();
+    btn.disabled = true;
+    btn.textContent = "Checking the chain…";
+    setPayStatus("work", "Reading transaction <code>" + tx.slice(0, 14) + "…</code> on Ethereum…");
+    verifyUsdt(tx, min)
+      .then((r) => {
+        btn.disabled = false;
+        btn.textContent = "Verify on-chain & place order";
+        const amt = Number(r.amount) / 1e6;
+        setPayStatus("ok", "✓ Payment confirmed — <b>" + amt + " USDT</b> received. Your bag is paid.");
+        const s = $("#payStatus");
+        if (s) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "pay__mail";
+          b.textContent = "Open order email ✓";
+          b.addEventListener("click", () => orderEmail(tx, amt));
+          s.appendChild(b);
+        }
+      })
+      .catch((err) => {
+        btn.disabled = false;
+        btn.textContent = "Verify on-chain & place order";
+        const parts = String(err && err.message ? err.message : err).split("|");
+        setPayStatus(parts[0] === "wait" ? "wait" : "err", parts[1] || "Something went wrong. Please try again.");
+      });
+  });
+}
+
+window.addEventListener("load", drawPayQr);
 
 /* ---------- newsletter ---------- */
 const newsForm = $("#newsForm");
