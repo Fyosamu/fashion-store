@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Neutral Dept. season image 2">
+  <title>Neutral Dept. season image 2</title>
+  <defs>
+    <linearGradient id="bg645678584" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(224 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl645678584" cx="28.499999999999996%" cy="28.599999999999998%" r="115">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg645678584)"/>
+  <rect width="400" height="500" fill="url(#gl645678584)"/>
+  <circle cx="114" cy="143" r="51.75" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#0d7a8f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#0d7a8f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

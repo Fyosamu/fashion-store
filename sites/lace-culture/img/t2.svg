@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Lace Culture detail 2">
+  <title>Lace Culture detail 2</title>
+  <defs>
+    <linearGradient id="bg3607242126" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(6 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl3607242126" cx="28.999999999999996%" cy="-49.4%" r="18">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3607242126)"/>
+  <rect width="400" height="500" fill="url(#gl3607242126)"/>
+  <circle cx="116" cy="-247" r="8.1" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M64,352 L64,286 Q66,252 104,246 L188,246 Q230,262 272,288 Q322,318 338,342 L338,362 Q338,378 318,378 L84,378 Q64,378 64,362 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M60,360 L342,360 L342,394 Q342,404 330,404 L72,404 Q60,404 60,394 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M116,258 L164,290" fill="none" stroke="#ffd400" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M134,250 L186,282" fill="none" stroke="#ffd400" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M154,248 L206,280" fill="none" stroke="#ffd400" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Salt &amp; Sun hero look">
+  <title>Salt &amp; Sun hero look</title>
+  <defs>
+    <linearGradient id="bg3207695830" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(70 .5 .5)">
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
+    </linearGradient>
+    <radialGradient id="gl3207695830" cx="60%" cy="-2.8000000000000003%" r="46">
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3207695830)"/>
+  <rect width="400" height="500" fill="url(#gl3207695830)"/>
+  <circle cx="240" cy="-14" r="20.7" fill="#b4543a" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#b4543a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#b4543a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

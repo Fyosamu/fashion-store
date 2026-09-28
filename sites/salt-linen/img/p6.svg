@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Linen shorts — Salt Linen">
+  <title>Linen shorts — Salt Linen</title>
+  <defs>
+    <linearGradient id="bg3194144024" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(104 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl3194144024" cx="38.5%" cy="-19.8%" r="-38">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3194144024)"/>
+  <rect width="400" height="500" fill="url(#gl3194144024)"/>
+  <circle cx="154" cy="-99" r="-17.1" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

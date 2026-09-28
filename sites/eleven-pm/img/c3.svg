@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Shirts — Eleven PM">
+  <title>Shirts — Eleven PM</title>
+  <defs>
+    <linearGradient id="bg1705503721" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(121 .5 .5)">
+      <stop offset="0" stop-color="#faf8f5"/>
+      <stop offset="1" stop-color="#e6e1d8"/>
+    </linearGradient>
+    <radialGradient id="gl1705503721" cx="62.74999999999999%" cy="23%" r="201">
+      <stop offset="0" stop-color="#8a6f4e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8a6f4e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1705503721)"/>
+  <rect width="400" height="500" fill="url(#gl1705503721)"/>
+  <circle cx="251" cy="115" r="90.45" fill="#8a6f4e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,98 L200,130 L252,98 L300,150 L286,244 L348,478 L52,478 L114,244 L100,150 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M174,108 Q200,146 226,108" fill="none" stroke="#8a6f4e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118,268 L282,268" fill="none" stroke="#8a6f4e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,268 L200,478" fill="none" stroke="#8a6f4e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

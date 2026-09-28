@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Knit Ties — Knot Theory">
+  <title>Knit Ties — Knot Theory</title>
+  <defs>
+    <linearGradient id="bg3308594551" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(151 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl3308594551" cx="60.25%" cy="11.200000000000001%" r="-19">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3308594551)"/>
+  <rect width="400" height="500" fill="url(#gl3308594551)"/>
+  <circle cx="241" cy="56" r="-8.55" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#0d7a8f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

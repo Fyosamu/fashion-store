@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Fringe &amp; Fold hero look">
+  <title>Fringe &amp; Fold hero look</title>
+  <defs>
+    <linearGradient id="bg2733108770" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(290 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl2733108770" cx="70%" cy="8.799999999999999%" r="-9">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2733108770)"/>
+  <rect width="400" height="500" fill="url(#gl2733108770)"/>
+  <circle cx="280" cy="44" r="-4.05" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

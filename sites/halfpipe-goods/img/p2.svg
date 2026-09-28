@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Reinforced deck tee — Halfpipe Goods">
+  <title>Reinforced deck tee — Halfpipe Goods</title>
+  <defs>
+    <linearGradient id="bg3111075059" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(59 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
+    </linearGradient>
+    <radialGradient id="gl3111075059" cx="37.25%" cy="12%" r="27">
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3111075059)"/>
+  <rect width="400" height="500" fill="url(#gl3111075059)"/>
+  <circle cx="149" cy="60" r="12.15" fill="#e11d2e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

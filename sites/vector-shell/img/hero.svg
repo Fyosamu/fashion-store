@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Vector Shell hero look">
+  <title>Vector Shell hero look</title>
+  <defs>
+    <linearGradient id="bg193517853" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(213 .5 .5)">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <radialGradient id="gl193517853" cx="45.75%" cy="28.199999999999996%" r="182">
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg193517853)"/>
+  <rect width="400" height="500" fill="url(#gl193517853)"/>
+  <circle cx="183" cy="141" r="81.9" fill="#37d5ff" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#37d5ff" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#37d5ff" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Tulle A-line dress — Vow Atelier">
+  <title>Tulle A-line dress — Vow Atelier</title>
+  <defs>
+    <linearGradient id="bg3525235994" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(74 .5 .5)">
+      <stop offset="0" stop-color="#080d14"/>
+      <stop offset="1" stop-color="#101824"/>
+    </linearGradient>
+    <radialGradient id="gl3525235994" cx="81%" cy="-44.6%" r="16">
+      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3525235994)"/>
+  <rect width="400" height="500" fill="url(#gl3525235994)"/>
+  <circle cx="324" cy="-223" r="7.2" fill="#8fb6d9" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

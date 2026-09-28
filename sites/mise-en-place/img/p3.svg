@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Side-tie trouser — Mise en Place">
+  <title>Side-tie trouser — Mise en Place</title>
+  <defs>
+    <linearGradient id="bg835396178" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(338 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl835396178" cx="32%" cy="76.4%" r="140">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg835396178)"/>
+  <rect width="400" height="500" fill="url(#gl835396178)"/>
+  <circle cx="128" cy="382" r="63" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

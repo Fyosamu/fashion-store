@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Crew sock, 3-pack — Underfoot">
+  <title>Crew sock, 3-pack — Underfoot</title>
+  <defs>
+    <linearGradient id="bg562942502" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(62 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="gl562942502" cx="48%" cy="66.4%" r="183">
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg562942502)"/>
+  <rect width="400" height="500" fill="url(#gl562942502)"/>
+  <circle cx="192" cy="332" r="82.35000000000001" fill="#0a0a0a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#0a0a0a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#0a0a0a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Neutral Dept. detail 2">
+  <title>Neutral Dept. detail 2</title>
+  <defs>
+    <linearGradient id="bg780046631" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(71 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl780046631" cx="40.25%" cy="27.6%" r="117">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg780046631)"/>
+  <rect width="400" height="500" fill="url(#gl780046631)"/>
+  <circle cx="161" cy="138" r="52.65" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,96 L200,128 L250,96 L300,150 L286,226 L302,454 L222,454 L200,288 L178,454 L98,454 L114,226 L100,150 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,140 224,104" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M116,272 L284,272" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,136 L200,272" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

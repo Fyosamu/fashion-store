@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Sequin — Sovereign Prom">
+  <title>Sequin — Sovereign Prom</title>
+  <defs>
+    <linearGradient id="bg4233567276" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(36 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl4233567276" cx="21.5%" cy="-24.6%" r="9">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4233567276)"/>
+  <rect width="400" height="500" fill="url(#gl4233567276)"/>
+  <circle cx="86" cy="-123" r="4.05" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

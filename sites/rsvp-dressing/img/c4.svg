@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Separates — RSVP Dressing">
+  <title>Separates — RSVP Dressing</title>
+  <defs>
+    <linearGradient id="bg2940349768" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(88 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl2940349768" cx="54.50000000000001%" cy="-32.2%" r="62">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2940349768)"/>
+  <rect width="400" height="500" fill="url(#gl2940349768)"/>
+  <circle cx="218" cy="-161" r="27.900000000000002" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#c4566f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

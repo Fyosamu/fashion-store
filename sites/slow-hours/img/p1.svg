@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Brushed cotton pajama set — Slow Hours">
+  <title>Brushed cotton pajama set — Slow Hours</title>
+  <defs>
+    <linearGradient id="bg1756813777" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(97 .5 .5)">
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
+    </linearGradient>
+    <radialGradient id="gl1756813777" cx="21.75%" cy="64.4%" r="90">
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1756813777)"/>
+  <rect width="400" height="500" fill="url(#gl1756813777)"/>
+  <circle cx="87" cy="322" r="40.5" fill="#dd7a5b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

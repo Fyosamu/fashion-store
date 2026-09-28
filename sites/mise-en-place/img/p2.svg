@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cross-back apron — Mise en Place">
+  <title>Cross-back apron — Mise en Place</title>
+  <defs>
+    <linearGradient id="bg818618559" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(159 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl818618559" cx="77.25%" cy="65.8%" r="129">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg818618559)"/>
+  <rect width="400" height="500" fill="url(#gl818618559)"/>
+  <circle cx="309" cy="329" r="58.050000000000004" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

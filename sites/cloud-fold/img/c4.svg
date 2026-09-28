@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Scarves — Cloud Fold">
+  <title>Scarves — Cloud Fold</title>
+  <defs>
+    <linearGradient id="bg4267611260" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(260 .5 .5)">
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
+    </linearGradient>
+    <radialGradient id="gl4267611260" cx="47.5%" cy="5%" r="-37">
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4267611260)"/>
+  <rect width="400" height="500" fill="url(#gl4267611260)"/>
+  <circle cx="190" cy="25" r="-16.650000000000002" fill="#d98a9c" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#d98a9c" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#d98a9c" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#d98a9c" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#d98a9c" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#d98a9c" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

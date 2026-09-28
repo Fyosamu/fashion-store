@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Merino golf sock, 3-pack — Birdie &amp; Bar">
+  <title>Merino golf sock, 3-pack — Birdie &amp; Bar</title>
+  <defs>
+    <linearGradient id="bg1738328388" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(348 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl1738328388" cx="44.5%" cy="61.6%" r="142">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1738328388)"/>
+  <rect width="400" height="500" fill="url(#gl1738328388)"/>
+  <circle cx="178" cy="308" r="63.9" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

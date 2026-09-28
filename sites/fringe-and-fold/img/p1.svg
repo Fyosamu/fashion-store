@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cashmere-blend scarf — Fringe &amp; Fold">
+  <title>Cashmere-blend scarf — Fringe &amp; Fold</title>
+  <defs>
+    <linearGradient id="bg1378690701" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(141 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl1378690701" cx="52.75%" cy="35.4%" r="94">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1378690701)"/>
+  <rect width="400" height="500" fill="url(#gl1378690701)"/>
+  <circle cx="211" cy="177" r="42.300000000000004" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

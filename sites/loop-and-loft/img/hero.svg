@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Loop &amp; Loft hero look">
+  <title>Loop &amp; Loft hero look</title>
+  <defs>
+    <linearGradient id="bg3721271241" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(201 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl3721271241" cx="62.74999999999999%" cy="6.6000000000000005%" r="-2">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3721271241)"/>
+  <rect width="400" height="500" fill="url(#gl3721271241)"/>
+  <circle cx="251" cy="33" r="-0.9" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#c4566f" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#c4566f" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

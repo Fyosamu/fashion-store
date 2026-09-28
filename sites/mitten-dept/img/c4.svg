@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Shell — Mitten Dept.">
+  <title>Shell — Mitten Dept.</title>
+  <defs>
+    <linearGradient id="bg276550258" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(58 .5 .5)">
+      <stop offset="0" stop-color="#f4efe4"/>
+      <stop offset="1" stop-color="#ded5c4"/>
+    </linearGradient>
+    <radialGradient id="gl276550258" cx="72%" cy="72.39999999999999%" r="145">
+      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg276550258)"/>
+  <rect width="400" height="500" fill="url(#gl276550258)"/>
+  <circle cx="288" cy="362" r="65.25" fill="#a33b2a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#a33b2a" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#a33b2a" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

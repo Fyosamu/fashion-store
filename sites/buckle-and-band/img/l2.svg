@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Buckle &amp; Band look 2">
+  <title>Buckle &amp; Band look 2</title>
+  <defs>
+    <linearGradient id="bg1674223632" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(72 .5 .5)">
+      <stop offset="0" stop-color="#f7ead7"/>
+      <stop offset="1" stop-color="#e6d3b6"/>
+    </linearGradient>
+    <radialGradient id="gl1674223632" cx="60.5%" cy="54.800000000000004%" r="168">
+      <stop offset="0" stop-color="#9c5a1e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9c5a1e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1674223632)"/>
+  <rect width="400" height="500" fill="url(#gl1674223632)"/>
+  <circle cx="242" cy="274" r="75.60000000000001" fill="#9c5a1e" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M40,222 L360,222 L360,278 L40,278 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M160,206 L240,206 L240,294 L160,294 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M176,232 L224,232" fill="none" stroke="#9c5a1e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M176,268 L224,268" fill="none" stroke="#9c5a1e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

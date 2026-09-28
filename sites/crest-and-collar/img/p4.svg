@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Rugby stripe shirt — Crest &amp; Collar">
+  <title>Rugby stripe shirt — Crest &amp; Collar</title>
+  <defs>
+    <linearGradient id="bg1766147624" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(224 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl1766147624" cx="48.5%" cy="34.599999999999994%" r="183">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1766147624)"/>
+  <rect width="400" height="500" fill="url(#gl1766147624)"/>
+  <circle cx="194" cy="173" r="82.35000000000001" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

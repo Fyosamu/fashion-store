@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cold Front detail 3">
+  <title>Cold Front detail 3</title>
+  <defs>
+    <linearGradient id="bg1686349639" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(199 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl1686349639" cx="27.250000000000004%" cy="66.8%" r="156">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1686349639)"/>
+  <rect width="400" height="500" fill="url(#gl1686349639)"/>
+  <circle cx="109" cy="334" r="70.2" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#5b9cf8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

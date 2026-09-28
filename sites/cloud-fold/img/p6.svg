@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cashmere beanie — Cloud Fold">
+  <title>Cashmere beanie — Cloud Fold</title>
+  <defs>
+    <linearGradient id="bg2354374314" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(234 .5 .5)">
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
+    </linearGradient>
+    <radialGradient id="gl2354374314" cx="71%" cy="7.3999999999999995%" r="-1">
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2354374314)"/>
+  <rect width="400" height="500" fill="url(#gl2354374314)"/>
+  <circle cx="284" cy="37" r="-0.45" fill="#d98a9c" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

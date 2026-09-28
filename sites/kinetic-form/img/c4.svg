@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Jackets — Kinetic Form">
+  <title>Jackets — Kinetic Form</title>
+  <defs>
+    <linearGradient id="bg776021079" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(39 .5 .5)">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <radialGradient id="gl776021079" cx="47.25%" cy="38.800000000000004%" r="158">
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg776021079)"/>
+  <rect width="400" height="500" fill="url(#gl776021079)"/>
+  <circle cx="189" cy="194" r="71.10000000000001" fill="#37d5ff" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#37d5ff" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

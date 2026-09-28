@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Split Time look 3">
+  <title>Split Time look 3</title>
+  <defs>
+    <linearGradient id="bg2455374677" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(77 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl2455374677" cx="66.75%" cy="-11.600000000000001%" r="-10">
+      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2455374677)"/>
+  <rect width="400" height="500" fill="url(#gl2455374677)"/>
+  <circle cx="267" cy="-58" r="-4.5" fill="#00b377" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#00b377" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#00b377" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#00b377" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

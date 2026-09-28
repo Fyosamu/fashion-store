@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Easy Dressing detail 1">
+  <title>Easy Dressing detail 1</title>
+  <defs>
+    <linearGradient id="bg1509895" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(55 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl1509895" cx="36.25%" cy="75.2%" r="214">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1509895)"/>
+  <rect width="400" height="500" fill="url(#gl1509895)"/>
+  <circle cx="145" cy="376" r="96.3" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Nocturne Supply detail 3">
+  <title>Nocturne Supply detail 3</title>
+  <defs>
+    <linearGradient id="bg1115227579" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(139 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl1115227579" cx="72.25%" cy="59.4%" r="161">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1115227579)"/>
+  <rect width="400" height="500" fill="url(#gl1115227579)"/>
+  <circle cx="289" cy="297" r="72.45" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

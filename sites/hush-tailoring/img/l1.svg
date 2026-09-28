@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Hush Tailoring look 1">
+  <title>Hush Tailoring look 1</title>
+  <defs>
+    <linearGradient id="bg2158936709" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(149 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl2158936709" cx="64.75%" cy="-18.8%" r="-26">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2158936709)"/>
+  <rect width="400" height="500" fill="url(#gl2158936709)"/>
+  <circle cx="259" cy="-94" r="-11.700000000000001" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Mise en Place detail 1">
+  <title>Mise en Place detail 1</title>
+  <defs>
+    <linearGradient id="bg1101719511" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(351 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl1101719511" cx="65.25%" cy="79.60000000000001%" r="144">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1101719511)"/>
+  <rect width="400" height="500" fill="url(#gl1101719511)"/>
+  <circle cx="261" cy="398" r="64.8" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

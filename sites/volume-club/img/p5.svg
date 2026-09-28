@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Drop-shoulder sweat — Volume Club">
+  <title>Drop-shoulder sweat — Volume Club</title>
+  <defs>
+    <linearGradient id="bg3772122065" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(305 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl3772122065" cx="68.75%" cy="-14.799999999999999%" r="-34">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3772122065)"/>
+  <rect width="400" height="500" fill="url(#gl3772122065)"/>
+  <circle cx="275" cy="-74" r="-15.3" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M186,152 L186,214" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214,152 L214,214" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

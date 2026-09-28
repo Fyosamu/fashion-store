@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Recess Kit look 3">
+  <title>Recess Kit look 3</title>
+  <defs>
+    <linearGradient id="bg1150462929" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(129 .5 .5)">
+      <stop offset="0" stop-color="#080f0d"/>
+      <stop offset="1" stop-color="#0e1a17"/>
+    </linearGradient>
+    <radialGradient id="gl1150462929" cx="44.75%" cy="41.199999999999996%" r="166">
+      <stop offset="0" stop-color="#22ffb2" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22ffb2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1150462929)"/>
+  <rect width="400" height="500" fill="url(#gl1150462929)"/>
+  <circle cx="179" cy="206" r="74.7" fill="#22ffb2" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

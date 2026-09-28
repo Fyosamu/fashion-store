@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Petite Standard look 2">
+  <title>Petite Standard look 2</title>
+  <defs>
+    <linearGradient id="bg4019839647" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(87 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl4019839647" cx="64.25%" cy="12.6%" r="30">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4019839647)"/>
+  <rect width="400" height="500" fill="url(#gl4019839647)"/>
+  <circle cx="257" cy="63" r="13.5" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M136,152 L264,152 L336,432 L64,432 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M136,152 L264,152 L266,184 L134,184 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M170,192 L146,428" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,192 L200,428" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,192 L254,428" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

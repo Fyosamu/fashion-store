@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Whiteout detail 2">
+  <title>Whiteout detail 2</title>
+  <defs>
+    <linearGradient id="bg1912232433" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(273 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl1912232433" cx="25.75%" cy="44.800000000000004%" r="123">
+      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1912232433)"/>
+  <rect width="400" height="500" fill="url(#gl1912232433)"/>
+  <circle cx="103" cy="224" r="55.35" fill="#00b377" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

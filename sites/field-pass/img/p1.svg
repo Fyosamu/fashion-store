@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Mesh layer dress — Field Pass">
+  <title>Mesh layer dress — Field Pass</title>
+  <defs>
+    <linearGradient id="bg827018072" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(152 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl827018072" cx="65.5%" cy="41.8%" r="144">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg827018072)"/>
+  <rect width="400" height="500" fill="url(#gl827018072)"/>
+  <circle cx="262" cy="209" r="64.8" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

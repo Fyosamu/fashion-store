@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Salt Linen journal image 1">
+  <title>Salt Linen journal image 1</title>
+  <defs>
+    <linearGradient id="bg893594818" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(298 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl893594818" cx="27%" cy="72.39999999999999%" r="148">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg893594818)"/>
+  <rect width="400" height="500" fill="url(#gl893594818)"/>
+  <circle cx="108" cy="362" r="66.60000000000001" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#0a7ea4" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#0a7ea4" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

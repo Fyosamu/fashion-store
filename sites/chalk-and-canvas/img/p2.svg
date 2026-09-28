@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Hand-cut overcoat — Chalk &amp; Canvas">
+  <title>Hand-cut overcoat — Chalk &amp; Canvas</title>
+  <defs>
+    <linearGradient id="bg4050689791" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(31 .5 .5)">
+      <stop offset="0" stop-color="#080d14"/>
+      <stop offset="1" stop-color="#101824"/>
+    </linearGradient>
+    <radialGradient id="gl4050689791" cx="25.25%" cy="-9.8%" r="17">
+      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4050689791)"/>
+  <rect width="400" height="500" fill="url(#gl4050689791)"/>
+  <circle cx="101" cy="-49" r="7.65" fill="#8fb6d9" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

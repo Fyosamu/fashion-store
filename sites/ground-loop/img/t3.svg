@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Ground Loop detail 3">
+  <title>Ground Loop detail 3</title>
+  <defs>
+    <linearGradient id="bg2795848641" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(81 .5 .5)">
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
+    </linearGradient>
+    <radialGradient id="gl2795848641" cx="17.75%" cy="-50.4%" r="82">
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2795848641)"/>
+  <rect width="400" height="500" fill="url(#gl2795848641)"/>
+  <circle cx="71" cy="-252" r="36.9" fill="#b4543a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#b4543a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#b4543a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#b4543a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#b4543a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#b4543a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

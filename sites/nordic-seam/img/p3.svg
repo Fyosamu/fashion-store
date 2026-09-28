@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Wide organic trouser — Nordic Seam">
+  <title>Wide organic trouser — Nordic Seam</title>
+  <defs>
+    <linearGradient id="bg3926325804" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(204 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl3926325804" cx="23.5%" cy="-47.4%" r="-7">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3926325804)"/>
+  <rect width="400" height="500" fill="url(#gl3926325804)"/>
+  <circle cx="94" cy="-237" r="-3.15" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

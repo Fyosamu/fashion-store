@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Kinetic Form season image 2">
+  <title>Kinetic Form season image 2</title>
+  <defs>
+    <linearGradient id="bg2959671405" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(165 .5 .5)">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <radialGradient id="gl2959671405" cx="53.75%" cy="-45.4%" r="13">
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2959671405)"/>
+  <rect width="400" height="500" fill="url(#gl2959671405)"/>
+  <circle cx="215" cy="-227" r="5.8500000000000005" fill="#37d5ff" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#37d5ff" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#37d5ff" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

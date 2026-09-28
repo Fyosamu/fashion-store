@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Whiteout journal image 1">
+  <title>Whiteout journal image 1</title>
+  <defs>
+    <linearGradient id="bg3702508976" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(56 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl3702508976" cx="26.5%" cy="12%" r="-23">
+      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3702508976)"/>
+  <rect width="400" height="500" fill="url(#gl3702508976)"/>
+  <circle cx="106" cy="60" r="-10.35" fill="#00b377" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#00b377" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#00b377" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#00b377" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#00b377" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#00b377" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

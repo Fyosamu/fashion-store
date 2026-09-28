@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Jumpsuits — RSVP Dressing">
+  <title>Jumpsuits — RSVP Dressing</title>
+  <defs>
+    <linearGradient id="bg2973905006" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(86 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl2973905006" cx="28.999999999999996%" cy="-11.4%" r="83">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2973905006)"/>
+  <rect width="400" height="500" fill="url(#gl2973905006)"/>
+  <circle cx="116" cy="-57" r="37.35" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,96 L200,128 L250,96 L300,150 L286,226 L302,454 L222,454 L200,288 L178,454 L98,454 L114,226 L100,150 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,140 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M116,272 L284,272" fill="none" stroke="#c4566f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,136 L200,272" fill="none" stroke="#c4566f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

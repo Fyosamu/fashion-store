@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Sovereign Prom season image 3">
+  <title>Sovereign Prom season image 3</title>
+  <defs>
+    <linearGradient id="bg2133805045" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(85 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl2133805045" cx="48.75%" cy="46%" r="207">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2133805045)"/>
+  <rect width="400" height="500" fill="url(#gl2133805045)"/>
+  <circle cx="195" cy="230" r="93.15" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,98 L200,130 L252,98 L300,150 L286,244 L348,478 L52,478 L114,244 L100,150 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M174,108 Q200,146 226,108" fill="none" stroke="#1f5d45" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118,268 L282,268" fill="none" stroke="#1f5d45" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,268 L200,478" fill="none" stroke="#1f5d45" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

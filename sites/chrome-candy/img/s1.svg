@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Chrome Candy season image 1">
+  <title>Chrome Candy season image 1</title>
+  <defs>
+    <linearGradient id="bg2654334444" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(84 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl2654334444" cx="58.5%" cy="-41.4%" r="-27">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2654334444)"/>
+  <rect width="400" height="500" fill="url(#gl2654334444)"/>
+  <circle cx="234" cy="-207" r="-12.15" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#f2ff00" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#f2ff00" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Stillpoint detail 2">
+  <title>Stillpoint detail 2</title>
+  <defs>
+    <linearGradient id="bg1433251422" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(342 .5 .5)">
+      <stop offset="0" stop-color="#f6f7ff"/>
+      <stop offset="1" stop-color="#e2e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl1433251422" cx="48%" cy="31.4%" r="166">
+      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1433251422)"/>
+  <rect width="400" height="500" fill="url(#gl1433251422)"/>
+  <circle cx="192" cy="157" r="74.7" fill="#4f4fd8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#4f4fd8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#4f4fd8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

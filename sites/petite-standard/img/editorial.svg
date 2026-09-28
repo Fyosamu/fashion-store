@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Petite Standard workshop">
+  <title>Petite Standard workshop</title>
+  <defs>
+    <linearGradient id="bg2961716817" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(57 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl2961716817" cx="51.74999999999999%" cy="6%" r="-28">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2961716817)"/>
+  <rect width="400" height="500" fill="url(#gl2961716817)"/>
+  <circle cx="207" cy="30" r="-12.6" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#5b9cf8" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#5b9cf8" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

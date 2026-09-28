@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Chunky cable knit — Loop &amp; Loft">
+  <title>Chunky cable knit — Loop &amp; Loft</title>
+  <defs>
+    <linearGradient id="bg2307401605" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(325 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl2307401605" cx="53.75%" cy="-38.4%" r="62">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2307401605)"/>
+  <rect width="400" height="500" fill="url(#gl2307401605)"/>
+  <circle cx="215" cy="-192" r="27.900000000000002" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

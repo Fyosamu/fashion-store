@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Third Period detail 3">
+  <title>Third Period detail 3</title>
+  <defs>
+    <linearGradient id="bg1120128010" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(250 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl1120128010" cx="60%" cy="74.2%" r="160">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1120128010)"/>
+  <rect width="400" height="500" fill="url(#gl1120128010)"/>
+  <circle cx="240" cy="371" r="72" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#ffd400" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Pleated abaya — Modest Line">
+  <title>Pleated abaya — Modest Line</title>
+  <defs>
+    <linearGradient id="bg610819818" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(258 .5 .5)">
+      <stop offset="0" stop-color="#faf8f5"/>
+      <stop offset="1" stop-color="#e6e1d8"/>
+    </linearGradient>
+    <radialGradient id="gl610819818" cx="82%" cy="23.400000000000002%" r="179">
+      <stop offset="0" stop-color="#8a6f4e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8a6f4e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg610819818)"/>
+  <rect width="400" height="500" fill="url(#gl610819818)"/>
+  <circle cx="328" cy="117" r="80.55" fill="#8a6f4e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

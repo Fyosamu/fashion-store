@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Fitted blazer, uniform — Desk Standard">
+  <title>Fitted blazer, uniform — Desk Standard</title>
+  <defs>
+    <linearGradient id="bg2283312017" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(137 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl2283312017" cx="36.75%" cy="-28.000000000000004%" r="-38">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2283312017)"/>
+  <rect width="400" height="500" fill="url(#gl2283312017)"/>
+  <circle cx="147" cy="-140" r="-17.1" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

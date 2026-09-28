@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Timber Check detail 1">
+  <title>Timber Check detail 1</title>
+  <defs>
+    <linearGradient id="bg4261093115" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(275 .5 .5)">
+      <stop offset="0" stop-color="#f4efe4"/>
+      <stop offset="1" stop-color="#ded5c4"/>
+    </linearGradient>
+    <radialGradient id="gl4261093115" cx="61.25000000000001%" cy="5.4%" r="-19">
+      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4261093115)"/>
+  <rect width="400" height="500" fill="url(#gl4261093115)"/>
+  <circle cx="245" cy="27" r="-8.55" fill="#a33b2a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#a33b2a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

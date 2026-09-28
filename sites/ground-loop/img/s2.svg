@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Ground Loop season image 2">
+  <title>Ground Loop season image 2</title>
+  <defs>
+    <linearGradient id="bg2879883831" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(111 .5 .5)">
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
+    </linearGradient>
+    <radialGradient id="gl2879883831" cx="35.25%" cy="-16.8%" r="51">
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2879883831)"/>
+  <rect width="400" height="500" fill="url(#gl2879883831)"/>
+  <circle cx="141" cy="-84" r="22.95" fill="#b4543a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#b4543a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#b4543a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#b4543a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

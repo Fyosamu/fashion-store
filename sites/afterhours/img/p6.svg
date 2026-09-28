@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Glow-in-dark beanie — Afterhours">
+  <title>Glow-in-dark beanie — Afterhours</title>
+  <defs>
+    <linearGradient id="bg1386400016" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(56 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl1386400016" cx="66.5%" cy="48.4%" r="120">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1386400016)"/>
+  <rect width="400" height="500" fill="url(#gl1386400016)"/>
+  <circle cx="266" cy="242" r="54" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

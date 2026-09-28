@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cadence season image 3">
+  <title>Cadence season image 3</title>
+  <defs>
+    <linearGradient id="bg2902418429" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(149 .5 .5)">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <radialGradient id="gl2902418429" cx="69.75%" cy="-27.800000000000004%" r="47">
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2902418429)"/>
+  <rect width="400" height="500" fill="url(#gl2902418429)"/>
+  <circle cx="279" cy="-139" r="21.150000000000002" fill="#37d5ff" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#37d5ff" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

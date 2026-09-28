@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cashmere wrap coat — Atelier Verre">
+  <title>Cashmere wrap coat — Atelier Verre</title>
+  <defs>
+    <linearGradient id="bg2049038475" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(195 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl2049038475" cx="31.25%" cy="75.8%" r="132">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2049038475)"/>
+  <rect width="400" height="500" fill="url(#gl2049038475)"/>
+  <circle cx="125" cy="379" r="59.4" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

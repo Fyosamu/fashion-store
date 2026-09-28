@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Carry Onward workshop">
+  <title>Carry Onward workshop</title>
+  <defs>
+    <linearGradient id="bg2672129557" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(37 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl2672129557" cx="41.75%" cy="-3.5999999999999996%" r="60">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2672129557)"/>
+  <rect width="400" height="500" fill="url(#gl2672129557)"/>
+  <circle cx="167" cy="-18" r="27" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#1f5fd0" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#1f5fd0" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

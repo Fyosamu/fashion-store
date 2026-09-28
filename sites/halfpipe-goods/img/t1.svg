@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Halfpipe Goods detail 1">
+  <title>Halfpipe Goods detail 1</title>
+  <defs>
+    <linearGradient id="bg3394176011" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(251 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
+    </linearGradient>
+    <radialGradient id="gl3394176011" cx="25.25%" cy="-40.2%" r="42">
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3394176011)"/>
+  <rect width="400" height="500" fill="url(#gl3394176011)"/>
+  <circle cx="101" cy="-201" r="18.900000000000002" fill="#e11d2e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#e11d2e" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#e11d2e" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#e11d2e" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

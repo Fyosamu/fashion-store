@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Tailored character coat — Character Kit">
+  <title>Tailored character coat — Character Kit</title>
+  <defs>
+    <linearGradient id="bg319364510" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(230 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl319364510" cx="20%" cy="40.6%" r="130">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg319364510)"/>
+  <rect width="400" height="500" fill="url(#gl319364510)"/>
+  <circle cx="80" cy="203" r="58.5" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#ffd400" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

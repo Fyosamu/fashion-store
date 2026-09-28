@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Stiletto Standard season image 1">
+  <title>Stiletto Standard season image 1</title>
+  <defs>
+    <linearGradient id="bg740782272" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(192 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl740782272" cx="55.50000000000001%" cy="36.8%" r="176">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg740782272)"/>
+  <rect width="400" height="500" fill="url(#gl740782272)"/>
+  <circle cx="222" cy="184" r="79.2" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M104,336 L104,244 Q108,216 148,214 L226,214 Q264,230 302,272 L324,320 L332,366 L300,366 L136,366 Q104,366 104,344 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M298,366 L334,366 L346,452 L312,452 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M140,232 L216,244" fill="none" stroke="#1f5d45" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

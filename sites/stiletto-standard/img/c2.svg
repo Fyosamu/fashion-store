@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Sandals — Stiletto Standard">
+  <title>Sandals — Stiletto Standard</title>
+  <defs>
+    <linearGradient id="bg755000035" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(115 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl755000035" cx="36.25%" cy="70.8%" r="141">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg755000035)"/>
+  <rect width="400" height="500" fill="url(#gl755000035)"/>
+  <circle cx="145" cy="354" r="63.45" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M40,222 L360,222 L360,278 L40,278 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M160,206 L240,206 L240,294 L160,294 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M176,232 L224,232" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M176,268 L224,268" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

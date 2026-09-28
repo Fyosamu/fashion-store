@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Neon Archive journal image 3">
+  <title>Neon Archive journal image 3</title>
+  <defs>
+    <linearGradient id="bg164169554" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(194 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="gl164169554" cx="41%" cy="42.8%" r="198">
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg164169554)"/>
+  <rect width="400" height="500" fill="url(#gl164169554)"/>
+  <circle cx="164" cy="214" r="89.10000000000001" fill="#0a0a0a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M40,222 L360,222 L360,278 L40,278 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M160,206 L240,206 L240,294 L160,294 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M176,232 L224,232" fill="none" stroke="#0a0a0a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M176,268 L224,268" fill="none" stroke="#0a0a0a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="RSVP Dressing journal image 1">
+  <title>RSVP Dressing journal image 1</title>
+  <defs>
+    <linearGradient id="bg2620147984" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(304 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl2620147984" cx="33.5%" cy="-2.8000000000000003%" r="-14">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2620147984)"/>
+  <rect width="400" height="500" fill="url(#gl2620147984)"/>
+  <circle cx="134" cy="-14" r="-6.3" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#c4566f" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

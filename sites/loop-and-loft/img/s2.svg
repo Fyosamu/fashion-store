@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Loop &amp; Loft season image 2">
+  <title>Loop &amp; Loft season image 2</title>
+  <defs>
+    <linearGradient id="bg23777113" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(193 .5 .5)">
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
+    </linearGradient>
+    <radialGradient id="gl23777113" cx="45.75%" cy="45.800000000000004%" r="174">
+      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg23777113)"/>
+  <rect width="400" height="500" fill="url(#gl23777113)"/>
+  <circle cx="183" cy="229" r="78.3" fill="#c4566f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#c4566f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

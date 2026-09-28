@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Brim Society hero look">
+  <title>Brim Society hero look</title>
+  <defs>
+    <linearGradient id="bg1449740772" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(252 .5 .5)">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <radialGradient id="gl1449740772" cx="20.5%" cy="29.2%" r="139">
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1449740772)"/>
+  <rect width="400" height="500" fill="url(#gl1449740772)"/>
+  <circle cx="82" cy="146" r="62.550000000000004" fill="#f2ff00" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#f2ff00" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#f2ff00" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#f2ff00" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

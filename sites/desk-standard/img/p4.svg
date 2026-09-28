@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Pencil skirt, stretch — Desk Standard">
+  <title>Pencil skirt, stretch — Desk Standard</title>
+  <defs>
+    <linearGradient id="bg2232979160" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(320 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl2232979160" cx="42.5%" cy="6.6000000000000005%" r="60">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2232979160)"/>
+  <rect width="400" height="500" fill="url(#gl2232979160)"/>
+  <circle cx="170" cy="33" r="27" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M136,152 L264,152 L336,432 L64,432 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M136,152 L264,152 L266,184 L134,184 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M170,192 L146,428" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,192 L200,428" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,192 L254,428" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

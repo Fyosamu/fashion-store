@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Knot Theory detail 2">
+  <title>Knot Theory detail 2</title>
+  <defs>
+    <linearGradient id="bg1024131416" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(176 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl1024131416" cx="81.5%" cy="51.4%" r="146">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1024131416)"/>
+  <rect width="400" height="500" fill="url(#gl1024131416)"/>
+  <circle cx="326" cy="257" r="65.7" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

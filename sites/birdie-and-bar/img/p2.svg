@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Stretch trouser, flat front — Birdie &amp; Bar">
+  <title>Stretch trouser, flat front — Birdie &amp; Bar</title>
+  <defs>
+    <linearGradient id="bg1671217912" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(352 .5 .5)">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
+    </linearGradient>
+    <radialGradient id="gl1671217912" cx="30.5%" cy="19.8%" r="99">
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1671217912)"/>
+  <rect width="400" height="500" fill="url(#gl1671217912)"/>
+  <circle cx="122" cy="99" r="44.550000000000004" fill="#0d7a8f" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

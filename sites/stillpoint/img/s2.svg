@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Stillpoint season image 2">
+  <title>Stillpoint season image 2</title>
+  <defs>
+    <linearGradient id="bg3581522129" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(209 .5 .5)">
+      <stop offset="0" stop-color="#f6f7ff"/>
+      <stop offset="1" stop-color="#e2e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl3581522129" cx="24.75%" cy="-11.200000000000001%" r="58">
+      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3581522129)"/>
+  <rect width="400" height="500" fill="url(#gl3581522129)"/>
+  <circle cx="99" cy="-56" r="26.1" fill="#4f4fd8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#4f4fd8" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

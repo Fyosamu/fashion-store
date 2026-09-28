@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="One-Pieces — Lido Swim">
+  <title>One-Pieces — Lido Swim</title>
+  <defs>
+    <linearGradient id="bg583114381" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(61 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl583114381" cx="57.75%" cy="57.4%" r="184">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg583114381)"/>
+  <rect width="400" height="500" fill="url(#gl583114381)"/>
+  <circle cx="231" cy="287" r="82.8" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,118 L200,170 L254,118 L274,222 L258,332 L234,434 L200,362 L166,434 L142,332 L126,222 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M172,132 Q200,168 228,132" fill="none" stroke="#0a7ea4" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M138,278 L262,278" fill="none" stroke="#0a7ea4" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
