@@ -335,6 +335,42 @@ function linkFromIndex() {
   return true;
 }
 
+/* One sitemap for the whole shop so search engines can find 115 templates,
+   and a robots.txt that points at it while keeping the encrypted payloads
+   and the generator out of the index. */
+function buildSitemap(items) {
+  const BASE = "https://fyosamu.github.io/fashion-store";
+  const now = new Date().toISOString().slice(0, 10);
+  const urls = [
+    [`${BASE}/`, "1.0", "daily"],
+    [`${BASE}/templates.html`, "0.9", "weekly"],
+    [`${BASE}/${PAGE}`, "0.9", "weekly"],
+    [`${BASE}/get.html`, "0.8", "weekly"],
+    [`${BASE}/categories.html`, "0.7", "weekly"],
+    [`${BASE}/about.html`, "0.6", "monthly"],
+    [`${BASE}/contact.html`, "0.6", "monthly"],
+    ...items.map((i) => [`${BASE}/sites/${i.slug}/`, "0.8", "monthly"]),
+  ];
+
+  const xml =
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls.map(([loc, pri, freq]) =>
+      `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${now}</lastmod>\n    <changefreq>${freq}</changefreq>\n    <priority>${pri}</priority>\n  </url>`
+    ).join("\n") +
+    `\n</urlset>\n`;
+  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), xml);
+
+  const rfile = path.join(ROOT, "robots.txt");
+  if (!fs.existsSync(rfile)) {
+    fs.writeFileSync(rfile,
+      `User-agent: *\nAllow: /\nDisallow: /dl/\nDisallow: /gen/\n\n` +
+      `# ${items.length} clothing store templates (full catalogue in catalog.js)\n` +
+      `Sitemap: ${BASE}/sitemap.xml\n`);
+  }
+  return urls.length;
+}
+
 function main() {
   const items = load();
   const missing = items.filter((i) => !i.pass);
@@ -351,11 +387,13 @@ function main() {
 
   const added = updateCatalog(items);
   fs.writeFileSync(path.join(ROOT, PAGE), buildPage(items));
+  const sitemapUrls = buildSitemap(items);
   const fromTemplates = linkFromTemplates(items);
   const fromIndex = linkFromIndex();
 
   console.log(`catalog.js  +${added} entries`);
   console.log(`page        ${PAGE} (${(fs.statSync(path.join(ROOT, PAGE)).size / 1024).toFixed(0)} KB)`);
+  console.log(`sitemap     ${sitemapUrls} urls + robots.txt`);
   console.log(`nav link on templates.html: ${fromTemplates}, index.html: ${fromIndex}`);
 }
 

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /dl/
+Disallow: /gen/
+
+# 100 clothing store templates (full catalogue in catalog.js)
+Sitemap: https://fyosamu.github.io/fashion-store/sitemap.xml
