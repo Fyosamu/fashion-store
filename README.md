@@ -46,12 +46,19 @@ node gen/pack.js             # re-zip + re-encrypt into dl/
 node gen/shop.js             # catalogue, listing page, sitemap
 node gen/audit.js            # check all 100 — exits non-zero on any defect
 node gen/pack.js --selftest  # round-trip the container against get.html
+node gen/verify.js           # after a push: pull the live store and decrypt 5 SKUs
 ```
 
 `audit.js` is the gate. It walks every storefront the way a browser and a
 crawler would — link and anchor integrity, CSS token closure, heading order,
 WCAG contrast on the tokens each page actually paints, and uniqueness across
 the catalogue — and fails the build if anything regressed.
+
+`verify.js` is the one test that cannot run offline. It reads the deployed
+catalogue, downloads the deployed payloads and decrypts them the way
+`get.html` does in the visitor's browser, because a push can leave those two
+out of step — a payload re-encrypted under a password the live catalogue no
+longer holds — and nothing on disk would notice.
 
 Re-skinning a template is one edit: every colour, font, radius and shadow in
 `sites/<slug>/style.css` comes from the `:root` block at the top.
