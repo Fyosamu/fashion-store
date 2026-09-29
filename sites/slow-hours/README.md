@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `boutique` (4-column product grid) |
-| **Palette** | `peach` — light surface, accent `#dd7a5b` |
-| **Type** | Cormorant Garamond (display) + Jost (body), one Google Fonts request |
+| **Palette** | `clay` — light surface, accent `#b55d3a` |
+| **Type** | Playfair Display (display) + Jost (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

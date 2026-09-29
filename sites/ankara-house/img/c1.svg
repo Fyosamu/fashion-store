@@ -2,21 +2,21 @@
   <title>Dresses — Ankara House</title>
   <defs>
     <linearGradient id="bg583681761" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(81 .5 .5)">
-      <stop offset="0" stop-color="#fdf6f0"/>
-      <stop offset="1" stop-color="#f0e0d5"/>
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
     </linearGradient>
     <radialGradient id="gl583681761" cx="72.75%" cy="52%" r="105">
-      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg583681761)"/>
   <rect width="400" height="500" fill="url(#gl583681761)"/>
-  <circle cx="291" cy="260" r="47.25" fill="#b4543a" fill-opacity="0.1"/>
+  <circle cx="291" cy="260" r="47.25" fill="#0a7ea4" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1a12" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#b4543a" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#b4543a" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#0a7ea4" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#0a7ea4" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

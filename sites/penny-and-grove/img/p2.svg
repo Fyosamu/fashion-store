@@ -2,21 +2,21 @@
   <title>Tassel loafer — Penny &amp; Grove</title>
   <defs>
     <linearGradient id="bg1661519235" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(75 .5 .5)">
-      <stop offset="0" stop-color="#0e0c0f"/>
-      <stop offset="1" stop-color="#171317"/>
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
     </linearGradient>
     <radialGradient id="gl1661519235" cx="56.25%" cy="36.8%" r="176">
-      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1661519235)"/>
   <rect width="400" height="500" fill="url(#gl1661519235)"/>
-  <circle cx="225" cy="184" r="79.2" fill="#d98a9c" fill-opacity="0.1"/>
+  <circle cx="225" cy="184" r="79.2" fill="#1f5d45" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#f7eff1" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

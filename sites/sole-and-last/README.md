@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `split` (3-column product grid) |
-| **Palette** | `ivory-forest` — light surface, accent `#1f5d45` |
+| **Palette** | `marble` — light surface, accent `#8a6f4e` |
 | **Type** | Cormorant Garamond (display) + Jost (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

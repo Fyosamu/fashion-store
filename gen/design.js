@@ -18,9 +18,9 @@ const PALETTES = [
   { k: "ivory-forest", m: "luxe",   on: 0, bg: "#f7f6f1", sf: "#ffffff", ink: "#12211a", mut: "#5f6b64", ln: "#e0ddd2", ac: "#1f5d45", ack: "#ffffff" },
 
   /* --- boutique -------------------------------------------------------- */
-  { k: "clay",         m: "boutique", on: 0, bg: "#fdf8f4", sf: "#ffffff", ink: "#241a15", mut: "#7b6a60", ln: "#eee2d8", ac: "#c2643f", ack: "#ffffff" },
-  { k: "blush",        m: "boutique", on: 0, bg: "#fff7f7", sf: "#ffffff", ink: "#2a1c20", mut: "#7d666c", ln: "#f2e2e5", ac: "#c4566f", ack: "#ffffff" },
-  { k: "honey",        m: "boutique", on: 0, bg: "#fffaf0", sf: "#ffffff", ink: "#241d10", mut: "#7a6c4e", ln: "#efe4cc", ac: "#a4701a", ack: "#ffffff" },
+  { k: "clay",         m: "boutique", on: 0, bg: "#fdf8f4", sf: "#ffffff", ink: "#241a15", mut: "#7b6a60", ln: "#eee2d8", ac: "#b55d3a", ack: "#ffffff" },
+  { k: "blush",        m: "boutique", on: 0, bg: "#fff7f7", sf: "#ffffff", ink: "#2a1c20", mut: "#7d666c", ln: "#f2e2e5", ac: "#c2506a", ack: "#ffffff" },
+  { k: "honey",        m: "boutique", on: 0, bg: "#fffaf0", sf: "#ffffff", ink: "#241d10", mut: "#7a6c4e", ln: "#efe4cc", ac: "#9d6b19", ack: "#ffffff" },
   { k: "sage",         m: "boutique", on: 0, bg: "#f6f7f0", sf: "#ffffff", ink: "#1d2418", mut: "#68705c", ln: "#e4e7d7", ac: "#5e7f4b", ack: "#ffffff" },
   { k: "peach",        m: "boutique", on: 0, bg: "#fff6f1", sf: "#ffffff", ink: "#26191a", mut: "#7e6462", ln: "#f4e3da", ac: "#dd7a5b", ack: "#2b1008" },
   { k: "lilac-soft",   m: "boutique", on: 0, bg: "#f9f7ff", sf: "#ffffff", ink: "#1c1730", mut: "#6d688a", ln: "#e8e4f7", ac: "#7a5fd0", ack: "#ffffff" },
@@ -34,14 +34,14 @@ const PALETTES = [
 
   /* --- street ---------------------------------------------------------- */
   { k: "hazard",       m: "street", on: 1, bg: "#0a0a0a", sf: "#131313", ink: "#ffffff", mut: "#a5a5a5", ln: "#242424", ac: "#f2ff00", ack: "#0a0a0a" },
-  { k: "cobalt-pop",   m: "street", on: 1, bg: "#0c0c12", sf: "#14141c", ink: "#ffffff", mut: "#a3a3b2", ln: "#23232f", ac: "#ff3d71", ack: "#ffffff" },
+  { k: "cobalt-pop",   m: "street", on: 1, bg: "#0c0c12", sf: "#14141c", ink: "#ffffff", mut: "#a3a3b2", ln: "#23232f", ac: "#ff3d71", ack: "#1b000d" },
   { k: "signal-yellow",m: "street", on: 0, bg: "#f2f2f0", sf: "#ffffff", ink: "#111111", mut: "#5f5f5c", ln: "#d6d6d2", ac: "#ffd400", ack: "#111111" },
   { k: "redline",      m: "street", on: 0, bg: "#ffffff", sf: "#f7f7f7", ink: "#111111", mut: "#616161", ln: "#dedede", ac: "#e11d2e", ack: "#ffffff" },
   { k: "monochrome",   m: "street", on: 0, bg: "#ffffff", sf: "#f1f1f1", ink: "#0a0a0a", mut: "#5e5e5e", ln: "#d9d9d9", ac: "#0a0a0a", ack: "#ffffff" },
 
   /* --- sport ----------------------------------------------------------- */
   { k: "carbon-neon",  m: "sport", on: 1, bg: "#080f0d", sf: "#0e1a17", ink: "#eafff5", mut: "#8ba79d", ln: "#17272350", ac: "#22ffb2", ack: "#04120d" },
-  { k: "volt",         m: "sport", on: 0, bg: "#fbfdfc", sf: "#ffffff", ink: "#0b1512", mut: "#5b6d67", ln: "#dce9e4", ac: "#00b377", ack: "#ffffff" },
+  { k: "volt",         m: "sport", on: 0, bg: "#fbfdfc", sf: "#ffffff", ink: "#0b1512", mut: "#5b6d67", ln: "#dce9e4", ac: "#008558", ack: "#ffffff" },
   { k: "ice-cyan",     m: "sport", on: 1, bg: "#050a12", sf: "#0a1220", ink: "#e9f6ff", mut: "#8296ab", ln: "#15233500", ac: "#37d5ff", ack: "#031017" },
 
   /* --- retro ----------------------------------------------------------- */
@@ -52,7 +52,7 @@ const PALETTES = [
   /* --- resort / eco ---------------------------------------------------- */
   { k: "ocean",        m: "resort", on: 0, bg: "#f2f9fb", sf: "#ffffff", ink: "#07202a", mut: "#4e6d78", ln: "#d9ecf1", ac: "#0a7ea4", ack: "#ffffff" },
   { k: "terracotta",   m: "resort", on: 0, bg: "#fdf6f0", sf: "#ffffff", ink: "#2a1a12", mut: "#78645a", ln: "#f0e0d5", ac: "#b4543a", ack: "#ffffff" },
-  { k: "mint",         m: "resort", on: 0, bg: "#f3fbf7", sf: "#ffffff", ink: "#0f241c", mut: "#547167", ln: "#d9eee5", ac: "#169b6b", ack: "#ffffff" },
+  { k: "mint",         m: "resort", on: 0, bg: "#f3fbf7", sf: "#ffffff", ink: "#0f241c", mut: "#547167", ln: "#d9eee5", ac: "#13875d", ack: "#ffffff" },
   { k: "sky-lilac",    m: "resort", on: 0, bg: "#f6f7ff", sf: "#ffffff", ink: "#161731", mut: "#63658c", ln: "#e2e4f7", ac: "#4f4fd8", ack: "#ffffff" },
 ];
 
@@ -216,4 +216,92 @@ function garmentFor(title) {
   return GARMENT_BY_KEY.tee;
 }
 
-module.exports = { PALETTES, FONTS, GARMENTS, GARMENT_BY_KEY, garmentFor, fontUrl };
+/* ---------------------------------------------------------------------------
+   Colour maths.
+
+   The accent does two jobs: it fills buttons and badges (with `ack` written on
+   it), and it paints small bits of type on the page — the eyebrow label, the
+   emphasised word in the headline, stars, the active nav rule. Those two jobs
+   pull in opposite directions. A bright signal yellow is perfect as a fill and
+   illegible as a headline on a near-white page.
+
+   So `accentText()` derives a second token from the same hue: the nearest
+   colour that still clears 4.5:1 against every surface it can land on. The
+   fill keeps its punch, the type stays readable, and nobody has to hand-tune
+   31 palettes for a case they will not think about until it ships.
+   --------------------------------------------------------------------------- */
+function hexToRgb(h) {
+  h = h.replace("#", "");
+  const n = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+  return [parseInt(n.slice(0, 2), 16), parseInt(n.slice(2, 4), 16), parseInt(n.slice(4, 6), 16)];
+}
+function rgbToHex(r, g, b) {
+  const p = (v) => Math.max(0, Math.min(255, Math.round(v))).toString(16).padStart(2, "0");
+  return "#" + p(r) + p(g) + p(b);
+}
+function rgbToHsl(r, g, b) {
+  r /= 255; g /= 255; b /= 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+  const l = (mx + mn) / 2;
+  let h = 0, s = 0;
+  if (mx !== mn) {
+    const d = mx - mn;
+    s = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn);
+    if (mx === r) h = (g - b) / d + (g < b ? 6 : 0);
+    else if (mx === g) h = (b - r) / d + 2;
+    else h = (r - g) / d + 4;
+    h *= 60;
+  }
+  return [h, s, l];
+}
+function hslToRgb(h, s, l) {
+  h = ((h % 360) + 360) % 360;
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+  const m = l - c / 2;
+  let r = 0, g = 0, b = 0;
+  if (h < 60) [r, g, b] = [c, x, 0];
+  else if (h < 120) [r, g, b] = [x, c, 0];
+  else if (h < 180) [r, g, b] = [0, c, x];
+  else if (h < 240) [r, g, b] = [0, x, c];
+  else if (h < 300) [r, g, b] = [x, 0, c];
+  else [r, g, b] = [c, 0, x];
+  return [(r + m) * 255, (g + m) * 255, (b + m) * 255];
+}
+function lum(hex) {
+  const [r, g, b] = hexToRgb(hex);
+  const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+}
+function contrastHex(a, b) {
+  const l1 = lum(a), l2 = lum(b);
+  return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+}
+
+/* Nearest hue-preserving colour that clears `min` against every target. */
+/* srgb lerp — used to predict what an accent looks like after the site mixes
+   it into a surface at low alpha, so the derived text colour is fitted against
+   the tint too and not only against the raw background. */
+function mixHex(a, b, p) {
+  const A = hexToRgb(a), B = hexToRgb(b);
+  return rgbToHex(A[0] + (B[0] - A[0]) * p, A[1] + (B[1] - A[1]) * p, A[2] + (B[2] - A[2]) * p);
+}
+
+function accentText(ac, targets, min = 4.5) {
+  const [h, s, l] = rgbToHsl(...hexToRgb(ac));
+  const mk = (L) => { const [r, g, b] = hslToRgb(h, s, L); return rgbToHex(r, g, b); };
+  const ok = (L) => targets.every((t) => contrastHex(mk(L), t) >= min);
+  if (ok(l)) return ac;
+  /* Walk outward from the original lightness so the accent stays recognisably
+     itself — the first step that passes is the smallest change that works. */
+  for (let d = 0.005; d <= 1; d += 0.005) {
+    for (const sgn of [1, -1]) {
+      const L = l + sgn * d;
+      if (L < 0 || L > 1) continue;
+      if (ok(L)) return mk(L);
+    }
+  }
+  return ac;
+}
+
+module.exports = { PALETTES, FONTS, GARMENTS, GARMENT_BY_KEY, garmentFor, fontUrl, contrastHex, accentText, mixHex, lum };

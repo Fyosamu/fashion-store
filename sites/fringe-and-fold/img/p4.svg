@@ -2,25 +2,25 @@
   <title>Wool plaid blanket scarf — Fringe &amp; Fold</title>
   <defs>
     <linearGradient id="bg1328357844" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(324 .5 .5)">
-      <stop offset="0" stop-color="#f6f7f0"/>
-      <stop offset="1" stop-color="#e4e7d7"/>
+      <stop offset="0" stop-color="#fdf8f4"/>
+      <stop offset="1" stop-color="#eee2d8"/>
     </linearGradient>
     <radialGradient id="gl1328357844" cx="58.5%" cy="70%" r="192">
-      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b55d3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b55d3a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1328357844)"/>
   <rect width="400" height="500" fill="url(#gl1328357844)"/>
-  <circle cx="234" cy="350" r="86.4" fill="#5e7f4b" fill-opacity="0.1"/>
+  <circle cx="234" cy="350" r="86.4" fill="#b55d3a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#1d2418" fill-opacity="0.92"/>
-    <path d="M132,408 L268,408" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M144,408 L144,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M172,408 L172,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,408 L200,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,408 L228,446" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M256,408 L256,442" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `retro` (3-column product grid) |
-| **Palette** | `newsprint` — light surface, accent `#a33b2a` |
+| **Palette** | `olive-film` — light surface, accent `#6b7042` |
 | **Type** | Instrument Serif (display) + Hanken Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

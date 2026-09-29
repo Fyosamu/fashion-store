@@ -2,21 +2,21 @@
   <title>Stillpoint season image 3</title>
   <defs>
     <linearGradient id="bg3531189272" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(32 .5 .5)">
-      <stop offset="0" stop-color="#f6f7ff"/>
-      <stop offset="1" stop-color="#e2e4f7"/>
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
     </linearGradient>
     <radialGradient id="gl3531189272" cx="30.5%" cy="-42.6%" r="26">
-      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3531189272)"/>
   <rect width="400" height="500" fill="url(#gl3531189272)"/>
-  <circle cx="122" cy="-213" r="11.700000000000001" fill="#4f4fd8" fill-opacity="0.1"/>
+  <circle cx="122" cy="-213" r="11.700000000000001" fill="#b4543a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#161731" fill-opacity="0.92"/>
-    <path d="M158,168 L238,168" fill="none" stroke="#4f4fd8" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M158,196 L238,196" fill="none" stroke="#4f4fd8" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#b4543a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#b4543a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

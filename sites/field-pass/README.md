@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `fullbleed` (4-column product grid) |
-| **Palette** | `hazard` — dark surface, accent `#f2ff00` |
+| **Palette** | `signal-yellow` — light surface, accent `#ffd400` |
 | **Type** | Bricolage Grotesque (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

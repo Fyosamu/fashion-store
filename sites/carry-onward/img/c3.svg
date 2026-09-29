@@ -2,21 +2,21 @@
   <title>Backpacks — Carry Onward</title>
   <defs>
     <linearGradient id="bg3511996245" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(45 .5 .5)">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#e3e7ee"/>
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
     </linearGradient>
     <radialGradient id="gl3511996245" cx="73.75%" cy="-48.4%" r="64">
-      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3511996245)"/>
   <rect width="400" height="500" fill="url(#gl3511996245)"/>
-  <circle cx="295" cy="-242" r="28.8" fill="#1f5fd0" fill-opacity="0.1"/>
+  <circle cx="295" cy="-242" r="28.8" fill="#0d7a8f" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0e1116" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#0d7a8f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#0d7a8f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,21 +2,21 @@
   <title>Groove Archive workshop</title>
   <defs>
     <linearGradient id="bg590251305" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(345 .5 .5)">
-      <stop offset="0" stop-color="#f4efe4"/>
-      <stop offset="1" stop-color="#ded5c4"/>
+      <stop offset="0" stop-color="#f7ead7"/>
+      <stop offset="1" stop-color="#e6d3b6"/>
     </linearGradient>
     <radialGradient id="gl590251305" cx="38.75%" cy="16.6%" r="133">
-      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#9c5a1e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9c5a1e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg590251305)"/>
   <rect width="400" height="500" fill="url(#gl590251305)"/>
-  <circle cx="155" cy="83" r="59.85" fill="#a33b2a" fill-opacity="0.1"/>
+  <circle cx="155" cy="83" r="59.85" fill="#9c5a1e" fill-opacity="0.1"/>
 
   <g transform="translate(0,-10) scale(.96)">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#1c1a17" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#a33b2a" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#a33b2a" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#9c5a1e" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#9c5a1e" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

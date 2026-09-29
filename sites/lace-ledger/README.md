@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `centered` (2-column product grid) |
-| **Palette** | `midnight-ice` — dark surface, accent `#8fb6d9` |
+| **Palette** | `marble` — light surface, accent `#8a6f4e` |
 | **Type** | Playfair Display (display) + Jost (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

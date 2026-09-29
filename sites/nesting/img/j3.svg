@@ -2,23 +2,23 @@
   <title>Nesting journal image 3</title>
   <defs>
     <linearGradient id="bg3653819253" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(333 .5 .5)">
-      <stop offset="0" stop-color="#f9f7ff"/>
-      <stop offset="1" stop-color="#e8e4f7"/>
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
     </linearGradient>
     <radialGradient id="gl3653819253" cx="80.75%" cy="6.800000000000001%" r="73">
-      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3653819253)"/>
   <rect width="400" height="500" fill="url(#gl3653819253)"/>
-  <circle cx="323" cy="34" r="32.85" fill="#7a5fd0" fill-opacity="0.1"/>
+  <circle cx="323" cy="34" r="32.85" fill="#dd7a5b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#1c1730" fill-opacity="0.92"/>
-    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#1c1730" fill-opacity="0.92"/>
-    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#1c1730" fill-opacity="0.92"/>
-    <path d="M186,152 L186,214" fill="none" stroke="#7a5fd0" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M214,152 L214,214" fill="none" stroke="#7a5fd0" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M186,152 L186,214" fill="none" stroke="#dd7a5b" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214,152 L214,214" fill="none" stroke="#dd7a5b" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

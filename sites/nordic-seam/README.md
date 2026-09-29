@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `index` (3-column product grid) |
-| **Palette** | `stone` — light surface, accent `#4d5c6b` |
+| **Palette** | `concrete` — light surface, accent `#2b2b30` |
 | **Type** | Syne (display) + Space Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

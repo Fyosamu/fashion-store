@@ -2,22 +2,22 @@
   <title>Plain Theory detail 3</title>
   <defs>
     <linearGradient id="bg2739410145" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(225 .5 .5)">
-      <stop offset="0" stop-color="#f7fbfd"/>
-      <stop offset="1" stop-color="#dde9ee"/>
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
     </linearGradient>
     <radialGradient id="gl2739410145" cx="73.75%" cy="1.2%" r="89">
-      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2739410145)"/>
   <rect width="400" height="500" fill="url(#gl2739410145)"/>
-  <circle cx="295" cy="6" r="40.050000000000004" fill="#0d7a8f" fill-opacity="0.1"/>
+  <circle cx="295" cy="6" r="40.050000000000004" fill="#4d5c6b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `spec` (3-column product grid) |
-| **Palette** | `volt` — light surface, accent `#00b377` |
+| **Palette** | `ice-cyan` — dark surface, accent `#37d5ff` |
 | **Type** | IBM Plex Mono (display) + IBM Plex Sans (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

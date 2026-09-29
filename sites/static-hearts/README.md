@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `street` (3-column product grid) |
-| **Palette** | `monochrome` — light surface, accent `#0a0a0a` |
-| **Type** | Unbounded (display) + Manrope (body), one Google Fonts request |
+| **Palette** | `signal-yellow` — light surface, accent `#ffd400` |
+| **Type** | Bricolage Grotesque (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

@@ -2,23 +2,23 @@
   <title>Silk Route workshop</title>
   <defs>
     <linearGradient id="bg2698207449" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(249 .5 .5)">
-      <stop offset="0" stop-color="#080d14"/>
-      <stop offset="1" stop-color="#101824"/>
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
     </linearGradient>
     <radialGradient id="gl2698207449" cx="79.75%" cy="-4.2%" r="24">
-      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2698207449)"/>
   <rect width="400" height="500" fill="url(#gl2698207449)"/>
-  <circle cx="319" cy="-21" r="10.8" fill="#8fb6d9" fill-opacity="0.1"/>
+  <circle cx="319" cy="-21" r="10.8" fill="#1f5d45" fill-opacity="0.1"/>
 
   <g transform="translate(0,-10) scale(.96)">
-    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,116 L172,86 L188,134 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,116 L228,86 L212,134 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,124 L200,436" fill="none" stroke="#8fb6d9" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,420 L278,420" fill="none" stroke="#8fb6d9" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#1f5d45" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#1f5d45" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

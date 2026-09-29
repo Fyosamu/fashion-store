@@ -6,17 +6,17 @@
       <stop offset="1" stop-color="#dce9e4"/>
     </linearGradient>
     <radialGradient id="gl2539409867" cx="19.25%" cy="-43.8%" r="90">
-      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2539409867)"/>
   <rect width="400" height="500" fill="url(#gl2539409867)"/>
-  <circle cx="77" cy="-219" r="40.5" fill="#00b377" fill-opacity="0.1"/>
+  <circle cx="77" cy="-219" r="40.5" fill="#008558" fill-opacity="0.1"/>
 
   <g transform="">
     <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#0b1512" fill-opacity="0.92"/>
     <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#0b1512" fill-opacity="0.92"/>
-    <path d="M200,186 L200,332" fill="none" stroke="#00b377" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#008558" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

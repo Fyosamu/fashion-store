@@ -2,23 +2,23 @@
   <title>Chalk &amp; Canvas detail 1</title>
   <defs>
     <linearGradient id="bg38823447" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(327 .5 .5)">
-      <stop offset="0" stop-color="#080d14"/>
-      <stop offset="1" stop-color="#101824"/>
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
     </linearGradient>
     <radialGradient id="gl38823447" cx="79.25%" cy="70%" r="162">
-      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg38823447)"/>
   <rect width="400" height="500" fill="url(#gl38823447)"/>
-  <circle cx="317" cy="350" r="72.9" fill="#8fb6d9" fill-opacity="0.1"/>
+  <circle cx="317" cy="350" r="72.9" fill="#c9a227" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,116 L172,86 L188,134 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,116 L228,86 L212,134 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M200,124 L200,436" fill="none" stroke="#8fb6d9" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,420 L278,420" fill="none" stroke="#8fb6d9" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#c9a227" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#c9a227" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

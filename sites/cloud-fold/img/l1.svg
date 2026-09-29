@@ -2,23 +2,23 @@
   <title>Cloud Fold look 1</title>
   <defs>
     <linearGradient id="bg2135132434" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(154 .5 .5)">
-      <stop offset="0" stop-color="#0e0c0f"/>
-      <stop offset="1" stop-color="#171317"/>
+      <stop offset="0" stop-color="#faf8f5"/>
+      <stop offset="1" stop-color="#e6e1d8"/>
     </linearGradient>
     <radialGradient id="gl2135132434" cx="71%" cy="32.800000000000004%" r="218">
-      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8a6f4e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8a6f4e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2135132434)"/>
   <rect width="400" height="500" fill="url(#gl2135132434)"/>
-  <circle cx="284" cy="164" r="98.10000000000001" fill="#d98a9c" fill-opacity="0.1"/>
+  <circle cx="284" cy="164" r="98.10000000000001" fill="#8a6f4e" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#f7eff1" fill-opacity="0.92"/>
-    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#f7eff1" fill-opacity="0.92"/>
-    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#f7eff1" fill-opacity="0.92"/>
-    <path d="M186,152 L186,214" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M214,152 L214,214" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M186,152 L186,214" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214,152 L214,214" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

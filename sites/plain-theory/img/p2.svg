@@ -2,22 +2,22 @@
   <title>Seamless tank — Plain Theory</title>
   <defs>
     <linearGradient id="bg2417531075" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(35 .5 .5)">
-      <stop offset="0" stop-color="#f7fbfd"/>
-      <stop offset="1" stop-color="#dde9ee"/>
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
     </linearGradient>
     <radialGradient id="gl2417531075" cx="46.25%" cy="8.4%" r="-12">
-      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2417531075)"/>
   <rect width="400" height="500" fill="url(#gl2417531075)"/>
-  <circle cx="185" cy="42" r="-5.4" fill="#0d7a8f" fill-opacity="0.1"/>
+  <circle cx="185" cy="42" r="-5.4" fill="#4d5c6b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M178,110 L166,88" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M222,110 L234,88" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M130,286 L270,286" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,23 +2,23 @@
   <title>Slow Hours detail 2</title>
   <defs>
     <linearGradient id="bg1871844349" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(229 .5 .5)">
-      <stop offset="0" stop-color="#fff6f1"/>
-      <stop offset="1" stop-color="#f4e3da"/>
+      <stop offset="0" stop-color="#fdf8f4"/>
+      <stop offset="1" stop-color="#eee2d8"/>
     </linearGradient>
     <radialGradient id="gl1871844349" cx="39.75%" cy="76.6%" r="165">
-      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b55d3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b55d3a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1871844349)"/>
   <rect width="400" height="500" fill="url(#gl1871844349)"/>
-  <circle cx="159" cy="383" r="74.25" fill="#dd7a5b" fill-opacity="0.1"/>
+  <circle cx="159" cy="383" r="74.25" fill="#b55d3a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#26191a" fill-opacity="0.92"/>
-    <path d="M200,116 L172,86 L188,134 Z" fill="#26191a" fill-opacity="0.92"/>
-    <path d="M200,116 L228,86 L212,134 Z" fill="#26191a" fill-opacity="0.92"/>
-    <path d="M200,124 L200,436" fill="none" stroke="#dd7a5b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,420 L278,420" fill="none" stroke="#dd7a5b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#b55d3a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#b55d3a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

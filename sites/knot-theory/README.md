@@ -2,8 +2,8 @@
 
 | | |
 |---|---|
-| **Layout** | `index` (3-column product grid) |
-| **Palette** | `glacier` — light surface, accent `#0d7a8f` |
+| **Layout** | `catalog` (4-column product grid) |
+| **Palette** | `graphite-blue` — dark surface, accent `#5b9cf8` |
 | **Type** | Fraunces (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

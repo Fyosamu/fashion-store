@@ -6,17 +6,17 @@
       <stop offset="1" stop-color="#dce9e4"/>
     </linearGradient>
     <radialGradient id="gl580224301" cx="77.75%" cy="75.4%" r="219">
-      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg580224301)"/>
   <rect width="400" height="500" fill="url(#gl580224301)"/>
-  <circle cx="311" cy="377" r="98.55" fill="#00b377" fill-opacity="0.1"/>
+  <circle cx="311" cy="377" r="98.55" fill="#008558" fill-opacity="0.1"/>
 
   <g transform="">
     <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1512" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#008558" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#008558" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,22 +2,22 @@
   <title>Evening gown rental — Borrowed</title>
   <defs>
     <linearGradient id="bg3733562393" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(233 .5 .5)">
-      <stop offset="0" stop-color="#fff7f7"/>
-      <stop offset="1" stop-color="#f2e2e5"/>
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
     </linearGradient>
     <radialGradient id="gl3733562393" cx="40.75%" cy="-10.6%" r="76">
-      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3733562393)"/>
   <rect width="400" height="500" fill="url(#gl3733562393)"/>
-  <circle cx="163" cy="-53" r="34.2" fill="#c4566f" fill-opacity="0.1"/>
+  <circle cx="163" cy="-53" r="34.2" fill="#5e7f4b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M148,98 L200,130 L252,98 L300,150 L286,244 L348,478 L52,478 L114,244 L100,150 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M174,108 Q200,146 226,108" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M118,268 L282,268" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,268 L200,478" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M148,98 L200,130 L252,98 L300,150 L286,244 L348,478 L52,478 L114,244 L100,150 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M174,108 Q200,146 226,108" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118,268 L282,268" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,268 L200,478" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

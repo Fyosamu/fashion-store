@@ -2,22 +2,22 @@
   <title>Trousers — Nordic Seam</title>
   <defs>
     <linearGradient id="bg1645261168" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(328 .5 .5)">
-      <stop offset="0" stop-color="#f2f1ee"/>
-      <stop offset="1" stop-color="#dedcd7"/>
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
     </linearGradient>
     <radialGradient id="gl1645261168" cx="54.50000000000001%" cy="79.2%" r="151">
-      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1645261168)"/>
   <rect width="400" height="500" fill="url(#gl1645261168)"/>
-  <circle cx="218" cy="396" r="67.95" fill="#4d5c6b" fill-opacity="0.1"/>
+  <circle cx="218" cy="396" r="67.95" fill="#2b2b30" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

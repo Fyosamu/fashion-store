@@ -2,22 +2,22 @@
   <title>Afterhours detail 1</title>
   <defs>
     <linearGradient id="bg3854725412" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(212 .5 .5)">
-      <stop offset="0" stop-color="#0c0c12"/>
-      <stop offset="1" stop-color="#14141c"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
     </linearGradient>
     <radialGradient id="gl3854725412" cx="80.5%" cy="-5.2%" r="41">
-      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3854725412)"/>
   <rect width="400" height="500" fill="url(#gl3854725412)"/>
-  <circle cx="322" cy="-26" r="18.45" fill="#ff3d71" fill-opacity="0.1"/>
+  <circle cx="322" cy="-26" r="18.45" fill="#e11d2e" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#ff3d71" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#ff3d71" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#e11d2e" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#e11d2e" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

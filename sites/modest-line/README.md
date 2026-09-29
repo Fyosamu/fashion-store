@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `centered` (2-column product grid) |
-| **Palette** | `marble` — light surface, accent `#8a6f4e` |
-| **Type** | Bodoni Moda (display) + Karla (body), one Google Fonts request |
+| **Palette** | `ivory-forest` — light surface, accent `#1f5d45` |
+| **Type** | Fraunces (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

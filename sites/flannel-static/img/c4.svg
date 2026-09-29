@@ -2,24 +2,24 @@
   <title>Knits — Flannel Static</title>
   <defs>
     <linearGradient id="bg963487842" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(42 .5 .5)">
-      <stop offset="0" stop-color="#efeee3"/>
-      <stop offset="1" stop-color="#d9d7c6"/>
+      <stop offset="0" stop-color="#f7ead7"/>
+      <stop offset="1" stop-color="#e6d3b6"/>
     </linearGradient>
     <radialGradient id="gl963487842" cx="48%" cy="48%" r="175">
-      <stop offset="0" stop-color="#6b7042" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#6b7042" stop-opacity="0"/>
+      <stop offset="0" stop-color="#9c5a1e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9c5a1e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg963487842)"/>
   <rect width="400" height="500" fill="url(#gl963487842)"/>
-  <circle cx="192" cy="240" r="78.75" fill="#6b7042" fill-opacity="0.1"/>
+  <circle cx="192" cy="240" r="78.75" fill="#9c5a1e" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#1f2118" fill-opacity="0.92"/>
-    <path d="M116,412 L284,412" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M150,240 L150,404" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,236 L200,404" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M250,240 L250,404" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

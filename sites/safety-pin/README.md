@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `brutal` (3-column product grid) |
-| **Palette** | `signal-yellow` — light surface, accent `#ffd400` |
+| **Palette** | `monochrome` — light surface, accent `#0a0a0a` |
 | **Type** | Unbounded (display) + Manrope (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

@@ -2,25 +2,25 @@
   <title>Hush Tailoring journal image 2</title>
   <defs>
     <linearGradient id="bg1940533472" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(272 .5 .5)">
-      <stop offset="0" stop-color="#0b0b0d"/>
-      <stop offset="1" stop-color="#141417"/>
+      <stop offset="0" stop-color="#080d14"/>
+      <stop offset="1" stop-color="#101824"/>
     </linearGradient>
     <radialGradient id="gl1940533472" cx="35.5%" cy="50.8%" r="141">
-      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1940533472)"/>
   <rect width="400" height="500" fill="url(#gl1940533472)"/>
-  <circle cx="142" cy="254" r="63.45" fill="#c9a227" fill-opacity="0.1"/>
+  <circle cx="142" cy="254" r="63.45" fill="#8fb6d9" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#f4f2ee" fill-opacity="0.92"/>
-    <path d="M132,408 L268,408" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M144,408 L144,442" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M172,408 L172,446" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,408 L200,442" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,408 L228,446" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M256,408 L256,442" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#8fb6d9" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

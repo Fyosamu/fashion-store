@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `split` (3-column product grid) |
-| **Palette** | `onyx-rose` — dark surface, accent `#d98a9c` |
+| **Palette** | `midnight-ice` — dark surface, accent `#8fb6d9` |
 | **Type** | Cormorant Garamond (display) + Jost (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

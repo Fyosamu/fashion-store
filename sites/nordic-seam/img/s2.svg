@@ -2,25 +2,25 @@
   <title>Nordic Seam season image 2</title>
   <defs>
     <linearGradient id="bg3840466233" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(273 .5 .5)">
-      <stop offset="0" stop-color="#f2f1ee"/>
-      <stop offset="1" stop-color="#dedcd7"/>
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
     </linearGradient>
     <radialGradient id="gl3840466233" cx="80.75%" cy="-18.6%" r="81">
-      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3840466233)"/>
   <rect width="400" height="500" fill="url(#gl3840466233)"/>
-  <circle cx="323" cy="-93" r="36.45" fill="#4d5c6b" fill-opacity="0.1"/>
+  <circle cx="323" cy="-93" r="36.45" fill="#2b2b30" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M132,408 L268,408" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M144,408 L144,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M172,408 L172,446" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,408 L200,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,408 L228,446" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M256,408 L256,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

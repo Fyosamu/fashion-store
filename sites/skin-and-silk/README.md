@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `centered` (2-column product grid) |
-| **Palette** | `noir-gold` — dark surface, accent `#c9a227` |
+| **Palette** | `midnight-ice` — dark surface, accent `#8fb6d9` |
 | **Type** | Instrument Serif (display) + Hanken Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

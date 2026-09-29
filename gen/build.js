@@ -8,7 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { PALETTES, FONTS, garmentFor, fontUrl } = require("./design.js");
+const { PALETTES, FONTS, garmentFor, fontUrl, accentText, mixHex } = require("./design.js");
 const { BASE_CSS, LAYOUT_BY_ID } = require("./layouts.js");
 const { NICHES } = require("./niches.js");
 
@@ -50,11 +50,50 @@ const FONT_BY_MOOD = {
   resort:   ["dmserif", "syne", "sora", "playfair"],
 };
 
+/* Skins are assigned for the whole catalogue at once, not per niche.
+
+   The old rule indexed the palette pool with `i % pool.length` and the font
+   list with `floor(i / pool.length)`. Both are periodic in i, so any layout
+   that recurred on a cycle dividing the pool size pulled the same palette every
+   time — three stores ended up with an identical skin. Scoring each candidate
+   against what has already gone out removes that, and because the map is built
+   from the full NICHES array it still resolves the same way when build.js is
+   asked for one slug. */
+const ASSIGN = (() => {
+  const chosen = new Map();
+  const pair = new Map();
+  const triplet = new Map();
+  for (const niche of NICHES) {
+    const pool = PALETTES.filter((p) => p.m === niche.m);
+    const fams = FONT_BY_MOOD[niche.m] || ["fraunces"];
+    const order = shuffled(pool, hash(niche.s));
+    const rotate = hash(niche.s) % fams.length;
+    let best = null;
+    for (const pal of order) {
+      for (let f = 0; f < fams.length; f++) {
+        const font = FONTS.find((x) => x.k === fams[(f + rotate) % fams.length]) || FONTS[0];
+        const p = `${niche.l}|${pal.k}`;
+        const t = `${p}|${font.k}`;
+        /* An unused skin for this layout is worth an order of magnitude more
+           than an unused palette, so triplets break before pairs do. */
+        const score = (triplet.get(t) || 0) * 1000 + (pair.get(p) || 0);
+        if (!best || score < best.score) best = { pal, font, score };
+      }
+    }
+    const p = `${niche.l}|${best.pal.k}`;
+    const t = `${p}|${best.font.k}`;
+    pair.set(p, (pair.get(p) || 0) + 1);
+    triplet.set(t, (triplet.get(t) || 0) + 1);
+    chosen.set(niche.s, { pal: best.pal, font: best.font });
+  }
+  return chosen;
+})();
+
 function choose(niche, i) {
+  const hit = ASSIGN.get(niche.s);
   const pool = PALETTES.filter((p) => p.m === niche.m);
-  const pal = pool[i % pool.length];
-  const fams = FONT_BY_MOOD[niche.m] || ["fraunces"];
-  const font = FONTS.find((f) => f.k === fams[Math.floor(i / pool.length) % fams.length]) || FONTS[0];
+  const pal = hit ? hit.pal : pool[i % pool.length];
+  const font = hit ? hit.font : FONTS[0];
   const layout = LAYOUT_BY_ID[niche.l];
   return { pal, font, layout };
 }
@@ -642,15 +681,15 @@ function footerFor(n) {
         <p class="footer__about">${esc(n.n)} is a ${esc(n.cat.toLowerCase())} label working in small runs from its own workshop. Free returns for thirty days, worldwide tracked shipping.</p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h3>Shop</h3>
         <ul>${n.cats.map((c) => `<li><a href="#shop">${esc(c)}</a></li>`).join("")}</ul>
       </div>
       <div>
-        <h4>Help</h4>
+        <h3>Help</h3>
         <ul><li><a href="#faq">Shipping</a></li><li><a href="#faq">Returns</a></li><li><a href="#faq">Size guide</a></li><li><a href="#faq">Contact</a></li></ul>
       </div>
       <div>
-        <h4>This template</h4>
+        <h3>This template</h3>
         <ul><li><a href="buy.html">Buy for $19</a></li><li><a href="INSTALL.md">Install notes</a></li><li><a href="#top">Live demo</a></li><li>MIT licensed</li></ul>
       </div>
     </div>
@@ -768,13 +807,23 @@ const SCRIPT_JS = `(function () {
 /* ------------------------------------------------------------ style.css */
 function styleCss(niche, pal, font, layout) {
   const on = !!pal.on;
+  const card = on ? pal.sf : "#ffffff";
+  const sf2 = on ? pal.ln : pal.sf;
+  /* The accent paints type as well as filling buttons, so derive a second,
+     hue-preserving value that stays legible on every surface in this theme —
+     including the 12–20% tints the layouts mix it into for pills and avatars. */
+  const acT = accentText(pal.ac, [
+    pal.bg, pal.sf, card, sf2,
+    mixHex(pal.bg, pal.ac, 0.20),
+    mixHex(pal.sf, pal.ac, 0.20),
+  ]);
   const tokens = `
 :root{
   /* palette: ${pal.k} */
-  --bg:${pal.bg}; --sf:${pal.sf}; --sf2:${on ? pal.ln : pal.sf};
-  --card:${on ? pal.sf : "#fff"};
-  --ink:${pal.ink}; --mut:${pal.mut}; --line:${pal.ln};
-  --ac:${pal.ac}; --ack:${pal.ack};
+  --bg:${pal.bg}; --sf:${pal.sf}; --sf2:${sf2};
+  --card:${card};
+  --ink:${pal.ink}; --mut:${pal.mut}; --line:${pal.ln}; --ln:${pal.ln};
+  --ac:${pal.ac}; --ack:${pal.ack}; --ac-t:${acT};
   --display:"${font.h}",Georgia,serif;
   --sans:"${font.b}",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;

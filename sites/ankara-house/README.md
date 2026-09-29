@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `fullbleed` (4-column product grid) |
-| **Palette** | `terracotta` — light surface, accent `#b4543a` |
-| **Type** | Syne (display) + Space Grotesk (body), one Google Fonts request |
+| **Palette** | `ocean` — light surface, accent `#0a7ea4` |
+| **Type** | Sora (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `boutique` (4-column product grid) |
-| **Palette** | `terracotta` — light surface, accent `#b4543a` |
-| **Type** | DM Serif Display (display) + DM Sans (body), one Google Fonts request |
+| **Palette** | `sky-lilac` — light surface, accent `#4f4fd8` |
+| **Type** | Syne (display) + Space Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

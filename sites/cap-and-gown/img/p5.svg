@@ -2,25 +2,25 @@
   <title>Stole, custom print — Cap &amp; Gown</title>
   <defs>
     <linearGradient id="bg1948175114" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(194 .5 .5)">
-      <stop offset="0" stop-color="#0b0b0d"/>
-      <stop offset="1" stop-color="#141417"/>
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
     </linearGradient>
     <radialGradient id="gl1948175114" cx="31%" cy="21.8%" r="132">
-      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1948175114)"/>
   <rect width="400" height="500" fill="url(#gl1948175114)"/>
-  <circle cx="124" cy="109" r="59.4" fill="#c9a227" fill-opacity="0.1"/>
+  <circle cx="124" cy="109" r="59.4" fill="#d98a9c" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#f4f2ee" fill-opacity="0.92"/>
-    <path d="M132,408 L268,408" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M144,408 L144,442" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M172,408 L172,446" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,408 L200,442" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,408 L228,446" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M256,408 L256,442" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#d98a9c" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,24 +2,24 @@
   <title>Halfpipe Goods look 2</title>
   <defs>
     <linearGradient id="bg965364208" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(88 .5 .5)">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#dedede"/>
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#131313"/>
     </linearGradient>
     <radialGradient id="gl965364208" cx="34.5%" cy="31.2%" r="181">
-      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
+      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg965364208)"/>
   <rect width="400" height="500" fill="url(#gl965364208)"/>
-  <circle cx="138" cy="156" r="81.45" fill="#e11d2e" fill-opacity="0.1"/>
+  <circle cx="138" cy="156" r="81.45" fill="#f2ff00" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#111111" fill-opacity="0.92"/>
-    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#111111" fill-opacity="0.92"/>
-    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#111111" fill-opacity="0.92"/>
-    <path d="M200,156 L200,282" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M156,182 L144,282" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M244,182 L256,282" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

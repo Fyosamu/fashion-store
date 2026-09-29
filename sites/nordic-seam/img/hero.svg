@@ -2,23 +2,23 @@
   <title>Nordic Seam hero look</title>
   <defs>
     <linearGradient id="bg3894665769" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(9 .5 .5)">
-      <stop offset="0" stop-color="#f2f1ee"/>
-      <stop offset="1" stop-color="#dedcd7"/>
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
     </linearGradient>
     <radialGradient id="gl3894665769" cx="64.75%" cy="-10.2%" r="47">
-      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3894665769)"/>
   <rect width="400" height="500" fill="url(#gl3894665769)"/>
-  <circle cx="259" cy="-51" r="21.150000000000002" fill="#4d5c6b" fill-opacity="0.1"/>
+  <circle cx="259" cy="-51" r="21.150000000000002" fill="#2b2b30" fill-opacity="0.1"/>
 
   <g transform="translate(0,20) scale(1.02)">
-    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#1a1a1c" fill-opacity="0.92"/>
-    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#4d5c6b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#4d5c6b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#2b2b30" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#2b2b30" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

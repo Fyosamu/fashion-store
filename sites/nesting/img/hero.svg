@@ -2,21 +2,21 @@
   <title>Nesting hero look</title>
   <defs>
     <linearGradient id="bg1324209505" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(265 .5 .5)">
-      <stop offset="0" stop-color="#f9f7ff"/>
-      <stop offset="1" stop-color="#e8e4f7"/>
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
     </linearGradient>
     <radialGradient id="gl1324209505" cx="48.75%" cy="47.599999999999994%" r="167">
-      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1324209505)"/>
   <rect width="400" height="500" fill="url(#gl1324209505)"/>
-  <circle cx="195" cy="238" r="75.15" fill="#7a5fd0" fill-opacity="0.1"/>
+  <circle cx="195" cy="238" r="75.15" fill="#dd7a5b" fill-opacity="0.1"/>
 
   <g transform="translate(0,20) scale(1.02)">
-    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#1c1730" fill-opacity="0.92"/>
-    <path d="M158,168 L238,168" fill="none" stroke="#7a5fd0" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
-    <path d="M158,196 L238,196" fill="none" stroke="#7a5fd0" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#dd7a5b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#dd7a5b" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

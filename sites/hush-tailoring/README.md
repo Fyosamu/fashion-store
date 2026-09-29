@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `index` (3-column product grid) |
-| **Palette** | `noir-gold` — dark surface, accent `#c9a227` |
-| **Type** | Bodoni Moda (display) + Karla (body), one Google Fonts request |
+| **Palette** | `midnight-ice` — dark surface, accent `#8fb6d9` |
+| **Type** | Instrument Serif (display) + Hanken Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

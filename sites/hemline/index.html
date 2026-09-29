@@ -7,7 +7,7 @@
   <meta name="description" content="Hemline: Nine lengths, one fit block, and a waistband that lies flat. Skirts from $95. Free returns for 30 days, tracked worldwide." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://fyosamu.github.io/fashion-store/sites/hemline/" />
-  <meta name="theme-color" content="#f9f7ff" />
+  <meta name="theme-color" content="#fffaf0" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Hemline" />
   <meta property="og:title" content="Hemline — Skirts" />
@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Hemline: Nine lengths, one fit block, and a waistband that lies flat. Skirts from $95. Free returns for 30 days, tracked worldwide." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..700;1,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
 {
@@ -150,7 +150,7 @@
   </script>
   <script>document.documentElement.classList.add("js");</script>
 </head>
-<body data-layout="boutique" data-palette="lilac-soft">
+<body data-layout="catalog" data-palette="honey">
 <a class="skip" href="#shop">Skip to products</a>
   <div class="topbar">Free tracked shipping over $120 &nbsp;&middot;&nbsp; <a href="buy.html">Get this store as a template &mdash; $19</a></div>
 
@@ -172,19 +172,19 @@
 
 <section class="hero" id="top">
   <div class="container">
-    <div class="hero__panel reveal">
-      <div>
-        <span class="eyebrow">Skirts</span>
-        <h1>Length matters <em>more than you think.</em></h1>
-        <p class="lead">Nine lengths, one fit block, and a waistband that lies flat.</p>
-        <div class="hero__cta"><a href="#shop" class="btn">Shop the collection</a><a href="buy.html" class="btn btn--ghost">Get this template</a></div>
-        <div class="hero__pills"><span>Midi</span><span>Maxi</span><span>Pencil</span><span>Leather</span></div>
-      </div>
-      <div class="hero__cards">
-        <img src="img/hero.svg" alt="Pleated midi skirt" width="400" height="250" fetchpriority="high" />
-        <img src="img/t1.svg" alt="Bias-cut slip skirt" loading="lazy" width="400" height="533" />
-        <img src="img/t2.svg" alt="Pencil skirt, stretch" loading="lazy" width="400" height="533" />
-      </div>
+    <span class="eyebrow">Skirts</span>
+    <h1 class="reveal">Length matters <em>more than you think.</em></h1>
+    <p class="lead reveal">Nine lengths, one fit block, and a waistband that lies flat.</p>
+    <div class="hero__bar reveal">
+      <div class="search"><span aria-hidden="true">&#9906;</span><input id="q" type="search" placeholder="Search skirts…" aria-label="Search products" /></div>
+      <a href="#shop" class="btn">Browse all</a>
+    </div>
+    <div class="chips reveal" id="chips">
+      <button class="chip is-on" data-cat="all">All</button>
+      <button class="chip" data-cat="midi">Midi</button>
+      <button class="chip" data-cat="maxi">Maxi</button>
+      <button class="chip" data-cat="pencil">Pencil</button>
+      <button class="chip" data-cat="leather">Leather</button>
     </div>
   </div>
 </section>
@@ -200,12 +200,49 @@
   </div>
 </section>
 
+<section class="sec" id="categories" aria-label="Categories">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow">Shop by category</span><h2>Midi, Maxi &amp; more</h2></div>
+      <a class="link-arrow" href="#shop">See everything <span>&rarr;</span></a>
+    </div>
+    <div class="cat-grid">
+      <a class="cat" href="#shop">
+        <img src="img/c1.svg" alt="Midi collection" loading="lazy" width="400" height="400" />
+        <span>Midi</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c2.svg" alt="Maxi collection" loading="lazy" width="400" height="400" />
+        <span>Maxi</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c3.svg" alt="Pencil collection" loading="lazy" width="400" height="400" />
+        <span>Pencil</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c4.svg" alt="Leather collection" loading="lazy" width="400" height="400" />
+        <span>Leather</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="sec" id="shop" aria-label="Shop">
   <div class="container">
     <div class="sec-head">
       <div><span class="eyebrow">The collection</span><h2>Midi &amp; Maxi</h2>
       <p>Six pieces from this season, each made in a run of forty or fewer.</p></div>
       <a class="link-arrow" href="buy.html">Get this template <span>&rarr;</span></a>
+    </div>
+    <div class="toolbar">
+      <span id="count">6 pieces</span>
+      <label>Sort
+        <select id="sort">
+          <option value="featured">Featured</option>
+          <option value="low">Price: low to high</option>
+          <option value="high">Price: high to low</option>
+        </select>
+      </label>
     </div>
     <div class="grid" style="--cols:4;--gap:22px">
       <article class="prod " data-price="119" data-name="pleated midi skirt">
@@ -302,40 +339,15 @@
   </div>
 </section>
 
-<section class="sec" id="lookbook" aria-label="Lookbook">
-  <div class="container">
-    <div class="sec-head"><div><span class="eyebrow">Lookbook</span><h2>Season 25</h2></div>
-      <a class="link-arrow" href="#shop">Shop the looks <span>&rarr;</span></a></div>
-    <div class="lookbook">
-      <figure><img src="img/l1.svg" alt="Pleated midi skirt styled" loading="lazy" width="400" height="533" /><figcaption>Look 01 &middot; Pleated midi skirt</figcaption></figure>
-      <figure><img src="img/l2.svg" alt="Bias-cut slip skirt styled" loading="lazy" width="400" height="533" /><figcaption>Look 02 &middot; Bias-cut slip skirt</figcaption></figure>
-      <figure><img src="img/l3.svg" alt="Pencil skirt, stretch styled" loading="lazy" width="400" height="533" /><figcaption>Look 03 &middot; Pencil skirt, stretch</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="reviews" aria-label="Reviews">
-  <div class="container">
-    <div class="sec-head"><div><span class="eyebrow">Reviews</span><h2>4.7 from 1,240 orders</h2></div>
-      <a class="link-arrow" href="#shop">Shop the midi <span>&rarr;</span></a></div>
-    <div class="reviews"><figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>The Pencil skirt, stretch arrived in two days and the triple-pleat satín is heavier than I expected for the price. I have washed it four times and it has not changed shape.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">R</span>
-        <span><b>Rahul R.</b><br />found us through a friend</span></footer>
-    </figure>
-<figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>I bought the Tiered maxi skirt after months of looking. The hand-set pleats is the detail that sold me — it does not feel like anything else I own.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">M</span>
-        <span><b>Mei K.</b><br />asked for it in her size and bought it anyway</span></footer>
-    </figure>
-<figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>Sizing was exactly as the chart said. The stretch crepe is soft without being delicate, and the concealed side zip holds up to a week of wear.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">D</span>
-        <span><b>Diego O.</b><br />wears it to work now</span></footer>
-    </figure>
+<section class="sec sec--tint" id="faq" aria-label="FAQ">
+  <div class="container container--narrow">
+    <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Before you order</h2></div></div>
+    <div class="faq">
+      <details open><summary>How does it fit?</summary><p>Every product page carries a full measurement chart in centimetres and inches. If you are between two sizes, take the larger — the triple-pleat satín has limited give.</p></details>
+      <details><summary>What is your return policy?</summary><p>Thirty days, unworn, tags on, no explanation needed. Return postage is on us inside the UK and EU; elsewhere it is deducted from the refund.</p></details>
+      <details><summary>How should I wash it?</summary><p>Machine wash cold with like colours and hang to dry. The hand-set pleats is the one thing that will not survive a hot tumble dry.</p></details>
+      <details><summary>Do you ship worldwide?</summary><p>Yes. Tracked worldwide, free over $120. UK and EU orders clear customs pre-paid; US orders under $800 are duty free.</p></details>
+      <details><summary>Is it made in a factory?</summary><p>No. Everything is cut and sewn in our own 9-person workshop in small runs, which is why some sizes sell out before others.</p></details>
     </div>
   </div>
 </section>
@@ -364,15 +376,15 @@
         <p class="footer__about">Hemline is a skirts label working in small runs from its own workshop. Free returns for thirty days, worldwide tracked shipping.</p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h3>Shop</h3>
         <ul><li><a href="#shop">Midi</a></li><li><a href="#shop">Maxi</a></li><li><a href="#shop">Pencil</a></li><li><a href="#shop">Leather</a></li></ul>
       </div>
       <div>
-        <h4>Help</h4>
-        <ul><li><a href="index.html">Shipping</a></li><li><a href="index.html">Returns</a></li><li><a href="index.html">Size guide</a></li><li><a href="index.html">Contact</a></li></ul>
+        <h3>Help</h3>
+        <ul><li><a href="#faq">Shipping</a></li><li><a href="#faq">Returns</a></li><li><a href="#faq">Size guide</a></li><li><a href="#faq">Contact</a></li></ul>
       </div>
       <div>
-        <h4>This template</h4>
+        <h3>This template</h3>
         <ul><li><a href="buy.html">Buy for $19</a></li><li><a href="INSTALL.md">Install notes</a></li><li><a href="#top">Live demo</a></li><li>MIT licensed</li></ul>
       </div>
     </div>

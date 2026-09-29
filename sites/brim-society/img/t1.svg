@@ -2,25 +2,25 @@
   <title>Brim Society detail 1</title>
   <defs>
     <linearGradient id="bg3275455536" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(216 .5 .5)">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#131313"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
     </linearGradient>
     <radialGradient id="gl3275455536" cx="76.5%" cy="-32%" r="-33">
-      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3275455536)"/>
   <rect width="400" height="500" fill="url(#gl3275455536)"/>
-  <circle cx="306" cy="-160" r="-14.85" fill="#f2ff00" fill-opacity="0.1"/>
+  <circle cx="306" cy="-160" r="-14.85" fill="#0a0a0a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M120,266 Q200,152 280,266 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M146,274 L146,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M174,274 L174,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,274 L200,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M226,274 L226,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M254,274 L254,302" fill="none" stroke="#f2ff00" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,266 Q200,152 280,266 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#0a0a0a" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

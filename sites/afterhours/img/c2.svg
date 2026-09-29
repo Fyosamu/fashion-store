@@ -2,21 +2,21 @@
   <title>Bodysuits — Afterhours</title>
   <defs>
     <linearGradient id="bg1587039896" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(56 .5 .5)">
-      <stop offset="0" stop-color="#0c0c12"/>
-      <stop offset="1" stop-color="#14141c"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
     </linearGradient>
     <radialGradient id="gl1587039896" cx="56.49999999999999%" cy="45.4%" r="216">
-      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1587039896)"/>
   <rect width="400" height="500" fill="url(#gl1587039896)"/>
-  <circle cx="226" cy="227" r="97.2" fill="#ff3d71" fill-opacity="0.1"/>
+  <circle cx="226" cy="227" r="97.2" fill="#e11d2e" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#e11d2e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#e11d2e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

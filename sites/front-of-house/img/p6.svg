@@ -2,21 +2,21 @@
   <title>Chef clog sock, 2-pack — Front of House</title>
   <defs>
     <linearGradient id="bg2425531275" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(315 .5 .5)">
-      <stop offset="0" stop-color="#fff6f1"/>
-      <stop offset="1" stop-color="#f4e3da"/>
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
     </linearGradient>
     <radialGradient id="gl2425531275" cx="46.25%" cy="-32.6%" r="4">
-      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c2506a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c2506a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2425531275)"/>
   <rect width="400" height="500" fill="url(#gl2425531275)"/>
-  <circle cx="185" cy="-163" r="1.8" fill="#dd7a5b" fill-opacity="0.1"/>
+  <circle cx="185" cy="-163" r="1.8" fill="#c2506a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#26191a" fill-opacity="0.92"/>
-    <path d="M158,168 L238,168" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M158,196 L238,196" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#c2506a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#c2506a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

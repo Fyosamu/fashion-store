@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `retro` (3-column product grid) |
-| **Palette** | `newsprint` — light surface, accent `#a33b2a` |
-| **Type** | DM Serif Display (display) + DM Sans (body), one Google Fonts request |
+| **Palette** | `ochre` — light surface, accent `#9c5a1e` |
+| **Type** | Fraunces (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

@@ -2,21 +2,21 @@
   <title>Vow Atelier look 2</title>
   <defs>
     <linearGradient id="bg3392442065" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(65 .5 .5)">
-      <stop offset="0" stop-color="#080d14"/>
-      <stop offset="1" stop-color="#101824"/>
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
     </linearGradient>
     <radialGradient id="gl3392442065" cx="23.75%" cy="-26.8%" r="66">
-      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3392442065)"/>
   <rect width="400" height="500" fill="url(#gl3392442065)"/>
-  <circle cx="95" cy="-134" r="29.7" fill="#8fb6d9" fill-opacity="0.1"/>
+  <circle cx="95" cy="-134" r="29.7" fill="#1f5d45" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#eef4fa" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -6,19 +6,19 @@
       <stop offset="1" stop-color="#d9eee5"/>
     </linearGradient>
     <radialGradient id="gl1422390404" cx="38.5%" cy="30%" r="190">
-      <stop offset="0" stop-color="#169b6b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#169b6b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#13875d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13875d" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1422390404)"/>
   <rect width="400" height="500" fill="url(#gl1422390404)"/>
-  <circle cx="154" cy="150" r="85.5" fill="#169b6b" fill-opacity="0.1"/>
+  <circle cx="154" cy="150" r="85.5" fill="#13875d" fill-opacity="0.1"/>
 
   <g transform="">
     <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#0f241c" fill-opacity="0.92"/>
     <path d="M200,116 L172,86 L188,134 Z" fill="#0f241c" fill-opacity="0.92"/>
     <path d="M200,116 L228,86 L212,134 Z" fill="#0f241c" fill-opacity="0.92"/>
-    <path d="M200,124 L200,436" fill="none" stroke="#169b6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,420 L278,420" fill="none" stroke="#169b6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

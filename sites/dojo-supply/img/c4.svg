@@ -2,21 +2,21 @@
   <title>Shorts — Dojo Supply</title>
   <defs>
     <linearGradient id="bg101423435" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(275 .5 .5)">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#131313"/>
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
     </linearGradient>
     <radialGradient id="gl101423435" cx="26.25%" cy="77.8%" r="172">
-      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg101423435)"/>
   <rect width="400" height="500" fill="url(#gl101423435)"/>
-  <circle cx="105" cy="389" r="77.4" fill="#f2ff00" fill-opacity="0.1"/>
+  <circle cx="105" cy="389" r="77.4" fill="#ff3d71" fill-opacity="0.1"/>
 
   <g transform="">
     <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#ffffff" fill-opacity="0.92"/>
     <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M200,186 L200,332" fill="none" stroke="#f2ff00" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,23 +2,23 @@
   <title>Patched journal image 2</title>
   <defs>
     <linearGradient id="bg3318619517" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(197 .5 .5)">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#131313"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
     </linearGradient>
     <radialGradient id="gl3318619517" cx="31.75%" cy="-32.6%" r="-39">
-      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3318619517)"/>
   <rect width="400" height="500" fill="url(#gl3318619517)"/>
-  <circle cx="127" cy="-163" r="-17.55" fill="#f2ff00" fill-opacity="0.1"/>
+  <circle cx="127" cy="-163" r="-17.55" fill="#0a0a0a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M200,116 L172,86 L188,134 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M200,116 L228,86 L212,134 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M200,124 L200,436" fill="none" stroke="#f2ff00" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,420 L278,420" fill="none" stroke="#f2ff00" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#0a0a0a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#0a0a0a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

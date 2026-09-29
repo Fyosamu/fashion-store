@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `index` (3-column product grid) |
-| **Palette** | `ochre` — light surface, accent `#9c5a1e` |
+| **Palette** | `newsprint` — light surface, accent `#a33b2a` |
 | **Type** | Instrument Serif (display) + Hanken Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

@@ -2,25 +2,25 @@
   <title>Structured headscarf — Modest Line</title>
   <defs>
     <linearGradient id="bg543709342" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(262 .5 .5)">
-      <stop offset="0" stop-color="#faf8f5"/>
-      <stop offset="1" stop-color="#e6e1d8"/>
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
     </linearGradient>
     <radialGradient id="gl543709342" cx="68%" cy="47.4%" r="136">
-      <stop offset="0" stop-color="#8a6f4e" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#8a6f4e" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg543709342)"/>
   <rect width="400" height="500" fill="url(#gl543709342)"/>
-  <circle cx="272" cy="237" r="61.2" fill="#8a6f4e" fill-opacity="0.1"/>
+  <circle cx="272" cy="237" r="61.2" fill="#1f5d45" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#16141a" fill-opacity="0.92"/>
-    <path d="M132,408 L268,408" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M144,408 L144,442" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M172,408 L172,446" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,408 L200,442" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M228,408 L228,446" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M256,408 L256,442" fill="none" stroke="#8a6f4e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#1f5d45" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

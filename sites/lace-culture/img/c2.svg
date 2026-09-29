@@ -2,23 +2,23 @@
   <title>Trainers — Lace Culture</title>
   <defs>
     <linearGradient id="bg3610640625" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(105 .5 .5)">
-      <stop offset="0" stop-color="#f2f2f0"/>
-      <stop offset="1" stop-color="#d6d6d2"/>
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
     </linearGradient>
     <radialGradient id="gl3610640625" cx="38.75%" cy="-28.799999999999997%" r="11">
-      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3610640625)"/>
   <rect width="400" height="500" fill="url(#gl3610640625)"/>
-  <circle cx="155" cy="-144" r="4.95" fill="#ffd400" fill-opacity="0.1"/>
+  <circle cx="155" cy="-144" r="4.95" fill="#ff3d71" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M64,352 L64,286 Q66,252 104,246 L188,246 Q230,262 272,288 Q322,318 338,342 L338,362 Q338,378 318,378 L84,378 Q64,378 64,362 Z" fill="#111111" fill-opacity="0.92"/>
-    <path d="M60,360 L342,360 L342,394 Q342,404 330,404 L72,404 Q60,404 60,394 Z" fill="#111111" fill-opacity="0.92"/>
-    <path d="M116,258 L164,290" fill="none" stroke="#ffd400" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M134,250 L186,282" fill="none" stroke="#ffd400" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M154,248 L206,280" fill="none" stroke="#ffd400" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M64,352 L64,286 Q66,252 104,246 L188,246 Q230,262 272,288 Q322,318 338,342 L338,362 Q338,378 318,378 L84,378 Q64,378 64,362 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M60,360 L342,360 L342,394 Q342,404 330,404 L72,404 Q60,404 60,394 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M116,258 L164,290" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M134,250 L186,282" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M154,248 L206,280" fill="none" stroke="#ff3d71" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

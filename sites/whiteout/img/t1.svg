@@ -2,21 +2,21 @@
   <title>Whiteout detail 1</title>
   <defs>
     <linearGradient id="bg1895454814" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(94 .5 .5)">
-      <stop offset="0" stop-color="#fbfdfc"/>
-      <stop offset="1" stop-color="#dce9e4"/>
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
     </linearGradient>
     <radialGradient id="gl1895454814" cx="71%" cy="34.2%" r="112">
-      <stop offset="0" stop-color="#00b377" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#00b377" stop-opacity="0"/>
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1895454814)"/>
   <rect width="400" height="500" fill="url(#gl1895454814)"/>
-  <circle cx="284" cy="171" r="50.4" fill="#00b377" fill-opacity="0.1"/>
+  <circle cx="284" cy="171" r="50.4" fill="#37d5ff" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1512" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#00b377" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#37d5ff" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#37d5ff" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,22 +2,22 @@
   <title>Stillpoint look 2</title>
   <defs>
     <linearGradient id="bg3308401798" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(358 .5 .5)">
-      <stop offset="0" stop-color="#f6f7ff"/>
-      <stop offset="1" stop-color="#e2e4f7"/>
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
     </linearGradient>
     <radialGradient id="gl3308401798" cx="37%" cy="10.4%" r="68">
-      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3308401798)"/>
   <rect width="400" height="500" fill="url(#gl3308401798)"/>
-  <circle cx="148" cy="52" r="30.6" fill="#4f4fd8" fill-opacity="0.1"/>
+  <circle cx="148" cy="52" r="30.6" fill="#b4543a" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#161731" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#161731" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#4f4fd8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#4f4fd8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#b4543a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#b4543a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

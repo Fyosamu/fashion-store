@@ -2,21 +2,21 @@
   <title>Rain jacket — Small Human</title>
   <defs>
     <linearGradient id="bg1100963656" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(136 .5 .5)">
-      <stop offset="0" stop-color="#fffaf0"/>
-      <stop offset="1" stop-color="#efe4cc"/>
+      <stop offset="0" stop-color="#fff7f7"/>
+      <stop offset="1" stop-color="#f2e2e5"/>
     </linearGradient>
     <radialGradient id="gl1100963656" cx="56.49999999999999%" cy="59.4%" r="184">
-      <stop offset="0" stop-color="#a4701a" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#a4701a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c2506a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c2506a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1100963656)"/>
   <rect width="400" height="500" fill="url(#gl1100963656)"/>
-  <circle cx="226" cy="297" r="82.8" fill="#a4701a" fill-opacity="0.1"/>
+  <circle cx="226" cy="297" r="82.8" fill="#c2506a" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#241d10" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#a4701a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#a4701a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#2a1c20" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#c2506a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#c2506a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

@@ -2,21 +2,21 @@
   <title>RSVP Dressing look 3</title>
   <defs>
     <linearGradient id="bg507153728" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(128 .5 .5)">
-      <stop offset="0" stop-color="#fff7f7"/>
-      <stop offset="1" stop-color="#f2e2e5"/>
+      <stop offset="0" stop-color="#fdf8f4"/>
+      <stop offset="1" stop-color="#eee2d8"/>
     </linearGradient>
     <radialGradient id="gl507153728" cx="34.5%" cy="59.199999999999996%" r="214">
-      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#b55d3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b55d3a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg507153728)"/>
   <rect width="400" height="500" fill="url(#gl507153728)"/>
-  <circle cx="138" cy="296" r="96.3" fill="#c4566f" fill-opacity="0.1"/>
+  <circle cx="138" cy="296" r="96.3" fill="#b55d3a" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

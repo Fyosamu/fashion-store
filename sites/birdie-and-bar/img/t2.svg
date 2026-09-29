@@ -2,24 +2,24 @@
   <title>Birdie &amp; Bar detail 2</title>
   <defs>
     <linearGradient id="bg1404894579" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(339 .5 .5)">
-      <stop offset="0" stop-color="#f7fbfd"/>
-      <stop offset="1" stop-color="#dde9ee"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
     </linearGradient>
     <radialGradient id="gl1404894579" cx="62.25000000000001%" cy="16.400000000000002%" r="95">
-      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1404894579)"/>
   <rect width="400" height="500" fill="url(#gl1404894579)"/>
-  <circle cx="249" cy="82" r="42.75" fill="#0d7a8f" fill-opacity="0.1"/>
+  <circle cx="249" cy="82" r="42.75" fill="#5b9cf8" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M200,156 L200,282" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M156,182 L144,282" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M244,182 L256,282" fill="none" stroke="#0d7a8f" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#5b9cf8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#5b9cf8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#5b9cf8" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

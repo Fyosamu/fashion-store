@@ -2,22 +2,22 @@
   <title>Easy Dressing detail 2</title>
   <defs>
     <linearGradient id="bg4279699572" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(132 .5 .5)">
-      <stop offset="0" stop-color="#f6f7f0"/>
-      <stop offset="1" stop-color="#e4e7d7"/>
+      <stop offset="0" stop-color="#f9f7ff"/>
+      <stop offset="1" stop-color="#e8e4f7"/>
     </linearGradient>
     <radialGradient id="gl4279699572" cx="80.5%" cy="-1.2%" r="73">
-      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg4279699572)"/>
   <rect width="400" height="500" fill="url(#gl4279699572)"/>
-  <circle cx="322" cy="-6" r="32.85" fill="#5e7f4b" fill-opacity="0.1"/>
+  <circle cx="322" cy="-6" r="32.85" fill="#7a5fd0" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1d2418" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1d2418" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1c1730" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1c1730" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#7a5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#7a5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

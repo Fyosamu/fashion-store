@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Sovereign Prom: Corseted bodices, real weight in the skirt and sizes 0 to 26 in stock. Prom dresses from $75. Free returns for 30 days, tracked worldwide." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..700;1,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
 {
@@ -150,7 +150,7 @@
   </script>
   <script>document.documentElement.classList.add("js");</script>
 </head>
-<body data-layout="centered" data-palette="ivory-forest">
+<body data-layout="overlap" data-palette="ivory-forest">
 <a class="skip" href="#shop">Skip to products</a>
   <div class="topbar">Free tracked shipping over $120 &nbsp;&middot;&nbsp; <a href="buy.html">Get this store as a template &mdash; $19</a></div>
 
@@ -160,7 +160,7 @@
       <nav class="nav__links" id="navLinks" aria-label="Main">
         <a href="#top" class="is-active">Home</a>
         <a href="#shop">Shop</a>
-        <a href="#why">Why us</a>
+        <a href="#lookbook">Lookbook</a>
         <a href="buy.html">Template</a>
       </nav>
       <div class="nav__tools">
@@ -171,29 +171,30 @@
   </header>
 
 <section class="hero" id="top">
-  <div class="container reveal">
-    <div class="hero__rule"></div>
-    <span class="eyebrow">Prom dresses</span>
-    <h1>One night, <em>the right dress.</em></h1>
-    <p class="lead">Corseted bodices, real weight in the skirt and sizes 0 to 26 in stock.</p>
-    <div class="hero__cta"><a href="#shop" class="btn">Shop the collection</a><a href="buy.html" class="btn btn--ghost">Get this template</a></div>
-    <p class="hero__price">From <b>$75</b> &middot; free returns for 30 days</p>
-    <div class="hero__rule hero__rule--b"></div>
-    <div class="hero__thumbs">
-      <img src="img/t1.svg" alt="Ballgowns" loading="lazy" width="400" height="400" />
-      <img src="img/t2.svg" alt="Sequin" loading="lazy" width="400" height="400" />
-      <img src="img/t3.svg" alt="Tulle" loading="lazy" width="400" height="400" />
+  <div class="container hero__grid">
+    <div class="reveal">
+      <span class="eyebrow">Prom dresses</span>
+      <h1>One night, <em>the right dress.</em></h1>
+      <p class="lead">Corseted bodices, real weight in the skirt and sizes 0 to 26 in stock.</p>
+      <div class="hero__cta"><a href="#shop" class="btn">Shop the collection</a><a href="buy.html" class="btn btn--ghost">Get this template</a></div>
+      <div class="stats"><div><b>2</b><span>years making</span></div><div><b>1,748</b><span>orders shipped</span></div><div><b>4.6</b><span>average rating</span></div></div>
+    </div>
+    <div class="stack reveal">
+      <img class="a" src="img/hero.svg" alt="Corset ballgown" width="400" height="533" fetchpriority="high" />
+      <img class="b" src="img/t1.svg" alt="Sequin high-slit dress" loading="lazy" width="400" height="500" />
+      <img class="c" src="img/t2.svg" alt="Tulle A-line, pastel" loading="lazy" width="400" height="400" />
     </div>
   </div>
 </section>
 
-<section class="sec sec--tint" id="why" aria-label="Why shop here">
+<section class="sec" id="lookbook" aria-label="Lookbook">
   <div class="container">
-    <div class="usp">
-      <div class="usp__item"><b>495</b><span>entry price, no subscription</span></div>
-      <div class="usp__item"><b>30 days</b><span>returns, no questions asked</span></div>
-      <div class="usp__item"><b>48h</b><span>dispatch, tracked worldwide</span></div>
-      <div class="usp__item"><b>100%</b><span>cut and sewn in our own workshop</span></div>
+    <div class="sec-head"><div><span class="eyebrow">Lookbook</span><h2>Season 20</h2></div>
+      <a class="link-arrow" href="#shop">Shop the looks <span>&rarr;</span></a></div>
+    <div class="lookbook">
+      <figure><img src="img/l1.svg" alt="Corset ballgown styled" loading="lazy" width="400" height="533" /><figcaption>Look 01 &middot; Corset ballgown</figcaption></figure>
+      <figure><img src="img/l2.svg" alt="Sequin high-slit dress styled" loading="lazy" width="400" height="533" /><figcaption>Look 02 &middot; Sequin high-slit dress</figcaption></figure>
+      <figure><img src="img/l3.svg" alt="Tulle A-line, pastel styled" loading="lazy" width="400" height="533" /><figcaption>Look 03 &middot; Tulle A-line, pastel</figcaption></figure>
     </div>
   </div>
 </section>
@@ -205,7 +206,7 @@
       <p>Six pieces from this season, each made in a run of forty or fewer.</p></div>
       <a class="link-arrow" href="buy.html">Get this template <span>&rarr;</span></a>
     </div>
-    <div class="grid" style="--cols:2;--gap:34px">
+    <div class="grid" style="--cols:3;--gap:28px">
       <article class="prod " data-price="495" data-name="corset ballgown">
       <div class="prod__media">
         <img src="img/p1.svg" alt="Corset ballgown" loading="eager" width="400" height="500" />
@@ -363,15 +364,15 @@
         <p class="footer__about">Sovereign Prom is a prom dresses label working in small runs from its own workshop. Free returns for thirty days, worldwide tracked shipping.</p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h3>Shop</h3>
         <ul><li><a href="#shop">Ballgowns</a></li><li><a href="#shop">Sequin</a></li><li><a href="#shop">Tulle</a></li><li><a href="#shop">Two-Piece</a></li></ul>
       </div>
       <div>
-        <h4>Help</h4>
+        <h3>Help</h3>
         <ul><li><a href="index.html">Shipping</a></li><li><a href="index.html">Returns</a></li><li><a href="index.html">Size guide</a></li><li><a href="index.html">Contact</a></li></ul>
       </div>
       <div>
-        <h4>This template</h4>
+        <h3>This template</h3>
         <ul><li><a href="buy.html">Buy for $19</a></li><li><a href="INSTALL.md">Install notes</a></li><li><a href="#top">Live demo</a></li><li>MIT licensed</li></ul>
       </div>
     </div>

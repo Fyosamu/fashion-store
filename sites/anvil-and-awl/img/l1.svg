@@ -2,22 +2,22 @@
   <title>Anvil &amp; Awl look 1</title>
   <defs>
     <linearGradient id="bg1484280448" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(88 .5 .5)">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#131313"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
     </linearGradient>
     <radialGradient id="gl1484280448" cx="79.5%" cy="43.2%" r="114">
-      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1484280448)"/>
   <rect width="400" height="500" fill="url(#gl1484280448)"/>
-  <circle cx="318" cy="216" r="51.300000000000004" fill="#f2ff00" fill-opacity="0.1"/>
+  <circle cx="318" cy="216" r="51.300000000000004" fill="#e11d2e" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M162,152 L156,448" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M238,152 L244,448" fill="none" stroke="#f2ff00" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#e11d2e" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

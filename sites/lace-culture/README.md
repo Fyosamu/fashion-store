@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `street` (3-column product grid) |
-| **Palette** | `signal-yellow` — light surface, accent `#ffd400` |
-| **Type** | Bebas Neue (display) + Inter (body), one Google Fonts request |
+| **Palette** | `cobalt-pop` — dark surface, accent `#ff3d71` |
+| **Type** | Syne (display) + Space Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

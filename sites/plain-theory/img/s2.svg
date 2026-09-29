@@ -2,21 +2,21 @@
   <title>Plain Theory season image 2</title>
   <defs>
     <linearGradient id="bg2823445335" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(255 .5 .5)">
-      <stop offset="0" stop-color="#f7fbfd"/>
-      <stop offset="1" stop-color="#dde9ee"/>
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
     </linearGradient>
     <radialGradient id="gl2823445335" cx="26.25%" cy="-31.2%" r="58">
-      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2823445335)"/>
   <rect width="400" height="500" fill="url(#gl2823445335)"/>
-  <circle cx="105" cy="-156" r="26.1" fill="#0d7a8f" fill-opacity="0.1"/>
+  <circle cx="105" cy="-156" r="26.1" fill="#4d5c6b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1a22" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#0d7a8f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#0d7a8f" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#4d5c6b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

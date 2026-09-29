@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Neutral Dept.: One size curve, measured in centimetres, offered from XXS to 4XL. Genderless clothing from $49. Free returns for 30 days, tracked worldwide." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
 {
@@ -150,7 +150,7 @@
   </script>
   <script>document.documentElement.classList.add("js");</script>
 </head>
-<body data-layout="index" data-palette="glacier">
+<body data-layout="catalog" data-palette="glacier">
 <a class="skip" href="#shop">Skip to products</a>
   <div class="topbar">Free tracked shipping over $120 &nbsp;&middot;&nbsp; <a href="buy.html">Get this store as a template &mdash; $19</a></div>
 
@@ -160,7 +160,7 @@
       <nav class="nav__links" id="navLinks" aria-label="Main">
         <a href="#top" class="is-active">Home</a>
         <a href="#shop">Shop</a>
-        <a href="#categories">Categories</a>
+        <a href="#why">Why us</a>
         <a href="buy.html">Template</a>
       </nav>
       <div class="nav__tools">
@@ -171,20 +171,32 @@
   </header>
 
 <section class="hero" id="top">
-  <div class="container hero__grid">
-    <div class="reveal">
-      <span class="eyebrow">Genderless clothing</span>
-      <h1>No men's, no women's. <em>Just clothes.</em></h1>
-      <p class="lead">One size curve, measured in centimetres, offered from XXS to 4XL.</p>
-      <ul class="hero__list">
-        <li><span>Shirts</span><span>3 pieces</span></li>
-        <li><span>Trousers</span><span>5 pieces</span></li>
-        <li><span>Jumpsuits</span><span>7 pieces</span></li>
-        <li><span>Knits</span><span>9 pieces</span></li>
-      </ul>
-      <div class="hero__cta"><a href="#shop" class="btn btn--sm">Enter the shop</a></div>
+  <div class="container">
+    <span class="eyebrow">Genderless clothing</span>
+    <h1 class="reveal">No men's, no women's. <em>Just clothes.</em></h1>
+    <p class="lead reveal">One size curve, measured in centimetres, offered from XXS to 4XL.</p>
+    <div class="hero__bar reveal">
+      <div class="search"><span aria-hidden="true">&#9906;</span><input id="q" type="search" placeholder="Search genderless clothing…" aria-label="Search products" /></div>
+      <a href="#shop" class="btn">Browse all</a>
     </div>
-    <div class="hero__media reveal"><img src="img/hero.svg" alt="Neutral Dept. editorial" width="400" height="533" fetchpriority="high" /></div>
+    <div class="chips reveal" id="chips">
+      <button class="chip is-on" data-cat="all">All</button>
+      <button class="chip" data-cat="shirts">Shirts</button>
+      <button class="chip" data-cat="trousers">Trousers</button>
+      <button class="chip" data-cat="jumpsuits">Jumpsuits</button>
+      <button class="chip" data-cat="knits">Knits</button>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--tint" id="why" aria-label="Why shop here">
+  <div class="container">
+    <div class="usp">
+      <div class="usp__item"><b>145</b><span>entry price, no subscription</span></div>
+      <div class="usp__item"><b>30 days</b><span>returns, no questions asked</span></div>
+      <div class="usp__item"><b>48h</b><span>dispatch, tracked worldwide</span></div>
+      <div class="usp__item"><b>100%</b><span>cut and sewn in our own workshop</span></div>
+    </div>
   </div>
 </section>
 
@@ -222,7 +234,17 @@
       <p>Six pieces from this season, each made in a run of forty or fewer.</p></div>
       <a class="link-arrow" href="buy.html">Get this template <span>&rarr;</span></a>
     </div>
-    <div class="grid" style="--cols:3;--gap:40px">
+    <div class="toolbar">
+      <span id="count">6 pieces</span>
+      <label>Sort
+        <select id="sort">
+          <option value="featured">Featured</option>
+          <option value="low">Price: low to high</option>
+          <option value="high">Price: high to low</option>
+        </select>
+      </label>
+    </div>
+    <div class="grid" style="--cols:4;--gap:22px">
       <article class="prod " data-price="145" data-name="boxy overshirt, unisex">
       <div class="prod__media">
         <img src="img/p1.svg" alt="Boxy overshirt, unisex" loading="eager" width="400" height="500" />
@@ -317,30 +339,6 @@
   </div>
 </section>
 
-<section class="sec sec--tint" id="story" aria-label="About">
-  <div class="container">
-    <div class="split">
-      <div class="split__media"><img src="img/editorial.svg" alt="Neutral Dept. workshop detail" loading="lazy" width="400" height="300" /></div>
-      <div>
-        <span class="eyebrow">How it is made</span>
-        <h2>Forty pieces at a time, then we stop.</h2>
-        <p class="lead">Neutral Dept. is a genderless clothing label working from a 8-person workshop. We buy the mid-weight cotton twill first and design around whatever arrives, rather than ordering fabric to fit a sketch.</p>
-        <ul class="tick">
-          <li><b>One graded pattern</b> on every stress point</li>
-          <li><b>Double-knit ponte</b> sourced from a mill we have used since day one</li>
-          <li><b>Free repairs</b> for the first three years, whatever went wrong</li>
-          <li><b>Nothing destroyed</b> at the end of a season — leftovers become the next run</li>
-        </ul>
-        <div class="stats">
-          <div><b>6</b><span>years making</span></div>
-          <div><b>4,488</b><span>orders shipped</span></div>
-          <div><b>4.6</b><span>average rating</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="sec sec--tint" id="faq" aria-label="FAQ">
   <div class="container container--narrow">
     <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Before you order</h2></div></div>
@@ -378,15 +376,15 @@
         <p class="footer__about">Neutral Dept. is a genderless clothing label working in small runs from its own workshop. Free returns for thirty days, worldwide tracked shipping.</p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h3>Shop</h3>
         <ul><li><a href="#shop">Shirts</a></li><li><a href="#shop">Trousers</a></li><li><a href="#shop">Jumpsuits</a></li><li><a href="#shop">Knits</a></li></ul>
       </div>
       <div>
-        <h4>Help</h4>
+        <h3>Help</h3>
         <ul><li><a href="#faq">Shipping</a></li><li><a href="#faq">Returns</a></li><li><a href="#faq">Size guide</a></li><li><a href="#faq">Contact</a></li></ul>
       </div>
       <div>
-        <h4>This template</h4>
+        <h3>This template</h3>
         <ul><li><a href="buy.html">Buy for $19</a></li><li><a href="INSTALL.md">Install notes</a></li><li><a href="#top">Live demo</a></li><li>MIT licensed</li></ul>
       </div>
     </div>

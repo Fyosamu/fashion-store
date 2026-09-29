@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Second Thread: Deadstock and rescued fabric, cut in small runs with a repair promise. Sustainable fashion from $59. Free returns for 30 days, tracked worldwide." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
 {
@@ -150,7 +150,7 @@
   </script>
   <script>document.documentElement.classList.add("js");</script>
 </head>
-<body data-layout="boutique" data-palette="mint">
+<body data-layout="catalog" data-palette="mint">
 <a class="skip" href="#shop">Skip to products</a>
   <div class="topbar">Free tracked shipping over $120 &nbsp;&middot;&nbsp; <a href="buy.html">Get this store as a template &mdash; $19</a></div>
 
@@ -172,19 +172,19 @@
 
 <section class="hero" id="top">
   <div class="container">
-    <div class="hero__panel reveal">
-      <div>
-        <span class="eyebrow">Sustainable fashion</span>
-        <h1>Already made, <em>remade well.</em></h1>
-        <p class="lead">Deadstock and rescued fabric, cut in small runs with a repair promise.</p>
-        <div class="hero__cta"><a href="#shop" class="btn">Shop the collection</a><a href="buy.html" class="btn btn--ghost">Get this template</a></div>
-        <div class="hero__pills"><span>Denim</span><span>Silk</span><span>Knits</span><span>Basics</span></div>
-      </div>
-      <div class="hero__cards">
-        <img src="img/hero.svg" alt="Remade denim jacket" width="400" height="250" fetchpriority="high" />
-        <img src="img/t1.svg" alt="Rescued silk dress" loading="lazy" width="400" height="533" />
-        <img src="img/t2.svg" alt="Deadstock cotton shirt" loading="lazy" width="400" height="533" />
-      </div>
+    <span class="eyebrow">Sustainable fashion</span>
+    <h1 class="reveal">Already made, <em>remade well.</em></h1>
+    <p class="lead reveal">Deadstock and rescued fabric, cut in small runs with a repair promise.</p>
+    <div class="hero__bar reveal">
+      <div class="search"><span aria-hidden="true">&#9906;</span><input id="q" type="search" placeholder="Search sustainable fashion…" aria-label="Search products" /></div>
+      <a href="#shop" class="btn">Browse all</a>
+    </div>
+    <div class="chips reveal" id="chips">
+      <button class="chip is-on" data-cat="all">All</button>
+      <button class="chip" data-cat="denim">Denim</button>
+      <button class="chip" data-cat="silk">Silk</button>
+      <button class="chip" data-cat="knits">Knits</button>
+      <button class="chip" data-cat="basics">Basics</button>
     </div>
   </div>
 </section>
@@ -200,12 +200,49 @@
   </div>
 </section>
 
+<section class="sec" id="categories" aria-label="Categories">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow">Shop by category</span><h2>Denim, Silk &amp; more</h2></div>
+      <a class="link-arrow" href="#shop">See everything <span>&rarr;</span></a>
+    </div>
+    <div class="cat-grid">
+      <a class="cat" href="#shop">
+        <img src="img/c1.svg" alt="Denim collection" loading="lazy" width="400" height="400" />
+        <span>Denim</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c2.svg" alt="Silk collection" loading="lazy" width="400" height="400" />
+        <span>Silk</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c3.svg" alt="Knits collection" loading="lazy" width="400" height="400" />
+        <span>Knits</span>
+      </a>
+      <a class="cat" href="#shop">
+        <img src="img/c4.svg" alt="Basics collection" loading="lazy" width="400" height="400" />
+        <span>Basics</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="sec" id="shop" aria-label="Shop">
   <div class="container">
     <div class="sec-head">
       <div><span class="eyebrow">The collection</span><h2>Denim &amp; Silk</h2>
       <p>Six pieces from this season, each made in a run of forty or fewer.</p></div>
       <a class="link-arrow" href="buy.html">Get this template <span>&rarr;</span></a>
+    </div>
+    <div class="toolbar">
+      <span id="count">6 pieces</span>
+      <label>Sort
+        <select id="sort">
+          <option value="featured">Featured</option>
+          <option value="low">Price: low to high</option>
+          <option value="high">Price: high to low</option>
+        </select>
+      </label>
     </div>
     <div class="grid" style="--cols:4;--gap:22px">
       <article class="prod " data-price="195" data-name="remade denim jacket">
@@ -302,40 +339,15 @@
   </div>
 </section>
 
-<section class="sec" id="lookbook" aria-label="Lookbook">
-  <div class="container">
-    <div class="sec-head"><div><span class="eyebrow">Lookbook</span><h2>Season 22</h2></div>
-      <a class="link-arrow" href="#shop">Shop the looks <span>&rarr;</span></a></div>
-    <div class="lookbook">
-      <figure><img src="img/l1.svg" alt="Remade denim jacket styled" loading="lazy" width="400" height="533" /><figcaption>Look 01 &middot; Remade denim jacket</figcaption></figure>
-      <figure><img src="img/l2.svg" alt="Rescued silk dress styled" loading="lazy" width="400" height="533" /><figcaption>Look 02 &middot; Rescued silk dress</figcaption></figure>
-      <figure><img src="img/l3.svg" alt="Deadstock cotton shirt styled" loading="lazy" width="400" height="533" /><figcaption>Look 03 &middot; Deadstock cotton shirt</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="reviews" aria-label="Reviews">
-  <div class="container">
-    <div class="sec-head"><div><span class="eyebrow">Reviews</span><h2>4.7 from 1,240 orders</h2></div>
-      <a class="link-arrow" href="#shop">Shop the denim <span>&rarr;</span></a></div>
-    <div class="reviews"><figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>The Remade denim jacket arrived in two days and the deadstock cotton is heavier than I expected for the price. I have washed it four times and it has not changed shape.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">S</span>
-        <span><b>Sofia S.</b><br />came back for a second colour</span></footer>
-    </figure>
-<figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>I bought the Recycled wool trouser after months of looking. The free repairs for 3 years is the detail that sold me — it does not feel like anything else I own.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">I</span>
-        <span><b>Ivan D.</b><br />wore it for a full week before reviewing</span></footer>
-    </figure>
-<figure class="review">
-      <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <blockquote><p>Sizing was exactly as the chart said. The rescued silk charmeuse is soft without being delicate, and the natural dye vats holds up to a week of wear.</p></blockquote>
-      <footer><span class="who" aria-hidden="true">N</span>
-        <span><b>Nia T.</b><br />ordered twice in the same month</span></footer>
-    </figure>
+<section class="sec sec--tint" id="faq" aria-label="FAQ">
+  <div class="container container--narrow">
+    <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Before you order</h2></div></div>
+    <div class="faq">
+      <details open><summary>How does it fit?</summary><p>Every product page carries a full measurement chart in centimetres and inches. If you are between two sizes, take the larger — the deadstock cotton has limited give.</p></details>
+      <details><summary>What is your return policy?</summary><p>Thirty days, unworn, tags on, no explanation needed. Return postage is on us inside the UK and EU; elsewhere it is deducted from the refund.</p></details>
+      <details><summary>How should I wash it?</summary><p>Machine wash cold with like colours and hang to dry. The free repairs for 3 years is the one thing that will not survive a hot tumble dry.</p></details>
+      <details><summary>Do you ship worldwide?</summary><p>Yes. Tracked worldwide, free over $120. UK and EU orders clear customs pre-paid; US orders under $800 are duty free.</p></details>
+      <details><summary>Is it made in a factory?</summary><p>No. Everything is cut and sewn in our own 6-person workshop in small runs, which is why some sizes sell out before others.</p></details>
     </div>
   </div>
 </section>
@@ -364,15 +376,15 @@
         <p class="footer__about">Second Thread is a sustainable fashion label working in small runs from its own workshop. Free returns for thirty days, worldwide tracked shipping.</p>
       </div>
       <div>
-        <h4>Shop</h4>
+        <h3>Shop</h3>
         <ul><li><a href="#shop">Denim</a></li><li><a href="#shop">Silk</a></li><li><a href="#shop">Knits</a></li><li><a href="#shop">Basics</a></li></ul>
       </div>
       <div>
-        <h4>Help</h4>
-        <ul><li><a href="index.html">Shipping</a></li><li><a href="index.html">Returns</a></li><li><a href="index.html">Size guide</a></li><li><a href="index.html">Contact</a></li></ul>
+        <h3>Help</h3>
+        <ul><li><a href="#faq">Shipping</a></li><li><a href="#faq">Returns</a></li><li><a href="#faq">Size guide</a></li><li><a href="#faq">Contact</a></li></ul>
       </div>
       <div>
-        <h4>This template</h4>
+        <h3>This template</h3>
         <ul><li><a href="buy.html">Buy for $19</a></li><li><a href="INSTALL.md">Install notes</a></li><li><a href="#top">Live demo</a></li><li>MIT licensed</li></ul>
       </div>
     </div>

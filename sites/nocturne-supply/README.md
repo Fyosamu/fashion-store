@@ -4,7 +4,7 @@
 |---|---|
 | **Layout** | `street` (3-column product grid) |
 | **Palette** | `hazard` — dark surface, accent `#f2ff00` |
-| **Type** | Bebas Neue (display) + Inter (body), one Google Fonts request |
+| **Type** | Unbounded (display) + Manrope (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

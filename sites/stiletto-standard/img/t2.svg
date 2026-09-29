@@ -2,21 +2,21 @@
   <title>Stiletto Standard detail 2</title>
   <defs>
     <linearGradient id="bg892913676" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(276 .5 .5)">
-      <stop offset="0" stop-color="#f7f6f1"/>
-      <stop offset="1" stop-color="#e0ddd2"/>
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
     </linearGradient>
     <radialGradient id="gl892913676" cx="41.5%" cy="71.8%" r="182">
-      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg892913676)"/>
   <rect width="400" height="500" fill="url(#gl892913676)"/>
-  <circle cx="166" cy="359" r="81.9" fill="#1f5d45" fill-opacity="0.1"/>
+  <circle cx="166" cy="359" r="81.9" fill="#c9a227" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M104,336 L104,244 Q108,216 148,214 L226,214 Q264,230 302,272 L324,320 L332,366 L300,366 L136,366 Q104,366 104,344 Z" fill="#12211a" fill-opacity="0.92"/>
-    <path d="M298,366 L334,366 L346,452 L312,452 Z" fill="#12211a" fill-opacity="0.92"/>
-    <path d="M140,232 L216,244" fill="none" stroke="#1f5d45" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M104,336 L104,244 Q108,216 148,214 L226,214 Q264,230 302,272 L324,320 L332,366 L300,366 L136,366 Q104,366 104,344 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M298,366 L334,366 L346,452 L312,452 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M140,232 L216,244" fill="none" stroke="#c9a227" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

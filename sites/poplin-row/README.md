@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Layout** | `index` (3-column product grid) |
-| **Palette** | `stone` — light surface, accent `#4d5c6b` |
-| **Type** | Fraunces (display) + Inter (body), one Google Fonts request |
+| **Palette** | `graphite-blue` — dark surface, accent `#5b9cf8` |
+| **Type** | Syne (display) + Space Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

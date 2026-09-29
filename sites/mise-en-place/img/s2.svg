@@ -2,21 +2,21 @@
   <title>Mise en Place season image 2</title>
   <defs>
     <linearGradient id="bg949588107" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(267 .5 .5)">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#131313"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
     </linearGradient>
     <radialGradient id="gl949588107" cx="79.25%" cy="44.6%" r="138">
-      <stop offset="0" stop-color="#f2ff00" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#f2ff00" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg949588107)"/>
   <rect width="400" height="500" fill="url(#gl949588107)"/>
-  <circle cx="317" cy="223" r="62.1" fill="#f2ff00" fill-opacity="0.1"/>
+  <circle cx="317" cy="223" r="62.1" fill="#e11d2e" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#f2ff00" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#f2ff00" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

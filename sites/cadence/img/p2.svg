@@ -2,21 +2,21 @@
   <title>Aero race jersey — Cadence</title>
   <defs>
     <linearGradient id="bg2451394192" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(112 .5 .5)">
-      <stop offset="0" stop-color="#050a12"/>
-      <stop offset="1" stop-color="#0a1220"/>
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
     </linearGradient>
     <radialGradient id="gl2451394192" cx="30.5%" cy="4.3999999999999995%" r="10">
-      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg2451394192)"/>
   <rect width="400" height="500" fill="url(#gl2451394192)"/>
-  <circle cx="122" cy="22" r="4.5" fill="#37d5ff" fill-opacity="0.1"/>
+  <circle cx="122" cy="22" r="4.5" fill="#008558" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#e9f6ff" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#37d5ff" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#37d5ff" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#008558" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#008558" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

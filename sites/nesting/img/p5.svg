@@ -2,21 +2,21 @@
   <title>Nursing sleep bra — Nesting</title>
   <defs>
     <linearGradient id="bg1708159902" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(222 .5 .5)">
-      <stop offset="0" stop-color="#f9f7ff"/>
-      <stop offset="1" stop-color="#e8e4f7"/>
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
     </linearGradient>
     <radialGradient id="gl1708159902" cx="68%" cy="31.4%" r="136">
-      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1708159902)"/>
   <rect width="400" height="500" fill="url(#gl1708159902)"/>
-  <circle cx="272" cy="157" r="61.2" fill="#7a5fd0" fill-opacity="0.1"/>
+  <circle cx="272" cy="157" r="61.2" fill="#dd7a5b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#1c1730" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#7a5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#7a5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

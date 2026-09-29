@@ -2,21 +2,21 @@
   <title>Occasion dress rental — Borrowed</title>
   <defs>
     <linearGradient id="bg3783895250" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(50 .5 .5)">
-      <stop offset="0" stop-color="#fff7f7"/>
-      <stop offset="1" stop-color="#f2e2e5"/>
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
     </linearGradient>
     <radialGradient id="gl3783895250" cx="35%" cy="-45.2%" r="-22">
-      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3783895250)"/>
   <rect width="400" height="500" fill="url(#gl3783895250)"/>
-  <circle cx="140" cy="-226" r="-9.9" fill="#c4566f" fill-opacity="0.1"/>
+  <circle cx="140" cy="-226" r="-9.9" fill="#5e7f4b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

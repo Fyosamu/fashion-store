@@ -4,7 +4,7 @@
 |---|---|
 | **Layout** | `brutal` (3-column product grid) |
 | **Palette** | `cobalt-pop` — dark surface, accent `#ff3d71` |
-| **Type** | Unbounded (display) + Manrope (body), one Google Fonts request |
+| **Type** | Bebas Neue (display) + Inter (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

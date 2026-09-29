@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Layout** | `boutique` (4-column product grid) |
-| **Palette** | `honey` — light surface, accent `#a4701a` |
+| **Palette** | `blush` — light surface, accent `#c2506a` |
 | **Type** | DM Serif Display (display) + DM Sans (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |

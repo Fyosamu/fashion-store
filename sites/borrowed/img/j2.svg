@@ -2,21 +2,21 @@
   <title>Borrowed journal image 2</title>
   <defs>
     <linearGradient id="bg1519755328" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(208 .5 .5)">
-      <stop offset="0" stop-color="#fff7f7"/>
-      <stop offset="1" stop-color="#f2e2e5"/>
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
     </linearGradient>
     <radialGradient id="gl1519755328" cx="69.5%" cy="73.2%" r="194">
-      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg1519755328)"/>
   <rect width="400" height="500" fill="url(#gl1519755328)"/>
-  <circle cx="278" cy="366" r="87.3" fill="#c4566f" fill-opacity="0.1"/>
+  <circle cx="278" cy="366" r="87.3" fill="#5e7f4b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c4566f" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M114,272 L286,272" fill="none" stroke="#c4566f" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#5e7f4b" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#5e7f4b" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

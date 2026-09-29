@@ -2,23 +2,23 @@
   <title>Designer coat, 4-day rental — Borrowed</title>
   <defs>
     <linearGradient id="bg3716784774" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(54 .5 .5)">
-      <stop offset="0" stop-color="#fff7f7"/>
-      <stop offset="1" stop-color="#f2e2e5"/>
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
     </linearGradient>
     <radialGradient id="gl3716784774" cx="21%" cy="-21.2%" r="66">
-      <stop offset="0" stop-color="#c4566f" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c4566f" stop-opacity="0"/>
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3716784774)"/>
   <rect width="400" height="500" fill="url(#gl3716784774)"/>
-  <circle cx="84" cy="-106" r="29.7" fill="#c4566f" fill-opacity="0.1"/>
+  <circle cx="84" cy="-106" r="29.7" fill="#5e7f4b" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#2a1c20" fill-opacity="0.92"/>
-    <path d="M200,182 L200,472" fill="none" stroke="#c4566f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

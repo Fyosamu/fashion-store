@@ -2,25 +2,25 @@
   <title>Afterhours season image 2</title>
   <defs>
     <linearGradient id="bg3737134984" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(184 .5 .5)">
-      <stop offset="0" stop-color="#0c0c12"/>
-      <stop offset="1" stop-color="#14141c"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
     </linearGradient>
     <radialGradient id="gl3737134984" cx="23.5%" cy="6.2%" r="50">
-      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3737134984)"/>
   <rect width="400" height="500" fill="url(#gl3737134984)"/>
-  <circle cx="94" cy="31" r="22.5" fill="#ff3d71" fill-opacity="0.1"/>
+  <circle cx="94" cy="31" r="22.5" fill="#e11d2e" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M120,266 Q200,152 280,266 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#ffffff" fill-opacity="0.92"/>
-    <path d="M146,274 L146,302" fill="none" stroke="#ff3d71" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M174,274 L174,302" fill="none" stroke="#ff3d71" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,274 L200,302" fill="none" stroke="#ff3d71" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M226,274 L226,302" fill="none" stroke="#ff3d71" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
-    <path d="M254,274 L254,302" fill="none" stroke="#ff3d71" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,266 Q200,152 280,266 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#e11d2e" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

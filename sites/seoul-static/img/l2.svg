@@ -2,24 +2,24 @@
   <title>Seoul Static look 2</title>
   <defs>
     <linearGradient id="bg3503493667" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(307 .5 .5)">
-      <stop offset="0" stop-color="#f4f4f5"/>
-      <stop offset="1" stop-color="#e2e2e6"/>
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
     </linearGradient>
     <radialGradient id="gl3503493667" cx="59.25%" cy="-26.8%" r="79">
-      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg3503493667)"/>
   <rect width="400" height="500" fill="url(#gl3503493667)"/>
-  <circle cx="237" cy="-134" r="35.550000000000004" fill="#2b2b30" fill-opacity="0.1"/>
+  <circle cx="237" cy="-134" r="35.550000000000004" fill="#0d7a8f" fill-opacity="0.1"/>
 
   <g transform="translate(0,10)">
-    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#17171a" fill-opacity="0.92"/>
-    <path d="M116,412 L284,412" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M150,240 L150,404" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200,236 L200,404" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
-    <path d="M250,240 L250,404" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#0d7a8f" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>

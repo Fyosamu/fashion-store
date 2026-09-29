@@ -2,9 +2,9 @@
 
 | | |
 |---|---|
-| **Layout** | `centered` (2-column product grid) |
+| **Layout** | `overlap` (3-column product grid) |
 | **Palette** | `ivory-forest` — light surface, accent `#1f5d45` |
-| **Type** | Cormorant Garamond (display) + Jost (body), one Google Fonts request |
+| **Type** | Instrument Serif (display) + Hanken Grotesk (body), one Google Fonts request |
 | **Products** | 6, with generated SVG artwork |
 | **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
 | **Licence** | MIT — use it in client projects and keep what you charge |

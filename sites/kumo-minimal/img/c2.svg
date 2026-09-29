@@ -2,21 +2,21 @@
   <title>Tops — Kumo Minimal</title>
   <defs>
     <linearGradient id="bg63899451" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(171 .5 .5)">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#e3e7ee"/>
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#dde9ee"/>
     </linearGradient>
     <radialGradient id="gl63899451" cx="25.25%" cy="36.199999999999996%" r="147">
-      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0d7a8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0d7a8f" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="400" height="500" fill="url(#bg63899451)"/>
   <rect width="400" height="500" fill="url(#gl63899451)"/>
-  <circle cx="101" cy="181" r="66.15" fill="#1f5fd0" fill-opacity="0.1"/>
+  <circle cx="101" cy="181" r="66.15" fill="#0d7a8f" fill-opacity="0.1"/>
 
   <g transform="">
-    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0e1116" fill-opacity="0.92"/>
-    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
-    <path d="M122,414 L278,414" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1a22" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#0d7a8f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#0d7a8f" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>
