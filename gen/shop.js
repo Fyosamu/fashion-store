@@ -37,7 +37,7 @@ function updateCatalog(items) {
       `  "${it.slug}": { name: ${JSON.stringify(it.name)}, cat: ${JSON.stringify(it.cat)}, ` +
       `price: ${PRICE}, list: ${LIST}, blurb: ${JSON.stringify(blurb)}, ` +
       `demo: "sites/${it.slug}/index.html", enc: "dl/${it.slug}.bin", ` +
-      `pass: ${JSON.stringify(it.pass)}, file: ${JSON.stringify(it.slug + "-store-template.zip")} },`
+      `pass: ${JSON.stringify(require("crypto").createHash("sha256").update("vera-delivery-2026-xk9|" + it.slug, "utf8").digest("hex"))}, file: ${JSON.stringify(it.slug + "-store-template.zip")} },`
     );
   }
 
@@ -55,7 +55,7 @@ function stripTags(s) { return String(s).replace(/<[^>]+>/g, ""); }
 
 /* ------------------------------------------------------------ apparel.html */
 const FILTERS = [
-  ["all", "All 100"],
+  ["all", "All"],
   ["street", "Street & casual"],
   ["luxe", "Luxury & formal"],
   ["boutique", "Boutique"],
@@ -90,7 +90,7 @@ function buildPage(items) {
   const groups = {};
   items.forEach((i) => { groups[i.mood] = (groups[i.mood] || 0) + 1; });
   const moodCounts = FILTERS.map(([k, label]) => {
-    if (k === "all") return `<button class="tab is-on" data-mood="all">${label}</button>`;
+    if (k === "all") return `<button class="tab is-on" data-mood="all">All ${items.length}</button>`;
     return `<button class="tab" data-mood="${k}">${label} <span>${groups[k] || 0}</span></button>`;
   }).join("\n        ");
 
@@ -99,14 +99,19 @@ function buildPage(items) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>100 clothing store templates — apparel, fashion &amp; streetwear · VERA Atelier</title>
-  <meta name="description" content="One hundred complete clothing store templates: streetwear, luxury, bridal, denim, activewear, vintage, kidswear and more. Each with its own palette, typography and page architecture. Fully responsive, SEO markup included. List $49, standing price 19 USDT, paid on-chain and unlocked in seconds." />
+  <title>${items.length} clothing store templates — apparel, fashion &amp; streetwear · VERA Atelier</title>
+  <meta name="description" content="${items.length} complete clothing store templates: streetwear, luxury, bridal, denim, activewear, vintage, kidswear and more. Each with its own palette, typography and page architecture. Fully responsive, SEO markup included. List $49, standing price 19 USDT, paid on-chain and unlocked in seconds." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://fyosamu.github.io/fashion-store/apparel.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="100 clothing store templates — 19 USDT each" />
-  <meta property="og:description" content="One hundred responsive clothing store templates, each with a different palette, type pairing and layout. Instant on-chain delivery." />
+  <meta property="og:title" content="${items.length} clothing store templates — 19 USDT each" />
+  <meta property="og:description" content="${items.length} responsive clothing store templates, each with a different palette, type pairing and layout. Instant on-chain delivery." />
   <meta property="og:url" content="https://fyosamu.github.io/fashion-store/apparel.html" />
+  <meta property="og:image" content="https://fyosamu.github.io/fashion-store/lookbook.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="100 clothing store templates — 19 USDT each" />
+  <meta name="twitter:description" content="One hundred responsive clothing store templates, each with a different palette, type pairing and layout. Instant on-chain delivery." />
+  <meta name="twitter:image" content="https://fyosamu.github.io/fashion-store/lookbook.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -351,7 +356,15 @@ function buildSitemap(items) {
     [`${BASE}/categories.html`, "0.7", "weekly"],
     [`${BASE}/about.html`, "0.6", "monthly"],
     [`${BASE}/contact.html`, "0.6", "monthly"],
-    ...items.map((i) => [`${BASE}/sites/${i.slug}/`, "0.8", "monthly"]),
+    /* manifest.json knows only the 100 apparel templates, but the catalogue
+       also sells the 13 originals that predate it. Read the site list from
+       catalog.js so every demo we can sell is declared, not just the ones the
+       manifest happens to contain. */
+    ...[...new Set([
+      ...items.map((i) => i.slug),
+      ...[...fs.readFileSync(path.join(ROOT, "catalog.js"), "utf8")
+        .matchAll(/demo:\s*"sites\/([^/]+)\//g)].map((m) => m[1]),
+    ])].map((slug) => [`${BASE}/sites/${slug}/`, "0.8", "monthly"]),
   ];
 
   const xml =
