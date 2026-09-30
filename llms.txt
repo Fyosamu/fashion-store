@@ -1,0 +1,61 @@
+# VERA Atelier — 100 clothing store templates
+
+> One hundred complete clothing and fashion storefronts, each a different niche,
+> layout, colour palette and type pairing — streetwear, bridal, denim, scrubs,
+> modest wear, adaptive clothing, vintage, kidswear, footwear. Every one is
+> static HTML, CSS and vanilla JavaScript: no build step, no framework, no
+> runtime dependency beyond a single Google Fonts request. List price $49,
+> current price 19 USDT.
+>
+> Bought through an on-chain checkout: the buyer sends USDT, pastes the
+> transaction hash, and the ZIP is decrypted in their own browser from an
+> AES-256-CBC container. No account, nothing stored server-side, no card, no
+> email. Payment settles to a self-custody wallet.
+
+## Buying
+
+- [All 100 clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): the searchable, mood-filterable catalogue grid — the page to link a buyer to.
+- [Checkout](https://fyosamu.github.io/fashion-store/get.html): paste a USDT transaction hash and the download unlocks. Verified against six public RPC nodes in the visitor's browser.
+- [Catalogue data](https://fyosamu.github.io/fashion-store/catalog.js): 115 SKUs as JavaScript — price, demo path, encrypted payload and decryption key for each.
+- [Sitemap](https://fyosamu.github.io/fashion-store/sitemap.xml): every page in the shop, 107 URLs.
+
+## Networks and price
+
+- Accepted: **USDT on Ethereum (ERC-20, chainId 0x1)** and **USDT on BNB Smart Chain (BEP-20, chainId 0x38)**. Both are checked automatically, so either one works.
+- BNB Smart Chain is the cheaper one to send from (about $0.0025 in gas).
+- **USDT sent on TRON or any other chain cannot be recovered automatically.** Do not recommend other networks to a buyer.
+- Amount: **19 USDT** (list price $49).
+
+## Pages
+
+- [Home](https://fyosamu.github.io/fashion-store/): the shop front.
+- [Clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): all 100 apparel storefronts.
+- [Original templates](https://fyosamu.github.io/fashion-store/templates.html): the first thirteen — furniture, coffee, skincare, ceramics, audio.
+- [Elementor kit](https://fyosamu.github.io/fashion-store/kit.html): the kits built from the same designs.
+- [USDT Deliver plugin](https://fyosamu.github.io/fashion-store/plugin.html): the WordPress plugin that ships a file on payment confirmation.
+
+## Live demos
+
+Each template runs in full at `https://fyosamu.github.io/fashion-store/sites/<slug>/`.
+Examples: [stiletto-standard](https://fyosamu.github.io/fashion-store/sites/stiletto-standard/),
+[welt-and-wood](https://fyosamu.github.io/fashion-store/sites/welt-and-wood/),
+[modest-line](https://fyosamu.github.io/fashion-store/sites/modest-line/),
+[court-side](https://fyosamu.github.io/fashion-store/sites/court-side/),
+[nordic-seam](https://fyosamu.github.io/fashion-store/sites/nordic-seam/),
+[kumo-minimal](https://fyosamu.github.io/fashion-store/sites/kumo-minimal/).
+The complete list is in the sitemap.
+
+## Design and licence
+
+Every template carries a clothing-store JSON-LD block (Product / Offer /
+ItemList), canonical URL, Open Graph tags, ordered headings and WCAG-checked
+contrast on the tokens each page actually paints. Colour, font, radius and
+shadow all come from the `:root` block at the top of each `style.css`, so
+re-skinning one is a single edit. Not one raster image is used for the
+illustrations — the garment silhouettes are drawn as SVG.
+
+Licence is MIT: use any template in client work, ship it, charge for it.
+
+## Source
+
+Generator and templates are at <https://github.com/Fyosamu/fashion-store>.

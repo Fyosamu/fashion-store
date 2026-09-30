@@ -67,9 +67,12 @@ Re-skinning a template is one edit: every colour, font, radius and shadow in
 
 Checkout verifies the transfer in the visitor's browser against six public
 RPC nodes, then decrypts locally and hands over the ZIP. No account, nothing
-stored server-side. Payments settle to a Trust Wallet address in USDT
-(BEP-20 cheapest at roughly $0.0025, ERC-20 / TRC-20 / Polygon / Solana also
-accepted).
+stored server-side. Payments settle to a Trust Wallet address in USDT on
+**Ethereum (ERC-20)** or **BNB Smart Chain (BEP-20)** — BSC is the cheaper one
+to send from at roughly $0.0025. Checkout asks for `eth_chainId` before it will
+trust a receipt, so a transfer on any other chain is rejected rather than
+silently swallowed: TRON, Polygon and Solana are *not* accepted, and the page
+says so to the buyer before they send anything.
 
 ## Licence
 
