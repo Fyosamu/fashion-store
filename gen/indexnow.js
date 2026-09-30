@@ -10,13 +10,29 @@ const BASE = "https://fyosamu.github.io/fashion-store";
 
 const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, "manifest.json"), "utf8"));
 
-const urlList = [
-  `${BASE}/`,
-  `${BASE}/apparel.html`,
-  `${BASE}/templates.html`,
-  `${BASE}/get.html`,
-  ...manifest.map((m) => `${BASE}/sites/${m.slug}/`),
-];
+/* Ping exactly what sitemap.xml claims. Deriving the list from the sitemap
+   keeps the two documents from drifting — a root page added later gets
+   submitted without anyone remembering to update this file. */
+let urlList;
+try {
+  const sitemap = fs.readFileSync(path.join(__dirname, "..", "sitemap.xml"), "utf8");
+  urlList = [...sitemap.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map((m) => m[1]);
+} catch (e) {
+  urlList = [];
+}
+if (!urlList.length) {
+  /* fallback: whatever the generator last built */
+  urlList = [
+    `${BASE}/`,
+    `${BASE}/apparel.html`,
+    `${BASE}/templates.html`,
+    `${BASE}/get.html`,
+    ...manifest.map((m) => `${BASE}/sites/${m.slug}/`),
+  ];
+}
+
+/* Only claim URLs on this host, and never send duplicates. */
+urlList = [...new Set(urlList)].filter((u) => u.startsWith(`https://${HOST}/`));
 
 const payload = JSON.stringify({ host: HOST, key: KEY, urlList });
 
