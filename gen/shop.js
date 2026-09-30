@@ -136,7 +136,7 @@ function buildPage(items) {
   </style>
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ItemList","name":"Clothing store templates","numberOfItems":${items.length},
- "itemListElement":[${items.slice(0, 30).map((it, i) => `{"@type":"ListItem","position":${i + 1},"item":{"@type":"Product","name":${JSON.stringify(it.name + " — clothing store template")},"description":${JSON.stringify(it.line)},"image":"https://fyosamu.github.io/fashion-store/sites/${it.slug}/img/p1.svg","offers":{"@type":"Offer","price":"${PRICE}","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://fyosamu.github.io/fashion-store/get.html?sku=${it.slug}"}}}`).join(",")}]}
+ "itemListElement":[${items.map((it, i) => `{"@type":"ListItem","position":${i + 1},"item":{"@type":"Product","name":${JSON.stringify(it.name + " — clothing store template")},"description":${JSON.stringify(it.line)},"image":"https://fyosamu.github.io/fashion-store/sites/${it.slug}/img/p1.svg","offers":{"@type":"Offer","price":"${PRICE}","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://fyosamu.github.io/fashion-store/get.html?sku=${it.slug}"}}}`).join(",")}]}
   </script>
 </head>
 <body>
@@ -346,6 +346,8 @@ function buildSitemap(items) {
     [`${BASE}/templates.html`, "0.9", "weekly"],
     [`${BASE}/${PAGE}`, "0.9", "weekly"],
     [`${BASE}/get.html`, "0.8", "weekly"],
+    [`${BASE}/kit.html`, "0.8", "weekly"],
+    [`${BASE}/plugin.html`, "0.8", "weekly"],
     [`${BASE}/categories.html`, "0.7", "weekly"],
     [`${BASE}/about.html`, "0.6", "monthly"],
     [`${BASE}/contact.html`, "0.6", "monthly"],
