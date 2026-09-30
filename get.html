@@ -51,7 +51,14 @@
       <div class="buy-box reveal">
         <span class="eyebrow">Step 1 — pay</span>
         <h2 id="pPayTitle">Send 19 USDT</h2>
-        <p class="buy-note">Network: <b>Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b id="pAmount">19</b></p>
+        <fieldset class="net-pick" id="netPick">
+          <legend class="buy-label">Network you are paying on</legend>
+          <div class="net-opts">
+            <label class="net-opt"><input type="radio" name="paynet" value="eth" checked /><span>Ethereum<small>ERC-20</small></span></label>
+            <label class="net-opt"><input type="radio" name="paynet" value="bsc" /><span>BNB Smart Chain<small>BEP-20 · lowest fee</small></span></label>
+          </div>
+        </fieldset>
+        <p class="buy-note">Network: <b id="pNetName">Ethereum (ERC-20)</b> · Token: <b>USDT</b> · Amount: <b id="pAmount">19</b></p>
         <div class="qr-wrap"><div id="qr"></div></div>
         <label class="buy-label" for="wallet">Wallet address</label>
         <div class="copy-row">
@@ -59,7 +66,7 @@
           <button class="btn btn--sm" id="copyBtn" type="button">Copy</button>
         </div>
         <ul class="buy-warn">
-          <li>Send <b>only USDT on Ethereum</b> — other networks are lost forever.</li>
+          <li id="warnNet">Send <b>only USDT on Ethereum (ERC-20)</b> — a transfer on any other chain cannot be recovered automatically.</li>
           <li>Copy the <b>transaction hash</b> from Trust Wallet afterwards — it unlocks the file.</li>
           <li>Usually confirmed in under a minute.</li>
         </ul>
@@ -95,7 +102,7 @@
         </div>
 
         <div class="dl-fallback" id="fallbackBox">
-          <p><b>Chain check not working?</b> Submit the same form once more — six public Ethereum nodes are tried in turn, and most hiccups clear on a second try.</p>
+          <p><b>Chain check not working?</b> Submit the same form once more — several public nodes are tried in turn, and most hiccups clear on a second try.</p>
           <button class="btn btn--ghost btn--block" id="mailBtn" type="button">Send my hash by email instead</button>
           <p class="form-note">The hash is your proof — send it and we release the download as soon as it checks out on the network.</p>
         </div>
@@ -129,9 +136,9 @@
       <div class="faq">
         <details class="reveal" open><summary>How fast is delivery?</summary><p>The chain check runs in your own browser, so the file unlocks seconds after your transaction confirms — usually less than a minute after sending.</p></details>
         <details class="reveal"><summary>My hash says “not found”.</summary><p>The transaction is probably still waiting for its first confirmation. Wait about 60 seconds and press the button again. If it still fails, use the email button — your hash is the proof.</p></details>
-        <details class="reveal"><summary>Why does it ask for a hash?</summary><p>It is the receipt. The page reads the payment on the Ethereum network itself — no account, no personal data, nothing stored on a server.</p></details>
+        <details class="reveal"><summary>Why does it ask for a hash?</summary><p>It is the receipt. The page reads the payment on the network you selected above — no account, no personal data, nothing stored on a server.</p></details>
         <details class="reveal"><summary>I paid but closed the tab.</summary><p>Come back to this page with the same hash, or email it — the file can always be re-sent.</p></details>
-        <details class="reveal"><summary>Which network did I need?</summary><p>Ethereum (ERC-20) only, for now. USDT sent on TRON, BSC or any other chain cannot be recovered automatically.</p></details>
+        <details class="reveal"><summary>Which network did I need?</summary><p>Either <b>Ethereum (ERC-20)</b> or <b>BNB Smart Chain (BEP-20)</b> — both are checked automatically, so pick whichever you already hold USDT on. BNB Smart Chain is the cheaper one to send from. USDT sent on TRON or any other chain cannot be recovered automatically.</p></details>
       </div>
     </div>
   </section>
@@ -166,7 +173,7 @@
           <ul>
             <li><a href="contact.html">hkay7645@gmail.com</a></li>
             <li><a href="contact.html">Support</a></li>
-            <li>USDT (ERC-20)</li>
+            <li>USDT (ERC-20 / BEP-20)</li>
           </ul>
         </div>
       </div>
@@ -190,14 +197,44 @@
     var USDT = "0xdac17f958d2ee523a2206206994597c13d831ec7";
     var TT = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef";
     var WTOPIC = "0x000000000000000000000000" + WALLET.slice(2).toLowerCase();
-    var RPCS = [
-      "https://ethereum-rpc.publicnode.com",
-      "https://eth.drpc.org",
-      "https://1rpc.io/eth",
-      "https://eth-mainnet.public.blastapi.io",
-      "https://ethereum.public.blockpi.network/v1/rpc/public",
-      "https://cloudflare-eth.com"
-    ];
+
+    /* Two EVM chains behind one wallet address. Ethereum is what this page always
+       used; BNB Smart Chain is added because that is where most people's USDT
+       actually sits, and sending it costs under a cent instead of a dollar.
+       The ERC-20 Transfer event is byte-identical on both chains, so the same
+       receipt parser reads either — only the token contract and the node list
+       change. Chain id is confirmed before any receipt is trusted, so a node
+       answering for the wrong network can never unlock a file. */
+    var NETS = {
+      eth: {
+        key: "eth", name: "Ethereum (ERC-20)", short: "Ethereum",
+        chainId: "0x1",
+        usdt: "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        rpcs: [
+          "https://ethereum-rpc.publicnode.com",
+          "https://eth.drpc.org",
+          "https://1rpc.io/eth",
+          "https://eth-mainnet.public.blastapi.io",
+          "https://ethereum.public.blockpi.network/v1/rpc/public",
+          "https://cloudflare-eth.com"
+        ]
+      },
+      bsc: {
+        key: "bsc", name: "BNB Smart Chain (BEP-20)", short: "BNB Smart Chain",
+        chainId: "0x38",
+        usdt: "0x55d398326f99059ff775485246999027b3197955",
+        rpcs: [
+          "https://bsc-dataseed.bnbchain.org",
+          "https://bsc.publicnode.com",
+          "https://1rpc.io/bnb",
+          "https://binance.llamarpc.com",
+          "https://rpc.ankr.com/bsc",
+          "https://bsc-rpc.publicnode.com"
+        ]
+      }
+    };
+    var netKey = "eth";
+    function NET() { return NETS[netKey] || NETS.eth; }
 
     /* ---------- product ---------- */
     var sku = new URLSearchParams(location.search).get("sku") || "";
@@ -257,13 +294,33 @@
       el("status").innerHTML = '<p class="dl-status__' + kind + '">' + html + "</p>";
     }
 
+    /* ---------- network picker ---------- */
+    function paintNetwork() {
+      var N = NET();
+      var n = el("pNetName"); if (n) n.textContent = N.name;
+      var w = el("warnNet");
+      if (w) w.innerHTML = "Send <b>only USDT on " + N.name + "</b> — a transfer on any other chain cannot be recovered automatically.";
+      var t = el("pPayTitle");
+      if (t && P) t.textContent = "Send " + P.price + " USDT";
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('input[name="paynet"]'), function (r) {
+      r.addEventListener("change", function () {
+        if (!r.checked) return;
+        netKey = r.value;
+        paintNetwork();
+        setStatus("idle", "Network set to <b>" + NET().name + "</b> — send the amount, then paste the transaction hash below.");
+      });
+    });
+    paintNetwork();
+
     /* ---------- RPC ---------- */
     function rpc(method, params) {
       var i = 0;
+      var nodes = NET().rpcs;
       return new Promise(function (resolve, reject) {
         (function attempt() {
-          if (i >= RPCS.length) return reject(new Error("All public RPC endpoints failed"));
-          var url = RPCS[i++];
+          if (i >= nodes.length) return reject(new Error("All public " + NET().short + " nodes failed"));
+          var url = nodes[i++];
           var ctl = ("AbortController" in window) ? new AbortController() : null;
           var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 9000);
           fetch(url, {
@@ -281,12 +338,15 @@
     /* ---------- on-chain verification ---------- */
     /* Sum USDT transfers to one recipient inside a receipt.
        An ERC-20 Transfer event carries exactly 3 topics: [signature, from, to]
-       — so the recipient lives in topics[2] (topics[3] never exists). */
+       — so the recipient lives in topics[2] (topics[3] never exists). The token
+       contract is the selected network's, which is what makes the same parser
+       safe on both chains: a BSC receipt can never match an Ethereum USDT log. */
     function receiptAmount(rec, wtopic) {
+      var token = NET().usdt;
       var amount = 0n;
       (rec.logs || []).forEach(function (l) {
         if (!l.address || !l.topics) return;
-        if (l.address.toLowerCase() !== USDT) return;
+        if (l.address.toLowerCase() !== token) return;
         if ((l.topics[0] || "").toLowerCase() !== TT) return;
         if ((l.topics[2] || "").toLowerCase() !== wtopic) return;
         try { amount += BigInt(l.data); } catch (e) {}
@@ -295,17 +355,31 @@
     }
 
     function verifyTx(tx) {
-      return rpc("eth_getTransactionReceipt", [tx]).then(function (rec) {
+      var N = NET();
+      /* Ask the node what chain it is on before believing anything it says —
+         otherwise a node answering for the wrong network could pass off some
+         other chain's transfer as payment. */
+      return rpc("eth_chainId", []).then(function (cid) {
+        if ((cid || "").toLowerCase() !== N.chainId) {
+          throw new Error("node|This " + N.short + " node answered for a different network. Press the button again.");
+        }
+        return rpc("eth_getTransactionReceipt", [tx]);
+      }).then(function (rec) {
         if (!rec) throw new Error("pending|The transaction is not on the network yet. Wait ~60 seconds and try again.");
         if (rec.status !== "0x1") throw new Error("fail|The transaction exists but failed (reverted). Check the hash.");
         var amount = receiptAmount(rec, WTOPIC);
-        if (amount === 0n) throw new Error("nomatch|This transaction does not contain a USDT transfer to our wallet. Most likely the wrong network was used.");
+        if (amount === 0n) throw new Error("nomatch|This transaction does not contain a USDT transfer to our wallet on " + N.name + ". Check that the network selected above matches the one you sent on.");
         if (amount < BigInt(P.price) * 1000000n) throw new Error("low|Amount received: " + (Number(amount) / 1e6) + " USDT — but this product costs " + P.price + " USDT.");
-        return { amount: amount };
+        return { amount: amount, network: N.name };
       });
     }
     /* QA hook: lets the test harness prove this parser against a live transfer. */
-    window.__UD = { rpc: rpc, receiptAmount: receiptAmount, verifyTx: verifyTx, USDT: USDT, TT: TT };
+    window.__UD = {
+      rpc: rpc, receiptAmount: receiptAmount, verifyTx: verifyTx,
+      USDT: USDT, TT: TT, NETS: NETS,
+      net: function () { return netKey; },
+      setNet: function (k) { if (NETS[k]) netKey = k; return netKey; }
+    };
 
     /* ---------- decrypt + download ---------- */
     function buf2hex(u8) { return Array.prototype.map.call(u8, function (b) { return ("0" + b.toString(16)).slice(-2); }).join(""); }
@@ -365,7 +439,7 @@
       lastTx = tx;
       el("goBtn").disabled = true;
       el("goBtn").textContent = "Checking the chain…";
-      setStatus("work", "Reading transaction <code>" + tx.slice(0, 14) + "…</code> on Ethereum…");
+      setStatus("work", "Reading transaction <code>" + tx.slice(0, 14) + "…</code> on " + NET().short + "…");
 
       verifyTx(tx).then(function (r) {
         setStatus("work", "✓ Payment confirmed — <b>" + (Number(r.amount) / 1e6) + " USDT</b> received. Unlocking your file…");

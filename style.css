@@ -412,6 +412,25 @@ p { color: var(--ink-2); }
   position: relative; padding-left: 20px; font-size: 0.85rem; color: var(--muted);
 }
 .buy-warn li::before { content: "!"; position: absolute; left: 0; color: var(--clay); font-weight: 700; }
+/* payment network picker — one chain is expensive, the other is nearly free to
+   send on, so the buyer picks before reading the amount */
+.net-pick { border: 0; padding: 0; margin: 0 0 14px; min-inline-size: 0; }
+.net-pick legend { padding: 0; }
+.net-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.net-opt { position: relative; display: block; }
+.net-opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.net-opt span {
+  display: flex; flex-direction: column; gap: 3px; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px;
+  font-size: 0.87rem; font-weight: 600; background: var(--paper-2);
+  line-height: 1.25; transition: border-color 0.15s ease, background 0.15s ease;
+}
+.net-opt small {
+  font-size: 0.68rem; font-weight: 500; color: var(--muted);
+  letter-spacing: 0.05em; text-transform: uppercase;
+}
+.net-opt input:checked + span { border-color: var(--ink); background: #fff; }
+.net-opt input:focus-visible + span { outline: 2px solid var(--clay); outline-offset: 2px; }
 .buy-box--form .contact-form { margin-top: 16px; }
 .form-note { font-size: 0.78rem; color: var(--muted); margin-top: 12px; text-align: center; }
 .faq { display: grid; gap: 12px; max-width: 860px; }
