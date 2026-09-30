@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Bassline journal image 3">
+  <title>Bassline journal image 3</title>
+  <defs>
+    <linearGradient id="bg373941132" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(132 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl373941132" cx="25.5%" cy="38.2%" r="180">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg373941132)"/>
+  <rect width="400" height="500" fill="url(#gl373941132)"/>
+  <circle cx="102" cy="191" r="81" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#ff3d71" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#ff3d71" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

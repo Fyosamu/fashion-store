@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Soft Spoken look 3">
+  <title>Soft Spoken look 3</title>
+  <defs>
+    <linearGradient id="bg2715575032" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(352 .5 .5)">
+      <stop offset="0" stop-color="#fdf8f4"/>
+      <stop offset="1" stop-color="#eee2d8"/>
+    </linearGradient>
+    <radialGradient id="gl2715575032" cx="40.5%" cy="-28.599999999999998%" r="11">
+      <stop offset="0" stop-color="#b55d3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b55d3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2715575032)"/>
+  <rect width="400" height="500" fill="url(#gl2715575032)"/>
+  <circle cx="162" cy="-143" r="4.95" fill="#b55d3a" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#b55d3a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

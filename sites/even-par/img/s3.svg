@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Even Par season image 3">
+  <title>Even Par season image 3</title>
+  <defs>
+    <linearGradient id="bg1101030722" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(242 .5 .5)">
+      <stop offset="0" stop-color="#080f0d"/>
+      <stop offset="1" stop-color="#0e1a17"/>
+    </linearGradient>
+    <radialGradient id="gl1101030722" cx="53%" cy="20%" r="200">
+      <stop offset="0" stop-color="#22ffb2" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22ffb2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1101030722)"/>
+  <rect width="400" height="500" fill="url(#gl1101030722)"/>
+  <circle cx="212" cy="100" r="90" fill="#22ffb2" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#22ffb2" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#22ffb2" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#22ffb2" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#22ffb2" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#22ffb2" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,46 +1,84 @@
-# Installing Slow Hours
+# Install Slow Hours
 
-Everything lives in this folder. There is no build step.
+Everything ships in one folder. If you can drag a folder onto a web page, you can install this.
 
-## 1. See it
+---
 
-Double-click `index.html`. If images or fonts look wrong, you are probably
-opening it from inside a zip preview — extract the folder first.
+## 1. Unzip and look at it
 
-## 2. Put it online
+Unzip, then double-click `index.html`. It runs straight from your desktop - no server, no build
+step, no `npm install`.
 
-- **GitHub Pages** — push the folder into a repo, Settings → Pages → deploy from `main`.
-- **Netlify** — drag the folder onto https://app.netlify.com/drop.
-- **Any host** — upload via FTP/SFTP; `.htaccess` is not required.
+## 2. Put your details in (30 seconds)
 
-## 3. Edit these first
-
-| Where | What |
-|---|---|
-| `style.css` → `:root` | every colour, font, radius and shadow |
-| `index.html` → `.brand` | your brand name |
-| `index.html` → `<title>` and `meta[name=description]` | your SEO |
-| `index.html` → `link[rel=canonical]` and `og:url` | your real URL |
-| `index.html` → JSON-LD block | your store name, prices, ratings |
-| `index.html` → `.hero` | headline and lead |
-| `index.html` → `.prod` blocks | products, prices, copy |
-| `index.html` → `.footer` | links and legal line |
-| `img/` | swap generated SVGs for your own photography |
-
-## 4. Take payments
-
-The shop root ships `get.html`: paste a USDT transaction hash, it reads the
-chain in the visitor's browser and releases the file automatically. Set your own
-wallet address at the top of its script:
+Open `script.js` and edit the `CONFIG` block at the top:
 
 ```js
-var WALLET = "0xYourAddressHere";
-var USDT   = "0xdac17f958d2ee523a2206206994597c13d831ec7"; // USDT contract
+const CONFIG = {
+  supportEmail: "you@yourdomain.com",
+  wallet: "0xYourWalletAddress",
+};
 ```
 
-Change `network` in the copy if you accept BEP-20 instead of ERC-20.
+`supportEmail` receives the order and contact emails. `wallet` is the address shown in the
+checkout panel if you keep it. **Do this before you publish** - the shipped values point at the
+demo seller.
 
-## 5. Swap the buy link
+## 3. Upload it
 
-Every "buy" button in this template points at `get.html?sku=slow-hours`.
-Replace it with your own product URL before you go live.
+Pick one - all take under two minutes:
+
+| host | how |
+|---|---|
+| Netlify Drop | drag the folder onto app.netlify.com/drop |
+| GitHub Pages | push the folder, then Settings > Pages > main |
+| Cloudflare Pages | Connect the repo, build command: none, output: the folder |
+| Shared hosting | upload the folder into `public_html` with the File Manager |
+
+Keep the folder structure: `index.html` must sit next to `style.css`, `script.js` and `img/`.
+
+## 4. Replace the content
+
+| what | where |
+|---|---|
+| Brand name | header of each HTML page (plain text logo) |
+| Products, prices, copy | `index.html` - the shop and story sections |
+| Artwork | `img/p1.svg` ... `img/p24.svg` - keep the names, any size - vector art scales for free |
+| Colours | `:root` block at the top of `style.css` (2 colour tokens) |
+| Fonts | `--font` and `--display` in the same block |
+| Cart storage key | `script.js` - `const KEY = "slow-hours_bag"` |
+| Social links, footer | footer of each page |
+
+## 5. Orders and payments (optional)
+
+The demo checkout opens a pre-filled order email addressed to `CONFIG.supportEmail`. To take real
+money, choose one - none of them need you to rewrite the cart:
+
+1. **Point checkout at your own checkout** - replace the `mailto:` line in `script.js` with a link
+   to Stripe Payment Link, a PayPal button, a CryptoPay checkout or your own cart.
+2. **Crypto** - keep your own address in `CONFIG.wallet` and send the buyer to your payment page
+   after the bag total is calculated.
+3. **Form endpoint** - give the newsletter/contact form an `action` (Formspree, Netlify Forms) and
+   the data lands in your inbox without any JavaScript change.
+
+## Troubleshooting
+
+| symptom | why | fix |
+|---|---|---|
+| Page looks unstyled after upload | files landed in different folders | upload the whole folder; `style.css` must be next to `index.html` |
+| Images missing | files renamed or `img/` not uploaded | keep `p1.svg` ... names, upload `img/` too |
+| Cart forgets items | localStorage blocked (private window, `file://`) | serve over https; test on the live URL |
+| Buttons stopped working | a typo in a hand edit | open the browser console, find the line, undo the last change |
+| The email window never opens | no default mail app on the visitor's device | set a real `supportEmail` and test on a phone |
+| Fonts look different | Google Fonts unreachable | self-host `Playfair Display` and `Fraunces` |
+| Newsletter/form seems to do nothing | demo forms only show a toast | wire an `action` (step 5) if you want submissions stored |
+
+## Before you launch
+
+- [ ] `CONFIG` email and wallet are yours
+- [ ] Brand, product names and prices updated
+- [ ] Artwork replaced and sized
+- [ ] `buy.html` deleted or repointed (it links back to the demo shop)
+- [ ] Tested on a phone: open menu, add to bag, change quantity, checkout
+- [ ] Every nav and footer link clicked once
+- [ ] Page loads with JavaScript disabled (content must still be readable)

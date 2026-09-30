@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Holographic mini dress — Night Bus">
+  <title>Holographic mini dress — Night Bus</title>
+  <defs>
+    <linearGradient id="bg3619717853" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(293 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="gl3619717853" cx="65.75%" cy="-6.2%" r="14">
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3619717853)"/>
+  <rect width="400" height="500" fill="url(#gl3619717853)"/>
+  <circle cx="263" cy="-31" r="6.3" fill="#0a0a0a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#0a0a0a" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#0a0a0a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#0a0a0a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

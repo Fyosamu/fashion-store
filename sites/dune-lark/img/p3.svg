@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Distressed denim short — Dune Lark">
+  <title>Distressed denim short — Dune Lark</title>
+  <defs>
+    <linearGradient id="bg929818123" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(43 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl929818123" cx="53.25%" cy="69%" r="216">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg929818123)"/>
+  <rect width="400" height="500" fill="url(#gl929818123)"/>
+  <circle cx="213" cy="345" r="97.2" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,112 L268,112 L284,454 L216,454 L200,254 L184,454 L116,454 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,112 L268,112 L270,148 L130,148 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M146,166 Q170,196 184,168" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,166 Q230,196 216,168" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,148 L200,454" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,300 L260,300" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

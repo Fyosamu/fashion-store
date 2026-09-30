@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Boardwalk short — Palm &amp; Pier">
+  <title>Boardwalk short — Palm &amp; Pier</title>
+  <defs>
+    <linearGradient id="bg92442016" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(136 .5 .5)">
+      <stop offset="0" stop-color="#f3fbf7"/>
+      <stop offset="1" stop-color="#d9eee5"/>
+    </linearGradient>
+    <radialGradient id="gl92442016" cx="31.5%" cy="74.4%" r="173">
+      <stop offset="0" stop-color="#13875d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13875d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg92442016)"/>
+  <rect width="400" height="500" fill="url(#gl92442016)"/>
+  <circle cx="126" cy="372" r="77.85000000000001" fill="#13875d" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#0f241c" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#0f241c" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#13875d" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Accessories — Open Water">
+  <title>Accessories — Open Water</title>
+  <defs>
+    <linearGradient id="bg662826385" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(145 .5 .5)">
+      <stop offset="0" stop-color="#f6f7ff"/>
+      <stop offset="1" stop-color="#e2e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl662826385" cx="33.75%" cy="53.6%" r="124">
+      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg662826385)"/>
+  <rect width="400" height="500" fill="url(#gl662826385)"/>
+  <circle cx="135" cy="268" r="55.800000000000004" fill="#4f4fd8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#4f4fd8" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#4f4fd8" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

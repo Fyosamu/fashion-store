@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Compression legging — Soft Machine">
+  <title>Compression legging — Soft Machine</title>
+  <defs>
+    <linearGradient id="bg4109498881" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(241 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl4109498881" cx="77.75%" cy="1.6%" r="-8">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4109498881)"/>
+  <rect width="400" height="500" fill="url(#gl4109498881)"/>
+  <circle cx="311" cy="8" r="-3.6" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

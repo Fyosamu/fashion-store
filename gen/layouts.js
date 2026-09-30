@@ -207,6 +207,10 @@ h3{font-size:clamp(1.1rem,1.8vw,1.35rem)}
   background:var(--ink);color:var(--bg);padding:13px 22px;border-radius:999px;
   font-size:.88rem;font-weight:600;transition:transform .3s ease;box-shadow:0 16px 40px -18px #000}
 .toast.is-on{transform:translate(-50%,0)}
+
+/* ---------- wide-brand safety: long brand+tagline lines overflowed at 360px
+   on five earlier stores; hide the tagline strip on narrow screens. -------- */
+@media(max-width:620px){.brand small{display:none}}
 `;
 
 /* ---------------------------------------------------------------------------

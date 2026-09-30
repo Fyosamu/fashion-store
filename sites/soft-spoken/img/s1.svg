@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Soft Spoken season image 1">
+  <title>Soft Spoken season image 1</title>
+  <defs>
+    <linearGradient id="bg362029945" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(265 .5 .5)">
+      <stop offset="0" stop-color="#fdf8f4"/>
+      <stop offset="1" stop-color="#eee2d8"/>
+    </linearGradient>
+    <radialGradient id="gl362029945" cx="73.75%" cy="50.6%" r="145">
+      <stop offset="0" stop-color="#b55d3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b55d3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg362029945)"/>
+  <rect width="400" height="500" fill="url(#gl362029945)"/>
+  <circle cx="295" cy="253" r="65.25" fill="#b55d3a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#241a15" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#b55d3a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#b55d3a" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

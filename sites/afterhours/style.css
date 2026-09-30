@@ -257,3 +257,6 @@ h3{font-size:clamp(1.1rem,1.8vw,1.35rem)}
 .prod__badge{border-radius:0;background:var(--ink);color:var(--bg)}
 .prod__name{text-transform:uppercase;font-family:var(--sans);font-weight:700;letter-spacing:-.01em}
 
+
+/* keep the header inside the viewport on small phones (long wordmark + tagline) */
+@media(max-width:620px){.brand small{display:none}}

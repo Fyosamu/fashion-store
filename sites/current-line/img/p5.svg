@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Climbing-shade cap — Current Line">
+  <title>Climbing-shade cap — Current Line</title>
+  <defs>
+    <linearGradient id="bg3906880972" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(52 .5 .5)">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <radialGradient id="gl3906880972" cx="35.5%" cy="-12.2%" r="-38">
+      <stop offset="0" stop-color="#37d5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#37d5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3906880972)"/>
+  <rect width="400" height="500" fill="url(#gl3906880972)"/>
+  <circle cx="142" cy="-61" r="-17.1" fill="#37d5ff" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#e9f6ff" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#37d5ff" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#37d5ff" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#37d5ff" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

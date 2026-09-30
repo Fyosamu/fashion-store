@@ -946,7 +946,7 @@ function buyHtml(niche, pal, font, layout) {
     <div class="container reveal">
       <span class="eyebrow">${esc(niche.cat)} store template</span>
       <h1>${esc(niche.n)} &mdash; ${esc(layout.id)} build</h1>
-      <p class="lead">A complete, responsive storefront: semantic HTML, one comment design system in CSS, vanilla JavaScript, generated product art and full SEO markup. No framework, no build step, no licence key.</p>
+      <p class="lead">A complete, responsive storefront: semantic HTML, one commented design system in CSS, vanilla JavaScript, generated product art and full SEO markup. No framework, no build step, no licence key.</p>
       <p class="hero__price"><b>$${price}</b> one-time &nbsp;&middot;&nbsp; <s>$${list}</s> &nbsp;&middot;&nbsp; MIT licensed</p>
       <div class="hero__cta">
         <a class="btn" href="${checkout}">Buy for ${price} USDT &rarr;</a>
@@ -1215,16 +1215,34 @@ function buildSite(niche, i) {
 }
 
 function main() {
-  const only = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null;
-  const list = only ? NICHES.filter((n) => n.s === only || n.s === only.replace(/\/$/, "")) : NICHES;
+  const onlyArg = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null;
+  const onlySet = onlyArg ? new Set(onlyArg.split(",").map((s) => s.trim().replace(/\/$/, ""))) : null;
   const out = [];
   for (let i = 0; i < NICHES.length; i++) {
     const niche = NICHES[i];
-    if (only && !list.includes(niche)) continue;
+    if (onlySet && !onlySet.has(niche.s)) continue;
     out.push(buildSite(niche, i));
   }
   const manifest = path.resolve(__dirname, "manifest.json");
-  fs.writeFileSync(manifest, JSON.stringify(out, null, 2));
+  if (onlySet) {
+    /* Keep every previously built site in the manifest; refresh the ones we
+       just rebuilt and append brand-new slugs at the end. */
+    let prev = [];
+    try { prev = JSON.parse(fs.readFileSync(manifest, "utf8")); } catch {}
+    const rebuilt = new Map(out.map((s) => [s.slug, s]));
+    const seen = new Set();
+    const merged = [];
+    for (const s of prev) {
+      const fresh = rebuilt.get(s.slug) || s;
+      merged.push(fresh);
+      seen.add(fresh.slug);
+    }
+    for (const s of out) if (!seen.has(s.slug)) { merged.push(s); seen.add(s.slug); }
+    fs.writeFileSync(manifest, JSON.stringify(merged, null, 2));
+    console.log(`manifest merged: ${merged.length} entries (${out.length} rebuilt)`);
+  } else {
+    fs.writeFileSync(manifest, JSON.stringify(out, null, 2));
+  }
   console.log(`built ${out.length} sites -> ${SITES}`);
   const bytes = out.reduce((a, s) => a + fs.statSync(path.join(s.dir, "index.html")).size, 0);
   console.log(`index.html total: ${(bytes / 1024).toFixed(0)} KB`);

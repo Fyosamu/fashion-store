@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Laurel Tux workshop">
+  <title>Laurel Tux workshop</title>
+  <defs>
+    <linearGradient id="bg4138689677" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(77 .5 .5)">
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
+    </linearGradient>
+    <radialGradient id="gl4138689677" cx="31.75%" cy="9.4%" r="-6">
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4138689677)"/>
+  <rect width="400" height="500" fill="url(#gl4138689677)"/>
+  <circle cx="127" cy="47" r="-2.7" fill="#d98a9c" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#d98a9c" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#d98a9c" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

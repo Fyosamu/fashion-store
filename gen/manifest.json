@@ -998,5 +998,505 @@
     "layout": "boutique",
     "dir": "C:\\Users\\USER\\Desktop\\ffff\\fashion-store\\sites\\easy-dressing",
     "blurb": "Adaptive clothing store: Magnets instead of buttons, seated cuts and hems that do not catch on a chair."
+  },
+  {
+    "slug": "tape-deck",
+    "name": "Tape Deck",
+    "cat": "90s hip-hop apparel",
+    "pal": "hazard",
+    "font": "unbounded",
+    "layout": "retro",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\tape-deck",
+    "blurb": "90s hip-hop apparel store: Caricature prints, nylon shells and colour blocking lifted straight off a 1994 mixtape cover."
+  },
+  {
+    "slug": "pavement-press",
+    "name": "Pavement Press",
+    "cat": "Printed tees & zines",
+    "pal": "signal-yellow",
+    "font": "syne",
+    "layout": "brutal",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\pavement-press",
+    "blurb": "Printed tees & zines store: Water-based prints pulled by hand in runs of fifty, plus the zines that explain them."
+  },
+  {
+    "slug": "loiter-club",
+    "name": "Loiter Club",
+    "cat": "Skate leisurewear",
+    "pal": "signal-yellow",
+    "font": "unbounded",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\loiter-club",
+    "blurb": "Skate leisurewear store: Wide cuts, double-reinforced seats and pockets that survive a curb session."
+  },
+  {
+    "slug": "night-bus",
+    "name": "Night Bus",
+    "cat": "Club wear",
+    "pal": "monochrome",
+    "font": "syne",
+    "layout": "fullbleed",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\night-bus",
+    "blurb": "Club wear store: Liquid fabrics, hardware that catches strobe light and hems cut for 3am."
+  },
+  {
+    "slug": "crosswalk-co",
+    "name": "Crosswalk Co",
+    "cat": "Track-inspired street",
+    "pal": "signal-yellow",
+    "font": "bricolage",
+    "layout": "spec",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\crosswalk-co",
+    "blurb": "Track-inspired street store: Track jackets, taping geometry and technical shells borrowed from the warm-up lane."
+  },
+  {
+    "slug": "curbside",
+    "name": "Curbside",
+    "cat": "Screen-printed streetwear",
+    "pal": "monochrome",
+    "font": "syne",
+    "layout": "index",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\curbside",
+    "blurb": "Screen-printed streetwear store: Neighbourhood graphics, heavy blanks and drops announced by chalk, not by email."
+  },
+  {
+    "slug": "bassline",
+    "name": "Bassline",
+    "cat": "Rave apparel",
+    "pal": "cobalt-pop",
+    "font": "bebas",
+    "layout": "lookbook",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\bassline",
+    "blurb": "Rave apparel store: Reflective piping, vented mesh and silhouettes that read under a single moving head."
+  },
+  {
+    "slug": "riot-roller",
+    "name": "Riot Roller",
+    "cat": "Roller-disco apparel",
+    "pal": "signal-yellow",
+    "font": "syne",
+    "layout": "street",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\riot-roller",
+    "blurb": "Roller-disco apparel store: Quads-era metallics, padded knees and disco shine cut for the rink floor."
+  },
+  {
+    "slug": "sable-court",
+    "name": "Sable Court",
+    "cat": "Eveningwear",
+    "pal": "onyx-rose",
+    "font": "cormorant",
+    "layout": "centered",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\sable-court",
+    "blurb": "Eveningwear store: Liquid satin, hand-rolled hems and evening colours that still photograph clean at midnight."
+  },
+  {
+    "slug": "aurum-line",
+    "name": "Aurum Line",
+    "cat": "Cashmere essentials",
+    "pal": "onyx-rose",
+    "font": "fraunces",
+    "layout": "split",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\aurum-line",
+    "blurb": "Cashmere essentials store: Grade-A Mongolian cashmere, knitted in one piece and finished by hand at the cuff."
+  },
+  {
+    "slug": "meridian-cut",
+    "name": "Meridian Cut",
+    "cat": "Made-to-measure suiting",
+    "pal": "ivory-forest",
+    "font": "bodoni",
+    "layout": "spec",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\meridian-cut",
+    "blurb": "Made-to-measure suiting store: Sixteen measurements, one draft, cut remotely and shipped with a fit guarantee."
+  },
+  {
+    "slug": "velours",
+    "name": "Velours",
+    "cat": "Silk & velvet separates",
+    "pal": "noir-gold",
+    "font": "instrument",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\velours",
+    "blurb": "Silk & velvet separates store: Silk velvet, crêpe de chine and separates that trade a rigid dress code for drape."
+  },
+  {
+    "slug": "grand-crescent",
+    "name": "Grand Crescent",
+    "cat": "Heritage outerwear",
+    "pal": "ivory-forest",
+    "font": "playfair",
+    "layout": "fullbleed",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\grand-crescent",
+    "blurb": "Heritage outerwear store: Melton wool, storm cotton and outerwear drafted like architecture and built to outlast trends."
+  },
+  {
+    "slug": "orsay",
+    "name": "Orsay",
+    "cat": "Silk scarves & wraps",
+    "pal": "ivory-forest",
+    "font": "cormorant",
+    "layout": "index",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\orsay",
+    "blurb": "Silk scarves & wraps store: Hand-rolled silk squares, twill stoles and wraps sized to work from collar to belt."
+  },
+  {
+    "slug": "laurel-tux",
+    "name": "Laurel Tux",
+    "cat": "Black-tie tailoring",
+    "pal": "onyx-rose",
+    "font": "cormorant",
+    "layout": "catalog",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\laurel-tux",
+    "blurb": "Black-tie tailoring store: Grosgrain facings, soft shoulders and dinner clothes cut for people who actually dance."
+  },
+  {
+    "slug": "champagne-room",
+    "name": "Champagne Room",
+    "cat": "Sequin & party wear",
+    "pal": "noir-gold",
+    "font": "fraunces",
+    "layout": "lookbook",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\champagne-room",
+    "blurb": "Sequin & party wear store: Hand-sewn sequins, mesh backs and party pieces weighted so they hang, not sag."
+  },
+  {
+    "slug": "grid-and-grain",
+    "name": "Grid & Grain",
+    "cat": "Architectural basics",
+    "pal": "concrete",
+    "font": "fraunces",
+    "layout": "spec",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\grid-and-grain",
+    "blurb": "Architectural basics store: Straight hems, visible grainlines and basics that look like elevations of a building."
+  },
+  {
+    "slug": "quiet-hour",
+    "name": "Quiet Hour",
+    "cat": "Quiet-luxury essentials",
+    "pal": "north",
+    "font": "bricolage",
+    "layout": "centered",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\quiet-hour",
+    "blurb": "Quiet-luxury essentials store: Unbranded cashmere blends, closed seams and neutrals chosen to survive a decade of wear."
+  },
+  {
+    "slug": "blank-state",
+    "name": "Blank State",
+    "cat": "Monochrome essentials",
+    "pal": "graphite-blue",
+    "font": "sora",
+    "layout": "index",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\blank-state",
+    "blurb": "Monochrome essentials store: One colour system across every piece - buy two, wear them in either order."
+  },
+  {
+    "slug": "unit-works",
+    "name": "Unit Works",
+    "cat": "Modular workwear",
+    "pal": "north",
+    "font": "bricolage",
+    "layout": "brutal",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\unit-works",
+    "blurb": "Modular workwear store: Webbing loops, removable pockets and garments rated by what they carry, not how they look."
+  },
+  {
+    "slug": "soft-machine",
+    "name": "Soft Machine",
+    "cat": "Technical knits",
+    "pal": "graphite-blue",
+    "font": "sora",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\soft-machine",
+    "blurb": "Technical knits store: Seamless tubes, mapped ventilation and knits engineered zone by zone on a whole-garment machine."
+  },
+  {
+    "slug": "paper-thin",
+    "name": "Paper Thin",
+    "cat": "Ultralight layers",
+    "pal": "stone",
+    "font": "fraunces",
+    "layout": "split",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\paper-thin",
+    "blurb": "Ultralight layers store: 7-denier shells, packed-down insulation and layers that fold into their own pocket."
+  },
+  {
+    "slug": "datum",
+    "name": "Datum",
+    "cat": "Precision casuals",
+    "pal": "concrete",
+    "font": "bricolage",
+    "layout": "catalog",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\datum",
+    "blurb": "Precision casuals store: Patterned on tailoring, priced for daily wear, finished with the same tolerance twice."
+  },
+  {
+    "slug": "even-par",
+    "name": "Even Par",
+    "cat": "Golf lifestyle",
+    "pal": "carbon-neon",
+    "font": "bricolage",
+    "layout": "boutique",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\even-par",
+    "blurb": "Golf lifestyle store: Performance knits and clubhouse cuts that work from the tee to the table without changing."
+  },
+  {
+    "slug": "summit-skin",
+    "name": "Summit Skin",
+    "cat": "Climbing apparel",
+    "pal": "volt",
+    "font": "plexmono",
+    "layout": "spec",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\summit-skin",
+    "blurb": "Climbing apparel store: Abrasion panels, gusseted crotches and hoods that fit over a helmet without pulling."
+  },
+  {
+    "slug": "lane-nine",
+    "name": "Lane Nine",
+    "cat": "Run-club kit",
+    "pal": "volt",
+    "font": "plexmono",
+    "layout": "street",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\lane-nine",
+    "blurb": "Run-club kit store: Reflective bibs, split shorts and singlets tested on the same nine-mile loop every week."
+  },
+  {
+    "slug": "still-mat",
+    "name": "Still Mat",
+    "cat": "Yoga & studio wear",
+    "pal": "ice-cyan",
+    "font": "plexmono",
+    "layout": "centered",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\still-mat",
+    "blurb": "Yoga & studio wear store: Buttery knits, squat-proof opacity and studio layers that move without announcing themselves."
+  },
+  {
+    "slug": "cornerman",
+    "name": "Cornerman",
+    "cat": "Boxing trainingwear",
+    "pal": "volt",
+    "font": "sora",
+    "layout": "brutal",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\cornerman",
+    "blurb": "Boxing trainingwear store: Ring-cut shorts, vented bags and training pieces that hold up to rope work and heavy bags."
+  },
+  {
+    "slug": "current-line",
+    "name": "Current Line",
+    "cat": "Triathlon kit",
+    "pal": "ice-cyan",
+    "font": "bricolage",
+    "layout": "split",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\current-line",
+    "blurb": "Triathlon kit store: Chlorine-hard face fabric, seamless chamois and one kit that survives all three legs."
+  },
+  {
+    "slug": "trailhead-north",
+    "name": "Trailhead North",
+    "cat": "Hiking apparel",
+    "pal": "carbon-neon",
+    "font": "bricolage",
+    "layout": "fullbleed",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\trailhead-north",
+    "blurb": "Hiking apparel store: Quick-dry shirts, articulated knees and layering pieces colour-matched to the map, not the mall."
+  },
+  {
+    "slug": "quad-row",
+    "name": "Quad Row",
+    "cat": "Ivy-league preppy",
+    "pal": "newsprint",
+    "font": "instrument",
+    "layout": "catalog",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\quad-row",
+    "blurb": "Ivy-league preppy store: Blazer badges, shetland knits and saddle shoes cut from a 1962 campus lookbook."
+  },
+  {
+    "slug": "sun-faded",
+    "name": "Sun Faded",
+    "cat": "70s summer wear",
+    "pal": "ochre",
+    "font": "dmserif",
+    "layout": "retro",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\sun-faded",
+    "blurb": "70s summer wear store: Sun-bleached florals, crochet trims and easy cuts that look better the tenth wear."
+  },
+  {
+    "slug": "motel-neon",
+    "name": "Motel Neon",
+    "cat": "Americana roadside",
+    "pal": "olive-film",
+    "font": "fraunces",
+    "layout": "fullbleed",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\motel-neon",
+    "blurb": "Americana roadside store: Western yokes, boucle jackets and highway palettes pulled from hand-painted motel signs."
+  },
+  {
+    "slug": "drive-in",
+    "name": "Drive-In",
+    "cat": "50s rockabilly",
+    "pal": "newsprint",
+    "font": "fraunces",
+    "layout": "lookbook",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\drive-in",
+    "blurb": "50s rockabilly store: Circle skirts, rolled-sleeve shirts and cherry prints from the tailfin years."
+  },
+  {
+    "slug": "mimeograph",
+    "name": "Mimeograph",
+    "cat": "Xerox-print band tees",
+    "pal": "ochre",
+    "font": "dmserif",
+    "layout": "brutal",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\mimeograph",
+    "blurb": "Xerox-print band tees store: Photocopy textures, crooked registration and tees that look lifted from a 1979 gig poster."
+  },
+  {
+    "slug": "high-wave",
+    "name": "High Wave",
+    "cat": "80s athleisure",
+    "pal": "olive-film",
+    "font": "fraunces",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\high-wave",
+    "blurb": "80s athleisure store: Windbreaker colour blocks, neon taping and headbands built for the aerobics era."
+  },
+  {
+    "slug": "vhs-club",
+    "name": "VHS Club",
+    "cat": "Synthwave printwear",
+    "pal": "olive-film",
+    "font": "instrument",
+    "layout": "street",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\vhs-club",
+    "blurb": "Synthwave printwear store: Scanline gradients, chrome type and night-drive palettes off a tracking-error tape."
+  },
+  {
+    "slug": "thimble-and-thread",
+    "name": "Thimble & Thread",
+    "cat": "Slow-sewn linens",
+    "pal": "sage",
+    "font": "cormorant",
+    "layout": "boutique",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\thimble-and-thread",
+    "blurb": "Slow-sewn linens store: Washed linen, covered buttons and small-batch pieces cut four at a time."
+  },
+  {
+    "slug": "fernway",
+    "name": "Fernway",
+    "cat": "Cottage linen dresses",
+    "pal": "honey",
+    "font": "cormorant",
+    "layout": "lookbook",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\fernway",
+    "blurb": "Cottage linen dresses store: Printed cotton lawns, puff sleeves and dresses that carry a picnic basket without complaint."
+  },
+  {
+    "slug": "ribbon-and-rope",
+    "name": "Ribbon & Rope",
+    "cat": "Nautical boutique",
+    "pal": "honey",
+    "font": "dmserif",
+    "layout": "split",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\ribbon-and-rope",
+    "blurb": "Nautical boutique store: Sailcloth, rope trim and navy palettes cut for harbour mornings and long lunches."
+  },
+  {
+    "slug": "atelier-mom",
+    "name": "Atelier Mom",
+    "cat": "Maternity wear",
+    "pal": "lilac-soft",
+    "font": "instrument",
+    "layout": "centered",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\atelier-mom",
+    "blurb": "Maternity wear store: Belly panels, nursing access and cuts drafted to carry through all four trimesters."
+  },
+  {
+    "slug": "tulip-hour",
+    "name": "Tulip Hour",
+    "cat": "Spring dresses",
+    "pal": "clay",
+    "font": "dmserif",
+    "layout": "index",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\tulip-hour",
+    "blurb": "Spring dresses store: Petal hems, seed-bead buttons and the dresses that come out the day the café opens its terrace."
+  },
+  {
+    "slug": "soft-spoken",
+    "name": "Soft Spoken",
+    "cat": "Knitwear studio",
+    "pal": "clay",
+    "font": "playfair",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\soft-spoken",
+    "blurb": "Knitwear studio store: Hand-framed knits, dropped stitches where they belong and yarns that soften for a decade."
+  },
+  {
+    "slug": "maison-lune",
+    "name": "Maison Lune",
+    "cat": "Sleepwear & loungewear",
+    "pal": "sage",
+    "font": "cormorant",
+    "layout": "centered",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\maison-lune",
+    "blurb": "Sleepwear & loungewear store: Silk pyjamas, brushed cotton and loungewear cut well enough for the corner café."
+  },
+  {
+    "slug": "palm-and-pier",
+    "name": "Palm & Pier",
+    "cat": "Boardwalk casuals",
+    "pal": "mint",
+    "font": "dmserif",
+    "layout": "fullbleed",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\palm-and-pier",
+    "blurb": "Boardwalk casuals store: Open-weave shirts, boardwalk shorts and colours pulled from painted pier posts."
+  },
+  {
+    "slug": "tidepool",
+    "name": "Tidepool",
+    "cat": "Island swim & cover-ups",
+    "pal": "sky-lilac",
+    "font": "playfair",
+    "layout": "lookbook",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\tidepool",
+    "blurb": "Island swim & cover-ups store: Reversible swim, sarong wraps and cover-ups that dry before the second cocktail."
+  },
+  {
+    "slug": "cove-club",
+    "name": "Cove Club",
+    "cat": "Beach-club apparel",
+    "pal": "mint",
+    "font": "syne",
+    "layout": "boutique",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\cove-club",
+    "blurb": "Beach-club apparel store: Terrycloth sets, cabana stripes and laid-back tailoring for the whole afternoon."
+  },
+  {
+    "slug": "dune-lark",
+    "name": "Dune Lark",
+    "cat": "Desert festival wear",
+    "pal": "ocean",
+    "font": "sora",
+    "layout": "overlap",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\dune-lark",
+    "blurb": "Desert festival wear store: Fringe, mesh layers and sun-smart cuts built for a weekend that never fully sleeps."
+  },
+  {
+    "slug": "open-water",
+    "name": "Open Water",
+    "cat": "Sailing apparel",
+    "pal": "sky-lilac",
+    "font": "playfair",
+    "layout": "spec",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\open-water",
+    "blurb": "Sailing apparel store: Spray-proof shells, non-slip cuffs and salopettes drafted by people who actually race."
+  },
+  {
+    "slug": "mango-season",
+    "name": "Mango Season",
+    "cat": "Tropical printwear",
+    "pal": "mint",
+    "font": "syne",
+    "layout": "retro",
+    "dir": "C:\\Users\\USER\\Documents\\Default Project\\fashion-store\\sites\\mango-season",
+    "blurb": "Tropical printwear store: Hand-drawn fruit prints, poplin dresses and shirts made for permanent summer."
   }
 ]

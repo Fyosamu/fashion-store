@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Unit Works season image 1">
+  <title>Unit Works season image 1</title>
+  <defs>
+    <linearGradient id="bg3860204747" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(347 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl3860204747" cx="39.25%" cy="-37.8%" r="60">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3860204747)"/>
+  <rect width="400" height="500" fill="url(#gl3860204747)"/>
+  <circle cx="157" cy="-189" r="27" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#1f5fd0" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -252,3 +252,6 @@ h3{font-size:clamp(1.1rem,1.8vw,1.35rem)}
 .prod__body{padding:20px}
 .story__box{border:3px solid var(--ink);padding:clamp(24px,4vw,46px);background:var(--card)}
 
+
+/* keep the header inside the viewport on small phones (long wordmark + tagline) */
+@media(max-width:620px){.brand small{display:none}}

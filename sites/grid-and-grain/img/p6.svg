@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cropped box jacket — Grid &amp; Grain">
+  <title>Cropped box jacket — Grid &amp; Grain</title>
+  <defs>
+    <linearGradient id="bg3219489155" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(155 .5 .5)">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
+    </linearGradient>
+    <radialGradient id="gl3219489155" cx="56.25%" cy="8.4%" r="38">
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3219489155)"/>
+  <rect width="400" height="500" fill="url(#gl3219489155)"/>
+  <circle cx="225" cy="42" r="17.1" fill="#2b2b30" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

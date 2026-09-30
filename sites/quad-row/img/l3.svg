@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Quad Row look 3">
+  <title>Quad Row look 3</title>
+  <defs>
+    <linearGradient id="bg3801237833" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(353 .5 .5)">
+      <stop offset="0" stop-color="#f4efe4"/>
+      <stop offset="1" stop-color="#ded5c4"/>
+    </linearGradient>
+    <radialGradient id="gl3801237833" cx="50.74999999999999%" cy="-34.599999999999994%" r="-36">
+      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3801237833)"/>
+  <rect width="400" height="500" fill="url(#gl3801237833)"/>
+  <circle cx="203" cy="-173" r="-16.2" fill="#a33b2a" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#a33b2a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#a33b2a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

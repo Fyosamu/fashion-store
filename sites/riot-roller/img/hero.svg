@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Riot Roller hero look">
+  <title>Riot Roller hero look</title>
+  <defs>
+    <linearGradient id="bg1583191666" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(226 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl1583191666" cx="64%" cy="67.60000000000001%" r="209">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1583191666)"/>
+  <rect width="400" height="500" fill="url(#gl1583191666)"/>
+  <circle cx="256" cy="338" r="94.05" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#ffd400" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#ffd400" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

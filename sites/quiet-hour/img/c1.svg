@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Jackets — Quiet Hour">
+  <title>Jackets — Quiet Hour</title>
+  <defs>
+    <linearGradient id="bg4257861687" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(207 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl4257861687" cx="24.25%" cy="3.5999999999999996%" r="9">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4257861687)"/>
+  <rect width="400" height="500" fill="url(#gl4257861687)"/>
+  <circle cx="97" cy="18" r="4.05" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#1f5fd0" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

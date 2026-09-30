@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Blank State workshop">
+  <title>Blank State workshop</title>
+  <defs>
+    <linearGradient id="bg3840113712" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(192 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl3840113712" cx="25.5%" cy="12.4%" r="-15">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3840113712)"/>
+  <rect width="400" height="500" fill="url(#gl3840113712)"/>
+  <circle cx="102" cy="62" r="-6.75" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#5b9cf8" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#5b9cf8" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#5b9cf8" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

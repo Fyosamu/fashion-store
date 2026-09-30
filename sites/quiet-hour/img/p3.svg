@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Pleated wool trouser — Quiet Hour">
+  <title>Pleated wool trouser — Quiet Hour</title>
+  <defs>
+    <linearGradient id="bg1740630457" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(217 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl1740630457" cx="51.74999999999999%" cy="61.4%" r="191">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1740630457)"/>
+  <rect width="400" height="500" fill="url(#gl1740630457)"/>
+  <circle cx="207" cy="307" r="85.95" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#1f5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#1f5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

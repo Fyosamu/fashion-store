@@ -256,3 +256,6 @@ h3{font-size:clamp(1.1rem,1.8vw,1.35rem)}
 .spec-card p{font-size:.9rem;color:var(--mut);margin:0}
 .prod__name{font-family:var(--sans);font-weight:600}
 
+
+/* keep the header inside the viewport on small phones (long wordmark + tagline) */
+@media(max-width:620px){.brand small{display:none}}

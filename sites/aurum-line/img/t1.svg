@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Aurum Line detail 1">
+  <title>Aurum Line detail 1</title>
+  <defs>
+    <linearGradient id="bg2969905926" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(246 .5 .5)">
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
+    </linearGradient>
+    <radialGradient id="gl2969905926" cx="24%" cy="1.6%" r="42">
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2969905926)"/>
+  <rect width="400" height="500" fill="url(#gl2969905926)"/>
+  <circle cx="96" cy="8" r="18.900000000000002" fill="#d98a9c" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#d98a9c" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

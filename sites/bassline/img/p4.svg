@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Light-up bucket hat — Bassline">
+  <title>Light-up bucket hat — Bassline</title>
+  <defs>
+    <linearGradient id="bg661279226" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(266 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl661279226" cx="59%" cy="50.6%" r="135">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg661279226)"/>
+  <rect width="400" height="500" fill="url(#gl661279226)"/>
+  <circle cx="236" cy="253" r="60.75" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 # Frame & Field - Eyewear & optical store template
 
-Optician store with paired lens heroes: a 48-hour lens lab, five-day home try-on and free adjustments for life.
+Optician store with paired lens heroes: 48-hour lab, five-day home try-on, lifetime adjustments.
 
 The complete Frame & Field store: one HTML page, one stylesheet, one script and 6 photographs.
 No build tools, no framework, no dependencies - open it, change it, ship it.
@@ -12,9 +12,9 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 | file | what it is |
 |---|---|
 | `index.html` | the demo home page: hero, shop, about, contact, products |
-| `style.css` | the whole design system - commented, token-based, 58 KB |
-| `script.js` | bag, slide-in drawer, mobile nav, forms and scroll reveals - vanilla JS, 296 lines, no libraries |
-| `img/` | 6 photographs (0.40 MB) - CC0, already compressed for the web |
+| `style.css` | the whole design system - commented, token-based, 60 KB |
+| `script.js` | bag, slide-in drawer, mobile nav, forms and scroll reveals - vanilla JS, 481 lines, no libraries |
+| `img/` | 6 photographs (0.4 MB) - CC0, already compressed for the web |
 | `buy.html` | the product page used by the live demo (price, payment form). Delete it, or point its `buy.html` links at your own shop, before you publish |
 | `README.md` / `INSTALL.md` | these files |
 
@@ -32,7 +32,7 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
    ```js
    const CONFIG = {
      supportEmail: "orders@yourdomain.com",   // where order and contact emails land
-     wallet: "0x…",                            // shown on the checkout panel
+     wallet: "0xâ€¦",                            // shown on the checkout panel
    };
    ```
 
@@ -45,12 +45,12 @@ No build tools, no framework, no dependencies - open it, change it, ship it.
 ## Rebrand in minutes
 
 - **Palette** - one `:root` block at the top of `style.css`: 10 colour tokens
-  (`--paper`, `--ink`, `--clay`, …) plus radius, shadow and fonts. Change the values, the whole
+  (`--paper`, `--ink`, `--clay`, â€¦) plus radius, shadow and fonts. Change the values, the whole
   site repaints; nothing else to touch.
 - **Logo** - the brand is plain text in the header of every page.
-- **Photographs** - drop your own into `img/` and keep the filenames (`p1.jpg` … `p6.jpg`),
+- **Photographs** - drop your own into `img/` and keep the filenames (`p1.jpg` â€¦ `p6.jpg`),
   so no code changes are needed. Keep them at 1600 px wide or less for a fast page.
-- **Bag storage** - the cart key is `frame-and-field_bag` in localStorage, so two stores on the same domain
+- **Bag storage** - the cart key is `frame-and-field\_bag` in localStorage, so two stores on the same domain
   never mix their bags.
 
 ## What is already verified

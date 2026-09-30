@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Pants — Summit Skin">
+  <title>Pants — Summit Skin</title>
+  <defs>
+    <linearGradient id="bg1405775224" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(64 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl1405775224" cx="68.5%" cy="54.6%" r="185">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1405775224)"/>
+  <rect width="400" height="500" fill="url(#gl1405775224)"/>
+  <circle cx="274" cy="273" r="83.25" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#008558" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#008558" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

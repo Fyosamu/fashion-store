@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Gloves — Cornerman">
+  <title>Gloves — Cornerman</title>
+  <defs>
+    <linearGradient id="bg1573015564" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(244 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl1573015564" cx="73.5%" cy="28.999999999999996%" r="186">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1573015564)"/>
+  <rect width="400" height="500" fill="url(#gl1573015564)"/>
+  <circle cx="294" cy="145" r="83.7" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#008558" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#008558" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

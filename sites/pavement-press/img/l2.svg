@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Pavement Press look 2">
+  <title>Pavement Press look 2</title>
+  <defs>
+    <linearGradient id="bg4016122854" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(294 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl4016122854" cx="41%" cy="-45.2%" r="-29">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4016122854)"/>
+  <rect width="400" height="500" fill="url(#gl4016122854)"/>
+  <circle cx="164" cy="-226" r="-13.05" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#ffd400" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#ffd400" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -247,3 +247,6 @@ h3{font-size:clamp(1.1rem,1.8vw,1.35rem)}
 .prod__name{font-size:1.25rem}
 .prod__foot{border-top:1px solid var(--line);margin-top:12px;padding-top:12px}
 
+
+/* keep the header inside the viewport on small phones (long wordmark + tagline) */
+@media(max-width:620px){.brand small{display:none}}

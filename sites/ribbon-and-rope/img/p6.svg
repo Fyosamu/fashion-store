@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Silk neck scarf, navy — Ribbon &amp; Rope">
+  <title>Silk neck scarf, navy — Ribbon &amp; Rope</title>
+  <defs>
+    <linearGradient id="bg3530877052" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(292 .5 .5)">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#efe4cc"/>
+    </linearGradient>
+    <radialGradient id="gl3530877052" cx="40.5%" cy="5.800000000000001%" r="19">
+      <stop offset="0" stop-color="#9d6b19" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9d6b19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3530877052)"/>
+  <rect width="400" height="500" fill="url(#gl3530877052)"/>
+  <circle cx="162" cy="29" r="8.55" fill="#9d6b19" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#241d10" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#9d6b19" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

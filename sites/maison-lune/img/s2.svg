@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Maison Lune season image 2">
+  <title>Maison Lune season image 2</title>
+  <defs>
+    <linearGradient id="bg1983071547" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(27 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl1983071547" cx="34.25%" cy="44.6%" r="205">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1983071547)"/>
+  <rect width="400" height="500" fill="url(#gl1983071547)"/>
+  <circle cx="137" cy="223" r="92.25" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#5e7f4b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#5e7f4b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

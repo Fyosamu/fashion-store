@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Drive-In hero look">
+  <title>Drive-In hero look</title>
+  <defs>
+    <linearGradient id="bg858967861" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(301 .5 .5)">
+      <stop offset="0" stop-color="#f4efe4"/>
+      <stop offset="1" stop-color="#ded5c4"/>
+    </linearGradient>
+    <radialGradient id="gl858967861" cx="52.75%" cy="54.400000000000006%" r="175">
+      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg858967861)"/>
+  <rect width="400" height="500" fill="url(#gl858967861)"/>
+  <circle cx="211" cy="272" r="78.75" fill="#a33b2a" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M136,152 L264,152 L336,432 L64,432 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M136,152 L264,152 L266,184 L134,184 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M170,192 L146,428" fill="none" stroke="#a33b2a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,192 L200,428" fill="none" stroke="#a33b2a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,192 L254,428" fill="none" stroke="#a33b2a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

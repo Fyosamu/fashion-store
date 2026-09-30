@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Jackets — Datum">
+  <title>Jackets — Datum</title>
+  <defs>
+    <linearGradient id="bg3012433623" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(63 .5 .5)">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
+    </linearGradient>
+    <radialGradient id="gl3012433623" cx="28.249999999999996%" cy="0%" r="42">
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3012433623)"/>
+  <rect width="400" height="500" fill="url(#gl3012433623)"/>
+  <circle cx="113" cy="0" r="18.900000000000002" fill="#2b2b30" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,88 L200,124 L250,88 L320,146 L306,214 L276,196 L276,446 L124,446 L124,196 L94,214 L80,146 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M200,124 L152,90 L176,208 L200,170 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M200,124 L248,90 L224,208 L200,170 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,300 L172,300 L172,336 L132,336 Z" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,300 L268,300 L268,336 L228,336 Z" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

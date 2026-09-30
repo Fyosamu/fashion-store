@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Lane Nine detail 3">
+  <title>Lane Nine detail 3</title>
+  <defs>
+    <linearGradient id="bg3971122076" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(236 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl3971122076" cx="46.5%" cy="-28.599999999999998%" r="36">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3971122076)"/>
+  <rect width="400" height="500" fill="url(#gl3971122076)"/>
+  <circle cx="186" cy="-143" r="16.2" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#008558" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#008558" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

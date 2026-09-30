@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Atelier Mom detail 2">
+  <title>Atelier Mom detail 2</title>
+  <defs>
+    <linearGradient id="bg3874990502" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(182 .5 .5)">
+      <stop offset="0" stop-color="#f9f7ff"/>
+      <stop offset="1" stop-color="#e8e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl3874990502" cx="57.99999999999999%" cy="6%" r="-35">
+      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3874990502)"/>
+  <rect width="400" height="500" fill="url(#gl3874990502)"/>
+  <circle cx="232" cy="30" r="-15.75" fill="#7a5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#1c1730" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#7a5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#7a5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

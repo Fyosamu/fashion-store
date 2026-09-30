@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Quad Row hero look">
+  <title>Quad Row hero look</title>
+  <defs>
+    <linearGradient id="bg2880990083" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(83 .5 .5)">
+      <stop offset="0" stop-color="#f4efe4"/>
+      <stop offset="1" stop-color="#ded5c4"/>
+    </linearGradient>
+    <radialGradient id="gl2880990083" cx="23.25%" cy="-14.399999999999999%" r="42">
+      <stop offset="0" stop-color="#a33b2a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a33b2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2880990083)"/>
+  <rect width="400" height="500" fill="url(#gl2880990083)"/>
+  <circle cx="93" cy="-72" r="18.900000000000002" fill="#a33b2a" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#1c1a17" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#a33b2a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#a33b2a" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

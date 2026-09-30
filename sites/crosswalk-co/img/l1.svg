@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Crosswalk Co look 1">
+  <title>Crosswalk Co look 1</title>
+  <defs>
+    <linearGradient id="bg91298303" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(143 .5 .5)">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="1" stop-color="#d6d6d2"/>
+    </linearGradient>
+    <radialGradient id="gl91298303" cx="38.25%" cy="59.4%" r="181">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg91298303)"/>
+  <rect width="400" height="500" fill="url(#gl91298303)"/>
+  <circle cx="153" cy="297" r="81.45" fill="#ffd400" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#ffd400" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

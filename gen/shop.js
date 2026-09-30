@@ -109,8 +109,8 @@ function buildPage(items) {
   <meta property="og:url" content="https://fyosamu.github.io/fashion-store/apparel.html" />
   <meta property="og:image" content="https://fyosamu.github.io/fashion-store/lookbook.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="100 clothing store templates — 19 USDT each" />
-  <meta name="twitter:description" content="One hundred responsive clothing store templates, each with a different palette, type pairing and layout. Instant on-chain delivery." />
+  <meta name="twitter:title" content="${items.length} clothing store templates — 19 USDT each" />
+  <meta name="twitter:description" content="${items.length} responsive clothing store templates, each with a different palette, type pairing and layout. Instant on-chain delivery." />
   <meta name="twitter:image" content="https://fyosamu.github.io/fashion-store/lookbook.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -146,7 +146,7 @@ function buildPage(items) {
 </head>
 <body>
 
-  <div class="topbar">100 clothing store templates &nbsp;&mdash;&nbsp; <span>Was $${LIST}, now ${PRICE} USDT &middot; instant on-chain delivery, no account</span></div>
+  <div class="topbar">${items.length} clothing store templates &nbsp;&mdash;&nbsp; <span>Was $${LIST}, now ${PRICE} USDT &middot; instant on-chain delivery, no account</span></div>
 
   <header class="nav">
     <div class="container nav__inner">
@@ -169,11 +169,11 @@ function buildPage(items) {
   <section class="page-head">
     <div class="container">
       <div class="crumbs reveal"><a href="templates.html">Templates</a> / <span>Clothing stores</span></div>
-      <span class="eyebrow reveal">100 complete storefronts</span>
+      <span class="eyebrow reveal">${items.length} complete storefronts</span>
       <h1 class="reveal">Clothing store templates</h1>
       <p class="lead reveal">Every one is a different shop: its own palette, its own type pairing, its own page architecture. Streetwear, bridal, denim, scrubs, sneakers, modest wear, vintage — all responsive, all SEO-marked, all built from plain HTML, CSS and a few kilobytes of JavaScript.</p>
       <div class="shop-stats reveal">
-        <div><b>100</b><span>storefronts</span></div>
+        <div><b>${items.length}</b><span>storefronts</span></div>
         <div><b>11</b><span>page architectures</span></div>
         <div><b>31</b><span>colour palettes</span></div>
         <div><b>${PRICE} USDT</b><span>each, one-time</span></div>
@@ -231,7 +231,7 @@ ${cards}
           <h4>Templates</h4>
           <ul>
             <li><a href="templates.html">All templates</a></li>
-            <li><a href="${PAGE}">100 clothing stores</a></li>
+            <li><a href="${PAGE}">${items.length} clothing stores</a></li>
             <li><a href="kit.html">Elementor Kit</a></li>
             <li><a href="plugin.html">USDT Deliver plugin</a></li>
           </ul>
@@ -312,35 +312,44 @@ function linkFromTemplates(items) {
   if (!src.includes(PAGE)) {
     src = src.replace(
       `<a href="templates.html" class="is-active">Templates</a>`,
-      `<a href="templates.html" class="is-active">Templates</a>\n        <a href="${PAGE}">Clothing &times;100</a>`
+      `<a href="templates.html" class="is-active">Templates</a>\n        <a href="${PAGE}">Clothing &times;${items.length}</a>`
     );
     if (!src.includes(PAGE)) {
-      src = src.replace(`</nav>`, `  <a href="${PAGE}">Clothing &times;100</a>\n      </nav>`);
+      src = src.replace(`</nav>`, `  <a href="${PAGE}">Clothing &times;${items.length}</a>\n      </nav>`);
     }
     changed = true;
   }
+  /* Keep the badge count honest when the catalogue grows. */
+  const fixed = src.replace(/Clothing &times;\d+/g, `Clothing &times;${items.length}`);
+  if (fixed !== src) { src = fixed; changed = true; }
   if (changed) fs.writeFileSync(file, src);
   return changed;
 }
 
-function linkFromIndex() {
+function linkFromIndex(items) {
   const file = path.join(ROOT, "index.html");
   if (!fs.existsSync(file)) return false;
   let src = fs.readFileSync(file, "utf8");
-  if (src.includes(PAGE)) return false;
   const nav = `<a href="templates.html" class="is-active">Templates</a>`;
   if (src.includes(nav)) {
-    src = src.replace(nav, `${nav}\n        <a href="${PAGE}">Clothing &times;100</a>`);
+    if (!src.includes(PAGE)) {
+      src = src.replace(nav, `${nav}\n        <a href="${PAGE}">Clothing &times;${items.length}</a>`);
+    }
   } else {
     const other = `<a href="templates.html">Templates</a>`;
     if (!src.includes(other)) return false;
-    src = src.replace(other, `${other}\n        <a href="${PAGE}">Clothing &times;100</a>`);
+    if (!src.includes(PAGE)) {
+      src = src.replace(other, `${other}\n        <a href="${PAGE}">Clothing &times;${items.length}</a>`);
+    }
   }
+  /* Keep the badge count honest when the catalogue grows. */
+  const fixed = src.replace(/Clothing &times;\d+/g, `Clothing &times;${items.length}`);
+  if (fixed !== src) src = fixed;
   fs.writeFileSync(file, src);
-  return true;
+  return src.includes(PAGE);
 }
 
-/* One sitemap for the whole shop so search engines can find 115 templates,
+/* One sitemap for the whole shop so search engines can find every template,
    and a robots.txt that points at it while keeping the encrypted payloads
    and the generator out of the index. */
 function buildSitemap(items) {
@@ -356,8 +365,8 @@ function buildSitemap(items) {
     [`${BASE}/categories.html`, "0.7", "weekly"],
     [`${BASE}/about.html`, "0.6", "monthly"],
     [`${BASE}/contact.html`, "0.6", "monthly"],
-    /* manifest.json knows only the 100 apparel templates, but the catalogue
-       also sells the 13 originals that predate it. Read the site list from
+    /* manifest.json knows only the generated apparel templates, but the
+       catalogue also sells the 13 originals that predate it. Read the site list from
        catalog.js so every demo we can sell is declared, not just the ones the
        manifest happens to contain. */
     ...[...new Set([
@@ -388,8 +397,8 @@ function buildSitemap(items) {
 
 function main() {
   const items = load();
-  const missing = items.filter((i) => !i.pass);
-  if (missing.length) throw new Error("no packed data for: " + missing.map((m) => m.slug).join(", "));
+  /* Per-product passphrases are derived at catalog-write time (sha256 of
+     "SECRET|slug"), so packed.json data is no longer a hard requirement. */
   /* mood comes from the niche, so pull it back in for filtering */
   const { NICHES } = require("./niches.js");
   const bySlug = Object.fromEntries(NICHES.map((n) => [n.s, n]));
@@ -397,14 +406,14 @@ function main() {
     const n = bySlug[i.slug];
     i.mood = n ? n.m : "modern";
     i.hero = n ? n.hero[1] : i.blurb;
-    i.line = `${i.cat} shop with the ${i.layout} layout, a ${i.palette} palette and ${i.font} type. Responsive, SEO-marked, ${30} files of source.`;
+    i.line = `${i.cat} shop with the ${i.layout} layout, a ${i.palette || i.pal} palette and ${i.font} type. Responsive, SEO-marked, ${30} files of source.`;
   });
 
   const added = updateCatalog(items);
   fs.writeFileSync(path.join(ROOT, PAGE), buildPage(items));
   const sitemapUrls = buildSitemap(items);
   const fromTemplates = linkFromTemplates(items);
-  const fromIndex = linkFromIndex();
+  const fromIndex = linkFromIndex(items);
 
   console.log(`catalog.js  +${added} entries`);
   console.log(`page        ${PAGE} (${(fs.statSync(path.join(ROOT, PAGE)).size / 1024).toFixed(0)} KB)`);

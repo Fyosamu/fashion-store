@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Zone-mapped sweater — Soft Machine">
+  <title>Zone-mapped sweater — Soft Machine</title>
+  <defs>
+    <linearGradient id="bg4176609357" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(237 .5 .5)">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <radialGradient id="gl4176609357" cx="26.75%" cy="-22.6%" r="34">
+      <stop offset="0" stop-color="#5b9cf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5b9cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4176609357)"/>
+  <rect width="400" height="500" fill="url(#gl4176609357)"/>
+  <circle cx="107" cy="-113" r="15.3" fill="#5b9cf8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#e7edf4" fill-opacity="0.92"/>
+    <path d="M186,152 L186,214" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214,152 L214,214" fill="none" stroke="#5b9cf8" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Sable Court season image 1">
+  <title>Sable Court season image 1</title>
+  <defs>
+    <linearGradient id="bg1247641983" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(63 .5 .5)">
+      <stop offset="0" stop-color="#0e0c0f"/>
+      <stop offset="1" stop-color="#171317"/>
+    </linearGradient>
+    <radialGradient id="gl1247641983" cx="18.25%" cy="57.4%" r="211">
+      <stop offset="0" stop-color="#d98a9c" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#d98a9c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1247641983)"/>
+  <rect width="400" height="500" fill="url(#gl1247641983)"/>
+  <circle cx="73" cy="287" r="94.95" fill="#d98a9c" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M150,96 L200,128 L250,96 L300,150 L286,226 L302,454 L222,454 L200,288 L178,454 L98,454 L114,226 L100,150 Z" fill="#f7eff1" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,140 224,104" fill="none" stroke="#d98a9c" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M116,272 L284,272" fill="none" stroke="#d98a9c" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,136 L200,272" fill="none" stroke="#d98a9c" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

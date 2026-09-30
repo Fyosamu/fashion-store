@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Champagne Room journal image 3">
+  <title>Champagne Room journal image 3</title>
+  <defs>
+    <linearGradient id="bg3071082895" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(295 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl3071082895" cx="36.25%" cy="-24.2%" r="-38">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3071082895)"/>
+  <rect width="400" height="500" fill="url(#gl3071082895)"/>
+  <circle cx="145" cy="-121" r="-17.1" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#c9a227" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Paper Thin detail 3">
+  <title>Paper Thin detail 3</title>
+  <defs>
+    <linearGradient id="bg2128422057" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(177 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl2128422057" cx="61.75000000000001%" cy="45.4%" r="209">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2128422057)"/>
+  <rect width="400" height="500" fill="url(#gl2128422057)"/>
+  <circle cx="247" cy="227" r="94.05" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

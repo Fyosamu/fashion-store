@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Mango Season detail 2">
+  <title>Mango Season detail 2</title>
+  <defs>
+    <linearGradient id="bg2358550502" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(62 .5 .5)">
+      <stop offset="0" stop-color="#f3fbf7"/>
+      <stop offset="1" stop-color="#d9eee5"/>
+    </linearGradient>
+    <radialGradient id="gl2358550502" cx="23%" cy="0%" r="-15">
+      <stop offset="0" stop-color="#13875d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13875d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2358550502)"/>
+  <rect width="400" height="500" fill="url(#gl2358550502)"/>
+  <circle cx="92" cy="0" r="-6.75" fill="#13875d" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#0f241c" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

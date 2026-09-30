@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cove Club detail 2">
+  <title>Cove Club detail 2</title>
+  <defs>
+    <linearGradient id="bg2895477110" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(350 .5 .5)">
+      <stop offset="0" stop-color="#f3fbf7"/>
+      <stop offset="1" stop-color="#d9eee5"/>
+    </linearGradient>
+    <radialGradient id="gl2895477110" cx="45%" cy="-46.800000000000004%" r="-29">
+      <stop offset="0" stop-color="#13875d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13875d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2895477110)"/>
+  <rect width="400" height="500" fill="url(#gl2895477110)"/>
+  <circle cx="180" cy="-234" r="-13.05" fill="#13875d" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M144,104 L200,134 L256,104 L336,166 L318,250 L284,230 L284,440 L116,440 L116,230 L82,250 L64,166 Z" fill="#0f241c" fill-opacity="0.92"/>
+    <path d="M116,412 L284,412" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,116 Q200,150 226,116" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150,240 L150,404" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,236 L200,404" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M250,240 L250,404" fill="none" stroke="#13875d" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

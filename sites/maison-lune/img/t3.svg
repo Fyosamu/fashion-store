@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Maison Lune detail 3">
+  <title>Maison Lune detail 3</title>
+  <defs>
+    <linearGradient id="bg2168758189" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(109 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl2168758189" cx="59.75%" cy="-1.7999999999999998%" r="-35">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2168758189)"/>
+  <rect width="400" height="500" fill="url(#gl2168758189)"/>
+  <circle cx="239" cy="-9" r="-15.75" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#5e7f4b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

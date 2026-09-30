@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Thimble &amp; Thread look 1">
+  <title>Thimble &amp; Thread look 1</title>
+  <defs>
+    <linearGradient id="bg2515349255" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(95 .5 .5)">
+      <stop offset="0" stop-color="#f6f7f0"/>
+      <stop offset="1" stop-color="#e4e7d7"/>
+    </linearGradient>
+    <radialGradient id="gl2515349255" cx="31.25%" cy="-35.199999999999996%" r="-14">
+      <stop offset="0" stop-color="#5e7f4b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5e7f4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2515349255)"/>
+  <rect width="400" height="500" fill="url(#gl2515349255)"/>
+  <circle cx="125" cy="-176" r="-6.3" fill="#5e7f4b" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M142,84 L200,116 L258,84 L330,142 L314,204 L278,182 L278,436 L122,436 L122,182 L86,204 L70,142 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,116 L172,86 L188,134 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,116 L228,86 L212,134 Z" fill="#1d2418" fill-opacity="0.92"/>
+    <path d="M200,124 L200,436" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,420 L278,420" fill="none" stroke="#5e7f4b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

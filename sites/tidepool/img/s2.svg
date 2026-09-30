@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Tidepool season image 2">
+  <title>Tidepool season image 2</title>
+  <defs>
+    <linearGradient id="bg2388057095" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(335 .5 .5)">
+      <stop offset="0" stop-color="#f6f7ff"/>
+      <stop offset="1" stop-color="#e2e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl2388057095" cx="81.25%" cy="-17.2%" r="-24">
+      <stop offset="0" stop-color="#4f4fd8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4f4fd8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2388057095)"/>
+  <rect width="400" height="500" fill="url(#gl2388057095)"/>
+  <circle cx="325" cy="-86" r="-10.8" fill="#4f4fd8" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,192 L288,192 L310,438 L90,438 Z" fill="#161731" fill-opacity="0.92"/>
+    <path d="M154,192 Q154,116 200,116 Q246,116 246,192" fill="none" stroke="#4f4fd8" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120,240 L300,240" fill="none" stroke="#4f4fd8" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
