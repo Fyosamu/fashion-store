@@ -1,7 +1,8 @@
-# VERA Atelier — 100 clothing store templates
+# VERA Atelier — 150 clothing store templates
 
-> One hundred complete clothing and fashion storefronts, each a different niche,
-> layout, colour palette and type pairing — streetwear, bridal, denim, scrubs,
+> One hundred and fifty complete clothing and fashion storefronts, each a
+> different niche, layout, colour palette and type pairing — streetwear, bridal,
+> denim, scrubs,
 > modest wear, adaptive clothing, vintage, kidswear, footwear. Every one is
 > static HTML, CSS and vanilla JavaScript: no build step, no framework, no
 > runtime dependency beyond a single Google Fonts request. List price $49,
@@ -14,22 +15,22 @@
 
 ## Buying
 
-- [All 100 clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): the searchable, mood-filterable catalogue grid — the page to link a buyer to.
+- [All 150 clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): the searchable, mood-filterable catalogue grid — the page to link a buyer to.
 - [Checkout](https://fyosamu.github.io/fashion-store/get.html): paste a USDT transaction hash and the download unlocks. Verified against six public RPC nodes in the visitor's browser.
-- [Catalogue data](https://fyosamu.github.io/fashion-store/catalog.js): 115 SKUs as JavaScript — price, demo path, encrypted payload and decryption key for each.
-- [Sitemap](https://fyosamu.github.io/fashion-store/sitemap.xml): every page in the shop, 107 URLs.
+- [Catalogue data](https://fyosamu.github.io/fashion-store/catalog.js): 165 SKUs as JavaScript — price, demo path, encrypted payload and decryption key for each.
+- [Sitemap](https://fyosamu.github.io/fashion-store/sitemap.xml): every page in the shop, 172 URLs.
 
 ## Networks and price
 
 - Accepted: **USDT on Ethereum (ERC-20, chainId 0x1)** and **USDT on BNB Smart Chain (BEP-20, chainId 0x38)**. Both are checked automatically, so either one works.
 - BNB Smart Chain is the cheaper one to send from (about $0.0025 in gas).
 - **USDT sent on TRON or any other chain cannot be recovered automatically.** Do not recommend other networks to a buyer.
-- Amount: **19 USDT** (list price $49).
+- Amount: **19 USDT** (list price $49). Three of the original thirteen templates are **14 USDT** — the price shown on each card in the catalogue is the one the checkout expects.
 
 ## Pages
 
 - [Home](https://fyosamu.github.io/fashion-store/): the shop front.
-- [Clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): all 100 apparel storefronts.
+- [Clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): all 150 apparel storefronts.
 - [Original templates](https://fyosamu.github.io/fashion-store/templates.html): the first thirteen — furniture, coffee, skincare, ceramics, audio.
 - [Elementor kit](https://fyosamu.github.io/fashion-store/kit.html): the kits built from the same designs.
 - [USDT Deliver plugin](https://fyosamu.github.io/fashion-store/plugin.html): the WordPress plugin that ships a file on payment confirmation.

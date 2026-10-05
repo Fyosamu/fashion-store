@@ -4,27 +4,27 @@ Static store template shop — HTML, CSS and vanilla JavaScript, no build step,
 no framework, no runtime dependencies beyond one Google Fonts request.
 
 **Live:** <https://fyosamu.github.io/fashion-store/> ·
-**100 clothing templates:** <https://fyosamu.github.io/fashion-store/apparel.html> ·
+**150 clothing templates:** <https://fyosamu.github.io/fashion-store/apparel.html> ·
 **Sitemap:** <https://fyosamu.github.io/fashion-store/sitemap.xml>
 
 ## What is here
 
 | | |
 |---|---|
-| `apparel.html` | searchable, mood-filterable grid of all 100 clothing storefronts |
+| `apparel.html` | searchable, mood-filterable grid of all 150 clothing storefronts |
 | `templates.html` | the original 13 templates — furniture, coffee, skincare, ceramics, audio |
 | `get.html` | on-chain checkout: paste a USDT transaction hash, the ZIP unlocks |
-| `catalog.js` | 115 SKUs — price, demo path, encrypted payload, decryption password |
+| `catalog.js` | 165 SKUs — price, demo path, encrypted payload, decryption password |
 | `dl/` | AES-256-CBC payloads, one per template |
 | `sites/` | the generated storefronts themselves |
-| `gen/` | the generator that produced 100 of them |
+| `gen/` | the generator that produced 150 of them |
 | `kit.html`, `plugin.html` | Elementor kit and the USDT Deliver WordPress plugin |
 
 ## The generator
 
 `gen/` turns a niche definition into a complete storefront.
 
-- **`niches.js`** — 100 apparel concepts: streetwear, bridal, denim, scrubs,
+- **`niches.js`** — 150 apparel concepts: streetwear, bridal, denim, scrubs,
   modest wear, adaptive clothing, vintage, kidswear, footwear.
 - **`build.js`** — 12 page architectures × 31 palettes × 12 type pairings,
   assigned by mood so a bridal shop and a skate shop never share a silhouette.
@@ -40,11 +40,11 @@ no framework, no runtime dependencies beyond one Google Fonts request.
   and `robots.txt`.
 
 ```powershell
-node gen/build.js            # regenerate all 100 storefronts
+node gen/build.js            # regenerate all 150 storefronts
 node gen/build.js --only nocturne-supply
 node gen/pack.js             # re-zip + re-encrypt into dl/
 node gen/shop.js             # catalogue, listing page, sitemap
-node gen/audit.js            # check all 100 — exits non-zero on any defect
+node gen/audit.js            # check all 150 — exits non-zero on any defect
 node gen/pack.js --selftest  # round-trip the container against get.html
 node gen/verify.js           # after a push: pull the live store and decrypt 5 SKUs
 ```

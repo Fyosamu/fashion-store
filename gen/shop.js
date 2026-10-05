@@ -386,11 +386,19 @@ function buildSitemap(items) {
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), xml);
 
   const rfile = path.join(ROOT, "robots.txt");
+  const rbody =
+    `User-agent: *\nAllow: /\nDisallow: /dl/\nDisallow: /gen/\n\n` +
+    `# ${items.length} clothing store templates (full catalogue in catalog.js)\n` +
+    `Sitemap: ${BASE}/sitemap.xml\n`;
   if (!fs.existsSync(rfile)) {
-    fs.writeFileSync(rfile,
-      `User-agent: *\nAllow: /\nDisallow: /dl/\nDisallow: /gen/\n\n` +
-      `# ${items.length} clothing store templates (full catalogue in catalog.js)\n` +
-      `Sitemap: ${BASE}/sitemap.xml\n`);
+    fs.writeFileSync(rfile, rbody);
+  } else {
+    /* Keep the header count honest when the catalogue grows, the same way
+       the badge count is kept honest above. */
+    const cur = fs.readFileSync(rfile, "utf8");
+    const next = cur.replace(/^# \d+ clothing store templates/m,
+      `# ${items.length} clothing store templates`);
+    if (next !== cur) fs.writeFileSync(rfile, next);
   }
   return urls.length;
 }
