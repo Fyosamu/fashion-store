@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Slingback heel — Paper &amp; Pearl">
+  <title>Slingback heel — Paper &amp; Pearl</title>
+  <defs>
+    <linearGradient id="bg1364377692" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(12 .5 .5)">
+      <stop offset="0" stop-color="#f9f7ff"/>
+      <stop offset="1" stop-color="#e8e4f7"/>
+    </linearGradient>
+    <radialGradient id="gl1364377692" cx="50.5%" cy="62.2%" r="142">
+      <stop offset="0" stop-color="#7a5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7a5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1364377692)"/>
+  <rect width="400" height="500" fill="url(#gl1364377692)"/>
+  <circle cx="202" cy="311" r="63.9" fill="#7a5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M104,336 L104,244 Q108,216 148,214 L226,214 Q264,230 302,272 L324,320 L332,366 L300,366 L136,366 Q104,366 104,344 Z" fill="#1c1730" fill-opacity="0.92"/>
+    <path d="M298,366 L334,366 L346,452 L312,452 Z" fill="#1c1730" fill-opacity="0.92"/>
+    <path d="M140,232 L216,244" fill="none" stroke="#7a5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

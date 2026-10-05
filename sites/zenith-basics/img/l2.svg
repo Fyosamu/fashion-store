@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Zenith Basics look 2">
+  <title>Zenith Basics look 2</title>
+  <defs>
+    <linearGradient id="bg2323189232" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(152 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl2323189232" cx="30.5%" cy="-27.6%" r="75">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2323189232)"/>
+  <rect width="400" height="500" fill="url(#gl2323189232)"/>
+  <circle cx="122" cy="-138" r="33.75" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

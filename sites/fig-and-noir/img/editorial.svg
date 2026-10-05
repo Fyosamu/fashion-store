@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Fig &amp; Noir workshop">
+  <title>Fig &amp; Noir workshop</title>
+  <defs>
+    <linearGradient id="bg1905971957" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(197 .5 .5)">
+      <stop offset="0" stop-color="#faf8f5"/>
+      <stop offset="1" stop-color="#e6e1d8"/>
+    </linearGradient>
+    <radialGradient id="gl1905971957" cx="41.75%" cy="18.8%" r="133">
+      <stop offset="0" stop-color="#8a6f4e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8a6f4e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1905971957)"/>
+  <rect width="400" height="500" fill="url(#gl1905971957)"/>
+  <circle cx="167" cy="94" r="59.85" fill="#8a6f4e" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#16141a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#8a6f4e" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#8a6f4e" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

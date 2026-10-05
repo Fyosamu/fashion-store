@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Wide linen trouser — Juniper House">
+  <title>Wide linen trouser — Juniper House</title>
+  <defs>
+    <linearGradient id="bg2540459987" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(107 .5 .5)">
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
+    </linearGradient>
+    <radialGradient id="gl2540459987" cx="79.25%" cy="7.199999999999999%" r="16">
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2540459987)"/>
+  <rect width="400" height="500" fill="url(#gl2540459987)"/>
+  <circle cx="317" cy="36" r="7.2" fill="#dd7a5b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#dd7a5b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Shorts — Paper Route">
+  <title>Shorts — Paper Route</title>
+  <defs>
+    <linearGradient id="bg2049771292" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(52 .5 .5)">
+      <stop offset="0" stop-color="#efeee3"/>
+      <stop offset="1" stop-color="#d9d7c6"/>
+    </linearGradient>
+    <radialGradient id="gl2049771292" cx="65.5%" cy="48.199999999999996%" r="152">
+      <stop offset="0" stop-color="#6b7042" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6b7042" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2049771292)"/>
+  <rect width="400" height="500" fill="url(#gl2049771292)"/>
+  <circle cx="262" cy="241" r="68.4" fill="#6b7042" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#6b7042" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

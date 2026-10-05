@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Bustier top — Marchioness">
+  <title>Bustier top — Marchioness</title>
+  <defs>
+    <linearGradient id="bg113446454" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(14 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl113446454" cx="51%" cy="23.200000000000003%" r="191">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg113446454)"/>
+  <rect width="400" height="500" fill="url(#gl113446454)"/>
+  <circle cx="204" cy="116" r="85.95" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#c9a227" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

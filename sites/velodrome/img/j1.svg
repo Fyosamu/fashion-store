@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Velodrome journal image 1">
+  <title>Velodrome journal image 1</title>
+  <defs>
+    <linearGradient id="bg1329421552" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(232 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl1329421552" cx="70.5%" cy="64.8%" r="153">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1329421552)"/>
+  <rect width="400" height="500" fill="url(#gl1329421552)"/>
+  <circle cx="282" cy="324" r="68.85000000000001" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#008558" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#008558" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

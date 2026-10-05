@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Folded wool cap — Odd Number">
+  <title>Folded wool cap — Odd Number</title>
+  <defs>
+    <linearGradient id="bg2797500583" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(343 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl2797500583" cx="58.25%" cy="-2%" r="-35">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2797500583)"/>
+  <rect width="400" height="500" fill="url(#gl2797500583)"/>
+  <circle cx="233" cy="-10" r="-15.75" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

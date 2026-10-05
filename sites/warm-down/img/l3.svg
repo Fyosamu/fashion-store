@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Warm Down look 3">
+  <title>Warm Down look 3</title>
+  <defs>
+    <linearGradient id="bg1705251877" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(277 .5 .5)">
+      <stop offset="0" stop-color="#080f0d"/>
+      <stop offset="1" stop-color="#0e1a17"/>
+    </linearGradient>
+    <radialGradient id="gl1705251877" cx="21.75%" cy="62.8%" r="131">
+      <stop offset="0" stop-color="#22ffb2" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22ffb2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1705251877)"/>
+  <rect width="400" height="500" fill="url(#gl1705251877)"/>
+  <circle cx="87" cy="314" r="58.95" fill="#22ffb2" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M132,110 L268,110 L284,452 L216,452 L200,252 L184,452 L116,452 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M132,110 L268,110 L270,144 L130,144 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M162,152 L156,448" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M238,152 L244,448" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

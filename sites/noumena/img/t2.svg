@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Noumena detail 2">
+  <title>Noumena detail 2</title>
+  <defs>
+    <linearGradient id="bg3936778677" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(117 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl3936778677" cx="46.75%" cy="-19.6%" r="85">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3936778677)"/>
+  <rect width="400" height="500" fill="url(#gl3936778677)"/>
+  <circle cx="187" cy="-98" r="38.25" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M136,152 L264,152 L336,432 L64,432 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M136,152 L264,152 L266,184 L134,184 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M170,192 L146,428" fill="none" stroke="#1f5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,192 L200,428" fill="none" stroke="#1f5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,192 L254,428" fill="none" stroke="#1f5fd0" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

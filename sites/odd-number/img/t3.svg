@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Odd Number detail 3">
+  <title>Odd Number detail 3</title>
+  <defs>
+    <linearGradient id="bg311411830" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(310 .5 .5)">
+      <stop offset="0" stop-color="#f2f1ee"/>
+      <stop offset="1" stop-color="#dedcd7"/>
+    </linearGradient>
+    <radialGradient id="gl311411830" cx="70%" cy="15.6%" r="169">
+      <stop offset="0" stop-color="#4d5c6b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4d5c6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg311411830)"/>
+  <rect width="400" height="500" fill="url(#gl311411830)"/>
+  <circle cx="280" cy="78" r="76.05" fill="#4d5c6b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#1a1a1c" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#4d5c6b" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

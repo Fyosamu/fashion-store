@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Third Rail season image 2">
+  <title>Third Rail season image 2</title>
+  <defs>
+    <linearGradient id="bg804188937" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(57 .5 .5)">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
+    </linearGradient>
+    <radialGradient id="gl804188937" cx="41.75%" cy="15.4%" r="174">
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg804188937)"/>
+  <rect width="400" height="500" fill="url(#gl804188937)"/>
+  <circle cx="167" cy="77" r="78.3" fill="#2b2b30" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#2b2b30" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

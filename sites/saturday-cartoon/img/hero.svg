@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Saturday Cartoon hero look">
+  <title>Saturday Cartoon hero look</title>
+  <defs>
+    <linearGradient id="bg1095638353" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(313 .5 .5)">
+      <stop offset="0" stop-color="#efeee3"/>
+      <stop offset="1" stop-color="#d9d7c6"/>
+    </linearGradient>
+    <radialGradient id="gl1095638353" cx="60.75000000000001%" cy="48.8%" r="168">
+      <stop offset="0" stop-color="#6b7042" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6b7042" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1095638353)"/>
+  <rect width="400" height="500" fill="url(#gl1095638353)"/>
+  <circle cx="243" cy="244" r="75.60000000000001" fill="#6b7042" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M76,214 h104 a18,18 0 0 1 18,18 v40 a18,18 0 0 1 -18,18 h-104 a18,18 0 0 1 -18,-18 v-40 a18,18 0 0 1 18,-18 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M220,214 h104 a18,18 0 0 1 18,18 v40 a18,18 0 0 1 -18,18 h-104 a18,18 0 0 1 -18,-18 v-40 a18,18 0 0 1 18,-18 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M198,244 Q200,232 202,244" fill="none" stroke="#6b7042" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M58,238 L22,222" fill="none" stroke="#6b7042" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+    <path d="M342,238 L378,222" fill="none" stroke="#6b7042" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

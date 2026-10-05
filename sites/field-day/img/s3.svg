@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Field Day season image 3">
+  <title>Field Day season image 3</title>
+  <defs>
+    <linearGradient id="bg3501377389" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(109 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl3501377389" cx="24.75%" cy="-1.7999999999999998%" r="-15">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3501377389)"/>
+  <rect width="400" height="500" fill="url(#gl3501377389)"/>
+  <circle cx="99" cy="-9" r="-6.75" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#008558" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

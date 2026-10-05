@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Opaline look 2">
+  <title>Opaline look 2</title>
+  <defs>
+    <linearGradient id="bg3461265660" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(300 .5 .5)">
+      <stop offset="0" stop-color="#080d14"/>
+      <stop offset="1" stop-color="#101824"/>
+    </linearGradient>
+    <radialGradient id="gl3461265660" cx="32.5%" cy="9%" r="83">
+      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3461265660)"/>
+  <rect width="400" height="500" fill="url(#gl3461265660)"/>
+  <circle cx="130" cy="45" r="37.35" fill="#8fb6d9" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#8fb6d9" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

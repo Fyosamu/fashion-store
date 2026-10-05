@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Larkspur Lane season image 3">
+  <title>Larkspur Lane season image 3</title>
+  <defs>
+    <linearGradient id="bg1022206759" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(79 .5 .5)">
+      <stop offset="0" stop-color="#fff6f1"/>
+      <stop offset="1" stop-color="#f4e3da"/>
+    </linearGradient>
+    <radialGradient id="gl1022206759" cx="47.25%" cy="48.8%" r="191">
+      <stop offset="0" stop-color="#dd7a5b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dd7a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1022206759)"/>
+  <rect width="400" height="500" fill="url(#gl1022206759)"/>
+  <circle cx="189" cy="244" r="85.95" fill="#dd7a5b" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,96 L200,128 L254,96 L304,146 L288,238 L322,456 L78,456 L112,238 L96,146 Z" fill="#26191a" fill-opacity="0.92"/>
+    <path d="M176,104 Q200,142 224,104" fill="none" stroke="#dd7a5b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M114,272 L286,272" fill="none" stroke="#dd7a5b" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

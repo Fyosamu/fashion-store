@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Duster coat, sand — Terrace Season">
+  <title>Duster coat, sand — Terrace Season</title>
+  <defs>
+    <linearGradient id="bg346360373" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(53 .5 .5)">
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
+    </linearGradient>
+    <radialGradient id="gl346360373" cx="35.75%" cy="21.2%" r="181">
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg346360373)"/>
+  <rect width="400" height="500" fill="url(#gl346360373)"/>
+  <circle cx="143" cy="106" r="81.45" fill="#b4543a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#b4543a" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

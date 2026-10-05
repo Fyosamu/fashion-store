@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cabana Row journal image 2">
+  <title>Cabana Row journal image 2</title>
+  <defs>
+    <linearGradient id="bg2691471133" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(253 .5 .5)">
+      <stop offset="0" stop-color="#fdf6f0"/>
+      <stop offset="1" stop-color="#f0e0d5"/>
+    </linearGradient>
+    <radialGradient id="gl2691471133" cx="20.75%" cy="-46.2%" r="-16">
+      <stop offset="0" stop-color="#b4543a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4543a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2691471133)"/>
+  <rect width="400" height="500" fill="url(#gl2691471133)"/>
+  <circle cx="83" cy="-231" r="-7.2" fill="#b4543a" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#2a1a12" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#b4543a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#b4543a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

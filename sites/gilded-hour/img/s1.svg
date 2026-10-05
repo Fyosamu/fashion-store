@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Gilded Hour season image 1">
+  <title>Gilded Hour season image 1</title>
+  <defs>
+    <linearGradient id="bg3488962782" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(102 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl3488962782" cx="57.99999999999999%" cy="-35%" r="78">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3488962782)"/>
+  <rect width="400" height="500" fill="url(#gl3488962782)"/>
+  <circle cx="232" cy="-175" r="35.1" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#c9a227" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#c9a227" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

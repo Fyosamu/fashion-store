@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cuffed short — Studio Vellum">
+  <title>Cuffed short — Studio Vellum</title>
+  <defs>
+    <linearGradient id="bg45109921" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(121 .5 .5)">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
+    </linearGradient>
+    <radialGradient id="gl45109921" cx="62.74999999999999%" cy="20%" r="185">
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg45109921)"/>
+  <rect width="400" height="500" fill="url(#gl45109921)"/>
+  <circle cx="251" cy="100" r="83.25" fill="#2b2b30" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#2b2b30" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

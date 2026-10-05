@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Rooftop Union look 2">
+  <title>Rooftop Union look 2</title>
+  <defs>
+    <linearGradient id="bg550139407" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(7 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl550139407" cx="69.25%" cy="23%" r="96">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg550139407)"/>
+  <rect width="400" height="500" fill="url(#gl550139407)"/>
+  <circle cx="277" cy="115" r="43.2" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#ff3d71" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

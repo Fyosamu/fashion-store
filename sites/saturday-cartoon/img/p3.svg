@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Tube sock, 2-pack — Saturday Cartoon">
+  <title>Tube sock, 2-pack — Saturday Cartoon</title>
+  <defs>
+    <linearGradient id="bg1891334900" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(20 .5 .5)">
+      <stop offset="0" stop-color="#efeee3"/>
+      <stop offset="1" stop-color="#d9d7c6"/>
+    </linearGradient>
+    <radialGradient id="gl1891334900" cx="17.5%" cy="62.4%" r="195">
+      <stop offset="0" stop-color="#6b7042" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6b7042" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1891334900)"/>
+  <rect width="400" height="500" fill="url(#gl1891334900)"/>
+  <circle cx="70" cy="312" r="87.75" fill="#6b7042" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#6b7042" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#6b7042" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

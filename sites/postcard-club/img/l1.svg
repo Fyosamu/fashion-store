@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Postcard Club look 1">
+  <title>Postcard Club look 1</title>
+  <defs>
+    <linearGradient id="bg2621682996" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(276 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl2621682996" cx="26.5%" cy="-39.6%" r="-15">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2621682996)"/>
+  <rect width="400" height="500" fill="url(#gl2621682996)"/>
+  <circle cx="106" cy="-198" r="-6.75" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

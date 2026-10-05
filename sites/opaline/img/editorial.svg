@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Opaline workshop">
+  <title>Opaline workshop</title>
+  <defs>
+    <linearGradient id="bg224421194" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(74 .5 .5)">
+      <stop offset="0" stop-color="#080d14"/>
+      <stop offset="1" stop-color="#101824"/>
+    </linearGradient>
+    <radialGradient id="gl224421194" cx="46%" cy="15.8%" r="142">
+      <stop offset="0" stop-color="#8fb6d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8fb6d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg224421194)"/>
+  <rect width="400" height="500" fill="url(#gl224421194)"/>
+  <circle cx="184" cy="79" r="63.9" fill="#8fb6d9" fill-opacity="0.1"/>
+
+  <g transform="translate(0,-10) scale(.96)">
+    <path d="M136,152 L264,152 L336,432 L64,432 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M136,152 L264,152 L266,184 L134,184 Z" fill="#eef4fa" fill-opacity="0.92"/>
+    <path d="M170,192 L146,428" fill="none" stroke="#8fb6d9" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,192 L200,428" fill="none" stroke="#8fb6d9" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,192 L254,428" fill="none" stroke="#8fb6d9" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Cashmere — Aurelia">
+  <title>Cashmere — Aurelia</title>
+  <defs>
+    <linearGradient id="bg3329825643" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(243 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl3329825643" cx="63.24999999999999%" cy="-49.4%" r="63">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3329825643)"/>
+  <rect width="400" height="500" fill="url(#gl3329825643)"/>
+  <circle cx="253" cy="-247" r="28.35" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#1f5d45" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

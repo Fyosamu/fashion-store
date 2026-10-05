@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Shorts — Sandbar">
+  <title>Shorts — Sandbar</title>
+  <defs>
+    <linearGradient id="bg661910218" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(178 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl661910218" cx="52%" cy="51.4%" r="94">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg661910218)"/>
+  <rect width="400" height="500" fill="url(#gl661910218)"/>
+  <circle cx="208" cy="257" r="42.300000000000004" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#0a7ea4" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

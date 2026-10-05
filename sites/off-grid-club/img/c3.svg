@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Vests — Off Grid Club">
+  <title>Vests — Off Grid Club</title>
+  <defs>
+    <linearGradient id="bg1896538185" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(225 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dedede"/>
+    </linearGradient>
+    <radialGradient id="gl1896538185" cx="58.75%" cy="58.599999999999994%" r="168">
+      <stop offset="0" stop-color="#e11d2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e11d2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1896538185)"/>
+  <rect width="400" height="500" fill="url(#gl1896538185)"/>
+  <circle cx="235" cy="293" r="75.60000000000001" fill="#e11d2e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#111111" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#e11d2e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#e11d2e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#e11d2e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

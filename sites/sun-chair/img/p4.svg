@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Maillot, ruched — Sun Chair">
+  <title>Maillot, ruched — Sun Chair</title>
+  <defs>
+    <linearGradient id="bg399231851" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(131 .5 .5)">
+      <stop offset="0" stop-color="#f3fbf7"/>
+      <stop offset="1" stop-color="#d9eee5"/>
+    </linearGradient>
+    <radialGradient id="gl399231851" cx="25.25%" cy="26.200000000000003%" r="115">
+      <stop offset="0" stop-color="#13875d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13875d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg399231851)"/>
+  <rect width="400" height="500" fill="url(#gl399231851)"/>
+  <circle cx="101" cy="131" r="51.75" fill="#13875d" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,118 L200,170 L254,118 L274,222 L258,332 L234,434 L200,362 L166,434 L142,332 L126,222 Z" fill="#0f241c" fill-opacity="0.92"/>
+    <path d="M172,132 Q200,168 228,132" fill="none" stroke="#13875d" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M138,278 L262,278" fill="none" stroke="#13875d" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

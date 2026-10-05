@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Rooftop Union detail 2">
+  <title>Rooftop Union detail 2</title>
+  <defs>
+    <linearGradient id="bg819861239" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(119 .5 .5)">
+      <stop offset="0" stop-color="#0c0c12"/>
+      <stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <radialGradient id="gl819861239" cx="47.25%" cy="46.800000000000004%" r="93">
+      <stop offset="0" stop-color="#ff3d71" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ff3d71" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg819861239)"/>
+  <rect width="400" height="500" fill="url(#gl819861239)"/>
+  <circle cx="189" cy="234" r="41.85" fill="#ff3d71" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#ffffff" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#ff3d71" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#ff3d71" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#ff3d71" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

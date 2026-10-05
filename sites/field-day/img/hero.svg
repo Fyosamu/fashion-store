@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Field Day hero look">
+  <title>Field Day hero look</title>
+  <defs>
+    <linearGradient id="bg537101820" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(180 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl537101820" cx="32.5%" cy="57.4%" r="91">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg537101820)"/>
+  <rect width="400" height="500" fill="url(#gl537101820)"/>
+  <circle cx="130" cy="287" r="40.95" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="translate(0,20) scale(1.02)">
+    <path d="M132,152 L268,152 L278,332 L216,332 L200,240 L184,332 L122,332 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M132,152 L268,152 L270,186 L130,186 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M200,186 L200,332" fill="none" stroke="#008558" stroke-opacity="0.95" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

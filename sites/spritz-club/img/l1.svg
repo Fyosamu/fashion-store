@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Spritz Club look 1">
+  <title>Spritz Club look 1</title>
+  <defs>
+    <linearGradient id="bg3440356" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(196 .5 .5)">
+      <stop offset="0" stop-color="#f2f9fb"/>
+      <stop offset="1" stop-color="#d9ecf1"/>
+    </linearGradient>
+    <radialGradient id="gl3440356" cx="26.5%" cy="24.8%" r="91">
+      <stop offset="0" stop-color="#0a7ea4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a7ea4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3440356)"/>
+  <rect width="400" height="500" fill="url(#gl3440356)"/>
+  <circle cx="106" cy="124" r="40.95" fill="#0a7ea4" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M152,88 L248,88 L268,408 L132,408 Z" fill="#07202a" fill-opacity="0.92"/>
+    <path d="M132,408 L268,408" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M144,408 L144,442" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M172,408 L172,446" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,408 L200,442" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M228,408 L228,446" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256,408 L256,442" fill="none" stroke="#0a7ea4" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Gowns — Marchioness">
+  <title>Gowns — Marchioness</title>
+  <defs>
+    <linearGradient id="bg2630677684" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(4 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl2630677684" cx="23.5%" cy="-34.4%" r="9">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2630677684)"/>
+  <rect width="400" height="500" fill="url(#gl2630677684)"/>
+  <circle cx="94" cy="-172" r="4.05" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,98 L200,130 L252,98 L300,150 L286,244 L348,478 L52,478 L114,244 L100,150 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M174,108 Q200,146 226,108" fill="none" stroke="#c9a227" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118,268 L282,268" fill="none" stroke="#c9a227" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,268 L200,478" fill="none" stroke="#c9a227" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

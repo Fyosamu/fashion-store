@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Aurelia journal image 3">
+  <title>Aurelia journal image 3</title>
+  <defs>
+    <linearGradient id="bg3465179428" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(148 .5 .5)">
+      <stop offset="0" stop-color="#f7f6f1"/>
+      <stop offset="1" stop-color="#e0ddd2"/>
+    </linearGradient>
+    <radialGradient id="gl3465179428" cx="29.5%" cy="-24.8%" r="59">
+      <stop offset="0" stop-color="#1f5d45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5d45" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3465179428)"/>
+  <rect width="400" height="500" fill="url(#gl3465179428)"/>
+  <circle cx="118" cy="-124" r="26.55" fill="#1f5d45" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M120,266 Q200,152 280,266 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M114,262 L286,262 L286,308 L114,308 Z" fill="#12211a" fill-opacity="0.92"/>
+    <path d="M146,274 L146,302" fill="none" stroke="#1f5d45" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M174,274 L174,302" fill="none" stroke="#1f5d45" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,274 L200,302" fill="none" stroke="#1f5d45" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M226,274 L226,302" fill="none" stroke="#1f5d45" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,274 L254,302" fill="none" stroke="#1f5d45" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

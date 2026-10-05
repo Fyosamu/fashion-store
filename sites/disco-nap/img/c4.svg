@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Boots — Disco Nap">
+  <title>Boots — Disco Nap</title>
+  <defs>
+    <linearGradient id="bg1781478021" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(21 .5 .5)">
+      <stop offset="0" stop-color="#f7ead7"/>
+      <stop offset="1" stop-color="#e6d3b6"/>
+    </linearGradient>
+    <radialGradient id="gl1781478021" cx="52.75%" cy="32.4%" r="208">
+      <stop offset="0" stop-color="#9c5a1e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9c5a1e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1781478021)"/>
+  <rect width="400" height="500" fill="url(#gl1781478021)"/>
+  <circle cx="211" cy="162" r="93.60000000000001" fill="#9c5a1e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M146,154 L178,110 L200,156 L222,110 L254,154 L272,312 L128,312 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M178,110 L166,88" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222,110 L234,88" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130,286 L270,286" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

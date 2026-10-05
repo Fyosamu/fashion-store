@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Velodrome season image 2">
+  <title>Velodrome season image 2</title>
+  <defs>
+    <linearGradient id="bg3833273662" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(142 .5 .5)">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="1" stop-color="#dce9e4"/>
+    </linearGradient>
+    <radialGradient id="gl3833273662" cx="33%" cy="-49%" r="83">
+      <stop offset="0" stop-color="#008558" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#008558" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3833273662)"/>
+  <rect width="400" height="500" fill="url(#gl3833273662)"/>
+  <circle cx="132" cy="-245" r="37.35" fill="#008558" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M112,270 Q200,150 288,270 L288,282 L112,282 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M286,264 Q356,268 372,304 L282,298 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M196,144 a10,10 0 1,0 0.1,0 Z" fill="#0b1512" fill-opacity="0.92"/>
+    <path d="M200,156 L200,282" fill="none" stroke="#008558" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156,182 L144,282" fill="none" stroke="#008558" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+    <path d="M244,182 L256,282" fill="none" stroke="#008558" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

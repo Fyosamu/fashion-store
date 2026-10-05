@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Marchioness detail 1">
+  <title>Marchioness detail 1</title>
+  <defs>
+    <linearGradient id="bg2532424731" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(51 .5 .5)">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#141417"/>
+    </linearGradient>
+    <radialGradient id="gl2532424731" cx="25.25%" cy="-36.199999999999996%" r="74">
+      <stop offset="0" stop-color="#c9a227" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2532424731)"/>
+  <rect width="400" height="500" fill="url(#gl2532424731)"/>
+  <circle cx="101" cy="-181" r="33.300000000000004" fill="#c9a227" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M200,106 L236,146 L224,200 L246,382 L200,424 L154,382 L176,200 L164,146 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M176,104 L224,104 L234,152 L166,152 Z" fill="#f4f2ee" fill-opacity="0.92"/>
+    <path d="M200,214 L200,410" fill="none" stroke="#c9a227" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

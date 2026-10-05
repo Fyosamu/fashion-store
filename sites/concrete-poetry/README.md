@@ -1,0 +1,33 @@
+# Concrete Poetry — Printed streetwear store template
+
+| | |
+|---|---|
+| **Layout** | `catalog` (4-column product grid) |
+| **Palette** | `monochrome` — light surface, accent `#0a0a0a` |
+| **Type** | Bebas Neue (display) + Inter (body), one Google Fonts request |
+| **Products** | 6, with generated SVG artwork |
+| **SEO** | meta, canonical, Open Graph, Twitter card, ClothingStore + ItemList JSON-LD |
+| **Licence** | MIT — use it in client projects and keep what you charge |
+
+## Run it
+
+Open `index.html`. That is the whole instruction — no build step, no dependencies
+beyond one Google Fonts stylesheet.
+
+## Pages
+
+- `index.html` — the storefront
+- `buy.html` — purchase page for this template, with the checkout link
+- `style.css` — design system; `:root` at the top drives every visual
+- `script.js` — nav, filtering, sorting, bag, scroll reveal
+- `img/` — generated SVG product art
+- `INSTALL.md` — what to edit first
+
+## Products
+
+- **Type-print tee** — $52 (was $88)
+- **Zip hoodie** — $99 (was $165)
+- **Zine-print short** — $64 (was $105)
+- **Coach jacket** — $118 (was $195)
+- **Knit beanie** — $36 (was $60)
+- **Wide denim** — $105 (was $175)

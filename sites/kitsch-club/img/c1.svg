@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Jackets — Kitsch Club">
+  <title>Jackets — Kitsch Club</title>
+  <defs>
+    <linearGradient id="bg1404334649" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(209 .5 .5)">
+      <stop offset="0" stop-color="#f7ead7"/>
+      <stop offset="1" stop-color="#e6d3b6"/>
+    </linearGradient>
+    <radialGradient id="gl1404334649" cx="24.75%" cy="76.2%" r="147">
+      <stop offset="0" stop-color="#9c5a1e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9c5a1e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1404334649)"/>
+  <rect width="400" height="500" fill="url(#gl1404334649)"/>
+  <circle cx="99" cy="381" r="66.15" fill="#9c5a1e" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M140,78 L200,112 L260,78 L332,138 L316,202 L278,180 L278,432 L122,432 L122,180 L84,202 L68,138 Z" fill="#26190f" fill-opacity="0.92"/>
+    <path d="M172,94 Q200,132 228,94" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M122,414 L278,414" fill="none" stroke="#9c5a1e" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

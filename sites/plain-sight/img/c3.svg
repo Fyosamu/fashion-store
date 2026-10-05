@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Denim — Plain Sight">
+  <title>Denim — Plain Sight</title>
+  <defs>
+    <linearGradient id="bg1414182270" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(30 .5 .5)">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset="1" stop-color="#e2e2e6"/>
+    </linearGradient>
+    <radialGradient id="gl1414182270" cx="55.00000000000001%" cy="20.599999999999998%" r="175">
+      <stop offset="0" stop-color="#2b2b30" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2b2b30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1414182270)"/>
+  <rect width="400" height="500" fill="url(#gl1414182270)"/>
+  <circle cx="220" cy="103" r="78.75" fill="#2b2b30" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M132,112 L268,112 L284,454 L216,454 L200,254 L184,454 L116,454 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M132,112 L268,112 L270,148 L130,148 Z" fill="#17171a" fill-opacity="0.92"/>
+    <path d="M146,166 Q170,196 184,168" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M254,166 Q230,196 216,168" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200,148 L200,454" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,300 L260,300" fill="none" stroke="#2b2b30" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Saturday Cartoon detail 1">
+  <title>Saturday Cartoon detail 1</title>
+  <defs>
+    <linearGradient id="bg3968949537" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(297 .5 .5)">
+      <stop offset="0" stop-color="#efeee3"/>
+      <stop offset="1" stop-color="#d9d7c6"/>
+    </linearGradient>
+    <radialGradient id="gl3968949537" cx="51.74999999999999%" cy="-24%" r="5">
+      <stop offset="0" stop-color="#6b7042" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6b7042" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3968949537)"/>
+  <rect width="400" height="500" fill="url(#gl3968949537)"/>
+  <circle cx="207" cy="-120" r="2.25" fill="#6b7042" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M158,132 L238,132 L238,318 Q238,356 276,366 Q316,378 316,418 L142,418 Q134,372 158,342 Z" fill="#1f2118" fill-opacity="0.92"/>
+    <path d="M158,168 L238,168" fill="none" stroke="#6b7042" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158,196 L238,196" fill="none" stroke="#6b7042" stroke-opacity="0.85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

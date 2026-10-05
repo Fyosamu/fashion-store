@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Column coat, black — Noumena">
+  <title>Column coat, black — Noumena</title>
+  <defs>
+    <linearGradient id="bg1640760803" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(323 .5 .5)">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e7ee"/>
+    </linearGradient>
+    <radialGradient id="gl1640760803" cx="48.25%" cy="34%" r="175">
+      <stop offset="0" stop-color="#1f5fd0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f5fd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1640760803)"/>
+  <rect width="400" height="500" fill="url(#gl1640760803)"/>
+  <circle cx="193" cy="170" r="78.75" fill="#1f5fd0" fill-opacity="0.1"/>
+
+  <g transform="">
+    <path d="M148,92 L200,126 L252,92 L318,150 L304,224 L276,206 L276,472 L124,472 L124,206 L96,224 L82,150 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,126 L154,94 L178,214 L200,176 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,126 L246,94 L222,214 L200,176 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M124,306 L276,306 L276,334 L124,334 Z" fill="#0e1116" fill-opacity="0.92"/>
+    <path d="M200,182 L200,472" fill="none" stroke="#1f5fd0" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

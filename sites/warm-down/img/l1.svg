@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Warm Down look 1">
+  <title>Warm Down look 1</title>
+  <defs>
+    <linearGradient id="bg1671696639" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(279 .5 .5)">
+      <stop offset="0" stop-color="#080f0d"/>
+      <stop offset="1" stop-color="#0e1a17"/>
+    </linearGradient>
+    <radialGradient id="gl1671696639" cx="47.25%" cy="41.8%" r="109">
+      <stop offset="0" stop-color="#22ffb2" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22ffb2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1671696639)"/>
+  <rect width="400" height="500" fill="url(#gl1671696639)"/>
+  <circle cx="189" cy="209" r="49.050000000000004" fill="#22ffb2" fill-opacity="0.1"/>
+
+  <g transform="translate(0,10)">
+    <path d="M146,112 L200,138 L254,112 L342,178 L322,258 L286,236 L286,442 L114,442 L114,236 L78,258 L58,178 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M152,116 Q200,62 248,116 Q200,166 152,116 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M156,330 L244,330 L238,392 L162,392 Z" fill="#eafff5" fill-opacity="0.92"/>
+    <path d="M186,152 L186,214" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M214,152 L214,214" fill="none" stroke="#22ffb2" stroke-opacity="0.9" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
