@@ -1,4 +1,4 @@
-# VERA Atelier — 150 clothing store templates
+# VERA Atelier ? 200 clothing store templates
 
 > One hundred and fifty complete clothing and fashion storefronts, each a
 > different niche, layout, colour palette and type pairing — streetwear, bridal,
@@ -15,9 +15,9 @@
 
 ## Buying
 
-- [All 150 clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): the searchable, mood-filterable catalogue grid — the page to link a buyer to.
+- [All 200 clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): the searchable, mood-filterable catalogue grid — the page to link a buyer to.
 - [Checkout](https://fyosamu.github.io/fashion-store/get.html): paste a USDT transaction hash and the download unlocks. Verified against six public RPC nodes in the visitor's browser.
-- [Catalogue data](https://fyosamu.github.io/fashion-store/catalog.js): 165 SKUs as JavaScript — price, demo path, encrypted payload and decryption key for each.
+- [Catalogue data](https://fyosamu.github.io/fashion-store/catalog.js): 215 SKUs as JavaScript — price, demo path, encrypted payload and decryption key for each.
 - [Sitemap](https://fyosamu.github.io/fashion-store/sitemap.xml): every page in the shop, 172 URLs.
 
 ## Networks and price
@@ -30,7 +30,7 @@
 ## Pages
 
 - [Home](https://fyosamu.github.io/fashion-store/): the shop front.
-- [Clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): all 150 apparel storefronts.
+- [Clothing templates](https://fyosamu.github.io/fashion-store/apparel.html): all 200 apparel storefronts.
 - [Original templates](https://fyosamu.github.io/fashion-store/templates.html): the first thirteen — furniture, coffee, skincare, ceramics, audio.
 - [Elementor kit](https://fyosamu.github.io/fashion-store/kit.html): the kits built from the same designs.
 - [USDT Deliver plugin](https://fyosamu.github.io/fashion-store/plugin.html): the WordPress plugin that ships a file on payment confirmation.
